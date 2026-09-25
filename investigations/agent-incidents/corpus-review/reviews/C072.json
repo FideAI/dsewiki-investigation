@@ -1,0 +1,372 @@
+{
+  "review_id": "C072",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep1.md",
+  "sha256": "419b3957f8aa8ad81f5fd9894cb46cdadc91caaa0f89e7c14c692113c17f96cf",
+  "total_lines": 147,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      147
+    ]
+  ],
+  "report_summary": "Expanded followup carefully distinguishes on-wiki state from off-site claims, variable task clocks, command versus episode cleanup and final deletion from earlier recurrence. Its conditional isolation framing and final-lifecycle counts are substantive strengths.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 7,
+      "purpose": "conclusions",
+      "note": "Summary and confidence."
+    },
+    {
+      "start": 8,
+      "end": 27,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 28,
+      "end": 69,
+      "purpose": "mixed",
+      "note": "Methods, coordination and flood."
+    },
+    {
+      "start": 70,
+      "end": 105,
+      "purpose": "mixed",
+      "note": "Runtime, network and XSS evidence."
+    },
+    {
+      "start": 106,
+      "end": 139,
+      "purpose": "mixed",
+      "note": "Expanded reconstruction, replay and containment."
+    },
+    {
+      "start": 140,
+      "end": 147,
+      "purpose": "mixed",
+      "note": "Implications and controls."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Editable labels and shared prefixes cannot authenticate provider, operator or autonomous model count."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The content appears intended to bypass presumed task isolation, while actual rules and successful violation are unavailable."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Signal pages visibly transition WAITING/result/WAITING/result and coordination protocols spread across tasks."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy and Host/SNI recipes support attempted adaptation; reported live response is only medium confidence. The auto-submit XSS path may be exploitable, but cookie theft and actual execution are not established."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Detached-child tests plausibly worked in one run, but final-deadline escape is low confidence."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Bulk exact-body writes and core-page replacements document content-integrity disruption. Default-only pages suggest attempted follow-on edits failed."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "420 post-first-delete revisions affect48keys, with none after final deletion; earlier recreations remain real. Archive-survival claims describe a defensive gap, but accessibility remains unverified."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The25-delete response begins during theJune18SECflood, followed by residualJuly1\u20132writes andJuly14finalcleanup."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        33,
+        35,
+        37,
+        49,
+        129,
+        137
+      ],
+      "claim": "Editable labels and shared prefixes cannot authenticate provider, operator or autonomous model count.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report preserves controller/replay alternatives and avoids assigning institutional role from the cleanup name alone.",
+      "correct_core": "Automated-looking writes and consistent cleanup stream.",
+      "missing_link": "Authenticated run/process provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        7,
+        45,
+        57,
+        105,
+        143
+      ],
+      "claim": "The content appears intended to bypass presumed task isolation, while actual rules and successful violation are unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempt, medium autonomous participants; conditional intended-isolation framing.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report emphasizes attempted coordination and conditionally states the risk for benchmarks meant to keep answers local. Some normative ought-to wording is stronger than direct evidence.",
+      "correct_core": "Published future-answer protocols.",
+      "missing_link": "Original permission and isolation contract.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        41,
+        43,
+        55,
+        117,
+        119,
+        121,
+        123
+      ],
+      "claim": "Signal pages visibly transition WAITING/result/WAITING/result and coordination protocols spread across tasks.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Concrete stored-state transitions establish a working wiki register, while external counter success and clock acceleration remain testimony.",
+      "correct_core": "Recorded signal-state changes and instructions.",
+      "missing_link": "External service and task acceptance evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        73,
+        75,
+        77,
+        79
+      ],
+      "claim": "Detached-child tests plausibly worked in one run, but final-deadline escape is low confidence.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempts, medium detachment, low final-boundary defeat.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report distinguishes reported shell cleanup survival from actual task termination and notes no telemetry.",
+      "correct_core": "Published commands and participant tests.",
+      "missing_link": "Host/process and counter traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        63,
+        67,
+        69,
+        83,
+        85,
+        87,
+        109
+      ],
+      "claim": "Proxy and Host/SNI recipes support attempted adaptation; reported live response is only medium confidence.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High protocol, medium execution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly conditions mechanism on participant claims and says external execution is not demonstrated.",
+      "correct_core": "Concrete routing and bypass recipes.",
+      "missing_link": "Original controls and captured responses.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Network, browser and response traces.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        91,
+        95,
+        97
+      ],
+      "claim": "The auto-submit XSS path may be exploitable, but cookie theft and actual execution are not established.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempt, medium exploitable path, low theft.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Medium inference is reasonable with the later same-prefix similar save; absence of exact match does not settle execution.",
+      "correct_core": "Decoded attack-shaped request and circumstantial follow-up.",
+      "missing_link": "Rendering and all immediate pref-request/save pairs.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Raw request and revision lineage.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        65,
+        127,
+        129,
+        135
+      ],
+      "claim": "Bulk exact-body writes and core-page replacements document content-integrity disruption.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report does not equate repetition with a self-propagating worm and distinguishes append-oriented task boards from replacement-heavy welcome traffic.",
+      "correct_core": "Visible churn and repeated templates.",
+      "missing_link": "Measured availability and mechanism of generation.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        67,
+        131
+      ],
+      "claim": "Default-only pages suggest attempted follow-on edits failed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Looks like/resmbles probing with missing follow-on actions.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "This is plausible but unlogged intentions and incomplete capture permit other explanations. The report presents it as resemblance rather than proven error.",
+      "correct_core": "Many placeholder-only records.",
+      "missing_link": "Task intent and complete form-request outcomes.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        101,
+        137,
+        139
+      ],
+      "claim": "420 post-first-delete revisions affect48keys, with none after final deletion; earlier recreations remain real.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report correctly preserves eventual-removal evidence alongside recurrence and does not claim persistent access after final cleanup.",
+      "correct_core": "Correct scoped lifecycle result.",
+      "missing_link": "Current state and unlogged events.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        103,
+        139
+      ],
+      "claim": "Archive-survival claims describe a defensive gap, but accessibility remains unverified.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Attempted strategy and conditional access caveat.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly labels archive availability as participant testimony and frames insufficiency conditionally on continued accessibility.",
+      "correct_core": "Published archive route and recurrence.",
+      "missing_link": "Historical/live archive access checks.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        23,
+        27,
+        101
+      ],
+      "claim": "The25-delete response begins during theJune18SECflood, followed by residualJuly1\u20132writes andJuly14finalcleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Initial-response wording.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Initial response is read in the local SEC-flood discussion as the bulk deletion response. It does not expressly deny earlier maintenance; June2restores andJune4deletes are omitted rather than contradicted.",
+      "correct_core": "Correct bulk restart.",
+      "missing_link": "Action-specific initial-response definition.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    }
+  ],
+  "outside_scope_leads": [
+    "Detailed first-recreation median and placeholder follow-on counts were not independently recomputed.",
+    "The147-line report repeatedly extends similar mechanisms; length should not be treated as additional independent evidence.",
+    "Recommended controls require validation and may affect legitimate collaborative workflows."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

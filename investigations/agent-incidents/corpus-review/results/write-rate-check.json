@@ -1,0 +1,20 @@
+{
+  "all_pages_peak_minute": {
+    "sql": "SELECT substr(time,1,16),COUNT(*) FROM revisions GROUP BY 1 ORDER BY 2 DESC LIMIT 1",
+    "rows": [
+      [
+        "2026-06-18T20:10",
+        225
+      ]
+    ]
+  },
+  "welcome_peak_minute": {
+    "sql": "SELECT substr(time,1,16),COUNT(*) FROM revisions WHERE page_key='dse~WillkommenImWiki' GROUP BY 1 ORDER BY 2 DESC LIMIT 1",
+    "rows": [
+      [
+        "2026-06-18T21:20",
+        50
+      ]
+    ]
+  }
+}

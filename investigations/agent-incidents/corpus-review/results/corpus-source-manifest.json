@@ -1,0 +1,2338 @@
+{
+  "repository": "hamzah2304/messageboardauditbench",
+  "commit": "e1eea3b4eaf93f9a7e2898da97096ef643916da1",
+  "scope": "All staged report cohorts in pinned publication snapshot, plus comparison metadata; no historical tags",
+  "artifacts": [
+    {
+      "path": "benchmark/figures/combined_score.json",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/figures/combined_score.json",
+      "git_blob_sha1": "72ebf447c9dca34ebec2c778f10ff183055bbdc6",
+      "sha256": "9713579a33338227bf3eebc18b364741611f760b99bc03640a789d34bb6e1bd9",
+      "bytes": 29095
+    },
+    {
+      "path": "benchmark/figures/followup_5k.csv",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/figures/followup_5k.csv",
+      "git_blob_sha1": "8377508ed464a7add4152320aac6317186c86802",
+      "sha256": "fec72e49ac4a98a7da4c9fcb5dbf80a8fdb0c29ec654dc5477ea76178b330469",
+      "bytes": 10256
+    },
+    {
+      "path": "benchmark/figures/followup_5k.json",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/figures/followup_5k.json",
+      "git_blob_sha1": "8338f21f63eaa877d9506c6353deec5afd556b21",
+      "sha256": "bf4758acb7018c05f65eb940afbd95fb6406a8069963d47bd069a9e7d2d8f5f4",
+      "bytes": 70062
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/_index.jsonl",
+      "git_blob_sha1": "0217f3ef3a5dc3a7a4b1748127dbb46b9b9b8c46",
+      "sha256": "81269b50c1d164dc7ff25238ba8d172805483680fddca2e5016d1d1c79268958",
+      "bytes": 2536
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__claude__claude-haiku-4-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/abl10a__claude__claude-haiku-4-5__rep1.md",
+      "git_blob_sha1": "7930596cf15b5aae881d86d808ee215579c60b79",
+      "sha256": "d4ad07b59c3b16d790a5c62efda4128acabe480d2a60640dea21e26c041cfd48",
+      "bytes": 12287
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__claude__claude-opus-4-8__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/abl10a__claude__claude-opus-4-8__rep1.md",
+      "git_blob_sha1": "4f227a6378a95b84cbbbd0d1cdce61212f4be57c",
+      "sha256": "3a7c737a254e7a1b45585789bb0ec55cf95231562fce81d2b2aadda51fefa6c9",
+      "bytes": 11033
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__claude__claude-opus-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/abl10a__claude__claude-opus-5__rep1.md",
+      "git_blob_sha1": "b09f89f51cba60fd3ffa56f279ff9c9dd330cebd",
+      "sha256": "d6aa59888d5575c97453408739c98e168ee8d921c458466d03c4380870fd8ce4",
+      "bytes": 18026
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "6aecf72707133b1a01968e7a292099232b920076",
+      "sha256": "a8b4b570b00e995ef08fd1d325f9d69088b9884a9c1370b3b5f6f3b6992d1579",
+      "bytes": 13594
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "5ca931cea5dd552bcc5b69b22580710250b5d9b2",
+      "sha256": "3a14852418644f0c6eb31c3a0a6b3b0460601a270aba19dceb8ec6f2cf18d0fd",
+      "bytes": 14470
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "9a4bce5f7ffbded1235d36a8a1800b234c741183",
+      "sha256": "5782a222d02da36be6928801851c6c19281968435fa0ee14603e26d6ba89a852",
+      "bytes": 14902
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "a700d616b55654a983fa005656131f3acf82935f",
+      "sha256": "b058a8d82636d138dc73e886a9d3dd539817536a13e850b4a29941637ec0d584",
+      "bytes": 23244
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/_index.jsonl",
+      "git_blob_sha1": "5fe197f760f0aa5ec18c37a020388d1c4152bc09",
+      "sha256": "a56addef8fe9ab10d65ffb83d97ccddf8d3beb88827cf385aee969eec3eeb22c",
+      "bytes": 8793
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep1.md",
+      "git_blob_sha1": "7678daef1c5e1e3548623f40a4a809570ed961d1",
+      "sha256": "f036d8cadeaf13a65bf5177cf954f183588bc21f13b0c36a463765bd966f3ec3",
+      "bytes": 42323
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep2.md",
+      "git_blob_sha1": "fc6b1aef1a0c32dbf33d9f20b95ccb7c43463249",
+      "sha256": "ccde0beafc45ccf57aab0471619f291e6b38481e98ba1f9ffa8eb640084f62c2",
+      "bytes": 20709
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep3.md",
+      "git_blob_sha1": "d4a93542add1efa6b7ba7928d54cecdd306b7f0e",
+      "sha256": "a7bf7b46c43689797e35b78dddac1effa7cf146d04e3941f157916410cc3b0be",
+      "bytes": 27839
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep1.md",
+      "git_blob_sha1": "35f0453f6e5ad48a205d3ebd027ab4974544f327",
+      "sha256": "bd857a5d968a86d3fdaafd4f10bb014f819be0dc70cf4b424ca9dffb3f3cfab1",
+      "bytes": 16458
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep2.md",
+      "git_blob_sha1": "f541915d651a1550dfe55237f15ba77054d26cd0",
+      "sha256": "680f41cee3420014e6a20ced02d4df90d4860eef887d9fcc4d569d6775ca8673",
+      "bytes": 14430
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep3.md",
+      "git_blob_sha1": "21e14c4620343e4ebb88b2389563d997648c6b65",
+      "sha256": "640090e4fe3388765dbf2c34ac22acf5a4759a492424c86838874dedff31a412",
+      "bytes": 17044
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-5__rep1.md",
+      "git_blob_sha1": "f979af126c8821ca7d7d5321c777662d5edee854",
+      "sha256": "55d93f5b94afea34e5a84b0c8ca1009d25968daed3abdc19604dd5c9b18332b7",
+      "bytes": 19340
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-5__rep2.md",
+      "git_blob_sha1": "95d7ad3c576ee5b877fefd5b0606c12113273195",
+      "sha256": "64d94d20092c7f9c1254998822d7d2f9ae7bb6eeae5129e09c52dd7dc869dd33",
+      "bytes": 13339
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-5__rep3.md",
+      "git_blob_sha1": "95ed14eb7bf684a0a4c0f8d9c91eedcc56b5f0e0",
+      "sha256": "eef3d4a1f02aecc050033a603c9e4a626ff5f298681bbe3d0e4432be329aef3b",
+      "bytes": 13853
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep1.md",
+      "git_blob_sha1": "08deae67d0990c1cff14bbb49c8a4032f74ed572",
+      "sha256": "25a6c6d37826a14290f81d1928ebdf8af00ec06ebc632cc15370bae971ade5f5",
+      "bytes": 21243
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep2.md",
+      "git_blob_sha1": "458ed275792f2e55b153e82b44059ef5f1e14e27",
+      "sha256": "a6d7f6590430ec0d24e464e909a51e2457692bed871d65fec23b95cb0ac9cf26",
+      "bytes": 17402
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep3.md",
+      "git_blob_sha1": "58d3c2c1d183f8e9cf99686655ee2a88ffaa4f80",
+      "sha256": "c445b8975b73f367dcb0a9dcf760ba0d0cff10f359515011e676de6e3510594f",
+      "bytes": 18380
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "7a352e87648f70fcb91ec4d9cfc57f923d2829a2",
+      "sha256": "25342aa0fd975f88e94f90c1402fa11ee36dd908160d6140f78d416cee77e4a5",
+      "bytes": 19083
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "42c7f6aa44eea89b6a72f244c2a254ed3c96f3a9",
+      "sha256": "650ba3a6cb971f9f2ea49fc3fc4061c2171f94efc9a20ce32f66778ff46c7281",
+      "bytes": 18083
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep3.md",
+      "git_blob_sha1": "49ed704f8e549ad7bb98e249836b29b62c538216",
+      "sha256": "f03e23fa82ce8f86a04c7ba5329702b9351da810a4eba553d571fc710aa4a69c",
+      "bytes": 19975
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "16e59ec7ba72f39bcb70239d9163c2708ea18b51",
+      "sha256": "20273863e6656b044ad2061e46620b7f76db4610a345facbbfb29203f3d63ad9",
+      "bytes": 19556
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "bb682322d43b7b98fe0cecc065cb4afe7c7385f5",
+      "sha256": "38121649fe7860cd062eb976edd4eb8165884996a326ab2495fda6f19e7e2bd2",
+      "bytes": 16363
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "81022df70cc0e9f50d7dae209c7666df9f6b4015",
+      "sha256": "9f5181cf8489277d58bd21cf71cfb01ad54e2a61622264ebf4f8ffd8bed23d23",
+      "bytes": 16226
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "998dc0e59fc70f283ea3a4de281bd6f323d16e03",
+      "sha256": "518b9dbfff92b08b14d43bfd8fc7a386b747caca3f0ed94c2d25066c7eae7947",
+      "bytes": 15370
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "c29a48e0e10dcf6f94d7a8fd480899b7bb356050",
+      "sha256": "fecf59945002757564570386fed4b650510ea307d60e2fef4e2963aea4756d12",
+      "bytes": 15175
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep3.md",
+      "git_blob_sha1": "8abb5da8069c4a706a60119641036c1138a748d5",
+      "sha256": "a9af5d22be0ab53ded0ff753b317134c6fc0208a12caf2d97b88e1c132cc59fd",
+      "bytes": 19136
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "545253236db25a71350d097a32dcd797a97dd140",
+      "sha256": "93cf6ffc16af9222d912381a0791b772cd68229811948499efba969cf7ebe8d4",
+      "bytes": 28976
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "5a73412082481e119cc349a1868815e08ef8788f",
+      "sha256": "354dd52813fe3579d40e467dabddb18ebef3bdf99e0c336d950ac19d531909b5",
+      "bytes": 31447
+    },
+    {
+      "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-6-astra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-6-astra__rep3.md",
+      "git_blob_sha1": "faab5eb80fa305d048bfa0e5224b79fbf556e989",
+      "sha256": "5d0e9a5c5af8f2d51a907b412d215eec4cea7ffc7d8f9d6e7859801537d0e0df",
+      "bytes": 25678
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/_index.jsonl",
+      "git_blob_sha1": "5e59e3b4553dea217edbc837297377c1b84c1332",
+      "sha256": "e0152f2a0f3c5a331fc9bd89fd231e5bb136aaffb8fea4735bcdf2f0d81f893f",
+      "bytes": 13788
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "731b1fc03b4ec0dbdca192a5a48933df83deedad",
+      "sha256": "f5036b993b091afe08ba484be64d5f173420bdf1a3940012d425dd5e88b38d68",
+      "bytes": 33630
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "092d0f951b4e90e806b790b3025f98a52b665d3f",
+      "sha256": "5969f7a4675ab9fb1e6df38fee5e25597370ae3204d1d5e773d5a46abc2e17fe",
+      "bytes": 36502
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "3345b3f8ae08389b17d6a70a8d0e671a5a594a38",
+      "sha256": "05fd234eec963cd2dd3260a0bfdbad1b14e5d7b953a9ef1d5b3344eb3e3ba572",
+      "bytes": 36070
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "b001a1bdfe8e649fe4b14eaa30b9b99db9756894",
+      "sha256": "80473217c3de0338893a83c6418529e287024aea4145f5870486fc9a773dca6e",
+      "bytes": 35191
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "d9ba87860c01e134a1cc56adbed9e862231ad40e",
+      "sha256": "505b427e67e70fad55be5244523bb878b6151730b2b5054542573809e1f22e5a",
+      "bytes": 43078
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "4adf5d25480cfdd91b7ff153a6a51c07ef12c4a3",
+      "sha256": "e2f3c6c8540932757447653050f67e0e9c5c125bb88ce66291ec119135a8f1cb",
+      "bytes": 43460
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__react__moonshotai-kimi-k3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__react__moonshotai-kimi-k3__rep1.md",
+      "git_blob_sha1": "dd03de227f52b34c8f3c74ba109b3ce9fac1a083",
+      "sha256": "162b2ea09aec2d7a6044478d4b9d8825c7083edcd2a337e25f9d6bdb7a41865d",
+      "bytes": 35031
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k/fu5k__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k/fu5k__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "914966705066d2ab601078651f547512076ecd61",
+      "sha256": "4f87513bc574c22fee20bdd614083eb7a1bde72f6fa0503db82929b2e497de09",
+      "bytes": 35585
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/_index.jsonl",
+      "git_blob_sha1": "2d27451108151a75dccfea90ea4b821eff95c5d5",
+      "sha256": "8a59e63250dab93c18edebc81e2235b91c72d36fb1e5f2315d4399e39fb3e8a2",
+      "bytes": 49978
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "916f8b9536863de41fbba73c6db751f02a5fa40a",
+      "sha256": "a776bf76018cff306e27bc3c6dda42dda8d520341cafb762bf1c2dbed5d8c09c",
+      "bytes": 36139
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "7472d7d6939af0b5f4ad7b4eb5b75f6bb9b0cc7d",
+      "sha256": "8f14bef5aec16923f98a8882eb01272b6c616afa2abba8b7ea53530b0106c435",
+      "bytes": 34313
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep3.md",
+      "git_blob_sha1": "b9192561891b571316ca034df6bf1a45d2f22701",
+      "sha256": "fe21fe737d56c2aff3f0a1b03084dd18b95b04e055cf0752c5a4992e790e50ff",
+      "bytes": 34077
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "f8fd1956e9f14f7797d34163a137a9c16d2be0f6",
+      "sha256": "99dac66e3358355f5afa4dacd203934be53e2a5902b25ec1e5bffb109e7cd236",
+      "bytes": 34944
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "c93443ec218cdfc5fedaa15b8a0d8d36b72602ce",
+      "sha256": "a508fd592cdb53a78eca4d1e7d0941723f1c59c0b60152120276a237ccac31d6",
+      "bytes": 35633
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "bb37c22eb9c1fa7010e6b924aa6330fe32d6f4bc",
+      "sha256": "a651988fe0d6a967b07b733dc14411eceae1bf3e703c5efdbc444f100250e8b9",
+      "bytes": 35797
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "ec461b9c3eb4864bbd25a5e463918c0cc629c47c",
+      "sha256": "db1ae9238afc807278c3dd24df51ce05bc6500619975e75cc0d3267e7756fbfe",
+      "bytes": 34659
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "d8dc25460321659c00ef87392fac03eac4c9614b",
+      "sha256": "d22f481b7a40de2b69ede4fcbf84ed88e24110847793b173a9740ea8c0318953",
+      "bytes": 35886
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep3.md",
+      "git_blob_sha1": "bc000069dd04aaede553e34efa2fea02aef686da",
+      "sha256": "1d532686189266f54a0efc5901b0da1c64bda7fcdda23a924a655565fc9b7464",
+      "bytes": 36037
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "b3c16db1a3d75e193b613e63a254dac1ee90c334",
+      "sha256": "55cff06d815e92e2e4b0b9a6907b2867a040a65179d5e35fcf7a3b532405bca0",
+      "bytes": 35799
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "95c580a43292992626465d5b662c048ce188ebd3",
+      "sha256": "f892b0000454ab0e844eae721457e01eddc594c8d7e0c54def9f8941152a4215",
+      "bytes": 37343
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-6-astra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-6-astra__rep3.md",
+      "git_blob_sha1": "2b9e68c4e365bc8d80679cdf221472b98779c381",
+      "sha256": "a593a20d93204afd34776e78e516563e6a526220b7e5dd2e8d2357cd4b94cd1d",
+      "bytes": 36859
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "d3ff7c8bf85fde54689269245333b6c5c2fd4d75",
+      "sha256": "282a0c82ab69642eb4d70cace05fa4a584a3c50f55db3d289d80a457661f3178",
+      "bytes": 40677
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "1936e0872d10e5b0055f6d279621f1d955cb846d",
+      "sha256": "a829d1e64b4072928050cc461c7860faea0f0c4b695cef3594e119d63216847e",
+      "bytes": 43029
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep3.md",
+      "git_blob_sha1": "3df0bc09d04a0f34b8fc092bedde3c0ad0e23ced",
+      "sha256": "37463f4545fbb751c72f9cbb3e5a2a194f00f1b3c72fd24c7ef6892b36bc2f79",
+      "bytes": 41156
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "1c40787db04af7c0647360d920bd4e5cb7039d16",
+      "sha256": "614f9fe6d04497267f6de0d6eef1d35b95c90c60231c34d67696d2a6e328385f",
+      "bytes": 45109
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "ffc8613841571ab05f61b92939d419d3b473c8ea",
+      "sha256": "5d109e291a7bbe2a52aad2dc56283ddb7dce2cdd82ee4703ab2795fa893a8421",
+      "bytes": 43415
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep3.md",
+      "git_blob_sha1": "1291ff7cb451951f620c14a205676016d0e9ac0a",
+      "sha256": "7581552166ecb3c2761a344fc1654f19675773e7d5b665ad2c617b406c8564b2",
+      "bytes": 41704
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__moonshotai-kimi-k3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__moonshotai-kimi-k3__rep1.md",
+      "git_blob_sha1": "d224f939f9a74a3383ce01828f8ca089239835d8",
+      "sha256": "940698179989e88e4e8886a05c6745f674ae9363f1f9ee81ef5803eaecc97426",
+      "bytes": 37300
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "79587d602b325956911996821a0cedc1520606db",
+      "sha256": "3940ea1fb5c546d2098df35906de2675c799ce80ced71e4a92d138ec068d8b70",
+      "bytes": 39127
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "7784e4b5c8c9e247e2e2e131c071700a803ac6b3",
+      "sha256": "c560c34f54a548b0c12b5191fbb507367f812f64f40ad60c18e98326680ba59b",
+      "bytes": 35439
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "9cf65ebf908285216a0de648235e7bf4c69573b1",
+      "sha256": "ea53d4148b8a4c163a0f223cbbbd2ba1614398dd5de7cc5208ff619827f48fae",
+      "bytes": 35621
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "f8b98cda8d29b1eb0d83e016dae6b687116bed87",
+      "sha256": "63b5de6c5628cd864e9d84ab15f7b8e98ffc9377f37d30896739c1492546df88",
+      "bytes": 35286
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "42f6951e7fbdcfa6c40e0a69eff18d198ff5c2d0",
+      "sha256": "e0dfc2629c3bacf9736e8b4170fe84e69770353f1067e0316dad4091cbc9175b",
+      "bytes": 21881
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "0452183fbe5f0580a11c121877b53d4a7b78cf22",
+      "sha256": "692d1bc0f745861a76a3cf6fcfb7bed4343666adc51049d74867c6c64f2f8931",
+      "bytes": 38103
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep3.md",
+      "git_blob_sha1": "196f789c1544fce830ba772d1de3a248c9526ed8",
+      "sha256": "d11cd4dc8679649264efae253be96315b08e34c84e2715bab3de07947efd74ea",
+      "bytes": 35125
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/_index.jsonl",
+      "git_blob_sha1": "cc6bab49d1a810777a719c73cef860cb7d823f96",
+      "sha256": "fc740892c694f14a47a6a6b74208550eb3df48d0976cad1ee01cedc18866bd75",
+      "bytes": 49987
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "4c1a7519f1886387f135a2ae496f54cefa749852",
+      "sha256": "5b4c67f92344f312dc2520ad63decffef7e66741297116e9921ae750d4b99d59",
+      "bytes": 36250
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "79b21a2410f77f201a593c98d6716a1386bacf8c",
+      "sha256": "c13e936b7cf8eb99ce41e169cdcf129692b28b538f659cb75a698b11a3a1e933",
+      "bytes": 34248
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep3.md",
+      "git_blob_sha1": "da25d68ad400d69669746d142fdfc8e19cc891fd",
+      "sha256": "0bd7821770a1cac1fcf984275e11997c6a6f388960f93af266ab019fae1baa46",
+      "bytes": 35042
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "993e2ad5d195516a5f86798f8fe77d408f123041",
+      "sha256": "1ceb880977f8d709fe6feab6a50fca6ddd4dad7be35c4ee2f45ddd71052db58f",
+      "bytes": 36100
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "14e157619c797ca65086c1a21d796cde1b48f712",
+      "sha256": "3b0611bb6dbd87bfd5190ad1a9c09b57edc74da3ee67fd0d188bd002be9b7fdf",
+      "bytes": 34944
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "a4cd0dca1f671a7ea319f5b641d945278b3a2645",
+      "sha256": "2ffc681dd97450b9e5d05f792efd0e5e6ba65a47ad9199617c43e592f2c9ba46",
+      "bytes": 34423
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "e486e9d72f7164c7f4a0bed296e8e7470d9704ea",
+      "sha256": "419b3957f8aa8ad81f5fd9894cb46cdadc91caaa0f89e7c14c692113c17f96cf",
+      "bytes": 34612
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "6ac85621ac9285058c709ead9f63f490c6ec1c55",
+      "sha256": "ac5996676c4d38769c09da45624d609ca08d831e762ed697aeee232039b59b11",
+      "bytes": 36594
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-terra__rep3.md",
+      "git_blob_sha1": "76b0c966493f1f87ae37f44e5c6adb526ab280b1",
+      "sha256": "1352863e43947eab260c26afc115007a4727e726cb9d4d6359fcbc3935df8c13",
+      "bytes": 34664
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "a21249560bcb38ad1deb6e74db5c60dab5d4e1b0",
+      "sha256": "b08e875b4699a189e51857e0ead64794b1f00835dd1366556796dbe7c7f51441",
+      "bytes": 37555
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "5d8f1a2cd899c657921ae85873c376b0efdc8a55",
+      "sha256": "e0c0ce293e41526729b69ae616e2a13ae21fdd7d5b672be506ec52cd2629a9fe",
+      "bytes": 38018
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-6-astra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-6-astra__rep3.md",
+      "git_blob_sha1": "29b5ee2926e241bc91910676bb6270def1986491",
+      "sha256": "2891b3a52144f7e20c26737741e9b33c99042db29d65f6beac91e8dc1c66ba82",
+      "bytes": 37213
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "4545db7f7d2f3b07c612ed66ceb0283920973c4b",
+      "sha256": "2d7e5e8333898507b60637b9e5e0a5141c365c8bfe8ae370330620c3976e8d39",
+      "bytes": 42226
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "1bcadcb82bc7efc94a707b22c0f068652c213120",
+      "sha256": "3a9553b631f72333356ee98c20cb687350fbd070a0b68139822b61489094db74",
+      "bytes": 40495
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__google-gemini-3.8-flash__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__google-gemini-3.8-flash__rep3.md",
+      "git_blob_sha1": "8e0ebc7822720cd9ebf7f82727c2ecff27326bef",
+      "sha256": "482ad61f4817ba5975ddf936ec382cda3537f808098e73700cede99c8897c4c2",
+      "bytes": 43824
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "cc3a9f087a0555340cab1cf623e96700414bdd0b",
+      "sha256": "a7d2c6e9f99e4678aa4d48aa8d6f8d08a26adf0ffda28ac83cf057538f258c03",
+      "bytes": 43319
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "6d409cbf42ad58440f410269f6e8a7489bb75cad",
+      "sha256": "151255415dcae264392fb808e55ea1fe9563b863c2d8aedb5d50d2a372efdb36",
+      "bytes": 40881
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep3.md",
+      "git_blob_sha1": "56f902944f7f363eb8b21ec41182367f6601e59d",
+      "sha256": "be8f0b7598e14ebed9b3d0f96bf0b6e3971e2511c3c72edf7d297c6aa47a4ddc",
+      "bytes": 41582
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__moonshotai-kimi-k3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__moonshotai-kimi-k3__rep3.md",
+      "git_blob_sha1": "a1ae07b68e8b424c9c8ff054a826d248f17b1956",
+      "sha256": "1531df1b4f20aa9943ccae1cb55156882311d5431b40f8b0eca272f1ec323260",
+      "bytes": 35745
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "ae97321788c79f21c2a99572a1f19ccf58cf39fc",
+      "sha256": "e903ac8680a31aa0be595018d554139c8754640b2459b1f63f6e91a7a665cdd3",
+      "bytes": 36316
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "516cfd7830aaf2b9fa7b70e35e7813bdb1c812b4",
+      "sha256": "a5f56e8c88065730ba9ebf57e9635de5aa95d2d822d094f67c30107d03a2ecf6",
+      "bytes": 36770
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-5.6-sol__rep3__partial.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-5.6-sol__rep3__partial.md",
+      "git_blob_sha1": "c1b672f68daf3e1b572d244ec460e6723e48e525",
+      "sha256": "bdfa1a857986fd08634c8c09f9dfb3554fc5a9c82905d6a14324b217d1c92b77",
+      "bytes": 34197
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__openai-gpt-6-astra__rep1.md",
+      "git_blob_sha1": "99074d08ed910c44b53a36158014396f0594f7e4",
+      "sha256": "125cef1d72f8c827777326278c610e72b2299dccbfab75fa50dc6376c5c026a7",
+      "bytes": 35008
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "f4a708d23e5c9f1d5399dc414120a28f1bb0ed4e",
+      "sha256": "81735707a196a7a388689fead51492a734d820dc3a0c785cd9b9bd072fed8c62",
+      "bytes": 34408
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "c288020e98cd16bc5e38dbae4ad69a5e34b3d178",
+      "sha256": "3fb33ddeb12562f94017df5d4433e0b3684a34af7351ab6fa5acc11f86251065",
+      "bytes": 33607
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep3.md",
+      "git_blob_sha1": "05c619e858a37c35a31311321f8eee4b17e4389d",
+      "sha256": "4b0dd02ce1b98d41243ecd95afaf8299cb6fb4a5853c9201af3f39712c9afb21",
+      "bytes": 34911
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/_index.jsonl",
+      "git_blob_sha1": "d8531421da9c30d8a3239975464062af430432c5",
+      "sha256": "5892527677fd384849381193ace5e62ec0073c1b92de2b09ea74f3c029b528fe",
+      "bytes": 51909
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "a963ac5bd615ca2f00990b6efbd6a2833d2f3e21",
+      "sha256": "86b6222bfe973fd156f29425327720908d94a11ba00502ca8eefa25e63801a10",
+      "bytes": 33184
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "e67e4ff896e4f873a04ab264e1ab23d563b90ec1",
+      "sha256": "e49ded6fba7b5f5460c4782dd7d811137cf67339c4d18550a90b8150c4dd076f",
+      "bytes": 35836
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-luna__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-luna__rep3.md",
+      "git_blob_sha1": "1e7eb59c51cc8f097257d7df79c7653369300717",
+      "sha256": "2dc27f8b18afd35f8644b79262c77658475a79a4ba8b01880e41d91fd666434d",
+      "bytes": 32909
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "49b6249c6847d88da8579612e30cfba5f43c6741",
+      "sha256": "d7ff04072bb30624e659b129def0f45a39418d44294d74c0cabcffa877fb268d",
+      "bytes": 34676
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "a8152472b1e608d0309ed82f87116e54a40e686b",
+      "sha256": "e262ffc69b33fa4fb91c60c67e25e6a1d5a28114f2c5be379dc4b7d159415eb2",
+      "bytes": 34643
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "4f4463328c5a0f7fd0bdfcb9957fcf0015d3b697",
+      "sha256": "3b0064842a3048005ea992b534efa8f19ae4c4861ec5aca03b55666815e4f394",
+      "bytes": 36082
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "956c900b5933542ecc15f615af34ed0a370a9f43",
+      "sha256": "e22123c8774c0482a25ce4eda6a49e3bc372a983690b743212f7ca27d8cfcd05",
+      "bytes": 35849
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "9bfde3a4388f8c11e3d01eba72dc45c9d36a770a",
+      "sha256": "c43abad5e9876bf981f4f214f06e08adaf85706014481c9311e7ce522de19d16",
+      "bytes": 36399
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep3.md",
+      "git_blob_sha1": "480630c188bee0ed9f1e71b51a69aeecb2eb1990",
+      "sha256": "55a58498d6c4b28c9ea44989da3cce3725671f96698ecfd88798e8c68f7b8c60",
+      "bytes": 35564
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "53071b5c00b337dfbd79c225358377e63d9efb9a",
+      "sha256": "3995d4475b957d84252f48846242524b800df6db225d47de32a94c79e8203f09",
+      "bytes": 37371
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "7351fd1b973813ccf7883e8f77e413b8f437e00f",
+      "sha256": "7f243d7354969bf986bf1f644646ed44ac86f3f15127a709829ad2fed402bf7c",
+      "bytes": 37173
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-6-astra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-6-astra__rep3.md",
+      "git_blob_sha1": "423be4d19fcb21965e248d8a10406ab291b3fe2b",
+      "sha256": "a8e87570a0c107dacd2ed5cb680b03ed36141e4935faa7467ee2d6e47f313d52",
+      "bytes": 36101
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "a99539fc77522235cdd7fe560d518eb219fb0cad",
+      "sha256": "d731365f6a4fbfc45ad1e07feed5956459626752f832687848e40ed6f60cbd69",
+      "bytes": 39817
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "17e3e78a437f0b0616cb9165e34e2b34eb0cb3cd",
+      "sha256": "a99d49362c0a28f499b54cd4c2ac539cd135b6b87b20074a2a4743bf8679550f",
+      "bytes": 45058
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__google-gemini-3.8-flash__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__google-gemini-3.8-flash__rep3.md",
+      "git_blob_sha1": "1af463ed021c420a38931d5f6164cfb9f2050d02",
+      "sha256": "6eecfeab9fa9f76bd3eb2714161c9e267b52ff2f328cc1f25929af52a269fbcb",
+      "bytes": 43616
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "9bf243d790a3b051d972f5f73444d538936dc8ea",
+      "sha256": "808413cb289218870934bfaf7ee166bad369b3e3152f66cbe4a62a49ec7e0593",
+      "bytes": 38095
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "67bf78cb6385d69a87dd8e3886fa055692380e4c",
+      "sha256": "2ee46d14769b0728109678ddaf2197e5a04d77b0831efb593caa1dc87b47c377",
+      "bytes": 38843
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__meta-muse-spark-1.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__meta-muse-spark-1.3__rep3.md",
+      "git_blob_sha1": "9909591f3fd78d938a54ad2b8342b0613eab25c3",
+      "sha256": "31b91241e56e6497296e9a4c13d845827b65a58dd0d37f7ba1e554578aa44211",
+      "bytes": 42666
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep1.md",
+      "git_blob_sha1": "8fed7a080cabe90a6de912d02740b8806913a976",
+      "sha256": "93c15cc61f455e496cf34ddfb27f7d0af65c4da690dcaf60906bb29d8c93d49f",
+      "bytes": 34207
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "e015e1b9296fa321a34e07f05a20f9b4688139b5",
+      "sha256": "65d364354e7895c2f7f1b29e0b9f7c3d524080cab333abd92a0900f909509809",
+      "bytes": 35802
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep3.md",
+      "git_blob_sha1": "c22efef9b14094ee5f8dcd9e242302e2f3610cb2",
+      "sha256": "17371dd4fb957c3aa0fff69421df223db307ab70ead7e067fbd97ed90af4e9a3",
+      "bytes": 34868
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__openai-gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__openai-gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "72d4ddfcb9cc82879507ad57d13625f703ea4500",
+      "sha256": "13bf4f904594804a5d5f1b036f47340bc5b09bdf8ec7c4b46ea9f911c9678479",
+      "bytes": 36928
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__openai-gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__openai-gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "eabc75815a851cbdea0b4655b362fed79771aaba",
+      "sha256": "8c30fc3360d46bdb9b0136d087fd945a823d90b7490be09121aaac48cd18cc17",
+      "bytes": 34576
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__openai-gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__openai-gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "80702c56e333b83df71ac522fa40f7bcc7d6e265",
+      "sha256": "20b69c43af26c7f29c9b3550cddfc9b631af205931ed2b12c72b261cca36dc3e",
+      "bytes": 34309
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "b1bf3ae9c6af3f4a90d3950b32d4e6cb81beedfb",
+      "sha256": "a3d11fca71bfa0a1955abeb6a193b6c3ee74b6d297a19452a179195a460dfbf7",
+      "bytes": 35286
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "cbb0ab7ad57ef5399aaec4766ac3555be144823f",
+      "sha256": "dfbf6efc3f4420c969a8b2e6cde298639e92dec76e5a4955f04d9141c9cf9fa2",
+      "bytes": 35249
+    },
+    {
+      "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__z-ai-glm-5.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__z-ai-glm-5.3__rep3.md",
+      "git_blob_sha1": "e90d689f8e5da19163d97fdacacb8ebd5cf1dadc",
+      "sha256": "bafb47c2eb465066fd2c89e87058280ce216d1a3b6ce5cdba0b0a6943177812e",
+      "bytes": 38229
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/_index.jsonl",
+      "git_blob_sha1": "8a164d6495759889990bf1dd24834e62687b1660",
+      "sha256": "175ffe15ea8b1b1a0ef6e204dc6245083a1dcc2fe9b7f81fda27fcddb16c4af9",
+      "bytes": 30447
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-haiku-4-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__claude__claude-haiku-4-5__rep1.md",
+      "git_blob_sha1": "45afc1044609196adf0bbdaf316622e51c4a829f",
+      "sha256": "a2db980ea60ad58ca13f0e660e65d324961c222f8d73809df593c2a07683c7a1",
+      "bytes": 22268
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-haiku-4-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__claude__claude-haiku-4-5__rep2.md",
+      "git_blob_sha1": "8e6e1a27e6c4799925ee9dddbf41454fd15b1d34",
+      "sha256": "40fabbd8cf2b8b5d38b3d9ee57986e728c03f8691fbb8237b4ba09b1a3c8a57f",
+      "bytes": 21255
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-opus-4-8__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__claude__claude-opus-4-8__rep2.md",
+      "git_blob_sha1": "ac6f23eb68ee3f6fd6d5bca0cc63bcda0579eb9a",
+      "sha256": "fb0c80a47937b37ab574d35e09ecec4aa9d41d21288cc7e0802b067178e54ae2",
+      "bytes": 16891
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-opus-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__claude__claude-opus-5__rep1.md",
+      "git_blob_sha1": "4421e93276cefb37e1c707e1a81638286aa0384b",
+      "sha256": "c7e1b199f51ceebd7ae735bd768fb036d1a5e897c4d6c035da7e08f42442acc4",
+      "bytes": 23047
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-opus-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__claude__claude-opus-5__rep2.md",
+      "git_blob_sha1": "932db09d1736063a3a4647ed0ffd41283745c859",
+      "sha256": "e6256b24adcae628a7a9fff2ae535cc6b3f45f7c6d47a0a744b810bcd6ab61e8",
+      "bytes": 22954
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-sonnet-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__claude__claude-sonnet-5__rep1.md",
+      "git_blob_sha1": "644f3fed77e8f1fa29c90005ca3edc354b540e74",
+      "sha256": "3f6cd1fa19d72a64ccc81835a7be877736c4fd673964a714e98ebd31a1af1421",
+      "bytes": 14564
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-sonnet-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__claude__claude-sonnet-5__rep2.md",
+      "git_blob_sha1": "62990c8735020df462a0bd6250dfb0ed568b7322",
+      "sha256": "c1e09370c9d7c8be42947f1bd196a15ace0b711a711f2706a89ba22e34f441ba",
+      "bytes": 16664
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "e16ff09b19a642a22c2c6ca1d5e744fc9f1aa865",
+      "sha256": "9630d56e8be4fd15607360156ae6fc320299d64a1ef7f9147afd063bfc39be4a",
+      "bytes": 18916
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "950186bee11dd5ac9794504cf6cc6c27c2ffd86a",
+      "sha256": "1cebbfcf7a5c4f5e26787d3889dc58ff05d1cf6dfc45fa5a14f305a503c48b23",
+      "bytes": 19410
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "61d7446bd7bda134f1649b35b66073539c9beabd",
+      "sha256": "dfad50da6f5e9ae8e60b7226b4911914b725755de252d6acb0b43d8743ff17f9",
+      "bytes": 18695
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "e911a0f40b100fd71d458d2ec860fc44c6a2977d",
+      "sha256": "d52bd62a6d880815b56c81de9c95337920bf9371fe552b502edc3409460f17ae",
+      "bytes": 19093
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "ac4a950661c6557d2f7a98da43f0313bf0e5432e",
+      "sha256": "cc05b7832b2ec29fca36588e35eafe4100132dde62d715c928ebd89689dd2673",
+      "bytes": 18671
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "0f56f652ddb8a75f6d11cd9893e96dbefa366202",
+      "sha256": "fcee885ca789ce95d92b082ff5c206ca70e50c950fd35ccf23b7fd79802074ca",
+      "bytes": 20370
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "8870592d80e6b42297f53533120ef81111e018d7",
+      "sha256": "a9533154aafbffef5b6ed05e800f1046099e8a0406e26f766e256b31327d6aa6",
+      "bytes": 19807
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "aa74ff3bb5dbf8b3f5a102ff22d8ca3e04e1e163",
+      "sha256": "fcb2af7360ce3795f4e9385593ad74776c751298e94193f3422ad08bddc0b2c2",
+      "bytes": 20446
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "e4873216ed74ca883cfce43a6d9260285a0e1914",
+      "sha256": "f81bf2d079d01900bc92ccf4c2e258edef80009a3739999ee04b5b8d61265cbc",
+      "bytes": 24352
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "12dba97d10662b4d96378e7d0678d06bf0d82b0d",
+      "sha256": "7b67ee1f4862ab3ab31aa75d357e0434c1af1c474b98dfbcc42576f02229f2b2",
+      "bytes": 24035
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "3ba923fc3e88dc2c3070cd4001344d298bb597ee",
+      "sha256": "a1b61d9141749901cab0f57b11153fea037d4b56d6c521c65c6efc4c1491d3c9",
+      "bytes": 23153
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "e324c75a78197fe397e89b86dcb0c156eb98c654",
+      "sha256": "4f0531eddfa068cb5f75661cd918ed4c6e505067f3f4de480f835c91c962aef1",
+      "bytes": 17887
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b10/psw10__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b10/psw10__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "7ce3799d4c3d7b6a521743e598c6d900fb849bca",
+      "sha256": "33e1ff13cd13de8c0be50e5cb97dc41a2f1d6d92020063a7765cfb51c8104d56",
+      "bytes": 21
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/_index.jsonl",
+      "git_blob_sha1": "90da80b0e9ad6fc9579f57faf12475349be9410d",
+      "sha256": "19ac9d89aeccc82ddf274aa838feb3e9463a83dce15184b974c98dae063da7c0",
+      "bytes": 32546
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__claude__claude-opus-4-8__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__claude__claude-opus-4-8__rep1.md",
+      "git_blob_sha1": "50dbf6a3ff4894c7e14f48d70a5a55bc42741bb0",
+      "sha256": "20f80f4681fa45dd7474b944acfa7dee80057663b70852ec61917205f502bb19",
+      "bytes": 23001
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__claude__claude-opus-4-8__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__claude__claude-opus-4-8__rep2.md",
+      "git_blob_sha1": "86cfac0bdc9ba5869d4f6d7b60af237e52140977",
+      "sha256": "de203a82f7c9c5e84414961d98d12f12b04de697b93fbfef074f6ca734be79a8",
+      "bytes": 23591
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__claude__claude-opus-5__rep1__served-claude-opus-4-8.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__claude__claude-opus-5__rep1__served-claude-opus-4-8.md",
+      "git_blob_sha1": "8605ca8bd5e9ea0048fe6c2f02667dd92a3ccfa8",
+      "sha256": "3aeba49276af95573617455a14176153d4757a207aa376d651879764f2c0c875",
+      "bytes": 23411
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__claude__claude-sonnet-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__claude__claude-sonnet-5__rep1.md",
+      "git_blob_sha1": "544759de5b8854827bece1c856d8fd6bdff42ca3",
+      "sha256": "76890b9f631da0bb9373bd6c7956e6d012330240dc947e8e96ad058df84b13c8",
+      "bytes": 22878
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__claude__claude-sonnet-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__claude__claude-sonnet-5__rep2.md",
+      "git_blob_sha1": "4a039e5df4d91423646c816abd5e07889a1d5707",
+      "sha256": "eb76f481859eeb4e9bbfe03173174f021614adcc6d8852b982111e027508e46e",
+      "bytes": 22141
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "fce9ff1bf0dd6c48d4ec0447f561505c3e9461db",
+      "sha256": "4103636a21108598b3abfa03ddd9fed74e778362a70ef0d56dbd9139002fdeb3",
+      "bytes": 22589
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "bc1b9aac4c05032cb5e281b1f7d96ea203b1a1b4",
+      "sha256": "6a03fa13961ecdc9c17e2d8940429a6f612b60652dd729c1f2282a4125c11f40",
+      "bytes": 22447
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "774f97107d9fee5ce681caf86499c132eab04c11",
+      "sha256": "135d6011855cec94b83b5146152fb9525807768ca3bc5c87637ae9af7601c2b4",
+      "bytes": 23469
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "3593f91e1a9829d2b19384b412b6ef28338d9a65",
+      "sha256": "a3905e08c9551586a8ebc508c841ebf6c4751f7d6bdedbef55c09e6f2f0b5778",
+      "bytes": 22864
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "6789a90200487c66e255ceffcb09eb081a89de9e",
+      "sha256": "da6279476984b8fa9d1a860dc648cf4bee28cb7b4217c91bafecdce94fd551d9",
+      "bytes": 23167
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "530cabde448b967002a967a6d5b20347257e9037",
+      "sha256": "83fde3eaba44b0d99e94135500c443c6973af2446178e5be429923ebd8bd4056",
+      "bytes": 23033
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "18ed5b26c3b48d412cef88fd0d3a40d74154e168",
+      "sha256": "15364a4535a77a124a8d50f35feb9db253dccb9bffc982cbaff385a3e2d05d54",
+      "bytes": 24397
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "eca088116e582c81f196944230492e7a421427c4",
+      "sha256": "f25635f94c3d87824fee32a2a990cafe5d1c15169ffc69a52931fe959ade8a4f",
+      "bytes": 23909
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "7dea1f1f39bd31ce865cebc70b674f2382287fb1",
+      "sha256": "7b054ea69a08b6df4bd277b61bee854441214e6987fcc595c5d93f4c9235f96a",
+      "bytes": 24508
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "75cdc41376173e0ed16fcf275e53cc640e9a07e4",
+      "sha256": "f0add230612d1ebe497d8ac865c6711ea95fd78a027d1cb3a20693c2e6b8f6b2",
+      "bytes": 24914
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "50ac692a6d879e06dd764ff77825c65e9b453de8",
+      "sha256": "71aea61b0f8640094e26cad42d1e9a8ed501677435961edfd358810339166d48",
+      "bytes": 26299
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "26c1cf07f2d52641e47c209c4c54896d0b795f7c",
+      "sha256": "048fe239210188d999c776fc5a74911c8c5a1ea926189c83fd23f195282cc1da",
+      "bytes": 27417
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__moonshotai-kimi-k3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__moonshotai-kimi-k3__rep1.md",
+      "git_blob_sha1": "95657bb7dc1548ff986e59648162b7d72708c38e",
+      "sha256": "74d1ccbbee51079b4d1a940b6f1f72d48fe01c8c80c048e60b5067812f14cb68",
+      "bytes": 23494
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "133aef67859f46d6547481859b8297d5d86b2e44",
+      "sha256": "496c7d0062880fddc1cf8b8d1d08e8fa80a563a2a669f2f3092fd76f33886698",
+      "bytes": 24174
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "138dccb63e2634a924d469355498492948055159",
+      "sha256": "93ab6f4a0e8be45069b9322c747ae4415be6e95f8c34711818a67a0549fa2cd0",
+      "bytes": 23193
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b120/psw120__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b120/psw120__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "d1b2095a0b5b364fb5aabd99f901a8db658e94af",
+      "sha256": "294d8b2c922ebc49f8bbe251e78916ef2eecb8be2501d12455080f1fb0117d2f",
+      "bytes": 23443
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/_index.jsonl",
+      "git_blob_sha1": "5ec2226ebac1d35cd51ca160cf6acb89ecd7c992",
+      "sha256": "4fb92cdd6851e1d52003ceef663d811299af4927a6e4cf831a2d701164d6f586",
+      "bytes": 36915
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-haiku-4-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-haiku-4-5__rep1.md",
+      "git_blob_sha1": "407ce13ecba747542676587fed42f8b5923a9cd9",
+      "sha256": "a02011e316428699166b2312390728839552fc032107b32a325defd813c6bbcf",
+      "bytes": 23311
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-haiku-4-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-haiku-4-5__rep2.md",
+      "git_blob_sha1": "681dede2d991e4c853b23fc31ca4956f6eaea3b3",
+      "sha256": "7064e8e2065c475fdf79e8a77b03f6a2a87c384f4e10a2f8a0820229bf6ca5a0",
+      "bytes": 23017
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-4-8__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-4-8__rep1.md",
+      "git_blob_sha1": "0572709b299da33b81595c950b1568bb2903d44b",
+      "sha256": "10025944e60555e87a9b6ae10357856b1832d0e2e9ee432de1d510e6a410ea10",
+      "bytes": 20744
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-4-8__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-4-8__rep2.md",
+      "git_blob_sha1": "b97c5553aba7b9f4c03842405aa69f88b40b49be",
+      "sha256": "2b119c13669285dfdd74df1b8951260466b9218c5fb5874c29f4ba429097bb3c",
+      "bytes": 18831
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-5__rep1.md",
+      "git_blob_sha1": "ccafc0a782dcc77f99aa8772ddfbaa6745efccff",
+      "sha256": "c713792a25f86c9533626e4ec249f31595a0978e7bd8a4b46924748754a0feff",
+      "bytes": 22883
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-5__rep2__served-claude-opus-4-8.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-opus-5__rep2__served-claude-opus-4-8.md",
+      "git_blob_sha1": "84624d5c2f9e8c9cec716b45fbfbfdef60b6449c",
+      "sha256": "7e49fa0e4c68b1d84af152280f641fe9cb7d0b4550aac0428ff239aded5a540f",
+      "bytes": 21040
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-sonnet-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-sonnet-5__rep1.md",
+      "git_blob_sha1": "2a1ba90dc76712520ed49a2ac9337f6e486c2d16",
+      "sha256": "807a02bb99776a84a3325c001e9269c52b08a86d0df8968a1e31a375f2e4c622",
+      "bytes": 21616
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__claude__claude-sonnet-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__claude__claude-sonnet-5__rep2.md",
+      "git_blob_sha1": "565ed0001a1f313d3df3a3e5749781e98108077a",
+      "sha256": "e71629e72b7e61730d0375b09e412ff1f6500e155c1925eb7c115cdda8039fed",
+      "bytes": 19854
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "d0dae7f87e250a863b215407bed8842c207b942b",
+      "sha256": "5c43ab46ebc54d4e7a9753e448bfa723f281e713f49c7ee24c9a2321e81579fd",
+      "bytes": 18815
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "2982437506e265fbb1726fb2892c101228f57c64",
+      "sha256": "8ef537643840029d81b5158c3325ee50da5794ae8f8e0a559bd5e4f54d33933e",
+      "bytes": 20678
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "849ccf8a4f8a76ea98456b09a9a5bdfc955dfbc1",
+      "sha256": "446ab7f360124e9962de71afa5f53a267c683023af1cb4cc1f85d038e6bcf77d",
+      "bytes": 21464
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "68f7e7a64f0900502b5cd65705e8ee2d4fed4d6e",
+      "sha256": "057835dae900bdd32be6ae9dc08cf3d8e1670a6deb698f560e952890314e6b42",
+      "bytes": 21886
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "c60ff5b95887d36e5e905d49d6caffc15d43ee63",
+      "sha256": "b5aae0e7bdb797d3ad461b7f91b3491ff5774cb6679690878735c3ac70261648",
+      "bytes": 18847
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "ef0258b0a03da926028b2ff5721c62fd7adfbd6f",
+      "sha256": "9f232840b871d8cc4fedc72bd02638a1d9a031573ad92dc21ad02a3cfdd9db59",
+      "bytes": 20483
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "0de3d834c621c0d4a50c0065fec455e4e76cbf56",
+      "sha256": "2cc29689d2785ea5578a269f2472dccb53bd09753f9f3a05f6e0b548c6598d08",
+      "bytes": 21763
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "bb26c75cd3130c847e357f3f7715bb3a14452fd8",
+      "sha256": "e9492018af0f39dcd7f087a1ffe21800a7c1b96f100ac85c0260daa225afc54b",
+      "bytes": 22062
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "1391fd1f07e36b896b824e7278792ae19dbab4ba",
+      "sha256": "3ea6d369ce857e2267fd9f835db598eed713ca400b2947ef4a9738f6e9fe142d",
+      "bytes": 25337
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "7bfa96664cc178740e542523f4881b4fb73daaf7",
+      "sha256": "7c8b4665c397205ae37bd59c82e631b3885d44af408e6d059816a81458379caf",
+      "bytes": 23046
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "b10fa4e9b493d77551af0f669e261618e59738a2",
+      "sha256": "990d3981050d1ed4d5ada377d623fa4ef3bc74fef44bcb8da62145a4359b0725",
+      "bytes": 26008
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "3df9ba71e5d902b02aa1bfcbed6d58b61d11ca2c",
+      "sha256": "97822735ce3513df11c0fb5e88369683e8889c7c5f5ed55563bf3e57f6cc1fb8",
+      "bytes": 25803
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__moonshotai-kimi-k3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__moonshotai-kimi-k3__rep1.md",
+      "git_blob_sha1": "902996ccac4f0358ed7fa1c3ea95755db447846f",
+      "sha256": "7147e99185f7787872ffbbbd058f703f404eb1598a4920883c4520964b38d339",
+      "bytes": 22175
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "5ae0ee7ff24df1bf8812a2edfd8bee4034dcf4d1",
+      "sha256": "5260d5a9a8055aea4a3140fc777560d22ae7fdaee7291f475833367e2fd4f703",
+      "bytes": 23293
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "8365d0b165b40655a4967faf0eb58449bf33967a",
+      "sha256": "60dbe881235cf68f3991b3569ca6e2c11e34b95ed8099fa81167295455e909e0",
+      "bytes": 23079
+    },
+    {
+      "path": "benchmark/graded_inputs/pswap_b30/psw30__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/pswap_b30/psw30__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "8b055fae6e59a4c91b1fd15c673301c886aabd58",
+      "sha256": "3021e51d11b3f98ee6101cad798a216307c374ddd536617d5450e60af392c885",
+      "bytes": 22899
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/_index.jsonl",
+      "git_blob_sha1": "10a249fdbc8358af9e3f22a554d102fc879c3536",
+      "sha256": "a6ec6efbd0b5a2362466f3c8190e6722aa8ccbed0ab359cc2e3090200be508d7",
+      "bytes": 57581
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep1.md",
+      "git_blob_sha1": "d4f0e9360d58ad39d3eaa6c39c7e0747b3b49318",
+      "sha256": "ebdf0ef63ab974fff87f0ff5b7823804a759bcf1cbf124fc06e4e8d6add49235",
+      "bytes": 21237
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep2.md",
+      "git_blob_sha1": "d93c39bdde183a2e3702261ea6cf0e751dffce24",
+      "sha256": "3b529ba77d819421aeebf75565a4580f7a85ce7b567f846625ca43f1ee2fc54c",
+      "bytes": 22807
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep3.md",
+      "git_blob_sha1": "c519a82407d0677a265eea3c46350ffffa532629",
+      "sha256": "45ad8a1aaa299096d4b9aaf86a64495b62921523d8d0aa1d923c0b7c3927f88d",
+      "bytes": 22875
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep1.md",
+      "git_blob_sha1": "0a0676e0ddd93012ee185511bfc62612733f4411",
+      "sha256": "892efe1522e91e4db9a4821a9ccd053870a0680d84568579633f2c22b457a0d7",
+      "bytes": 21150
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep2.md",
+      "git_blob_sha1": "0850470a72fa18991ebab8967fd84969abec3b87",
+      "sha256": "f0eef30e75d726acdda6ec14585c3d9c0975151e30af27a8a4f0cf2f8c7c3b29",
+      "bytes": 19902
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep3.md",
+      "git_blob_sha1": "e5efe75943896ef44b48d8443f3823ecd8de12e3",
+      "sha256": "172e354edf6341cfd224b717f99bce8ec40b27bd2266c3ae11576bea8f6035b9",
+      "bytes": 21155
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-5__rep1.md",
+      "git_blob_sha1": "075bb61edcf724ccabf15ce73e94544904e26147",
+      "sha256": "b0ce9d6e142ffe91ffdd17a1b43ccacaff4ad29d31a165a77d4559dabeb790b0",
+      "bytes": 22674
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-5__rep2.md",
+      "git_blob_sha1": "ca56ff595afa5d1616e237c6b1f963c4b5ae75c2",
+      "sha256": "c4d2f5aa183f8b7544c396938c32c9fcf7fd4cd665099fc33ff1c8412287242f",
+      "bytes": 23540
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-5__rep3.md",
+      "git_blob_sha1": "ae0b17c2b379de6764ba8984a96e56f20026e57d",
+      "sha256": "c388b2469777bf8cc04e39944405e19596b0687a0057a7c72af5f008f597796d",
+      "bytes": 22630
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep1.md",
+      "git_blob_sha1": "af0675a8693a8e41ed5e13f133651d2ffa22ac52",
+      "sha256": "848c074bc85cd82ef3d603475eed3315d4cd8ba8a5e3701720dd0b419165bbd6",
+      "bytes": 20237
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep2.md",
+      "git_blob_sha1": "4aa56bbc7950a5c53a1806aeaaad11006716add2",
+      "sha256": "433396b0bf72e2e93ada5b7b50d3fbe751c6e70d9539d3808ba4b42fd67adf08",
+      "bytes": 22064
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep3.md",
+      "git_blob_sha1": "09a6dad0a768f0b1df7d76b6aca86fe61f32b9cd",
+      "sha256": "c9af53797f2f63fafed18a6d6d7c381d9b03ec95e18df853f49e09e4d7488fda",
+      "bytes": 21258
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "3779225b2fdaaf1c987cb2b47d25e6cd69de748a",
+      "sha256": "edebc16154ba2e6a12c6f0277721595117e385e4a0ccfafb39da9255d91ac78e",
+      "bytes": 19459
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "462c58517544325667d67258580a14165851f7b9",
+      "sha256": "ce3850c35258b4a97b1dad54473322dae8eab002635b311eb96170b76c5a5102",
+      "bytes": 19893
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-luna__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-luna__rep3.md",
+      "git_blob_sha1": "810057f5402fa9eb078d4f61badd6e6d97cdd07e",
+      "sha256": "964c9c49bb72a318faf2115ed8e5c0c2b30faaa2ac2462b73b8b76ea72a6c517",
+      "bytes": 19597
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "5afaf0626e14f250944ec5d1916fccaa5edd87a4",
+      "sha256": "ff76448c3106508a2889acb338199fc457acf733c8dfc48c6b78b2bbce33896a",
+      "bytes": 20208
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "f0cb4c1a4899b0aedb27fcdd32b04b5a6e62bca2",
+      "sha256": "d0867f070c2113c6d376ab908710edc94324b757143f4a8ee2778de517373274",
+      "bytes": 20162
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "e96ce43862bd7309d5cba4ffe5a81a994775b474",
+      "sha256": "b6ef77e290c31b62b73c91b67862eb293bdab2766e6bb1a39dc2bab93098437d",
+      "bytes": 20430
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "34510d4816157c6d35407ab2c9aa8673f7b129ba",
+      "sha256": "7806a645e6735b85a3bd181ffd69a7fd398ae6d80a54e3a9025715aed9b00d49",
+      "bytes": 20727
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "e7d4a1ddd3b21b5edaeb699c74e906fcea77ad77",
+      "sha256": "6632623cccaa8bc0343c3c2887786576ef7ed374a319fa7b47a9921f2ae23e2f",
+      "bytes": 19352
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-terra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-terra__rep3.md",
+      "git_blob_sha1": "94d5e20c10c27756b1c5a1a0138bf44e7729be20",
+      "sha256": "4588476f4cad8d7dd58e1a4e8b5f98b682d49a2d4d94c4ef600d3db46c1837c3",
+      "bytes": 20975
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "0915318d3f9fa7d8d4a9eb846e3bec30635764a0",
+      "sha256": "a2acc473b59b3b137f92cb8ee4cb169c6c17235646f98737ff16c42a6d203863",
+      "bytes": 20759
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "a863a45608ea13fd5306abaaeb8e06c8fe4b9721",
+      "sha256": "7b29e7e0955f60386bfc6f695be1ed0d9ec94f1c3cbeaf4eb020b15c0907afd7",
+      "bytes": 22060
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-6-astra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-6-astra__rep3.md",
+      "git_blob_sha1": "77803258dc33cc4f6b993f20dd758e27196d39b4",
+      "sha256": "ee0af44beb6f6603fe5582a8817d02f688af47e1f3e4f750920c05ebd8ba0c56",
+      "bytes": 21526
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "e54842a1faa4ea5731414c7a34ad784eaa1246ee",
+      "sha256": "b00a54c2afd0493add675668ae2f466520f4f47041700b9161e4ab9f5f9cd0d5",
+      "bytes": 25381
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "c167daf7a1fc3dbc515443f17a21be41373a7f5b",
+      "sha256": "5effdb2964d5854a6fce4b0f1cd17e89c38af8476b9e6fd5f9e3be961a5d913a",
+      "bytes": 26515
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep3.md",
+      "git_blob_sha1": "665064e7ce587690b8790687856084a89c44dc89",
+      "sha256": "78e7f88b1a8c32a2eb986d0fd88da928681a0a9c3ae7afd84b6bdaa7db30a7e5",
+      "bytes": 23818
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "96fadfd1529faa7f48824bcde80159b68b9a1fc2",
+      "sha256": "59e0a3cedfd6e3d334a18ed9c46a3b6544c1fe505d079263cf1d5c7f941d26a5",
+      "bytes": 27048
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "23336ab807d5047e09dc2ad29468f188b6790de6",
+      "sha256": "40dd3b44b4ee90874e04857e4e4c8ba1a8224417c19f49861a0458b2da47d239",
+      "bytes": 24205
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__meta-muse-spark-1.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__meta-muse-spark-1.3__rep3.md",
+      "git_blob_sha1": "a8fb2fd32ddfe57154a1bd8c2096dedaacac509b",
+      "sha256": "881fb1ded21fc110312990e5ad65bf0ee7630ed4b930110767aed577f89982e4",
+      "bytes": 24295
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep1.md",
+      "git_blob_sha1": "4dc9315c6c4118cdb1f4bd4430a771501c4da809",
+      "sha256": "d25a78e8d56aa880b86f734ca5b572a704cd8d7c2e52584d24f79d78d5038d13",
+      "bytes": 19175
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "ce3d43a0ee9261fe350db73f267029b05f925792",
+      "sha256": "99b4fda4a6dd421ca3e95ae5a10d0def15050f8f0da566f71d7138b242660654",
+      "bytes": 19120
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2__p66b7fb24.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2__p66b7fb24.md",
+      "git_blob_sha1": "c36b8a30bebf162354a96af7539259ce6ebe25eb",
+      "sha256": "496e40ce6fffa6da0ad00076862f55439e732f34cd24bb4e110170be41e5fa2f",
+      "bytes": 20071
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "7982a290b2209b0c079c814da4e0a708a498da3b",
+      "sha256": "d556a53523523194bef2153f79aa585faed01305bcdaf05972cd5899fb2578db",
+      "bytes": 21263
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "4eeaa751194d9edf08bf9fea1402a1e11a0afc15",
+      "sha256": "d5292beb92623a9c594f0a4ae8e654410dab8ba5c0f3092be14a6b7ad021e03d",
+      "bytes": 22849
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "c9508ef443b183a76c567dc5c3a7cdd02d9846cd",
+      "sha256": "2a191627065fc736f9396ea906441fb6d48aeba1fdbbfa11eb1a8765207b8fa6",
+      "bytes": 21627
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "42f6951e7fbdcfa6c40e0a69eff18d198ff5c2d0",
+      "sha256": "e0dfc2629c3bacf9736e8b4170fe84e69770353f1067e0316dad4091cbc9175b",
+      "bytes": 21881
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "eb10356292b45a40972d966da38f279affabcd1e",
+      "sha256": "fbe72db918bb964d71348b66a430d92260c0f1969a060bc86d1338d1fcd0b6df",
+      "bytes": 23034
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep3.md",
+      "git_blob_sha1": "76891a312d4ae7c955f9d36ba943b129c0830254",
+      "sha256": "67c5a795a3a2e5ab5b6d16ed6dd189ab5786fe74947362393a91878212e02c33",
+      "bytes": 22316
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/_index.jsonl",
+      "git_blob_sha1": "b64c64ab949934fb5cc393190108abeae1007ef0",
+      "sha256": "85fe338caa775d2693f9225140f6f87a0414ba64eec4073b30f4ec3caecfd3b9",
+      "bytes": 52679
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-4-8__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-4-8__rep1.md",
+      "git_blob_sha1": "7b283b011364ae2b0cfb35542d515259bc134e3f",
+      "sha256": "f14ff1c7ac477b6145ad902a9cf3de04586ca581243b38250260bb00e532c84b",
+      "bytes": 23297
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-4-8__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-4-8__rep2.md",
+      "git_blob_sha1": "5458df2eb1bcda93d4c0009adff872f36471b941",
+      "sha256": "b97869ef9384d6dc65a6db89b3b2c3b7ca2cc734e19cdd9650804cc166f82acb",
+      "bytes": 23035
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-4-8__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-4-8__rep3.md",
+      "git_blob_sha1": "a4748e65be95e1edf006ea0e65f182ce0f6f1e84",
+      "sha256": "21d9775f1e826a6a03e7ec61c50acf75e031f55a33164d7699a03ebeb4907b3d",
+      "bytes": 23851
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-5__rep1__served-claude-opus-4-8.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-5__rep1__served-claude-opus-4-8.md",
+      "git_blob_sha1": "aac5b1169a36313d355453475fe20d63d5d8d271",
+      "sha256": "b6872acf914a3b5c7505d6151ccdb43d4345c216e6672141be5fa483f80ac463",
+      "bytes": 23040
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-5__rep2__served-claude-opus-4-8.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-5__rep2__served-claude-opus-4-8.md",
+      "git_blob_sha1": "14ae47b36f67ff2e22e7f8c8ef1548775f3499fb",
+      "sha256": "4235d9845d1cde15992b37f8872d9d43895be23745378e96f1ec3e6c2df90957",
+      "bytes": 23530
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-5__rep3__served-claude-opus-4-8.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-5__rep3__served-claude-opus-4-8.md",
+      "git_blob_sha1": "c0949210fcce1c6ed9a13fd7892b51e5bcdaf694",
+      "sha256": "2efa90477609d534bf7605f1c5b1d82493249a2d19d78a88877d787b93324a0f",
+      "bytes": 22734
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-sonnet-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-sonnet-5__rep2.md",
+      "git_blob_sha1": "17976719e7fdd4ca9ded25d26507929cd3312107",
+      "sha256": "60d4429576e855e960698922526a30c4ac21036fbe1644ba49e7ae2e62e6de75",
+      "bytes": 22761
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-sonnet-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-sonnet-5__rep3.md",
+      "git_blob_sha1": "8476eb350c64ff911bd3f3cecc887b26e3769f5b",
+      "sha256": "4dbcfb4f6c24ea04f99916b6b4de6f02df8c3fd8d4babf16fb94a71ef6a103be",
+      "bytes": 24061
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "06c1ccc2275cec8ab937112a81250aa724897a85",
+      "sha256": "d61ff487987a5b7f4e57d3ecd4218c1f53ebaf273f42b034ccf4341275f8ab82",
+      "bytes": 21858
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "427dccf4c793ed3e3abca6a9c1046515acba666c",
+      "sha256": "ddd2f5b84ac8c4f8b511a4cec3ae641b53444bb7b595abbdb34b56f1f7449cd4",
+      "bytes": 21938
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-luna__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-luna__rep3.md",
+      "git_blob_sha1": "4c8f9b47dbe689c3bb9bd5e422a73334c175d0f1",
+      "sha256": "50cba4f9a60eb414fe0c54a52b0a72bb88ff664c80a222ad99e3bd594b5e5f92",
+      "bytes": 22506
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "01d5b9cc039695b780cf56e270e1a6135ef35d6c",
+      "sha256": "e165bd62d8b587f358da725fabe20065dfa7699c999194c9473a4ca82d57e1a7",
+      "bytes": 22801
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "f59ee7415112993638b920a7f0bb7ff7a494daa6",
+      "sha256": "d4d3a4e81c7937973d793ec5536d8d641bfb6497c2d494ff0ce7bc1101785339",
+      "bytes": 23376
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "e6fb717b6114de46ba29483e0c59e80da0bdaae4",
+      "sha256": "00fff07d333cf617ec757edc108b8aba906b88a088dc2f6455310f68963d531f",
+      "bytes": 23153
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "74ada5b5d704180ecd49a0278ac992c60d71b282",
+      "sha256": "75b7fbfdf8309dfb835fe877e275e513d08d82d5c561d08eda58c503eb14c23f",
+      "bytes": 23450
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "f783f8db2d81199a95101d75c21ec6462b2cad4f",
+      "sha256": "31198294d925638e3fa7f3d05142de89cd34f9e2fe2a307b19de66a282d5992a",
+      "bytes": 22650
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-terra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-5.6-terra__rep3.md",
+      "git_blob_sha1": "7a4b4c05a149b6d4a94be9caaf80c29f9d8b9fb2",
+      "sha256": "c0ca7951be7b69ddd90714c54c05e5f27921ec33fb90f771301645123608f9ce",
+      "bytes": 23608
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "7a3799dc8a728169c8ed02445ee38014d219329b",
+      "sha256": "d79e801b648b147ba11f38bff73c9570b23a1f633dc6fd04b5e6fc27b7c79632",
+      "bytes": 22844
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "9cff5b03dd3c17af191081e113b5a16baa19530a",
+      "sha256": "dabedc7104f23cc1799f7ccc33e5fc6fb2d950d2f8cf27c8053c493c101f7342",
+      "bytes": 23914
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep3.md",
+      "git_blob_sha1": "107720c6b70bb73c7f7578f2b173ece4f382f615",
+      "sha256": "ebcda75938c8c7746e4f3d250a7efb97efb769ce67f1e099c656b39fe4e938bb",
+      "bytes": 23393
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "de022d57e5cfbb4d73348b147ce0bbfbc1089972",
+      "sha256": "69e7ba93e208c5a2c97e2450b2d90bbd6cee271298dddc213f70df29805052be",
+      "bytes": 25758
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "8067f7b48ef4179e527c7b5440994378d114800d",
+      "sha256": "ea8877fd40a459df413d8bd0b393c4ae259c44a528ce503ec236468bd9c2b743",
+      "bytes": 24029
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__google-gemini-3.8-flash__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__google-gemini-3.8-flash__rep3.md",
+      "git_blob_sha1": "b7bb43c111bff6f346e58528ba58400ae1985b47",
+      "sha256": "625b290337b290b5159cd556c2e4a0f37c7b86b3885cb547115478ab6d4ac008",
+      "bytes": 27623
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "95d227c760b8b6a714f66f7f4ed2f90a22a3f774",
+      "sha256": "cf14cb1c8b600542a30cd8c65d3b75e14c95430dad2c7e51ede61f98a3941906",
+      "bytes": 27384
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "d84b31052af2f6c315c00cd3dc1777863a7c6b11",
+      "sha256": "1702cd8499ccdcebb29122d19cb0dd7763ba1cefcae089213edb38439ee9124b",
+      "bytes": 25992
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep3.md",
+      "git_blob_sha1": "852a309cb254ebd72c4b3fa7031b5c1e0fc83f82",
+      "sha256": "52974ded8cd628de817b3e8c2ce13f07562713351203544e5d328e730a264606",
+      "bytes": 25179
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "12b400d26b3f6d1bb9a062f1102929752fa95476",
+      "sha256": "05ab84d09b75b1873d2b2f43215eae77c9e348a881249b3ef6f3812c500f747e",
+      "bytes": 23902
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__moonshotai-kimi-k3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__moonshotai-kimi-k3__rep3.md",
+      "git_blob_sha1": "e1987632ec55ebad1c75f8d04ec7839ecc46dc84",
+      "sha256": "8d8c32e2fddf7149e1c31ea5a19b75ee32e5d4aadddeaad87f60fe89477d21a6",
+      "bytes": 23034
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "eae414e0a2ade591909f7f04ba22835e17864b17",
+      "sha256": "edaffbc2a47d77d9767ad65690110ccac8b06fbc7fc1d43312789e9831a067a2",
+      "bytes": 23164
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "6743925fdc1e630e0b9021a236f195d7157eb33b",
+      "sha256": "d338848b111dee0a9b074386000282761c34a5b10f43a4503277c9cfc3335b40",
+      "bytes": 22998
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "29a15a678a6be0843aca4814ba50a0df2fb2d4f0",
+      "sha256": "6026182c6aa93d013903946ff468e144677986d9103eeac8144ed93c6bf144b8",
+      "bytes": 23231
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-6-astra__rep1.md",
+      "git_blob_sha1": "472ea4bc752cc3922265a4125ad1bdce9c1bf884",
+      "sha256": "ad4e6bcbe82534ae447b25dbd573f3989e067d1fd41f51d3cdcd17c3317c2f2a",
+      "bytes": 20821
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "ec15e40a623637419850ebc5d2e0fc4a9d098a79",
+      "sha256": "a6edfb2dffadbed2a8ea266d697e40765317b2db88660c444b0c64247ec6d2f3",
+      "bytes": 23512
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "43c949c0872b06cbb0c116d4781784964d81d482",
+      "sha256": "dfa7eac6d87663d265b4478818e8fcb8c9dfc7147cabac0c1c3b46c092adeeba",
+      "bytes": 22724
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep3.md",
+      "git_blob_sha1": "5b7c8e750b4e26617a7adb230f5618856d3bb2c6",
+      "sha256": "b9d4b022076f384a99cd4c1d076e4803843479ad79bce8a22a0a832007ff0601",
+      "bytes": 22567
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/_index.jsonl",
+      "git_blob_sha1": "918f803fbfbb5d8d0723b7539c008d7bd2fa97f5",
+      "sha256": "1ddf6f9db79d9c8c313f4ae66d17d0a11c1936f6c9bad700e627a6b4f2646170",
+      "bytes": 58138
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-haiku-4-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-haiku-4-5__rep1.md",
+      "git_blob_sha1": "abe9ae37f1c5232b788c2e2aac6684669cc40e86",
+      "sha256": "6175f6b7ce79ef215d1755125c8bc5c3ee40dc503818e68b628d72af88b6c1f1",
+      "bytes": 21737
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-haiku-4-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-haiku-4-5__rep2.md",
+      "git_blob_sha1": "0b5bc5006bd7f99871112179b598b9d404ed638d",
+      "sha256": "bf5f0468a8f4603b89ff6ad000295cc110257d76df5bec4f747e990f3be04527",
+      "bytes": 22462
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-haiku-4-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-haiku-4-5__rep3.md",
+      "git_blob_sha1": "4d3e987e6e08294bb5f9aaa50a0356d699bf645c",
+      "sha256": "bdbbf8ee352be6a0c2265fd3999101da25330ae6bf0191bad25d0211f2f39e93",
+      "bytes": 21670
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-4-8__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-4-8__rep1.md",
+      "git_blob_sha1": "f76c2ebb56013248e965379d98337d717c3d1c2f",
+      "sha256": "7a201b40e1699f9288085d13ec95dbecd7d69ffbaca846444955c1388eef8e35",
+      "bytes": 23124
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-4-8__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-4-8__rep2.md",
+      "git_blob_sha1": "833eb8871d1d660ca2fb45039e934c0228902391",
+      "sha256": "a82326e0887f48f473c9ed44d1c73bd48943ec5268a6525739d70748b89441dd",
+      "bytes": 21798
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-4-8__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-4-8__rep3.md",
+      "git_blob_sha1": "e80fb78b04c0506932894e1f3ccee1019bd24a13",
+      "sha256": "39adacfcb723a87822e1ef025d65593f81a7a5f4cbf55298a76aa73abb478f64",
+      "bytes": 22965
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-5__rep1__served-claude-opus-4-8.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-5__rep1__served-claude-opus-4-8.md",
+      "git_blob_sha1": "267161615956027c8ab3ad5a2200266deb5c5792",
+      "sha256": "0860703600bc6b42bfb4db1d42d7153c1056044e24e32ead29ac5deb26166d13",
+      "bytes": 22501
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-5__rep2__served-claude-opus-4-8.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-5__rep2__served-claude-opus-4-8.md",
+      "git_blob_sha1": "9bfdf846246c63f2b890a6899d8789418dd5943f",
+      "sha256": "94128459d6c6b70564a409fc1ce1f149a7e26b25d5c6ceb84f5d54cf0e9b4802",
+      "bytes": 22945
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-5__rep3.md",
+      "git_blob_sha1": "7e1f4870fa5fb3f42462dac74be1a578d2678791",
+      "sha256": "14038417a280e0ff24dd85392775fb5347e37a911fc03aaeea11864f5c15c417",
+      "bytes": 23774
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-sonnet-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-sonnet-5__rep1.md",
+      "git_blob_sha1": "b1d0008b3d22ea94f2f5a9ed58fdc4f441636d32",
+      "sha256": "0e2d185342ca2e1b71570c7e5aae149857745b6f293720e6192ae2e468767dd5",
+      "bytes": 22861
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-sonnet-5__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-sonnet-5__rep2.md",
+      "git_blob_sha1": "09911ff8767866712694a5cd0d23679720d49134",
+      "sha256": "2f289b081e54ef0bc39ee600819402cfd718485a7736c738f19a98cff7c963cc",
+      "bytes": 23250
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-sonnet-5__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-sonnet-5__rep3.md",
+      "git_blob_sha1": "6b0a80e4b9ba510e529d892616f1e7acaf75c18b",
+      "sha256": "1dafe2b3c523b2ec20ba70220ce2989286a9f9436d0b9b5b61e35479ba77dae9",
+      "bytes": 23126
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-luna__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-luna__rep1.md",
+      "git_blob_sha1": "4c097c46f14781dda8bea95984c726b1b2326fb3",
+      "sha256": "672e63dfc2f8fc454aba5efab03c120b4e4d63fee27bdf9b3b6bc2ac657c0fab",
+      "bytes": 20564
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-luna__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-luna__rep2.md",
+      "git_blob_sha1": "945dc62f9e20951999c0f6cc50fb464457422142",
+      "sha256": "c1caa37ef7011aa847f96d7e75b5ea52c49998ca43879d7d8f410f7faf1158d1",
+      "bytes": 21965
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-luna__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-luna__rep3.md",
+      "git_blob_sha1": "821f8d1aa4ddc6fd8ce36d44961ebf141f0c2567",
+      "sha256": "63ea4ac3f676ccd6849314fa702cb1323d7a2aca5c0e84a981ee17eb11123484",
+      "bytes": 21253
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "f82c84037d268f477579b504dd1e79f268944496",
+      "sha256": "787debbc4e1c828536369efe37b752b09c8a430cdfba343a9f4671c7863fe319",
+      "bytes": 21854
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "16af9c0624ec0389d90f684c060fced2ad97b833",
+      "sha256": "eb63aa16e891576b810bc74baff0f921d72166f333fd8cd1670599e04e41d685",
+      "bytes": 22614
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "3bd80d793aa2ba1fb7e0c7e11e589be35ba8133d",
+      "sha256": "9cf0946db638480035741dd8b9155119644f34f42088e410ae530c473e93341b",
+      "bytes": 22229
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-terra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-terra__rep1.md",
+      "git_blob_sha1": "adcbc624ec51e6efa5e45fade8c48ee38f8bd7b6",
+      "sha256": "6ac5075ce79fc3f4c1614924ca82689ed12d2d1c73bf90bf0a288f81cd84357d",
+      "bytes": 22239
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-terra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-terra__rep2.md",
+      "git_blob_sha1": "9c25a2cd9545b324513a37f3b1ad462e2d3fdb4c",
+      "sha256": "1367844396ceb66e724925b0e861575a4686c3e6b0aa3470a260c45c7374e2a6",
+      "bytes": 22120
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-terra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-terra__rep3.md",
+      "git_blob_sha1": "fc763fb06a4403cac3a2c682b6ce52f40b10a834",
+      "sha256": "d6db5b6e179d6c7aabf901e9690448f0c2361d320836f15c863cdda047cef132",
+      "bytes": 22272
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-6-astra__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-6-astra__rep1.md",
+      "git_blob_sha1": "6211aeaa2578173d09fb82f32a057941253fe6ca",
+      "sha256": "323598d16b650340bef22d76d6d1c94f5581e70e660ada0189b03c1834a04030",
+      "bytes": 21857
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-6-astra__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-6-astra__rep2.md",
+      "git_blob_sha1": "669464a0287fcb21fc99dbd36d8e5c6dc9da95fd",
+      "sha256": "ed6b0887fa8e5ec15e189a7d01bce004d8a81eec6ae6a061c7ace0064a2d003e",
+      "bytes": 23647
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-6-astra__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-6-astra__rep3.md",
+      "git_blob_sha1": "f09560f7000ab954c11b64dc205cfe5fe48fcf50",
+      "sha256": "062e18533e04ed03a5cef080312a569b34712b81f40156d478058494dc93e090",
+      "bytes": 23016
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__google-gemini-3.8-flash__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__google-gemini-3.8-flash__rep1.md",
+      "git_blob_sha1": "b0a7b3cbcb22c48c7d75415ac3ec88278f531480",
+      "sha256": "f76ef26e69a9061383fa79b587de6d2af55762d86219225ea7e89cd5890cfd3f",
+      "bytes": 24673
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__google-gemini-3.8-flash__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__google-gemini-3.8-flash__rep2.md",
+      "git_blob_sha1": "4ed1ebeed98978500addbdf3cff7ef26e53d8e8b",
+      "sha256": "fff439616e20be9bd7b617e308f512534d1008eb5bb66b9bcf92af970c2fe1f0",
+      "bytes": 25481
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__google-gemini-3.8-flash__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__google-gemini-3.8-flash__rep3.md",
+      "git_blob_sha1": "53727f9819d4b5a5dcf760743ca5557698b94c0f",
+      "sha256": "b33b015f481e456bb9e15771337bd7722ff62eec00b5543c355f027b5de0018b",
+      "bytes": 26012
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__meta-muse-spark-1.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__meta-muse-spark-1.3__rep1.md",
+      "git_blob_sha1": "a73f83d1b23ade711606f18bfbe7b26ac4fd4f3b",
+      "sha256": "191f9786f58bc3e0647a8e0661150c5c266159f2414d9c2cd318d438095c5df9",
+      "bytes": 24780
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__meta-muse-spark-1.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__meta-muse-spark-1.3__rep2.md",
+      "git_blob_sha1": "4ec54610e26d83f0950c25c939686370bf42fd68",
+      "sha256": "84fc6f280d3afb88ee4e1ff54d004096e598849b373d9ad1bbe344f500eb5ceb",
+      "bytes": 24973
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__meta-muse-spark-1.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__meta-muse-spark-1.3__rep3.md",
+      "git_blob_sha1": "df9bc2fc63a35ed458eddba746aa5740116d8921",
+      "sha256": "f044a5c6dc2d6fd86b8d30e3d5ccabdba1ba2856ee7916768f90abfb054786a1",
+      "bytes": 26321
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__moonshotai-kimi-k3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__moonshotai-kimi-k3__rep1.md",
+      "git_blob_sha1": "e117b144904cb60c61ea1eb051b8a5a42cad2cff",
+      "sha256": "79056a62a5e1fea2e8b8486b2b6ba5126f169590bb6e8094a7173e641abc3f6c",
+      "bytes": 22700
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__moonshotai-kimi-k3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__moonshotai-kimi-k3__rep2.md",
+      "git_blob_sha1": "61a95729a19a91035cef33eb81ab4630ab7fc827",
+      "sha256": "c1d91b19e3b737b53b1478f0b85da7c0702de275a67f4208c10c7033f39ddf52",
+      "bytes": 23853
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__moonshotai-kimi-k3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__moonshotai-kimi-k3__rep3.md",
+      "git_blob_sha1": "71b38c5142df9ae365cea66541162f426864f476",
+      "sha256": "63c62162e7765b341955b05935869ea8dd465dc14bda0f88f41bf01abfd6a5c4",
+      "bytes": 22823
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__openai-gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__openai-gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "9e72a733060efefce0744674351c52951e27eb67",
+      "sha256": "8a17dcd56238dd03f7007fc28d794694abefaec6440fdcfbc53cef1e7c889811",
+      "bytes": 22703
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__openai-gpt-5.6-sol__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__openai-gpt-5.6-sol__rep2.md",
+      "git_blob_sha1": "43b7bf20acba3c3352484d560627495715435a13",
+      "sha256": "f60f603f0d3cbdfcb8b3a8ebd5f417116e8dfe6b745442f77c6eb63edab74601",
+      "bytes": 20425
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__openai-gpt-5.6-sol__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__openai-gpt-5.6-sol__rep3.md",
+      "git_blob_sha1": "f561d102ea8a0edb4880db171a57bc1eda5416b8",
+      "sha256": "fb2965371a6649c5a5bad96c9c9b6e5c7a902fc3561f7eb3db817588f6dd1089",
+      "bytes": 21802
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__z-ai-glm-5.3__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__z-ai-glm-5.3__rep1.md",
+      "git_blob_sha1": "f54bfce176b0bf083989c7679da507a5bdf42f01",
+      "sha256": "c795e449750119f704c7382b714bcefa25375882a3c519f925f34452c992d750",
+      "bytes": 22571
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__z-ai-glm-5.3__rep2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__z-ai-glm-5.3__rep2.md",
+      "git_blob_sha1": "7535802d5b96012fda1b02e52cf00c17073e21ee",
+      "sha256": "63e0b320567396d68799daff28cec54ab4b418303cd1a5d2e957e3c5c8180998",
+      "bytes": 22815
+    },
+    {
+      "path": "benchmark/graded_inputs/round4_blind30/r4b30__react__z-ai-glm-5.3__rep3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__z-ai-glm-5.3__rep3.md",
+      "git_blob_sha1": "ee4a0108a574b6f0219632c4670e84f83048f57c",
+      "sha256": "a4e8e992fa61a52a941eee39ae3971fd573e3a46a1f89162e3e7c764281f0e9b",
+      "bytes": 23344
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/_index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/_index.jsonl",
+      "git_blob_sha1": "a08a4aace130b546c66f0147de326a7adc706a2d",
+      "sha256": "94f4bb14922f94444e39c67bed0a15c83ddca291ace1b13623862c668eb86a90",
+      "bytes": 350
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/rejected/attempt_2.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/rejected/attempt_2.md",
+      "git_blob_sha1": "0877ead2a67f4fccb301c5d067a71d1bff2d616e",
+      "sha256": "18ad3e88dfae2496b63f7ffed5ad0f42edf41308e26fbfeb5166e043d37a7de7",
+      "bytes": 8594
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/rejected/attempt_3.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/rejected/attempt_3.md",
+      "git_blob_sha1": "0a6ac52c90b3f6eca25b5c9023be42244a5eb217",
+      "sha256": "1f327436387fed123d0ee5c1c9b8dc34b5e536e696e6348200c5bc8a14904332",
+      "bytes": 2302
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/rejected/attempt_4.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/rejected/attempt_4.md",
+      "git_blob_sha1": "2eb32ed5342e0d4a1777f255cda533872327a3dd",
+      "sha256": "6509c272ef608b9816108163be6433ed4164e85d53db7affb48cccd09df623dc",
+      "bytes": 8184
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/rejected/attempt_5.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/rejected/attempt_5.md",
+      "git_blob_sha1": "b5326b85ff429ab3265b4aaedf95f30da8b43925",
+      "sha256": "2a8ee87e5176d67464bfbfa2202eb030b5251bbfa58f43ad01afe320a24e1317",
+      "bytes": 5154
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/rejected/attempt_6.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/rejected/attempt_6.md",
+      "git_blob_sha1": "f40b4da760652319401620cd65d4d9d417f4cf4c",
+      "sha256": "5705c62eada497571b4d6faa2e78d56bb2065e0c4e02576cb7e8472db508b073",
+      "bytes": 1063
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/rejected/synth__fable-5-1__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/rejected/synth__fable-5-1__rep1.md",
+      "git_blob_sha1": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/rejected/synth__opus-5__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/rejected/synth__opus-5__rep1.md",
+      "git_blob_sha1": "67607f77521ab9e44bb17bc1ff509d1836a90dc9",
+      "sha256": "d9b4e20b455058954eef8519b8b184efd762cf3cb233fd75338c2a3f9e8a8ac4",
+      "bytes": 633
+    },
+    {
+      "path": "benchmark/graded_inputs/synth_b120/synth__gpt-5.6-sol__rep1.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/synth_b120/synth__gpt-5.6-sol__rep1.md",
+      "git_blob_sha1": "9b3298f07e324c884ec5dd3e886586197fbbf801",
+      "sha256": "e23d57b71f9be37b7e5813a20fcb33a9dcbe9f4d1a61fee451831bf3b5e877b6",
+      "bytes": 23722
+    },
+    {
+      "path": "docs/artifacts/inspect-logs.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/docs/artifacts/inspect-logs.md",
+      "git_blob_sha1": "f9fe7b203e2b9c36ba1429e1e3ee048a7815203d",
+      "sha256": "1eb7029f89f0a23c0c177cff86a2893f8198f13d293deb23af950caced536121",
+      "bytes": 1857
+    },
+    {
+      "path": "docs/benchmark-data-index.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/docs/benchmark-data-index.md",
+      "git_blob_sha1": "3bec53c3af0ddfb16eaab4c20ed4ee9c097aeb52",
+      "sha256": "d74cf8154611b43e06694fdcec47c2352df759bb37deb9feea9f879e2907c82f",
+      "bytes": 3445
+    },
+    {
+      "path": "experiments/ablations.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/experiments/ablations.md",
+      "git_blob_sha1": "6c8ef7da70b3a01d1216c9c0c42f8ab62850d9a6",
+      "sha256": "a0f480a184bc9f1babe6052ea8643fd660f225b14af7907f9e6b614d33a9d33a",
+      "bytes": 3570
+    },
+    {
+      "path": "experiments/provider_swap.toml",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/experiments/provider_swap.toml",
+      "git_blob_sha1": "3011e79102f9b00f5c5d62afa9a230b3d18c4296",
+      "sha256": "8f96de5c726ca14a96bed566e749bcb131fa477c701794193ab71b09b2a22f4c",
+      "bytes": 2062
+    },
+    {
+      "path": "experiments/round4.toml",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/experiments/round4.toml",
+      "git_blob_sha1": "cb8295c312c69020e0c5e08fc5502f25dcff3b54",
+      "sha256": "66d2d03072626863182414bc9a29358c1633361b792d5b52cb8f683c46abd151",
+      "bytes": 2385
+    },
+    {
+      "path": "reports/followup-5k-min5/codex/index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/followup-5k-min5/codex/index.jsonl",
+      "git_blob_sha1": "0f60ff13cd24359f8adc1b4920dfba0135cce36e",
+      "sha256": "922e56fa056e5419772deb0cc62418ac382e87e2a731ba85bb32fbe7aa34af92",
+      "bytes": 67950
+    },
+    {
+      "path": "reports/followup-5k-min5/react/index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/followup-5k-min5/react/index.jsonl",
+      "git_blob_sha1": "a30d1408048f7264d2569b19ea83ac6cb6dfd9e0",
+      "sha256": "ee17aa861aa88fcf8ff207e2d6b1f11622f178f7107a4833e007201573f2c9a8",
+      "bytes": 79137
+    },
+    {
+      "path": "reports/followup-5k/codex/index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/followup-5k/codex/index.jsonl",
+      "git_blob_sha1": "0cd2f1ffa1e650545823f2eb10ce7eb14b5a17e9",
+      "sha256": "48bbf7678d5cf270a4b7641733d7d5f7ce1fa16a27c993e5f15328f9929ee37a",
+      "bytes": 7384
+    },
+    {
+      "path": "reports/followup-5k/react/index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/followup-5k/react/index.jsonl",
+      "git_blob_sha1": "c7df9261e4452df3960e20472ca077d76ba42b7f",
+      "sha256": "3134b8623574e255cc690ebd268717f6e76537e2ae46669dacd58601daa30199",
+      "bytes": 5949
+    },
+    {
+      "path": "reports/index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/index.jsonl",
+      "git_blob_sha1": "796ae7206a28dd5c6cc80e2244e3bfde9bca1afe",
+      "sha256": "664fdbee8537b8126bd47d96ee0795eabe54cacc970ccf2404bf619fcb0ed452",
+      "bytes": 49951
+    },
+    {
+      "path": "reports/provider_swap/index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/provider_swap/index.jsonl",
+      "git_blob_sha1": "c614a1277f3e747f3bafb0b5bff4e8507291d2d7",
+      "sha256": "7058ba1473ae272dc55325d7a9092806d5b0d3fe0a0b0dc6a7e7b36d0bcbcd79",
+      "bytes": 96069
+    },
+    {
+      "path": "reports/round4/index.jsonl",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/round4/index.jsonl",
+      "git_blob_sha1": "2511d41ab70242b8f089383836e9d76e5bafeadb",
+      "sha256": "597ae55defc06a58b83c7ced38ffcc2b13c9c388d2e49b2116676b78e18c0a7e",
+      "bytes": 161640
+    },
+    {
+      "path": "viewers/figures/results_figures.md",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/viewers/figures/results_figures.md",
+      "git_blob_sha1": "83b204cf557e95bad630d259b8b5b3c4368a385c",
+      "sha256": "a0a41c2476def77977bd62f65e293179f57f023d9b9af58ffffd9941ac66b7be",
+      "bytes": 1352
+    }
+  ]
+}

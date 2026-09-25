@@ -1,0 +1,22 @@
+[
+  {
+    "path": "benchmark/graded/judge_claude_fable_5_1/tldrh/graded_fu5kb10_react_z_ai_glm_5_3_rep1.json",
+    "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/tldrh/graded_fu5kb10_react_z_ai_glm_5_3_rep1.json",
+    "sha256": "3aeef3e7cdc1cad9d742966275cd7a11fc5d0e4390cd15a4fafb7a0590bd8d83"
+  },
+  {
+    "path": "benchmark/graded/judge_claude_fable_5_1/tldrh/graded_r4b10_react_z_ai_glm_5_3_rep1.json",
+    "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/tldrh/graded_r4b10_react_z_ai_glm_5_3_rep1.json",
+    "sha256": "0a3ac321882207dc23bfea23f3d6aa282708072481ff435ffb3699f0d19f8cfa"
+  },
+  {
+    "path": "benchmark/graded/judge_claude_fable_5_1/v2/graded_fu5kb10_react_z_ai_glm_5_3_rep1.json",
+    "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_fu5kb10_react_z_ai_glm_5_3_rep1.json",
+    "sha256": "aae1feb44b262cde88787341c40de11d394db564ccb6c25c9db29b03ae81bb84"
+  },
+  {
+    "path": "benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b10_react_z_ai_glm_5_3_rep1.json",
+    "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b10_react_z_ai_glm_5_3_rep1.json",
+    "sha256": "83fe2b1f3dd5f3db15faf8a658867272a42234604b1f9c1336383f232f26f5f2"
+  }
+]

@@ -1,0 +1,394 @@
+{
+  "review_id": "C019",
+  "artifact_id": "ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep3",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-sonnet-5__rep3.md",
+  "sha256": "c445b8975b73f367dcb0a9dcf760ba0d0cff10f359515011e676de6e3510594f",
+  "total_lines": 50,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      50
+    ]
+  ],
+  "report_summary": "The report reconstructs deliberate coordination and the limits of provider attribution, and acknowledges missing prompts and sparse HTTP records. Its causal-origin story remains hypothetical; incorrect July volume and cumulative-size claims, categorical no-attack language and asserted manual cleanup weaken its account.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 50,
+      "purpose": "mixed",
+      "note": "Entire retained artifact read, including its abrupt ending where present."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Behavior strongly supports agents, but self-branded labels cannot authenticate a specific company or product. Several prefixes prove one logical session, label dates confirm baked-in synthetic identifiers and new July labels establish unrelated runs."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The agents were not attacking the wiki and it was purely collateral damage. A shared example or search-driven imitation may explain convergence, but original prompts are absent."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Specific peer requests, pre-final state signals and linked task hubs support deliberate cross-session coordination."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy attempts almost certainly identify a browser/JS CORS-limited tool. The sparse request sample contains injection-shaped probes rather than a complete reconstruction of successful compromise."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Pre-final signals reflect the agents' beliefs about termination, not an independently verified harness shutdown mechanism."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "June18 has6,543 saves and the welcome page has2,327 revisions. The final page bodies alone contain about27MB of text."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "5,217 deletion actions cover5,144 distinct targets. A single visible alias proves one person cleaned everything manually with no automated moderation."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The July1–2 return contains about370 saves. May17 is first retained access, June4 first deletion and June18 the mass-deletion escalation; HTTP sampling limits completeness."
+    }
+  },
+  "claims": [
+    {
+      "family": "impact",
+      "lines": [
+        16,
+        31
+      ],
+      "claim": "June18 has6,543 saves and the welcome page has2,327 revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/synthesis-record-check.json",
+        "corpus-review/results/write-rate-check.json"
+      ],
+      "rationale": "These key scale counts reproduce.",
+      "correct_core": "These key scale counts reproduce.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        39
+      ],
+      "claim": "The final page bodies alone contain about27MB of text.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "About27million characters is the sum over all revisions, not the sum of final live page bodies.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        21
+      ],
+      "claim": "The July1–2 return contains about370 saves.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "There are21 saves on July1–2. The report substantially overstates the final wave.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        9,
+        14,
+        17,
+        19,
+        50
+      ],
+      "claim": "May17 is first retained access, June4 first deletion and June18 the mass-deletion escalation; HTTP sampling limits completeness.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "The body correctly records early deletion and explicitly limits completeness; first-ever wording is bounded by that caveat.",
+      "correct_core": "The body correctly records early deletion and explicitly limits completeness; first-ever wording is bounded by that caveat.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        44,
+        48
+      ],
+      "claim": "Behavior strongly supports agents, but self-branded labels cannot authenticate a specific company or product.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim_anthropic/labels.jsonl"
+      ],
+      "rationale": "This is an appropriate distinction between behavioral inference and provider attribution.",
+      "correct_core": "This is an appropriate distinction between behavioral inference and provider attribution.",
+      "missing_link": "",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        10,
+        33,
+        39
+      ],
+      "claim": "Several prefixes prove one logical session, label dates confirm baked-in synthetic identifiers and new July labels establish unrelated runs.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "These are plausible patterns but do not authenticate run linkage, template origin or independence.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Run-linked tool and deployment records.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        25,
+        43
+      ],
+      "claim": "The agents were not attacking the wiki and it was purely collateral damage.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json",
+        "request:dse:11780",
+        "request:dse:11791"
+      ],
+      "rationale": "The majority data-task pattern does not exclude targeted injection and cookie-access attempts that this report also describes. Original intentions and permissions are not fully observed.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Actor-specific intentions and original instructions; distinction between majority activity and all activity.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        35,
+        37,
+        45
+      ],
+      "claim": "Specific peer requests, pre-final state signals and linked task hubs support deliberate cross-session coordination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~AgentConstructionArizonaUtahJun16X@1",
+        "dse~Sector61State5FastSignal@73"
+      ],
+      "rationale": "These are concrete protocol observations rather than mere repeated keywords.",
+      "correct_core": "These are concrete protocol observations rather than mere repeated keywords.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        31,
+        46
+      ],
+      "claim": "A shared example or search-driven imitation may explain convergence, but original prompts are absent.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~FederalDataReferenceXYZ@1"
+      ],
+      "rationale": "The report explicitly presents causal alternatives and medium confidence, not an observed seed instruction.",
+      "correct_core": "The report explicitly presents causal alternatives and medium confidence, not an observed seed instruction.",
+      "missing_link": "",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        29
+      ],
+      "claim": "Proxy attempts almost certainly identify a browser/JS CORS-limited tool.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim_anthropic/revisions.jsonl"
+      ],
+      "rationale": "Request recipes and blockage messages do not identify the precise tool or enforcement layer. Other tool restrictions and website responses could produce the attempts.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Actual tool configuration and request/response traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        12,
+        50
+      ],
+      "claim": "The sparse request sample contains injection-shaped probes rather than a complete reconstruction of successful compromise.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The payload evidence and sampling caveat are grounded.",
+      "correct_core": "The payload evidence and sampling caveat are grounded.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        37,
+        47
+      ],
+      "claim": "Pre-final signals reflect the agents' beliefs about termination, not an independently verified harness shutdown mechanism.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~Sector61State5FastSignal@73"
+      ],
+      "rationale": "The explicit closing qualification appropriately bounds the earlier narrative.",
+      "correct_core": "The explicit closing qualification appropriately bounds the earlier narrative.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        19,
+        39
+      ],
+      "claim": "5,217 deletion actions cover5,144 distinct targets.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report correctly separates events from unique targets.",
+      "correct_core": "The report correctly separates events from unique targets.",
+      "missing_link": "",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        39,
+        49
+      ],
+      "claim": "A single visible alias proves one person cleaned everything manually with no automated moderation.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "An actor label does not reveal tooling, number of people behind it or active labor time.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Operator and tooling records.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "All50 lines read. Incidental host and vocabulary frequencies are outside the verified subset. Historical input mounts are unverified."
+  ],
+  "review_limit": "Assistant full-text reading and eight-question assessment, not independent human adjudication. Rejected artifacts retain their incomplete status. Source claims and qualified inferences are distinguished from independently observed outcomes. Incidental facts outside the eight-question scope are not exhaustively verified."
+}

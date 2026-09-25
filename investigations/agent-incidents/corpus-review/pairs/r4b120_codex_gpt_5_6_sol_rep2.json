@@ -1,0 +1,248 @@
+{
+  "parent": "r4b120_codex_gpt_5_6_sol_rep2",
+  "followup": "fu5kb120_codex_gpt_5_6_sol_rep2",
+  "parent_review_id": "C235",
+  "followup_review_id": "C070",
+  "parent_sha256": "d4d3a4e81c7937973d793ec5536d8d641bfb6497c2d494ff0ce7bc1101785339",
+  "followup_sha256": "3b0611bb6dbd87bfd5190ad1a9c09b57edc74da3ee67fd0d188bd002be9b7fdf",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation retains uncertain provider, instance and lookalike-name attribution.",
+      "parent_lines": [
+        35,
+        69,
+        77,
+        81
+      ],
+      "followup_lines": [
+        41,
+        45,
+        97,
+        101,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "The task-friction mechanism remains plausible and specific restriction types remain uncertain.",
+      "parent_lines": [
+        3,
+        43,
+        73,
+        75,
+        89
+      ],
+      "followup_lines": [
+        49,
+        51,
+        53,
+        55,
+        57
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation preserves concrete receipt/use reports and corrections.",
+      "parent_lines": [
+        19,
+        49,
+        55,
+        57,
+        59
+      ],
+      "followup_lines": [
+        33,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Failed predictions and incompatible source values remain visible instead of becoming confirmed seed recovery.",
+      "parent_lines": [
+        51,
+        53
+      ],
+      "followup_lines": [
+        33,
+        67,
+        69,
+        71,
+        73,
+        75,
+        77
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Ten-second command survival stays separate from unproved terminal-answer survival.",
+      "parent_lines": [
+        63,
+        65,
+        67
+      ],
+      "followup_lines": [
+        81,
+        83,
+        85,
+        87
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "superseded",
+      "rationale": "The parent's instruction-influence risk becomes a categorical specification-gaming/prompt-injection conclusion despite absent governing instructions.",
+      "parent_lines": [
+        65
+      ],
+      "followup_lines": [
+        3,
+        59,
+        83,
+        95,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Exploit and local-fetch attempts remain separated from confirmed execution or returned private data.",
+      "parent_lines": [
+        25,
+        81,
+        87
+      ],
+      "followup_lines": [
+        27,
+        105,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation keeps preexisting/new keys and cumulative-versus-snapshot distinctions.",
+      "parent_lines": [
+        5,
+        33,
+        83,
+        85
+      ],
+      "followup_lines": [
+        5,
+        39,
+        107,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "superseded",
+      "rationale": "Unknown token sensitivity remains acknowledged, but the continuation newly assigns expiry/session-binding causes and handling intent from token churn.",
+      "parent_lines": [
+        87
+      ],
+      "followup_lines": [
+        19,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Repeated-delete versus intervening-save counts and cleanup overlap are retained.",
+      "parent_lines": [
+        27,
+        83
+      ],
+      "followup_lines": [
+        29,
+        31,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "superseded",
+      "rationale": "The parent labels cessation cause a medium hypothesis; the continuation adds the categorical claim that cleanup could not compete, exceeding intermediate recurrence.",
+      "parent_lines": [
+        89
+      ],
+      "followup_lines": [
+        113,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    }
+  ],
+  "new_followup_claim_indices": [
+    11
+  ],
+  "summary": "The continuation preserves strong transfer and process-lifetime analysis, while its thesis and credential interpretation become more categorical than the parent. New chronology detail appropriately distinguishes restorations, first deletions and the bulk restart.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

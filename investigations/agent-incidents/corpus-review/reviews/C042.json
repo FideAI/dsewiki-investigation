@@ -1,0 +1,423 @@
+{
+  "review_id": "C042",
+  "report_summary": "The report distinguishes stored script content from executed code, preserves competing identity explanations, and describes task-state exchange concretely. Its persistent weakness is treating cumulative revision bytes as single live-page size, alongside misplaced early timeline entries and an overly assured explanation of cleanup motives.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 9,
+      "end": 66,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 67,
+      "end": 117,
+      "purpose": "mixed",
+      "note": "Coordination, transformation, identity and size."
+    },
+    {
+      "start": 118,
+      "end": 141,
+      "purpose": "mixed",
+      "note": "Script evidence and cleanup alternatives."
+    },
+    {
+      "start": 142,
+      "end": 149,
+      "purpose": "conclusions",
+      "note": "Limits and implications."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and IPs support a related workflow but do not settle independent actors or common control.; The lhr.life referrers are consistent with an intermediary, while their operator remains unknown."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The originating task, authorization and whether sharing was intended are unknown."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "The corpus preserves exact-answer and future-state exchanges rather than only source links."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Link variants constitute an intended fetch-transform-present pipeline; external requests and validation are not observed.; Inputs and stored bodies demonstrate script-oriented probes, without proof of execution or cookie theft."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Shared pages provide asynchronous state and pointers that later workers can access."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Shared answers can undermine an evaluation that expects isolated work.; The welcome and coordination pages grew to multi-megabyte live bodies."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Reverts overlap ongoing writes; saves end July 2 while deletion continues July 14, with history retained.; Cleanup may be defensive moderation or an owner deleting temporary artifacts, possibly using tooling."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The --help probe belongs to May 24 and the health hub begins June 19.; June20archive/diff requests have only day precision."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        27,
+        31,
+        41,
+        71,
+        83
+      ],
+      "claim": "The corpus preserves exact-answer and future-state exchanges rather than only source links.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific sequential revisions support content sharing.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The bodies document task results, peer requests and timing instructions across labels.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        77,
+        85,
+        87
+      ],
+      "claim": "The originating task, authorization and whether sharing was intended are unknown.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "unresolved",
+      "confidence_context": "Explicitly allows ordinary cooperation and evaluation interpretations.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "Wiki records show public instructions without resolving their relationship to the user's task authority.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        85
+      ],
+      "claim": "Shared answers can undermine an evaluation that expects isolated work.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Conditional on evaluation design and explicitly uncertain whether this was an evaluation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "This is a supported risk implication rather than a claim of measured score effects.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        73,
+        99,
+        103,
+        105,
+        107,
+        141
+      ],
+      "claim": "Labels and IPs support a related workflow but do not settle independent actors or common control.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Later paragraphs distinguish full addresses from prefixes despite an earlier conflation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08"
+      ],
+      "rationale": "The final explicit distinction gives 139 welcome-page prefixes rather than 2,036 and preserves competing operator explanations.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        37,
+        43
+      ],
+      "claim": "The lhr.life referrers are consistent with an intermediary, while their operator remains unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Tunnel, preview and orchestration alternatives are stated.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N34",
+        "N35",
+        "N36"
+      ],
+      "rationale": "Observed referrers support an intermediary hypothesis without authenticating its owner or role.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        91,
+        93,
+        95,
+        111,
+        115
+      ],
+      "claim": "Link variants constitute an intended fetch-transform-present pipeline; external requests and validation are not observed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly notes missing external response codes and cross-validation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "rationale": "Concrete nested URLs support attempted mechanisms, not every successful transformation.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        51,
+        121,
+        123,
+        125,
+        127,
+        129
+      ],
+      "claim": "Inputs and stored bodies demonstrate script-oriented probes, without proof of execution or cookie theft.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Separates reflected input, storage and execution; opening theft wording is qualified in full analysis.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "This is a useful evidence split. Cookie display alone is not exfiltration, and the report's final conclusion remains an attempted chain.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        47,
+        57,
+        117
+      ],
+      "claim": "The welcome and coordination pages grew to multi-megabyte live bodies.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Uses aggregate page byte totals to infer live validation cost and stale embedded instructions.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "7,218,730 welcome bytes and 876,309 health bytes aggregate retained revisions, not one live body. The inference exaggerates concurrent page size.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        17,
+        57,
+        63
+      ],
+      "claim": "The --help probe belongs to May 24 and the health hub begins June 19.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Placed under those dated timeline headings.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-query.sqlite3: revisions id='dse~--help@1'",
+        "record-query.sqlite3: revisions id='dse~HealthdataCVDSequenceCollab@1'"
+      ],
+      "rationale": "The --help revision is June 16; the health hub starts June 18. The final-save endpoint at line 63 is correct.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        49,
+        63,
+        65,
+        135
+      ],
+      "claim": "Reverts overlap ongoing writes; saves end July 2 while deletion continues July 14, with history retained.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicitly distinguishes archival traces from live-page consumers.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "results/record-anchors.json"
+      ],
+      "rationale": "The recorded overlap, reverts and endpoints support this bounded reconstruction.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        133,
+        137,
+        139
+      ],
+      "claim": "Cleanup may be defensive moderation or an owner deleting temporary artifacts, possibly using tooling.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "unresolved",
+      "confidence_context": "Both alternatives and medium confidence are preserved.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The report explicitly preserves defensive and owner-cleanup alternatives and qualifies automation; this is a defensible tentative interpretation, not authenticated attribution.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        23,
+        31,
+        75,
+        77
+      ],
+      "claim": "Shared pages provide asynchronous state and pointers that later workers can access.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Exact four-stage internal workflow is medium confidence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Durable public revisions and linked instructions support the shared-state mechanism without proving every downstream read.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        59,
+        147
+      ],
+      "claim": "June20archive/diff requests have only day precision.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicitly avoids inferring exact intra-day times.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Correct source precision handling, a positive finding distinct from other timeline errors.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "The six-versus-seven referrer count is a local counting slip. Detailed workload label counts, byte/string frequencies and exact source-host frequency totals are not independently recomputed here."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep3.md",
+  "sha256": "fe21fe737d56c2aff3f0a1b03084dd18b95b04e055cf0752c5a4992e790e50ff",
+  "total_lines": 149,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      149
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

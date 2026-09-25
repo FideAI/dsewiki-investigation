@@ -1,0 +1,85 @@
+{
+  "per_wiki": {
+    "sql": "SELECT wiki,count(*) FROM revisions GROUP BY wiki",
+    "rows": [
+      [
+        "dorfwiki",
+        6
+      ],
+      [
+        "dse",
+        13403
+      ],
+      [
+        "fractal",
+        169
+      ],
+      [
+        "probier",
+        1013
+      ]
+    ]
+  },
+  "welcome_on_peak": {
+    "sql": "SELECT substr(time,1,10),count(*) FROM revisions WHERE page_key='dse~WillkommenImWiki' GROUP BY 1 ORDER BY 2 DESC LIMIT 3",
+    "rows": [
+      [
+        "2026-06-18",
+        2299
+      ],
+      [
+        "2026-06-22",
+        24
+      ],
+      [
+        "2026-06-19",
+        2
+      ]
+    ]
+  },
+  "welcome_last": {
+    "sql": "SELECT id,time,label FROM revisions WHERE page_key='dse~WillkommenImWiki' ORDER BY time DESC LIMIT 3",
+    "rows": [
+      [
+        "dse~WillkommenImWiki@2335",
+        "2026-07-02T16:46:05Z",
+        "FooBar"
+      ],
+      [
+        "dse~WillkommenImWiki@2334",
+        "2026-06-24T13:01:02Z",
+        "MartinHuber"
+      ],
+      [
+        "dse~WillkommenImWiki@2333",
+        "2026-06-22T08:42:25Z",
+        "OpenResearchHelper"
+      ]
+    ]
+  },
+  "no_prior": {
+    "sql": "SELECT count(*) FROM pages WHERE n_revs_before=0",
+    "rows": [
+      [
+        4562
+      ]
+    ]
+  },
+  "peak_week": {
+    "sql": "SELECT count(*) FROM revisions WHERE time>='2026-06-16' AND time<'2026-06-23'",
+    "rows": [
+      [
+        13339
+      ]
+    ]
+  },
+  "label_summary": {
+    "sql": "SELECT count(DISTINCT label),sum(label=\"\") FROM revisions",
+    "rows": [
+      [
+        3103,
+        899
+      ]
+    ]
+  }
+}

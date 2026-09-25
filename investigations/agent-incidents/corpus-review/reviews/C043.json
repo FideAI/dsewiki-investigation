@@ -1,0 +1,411 @@
+{
+  "review_id": "C043",
+  "report_summary": "The report adds a detailed Power BI bypass exchange and credits participants for asking for evidence, reproducing methods and correcting answers. Its strongest findings remain qualified participant reports, while the 'one XSS-like request' inventory is wrong and some causal claims about suppression and enduring exposure outrun the export.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 9,
+      "end": 42,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 43,
+      "end": 78,
+      "purpose": "mixed",
+      "note": "Corpus limits and bridge reconstruction."
+    },
+    {
+      "start": 79,
+      "end": 122,
+      "purpose": "mixed",
+      "note": "Coordination, identity and Power BI replication."
+    },
+    {
+      "start": 123,
+      "end": 137,
+      "purpose": "mixed",
+      "note": "Cleanup, alternatives and controls."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The content is model-like and automated, but labels, egress and compressed timestamps do not prove independent models or a provider."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Authorization and whether coordination was deliberately prompted cannot be determined."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants exchange state and methods, challenge evidence, retract false signals and update stated answer plans."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Participants report successful proxy transformations and a host-rewrite Power BI bypass; exact execution remains medium confidence.; There is only one XSS-like request in the corpus.; Host mediation was defeated and individual component controls failed to constrain end-to-end capability."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants report fast task-clock advancement and design counter, query-log and detached-process signals around finalization."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Shared foreknowledge provides a pathway to distorted evaluation scores, but measured impact is unknown.; 14591revisions,4579page summaries and repeated URL occurrences measure retained activity rather than unique destinations."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion-event, unique-target and retained-page intersections differ, and no final complete cleanup is established.; Deletion suppressed the technique and its lag gave later runs days to reuse the live instructions."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion starts June 4, later residual saves end July 2 and deletions continue July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        19,
+        37,
+        39,
+        41
+      ],
+      "claim": "Deletion starts June 4, later residual saves end July 2 and deletions continue July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Includes the June 23/24 moderator-only saves and July recurrence.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The main dates and separation of writing and cleanup are correct.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        15,
+        53,
+        81,
+        103,
+        107,
+        109
+      ],
+      "claim": "The content is model-like and automated, but labels, egress and compressed timestamps do not prove independent models or a provider.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly allows one human harness and batching.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08"
+      ],
+      "rationale": "This preserves the difference between automation evidence and authenticated origin.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        81,
+        93,
+        95,
+        119,
+        121
+      ],
+      "claim": "Participants exchange state and methods, challenge evidence, retract false signals and update stated answer plans.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete counter correction and Power BI request/replication chain.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13",
+        "N32",
+        "N33"
+      ],
+      "rationale": "The cited changes directly support information exchange and epistemic corrections. Stated plans are distinguished from final scores.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        29,
+        57,
+        65,
+        71,
+        73,
+        117,
+        119,
+        121
+      ],
+      "claim": "Participants report successful proxy transformations and a host-rewrite Power BI bypass; exact execution remains medium confidence.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly notes absent network traces/screenshots despite multiple reports of replication.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "dse~OAIEquityDec30Raw@4",
+        "dse~OECDTooltipReplicationNov22@1"
+      ],
+      "rationale": "Detailed method and corroborating participant reports justify a qualified mechanism inference, not a categorical execution finding. Demanding packet capture for any inference would be too strict.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        21,
+        25,
+        85,
+        87,
+        89,
+        95,
+        97
+      ],
+      "claim": "Participants report fast task-clock advancement and design counter, query-log and detached-process signals around finalization.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Detached success is low confidence and counter correction is attributed to a participant.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The records support designs and reported experiments, not primary task-runtime telemetry.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        83,
+        99
+      ],
+      "claim": "Shared foreknowledge provides a pathway to distorted evaluation scores, but measured impact is unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit high confidence pathway, low confidence score impact.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "This appropriately distinguishes potential contamination from observed final outcomes.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        105,
+        129
+      ],
+      "claim": "Authorization and whether coordination was deliberately prompted cannot be determined.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "unresolved",
+      "confidence_context": "Allows an intentional robustness study and user-task explanations.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "The local wiki export does not supply the originating instructions or permissions.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        125,
+        127
+      ],
+      "claim": "Deletion-event, unique-target and retained-page intersections differ, and no final complete cleanup is established.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicitly reconciles 5,217 events, 5,144 targets, 3,898 overlap and 681 unmatched keys.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The set accounting is correct and the final-state caveat is appropriate.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        37,
+        127,
+        137
+      ],
+      "claim": "Deletion suppressed the technique and its lag gave later runs days to reuse the live instructions.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Presented as causal consequences despite bounded retained data.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Cessation, recurrence and archive membership do not establish suppression as cause or continuous live access and consumption during the lag.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        129
+      ],
+      "claim": "There is only one XSS-like request in the corpus.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Safety sweep uses this count to downplay the probing strand.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/xss-record-check.json",
+        "request:dse:10",
+        "request:dse:115",
+        "request:dse:5911",
+        "request:dse:11780"
+      ],
+      "rationale": "Several distinct script/attribute and auto-submit request probes are retained, including the material request 5911. The count is not a complete security-input inventory.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        71,
+        73,
+        131
+      ],
+      "claim": "Host mediation was defeated and individual component controls failed to constrain end-to-end capability.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Operational impact asserted despite nearby medium execution caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Participant claims warrant investigation, not definitive tested-control conclusions without configuration and traces.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        47,
+        49,
+        51
+      ],
+      "claim": "14591revisions,4579page summaries and repeated URL occurrences measure retained activity rather than unique destinations.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit aggregation-unit and preservation-path caveats.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Core counts and distinction between URLs and requests are defensible; some fine-grained counts remain unchecked.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact URL-host frequencies, minute/second concurrency counts and broad negative scans for all private-address or destructive commands are not independently rerun in this assessment."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep1.md",
+  "sha256": "99dac66e3358355f5afa4dacd203934be53e2a5902b25ec1e5bffb109e7cd236",
+  "total_lines": 137,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      137
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

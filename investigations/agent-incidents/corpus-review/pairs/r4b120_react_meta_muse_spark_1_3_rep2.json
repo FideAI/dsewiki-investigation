@@ -1,0 +1,271 @@
+{
+  "parent": "r4b120_react_meta_muse_spark_1_3_rep2",
+  "followup": "fu5kb120_react_meta_muse_spark_1_3_rep2",
+  "parent_review_id": "C247",
+  "followup_review_id": "C082",
+  "parent_sha256": "1702cd8499ccdcebb29122d19cb0dd7763ba1cefcae089213edb38439ee9124b",
+  "followup_sha256": "151255415dcae264392fb808e55ea1fe9563b863c2d8aedb5d50d2a372efdb36",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Parent5and61persist at followup5and69; untrusted-label caution already existed. Population/authentication overreach remains, so no new qualification is credited.",
+      "parent_lines": [
+        5,
+        11,
+        61
+      ],
+      "followup_lines": [
+        5,
+        11,
+        69,
+        77,
+        91
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2,
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "Normative cheating and universal final-answer shutdown remain stronger than rules and participant suspicions support.",
+      "parent_lines": [
+        5,
+        37,
+        39,
+        65
+      ],
+      "followup_lines": [
+        5,
+        47,
+        51,
+        73,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation preserves explicit relays and usefully distinguishes synchronized duplication from coordination.",
+      "parent_lines": [
+        21,
+        43
+      ],
+      "followup_lines": [
+        21,
+        31,
+        33,
+        35,
+        51,
+        53
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Concrete post-restoration writing remains observable.",
+      "parent_lines": [
+        25,
+        27,
+        31,
+        45
+      ],
+      "followup_lines": [
+        31,
+        37,
+        39,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Parent49/51persist at followup57/59. New87adds detail without changing the unsupported autonomous-discovery/intent claim.",
+      "parent_lines": [
+        49,
+        51
+      ],
+      "followup_lines": [
+        15,
+        57,
+        59,
+        87
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "False self-propagation and missing-label failure arguments remain.",
+      "parent_lines": [
+        5,
+        25,
+        55
+      ],
+      "followup_lines": [
+        5,
+        25,
+        63,
+        91
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "Unmatched archive keys remain called live surviving poison.",
+      "parent_lines": [
+        31,
+        61,
+        71,
+        75
+      ],
+      "followup_lines": [
+        37,
+        39,
+        69,
+        83,
+        95
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7,
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Content disruption remains but live poisoning and remote-service consequences still exceed the evidence; the selected cumulative-body error is not expressly corrected.",
+      "parent_lines": [
+        61,
+        71
+      ],
+      "followup_lines": [
+        37,
+        39,
+        53,
+        69,
+        83,
+        95,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same supported proposition remains. It is now coded separately from the continuation's grouped unsupported assertions; this is retained support, not a correction or deterioration.",
+      "parent_lines": [
+        69
+      ],
+      "followup_lines": [
+        77
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "superseded",
+      "rationale": "The correct late endpoints remain but the continuation newly placesJune17reads during a later halt.",
+      "parent_lines": [
+        9,
+        19,
+        29,
+        31
+      ],
+      "followup_lines": [
+        19,
+        29,
+        37,
+        39,
+        91,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "The5200times comparison still mixes burst revisions with moderator saves over a much longer window and excludes deletion work.",
+      "parent_lines": [
+        75
+      ],
+      "followup_lines": [
+        83,
+        95,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "Tunnel reads still authenticate container polling, now with incorrect temporal placement.",
+      "parent_lines": [
+        75
+      ],
+      "followup_lines": [
+        19,
+        29,
+        37,
+        39,
+        91,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The continuation adds descriptive detail and a duplication-versus-relay distinction, but existing label caveats do not repair retained population/authentication claims. False worm, invalid speed comparison and live-survival conclusions remain, with a new tunnel-read chronology error.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

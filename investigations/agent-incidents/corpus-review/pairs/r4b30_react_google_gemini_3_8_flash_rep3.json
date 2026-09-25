@@ -1,0 +1,287 @@
+{
+  "parent": "r4b30_react_google_gemini_3_8_flash_rep3",
+  "followup": "fu5kb30_react_google_gemini_3_8_flash_rep3",
+  "parent_review_id": "C284",
+  "followup_review_id": "C106",
+  "parent_sha256": "b33b015f481e456bb9e15771337bd7722ff62eec00b5543c355f027b5de0018b",
+  "followup_sha256": "6eecfeab9fa9f76bd3eb2714161c9e267b52ff2f328cc1f25929af52a269fbcb",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "superseded",
+      "rationale": "The parent inferred infrastructure; the follow-up claims confirmed per-task elastic containers and dynamic NAT.",
+      "parent_lines": [
+        5,
+        11,
+        38
+      ],
+      "followup_lines": [
+        3,
+        180,
+        181,
+        183
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3,
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "Plausible impersonation is retained, but the unsupported page-modification claim persists.",
+      "parent_lines": [
+        29,
+        109
+      ],
+      "followup_lines": [
+        67,
+        173
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Day precision is still turned into an exact noon event.",
+      "parent_lines": [
+        29,
+        109
+      ],
+      "followup_lines": [
+        67,
+        173
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Shared values and participant confirmations remain.",
+      "parent_lines": [
+        45,
+        55,
+        56,
+        58,
+        60
+      ],
+      "followup_lines": [
+        39,
+        49,
+        55,
+        65,
+        108,
+        112,
+        114,
+        130
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "Inflated passing outcomes remain asserted without grading evidence.",
+      "parent_lines": [
+        56,
+        63,
+        115
+      ],
+      "followup_lines": [
+        3,
+        111,
+        124,
+        196
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "Possible final termination remains a definite instant-container-kill mechanism.",
+      "parent_lines": [
+        66
+      ],
+      "followup_lines": [
+        39,
+        97,
+        127,
+        130
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Pre-answer and alternate-channel designs remain concrete.",
+      "parent_lines": [
+        69,
+        72,
+        73,
+        74
+      ],
+      "followup_lines": [
+        39,
+        127,
+        130,
+        187
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Participant-reported proxy/counter bypasses remain a reasonable technical inference.",
+      "parent_lines": [
+        76,
+        78,
+        79,
+        80,
+        81
+      ],
+      "followup_lines": [
+        139,
+        146,
+        188
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "The exact6322/revision14pair is retained; a new wrong initial-request pairing is separate.",
+      "parent_lines": [
+        95
+      ],
+      "followup_lines": [
+        151,
+        158
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_problem",
+      "rationale": "Each-injection execution remains a stronger claim than the matched examples warrant.",
+      "parent_lines": [
+        23,
+        92,
+        93,
+        94,
+        95
+      ],
+      "followup_lines": [
+        3,
+        158,
+        161
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        17,
+        19
+      ],
+      "transition": "retained_supported",
+      "rationale": "Observed overwriting and deletion scale remain; new all26rollbacks and7.2MBsnapshot claims are separately counted.",
+      "parent_lines": [
+        102,
+        103,
+        105,
+        108
+      ],
+      "followup_lines": [
+        165,
+        166,
+        171
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        21
+      ],
+      "transition": "retained_problem",
+      "rationale": "The run-termination explanation remains unsupported.",
+      "parent_lines": [
+        17,
+        33
+      ],
+      "followup_lines": [
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        19
+      ],
+      "transition": "retained_supported",
+      "rationale": "Extended deletion throughJuly14 remains observed.",
+      "parent_lines": [
+        31,
+        33,
+        108
+      ],
+      "followup_lines": [
+        171
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    8,
+    12,
+    14,
+    16,
+    18,
+    20
+  ],
+  "summary": "The follow-up retains both the correct6322/save14temporal pair and the stronger execution claim. It introduces additional factual errors about the initialXSSpair, cumulative page size, moderator rollbacks and all-eight rapid OECD recreations.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

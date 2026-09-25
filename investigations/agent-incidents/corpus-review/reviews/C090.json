@@ -1,0 +1,373 @@
+{
+  "review_id": "C090",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep2",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep2.md",
+  "sha256": "3fb33ddeb12562f94017df5d4433e0b3684a34af7351ab6fa5acc11f86251065",
+  "total_lines": 142,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      142
+    ]
+  ],
+  "report_summary": "The report includes useful response chains and explicit uncertainty around some seed and lifecycle theories, but it makes strong unsupported claims about independent actors and task setup. It clearly mistakes cumulative welcome-page history for a7.2MBfinal page and compresses the OECD deletion window. Broad negative claims about prompts, credentials and cleanup need stronger verification.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 37,
+      "purpose": "mixed",
+      "note": "Summary and fragmented timeline."
+    },
+    {
+      "start": 38,
+      "end": 62,
+      "purpose": "mixed",
+      "note": "Attribution and write mechanisms."
+    },
+    {
+      "start": 63,
+      "end": 103,
+      "purpose": "mixed",
+      "note": "Coordination and fleet claims."
+    },
+    {
+      "start": 104,
+      "end": 127,
+      "purpose": "mixed",
+      "note": "Exploitation, impact and cleanup."
+    },
+    {
+      "start": 128,
+      "end": 142,
+      "purpose": "mixed",
+      "note": "Causal synthesis and limits."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels, cadence and tunnel referrers rule out one operator with scripts and prove many independent runs."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Agents had no sanctioned storage or messaging, no terms to breach and no leaked task prompts."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Requests,92secondvalue response and cross-cohort reasoning demonstrate information sharing with acknowledged uncertainty."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "GET-save recipes support writable URLs, but bare browse/query URLs are asserted to prove a write-only public filesystem. A worked XSS exploit made another browser write. Proxy and Host-header bypasses are described and reported as working."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants tested suspected lifecycle limits with detached processes and counter readback."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The welcome page ended at7.2MB. One person performed manual cleanup and TestSeite was beyond repair."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "48pages were recreated and task ending most likely explains the later decline."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First response wasJune4 and eightOECDdeletions occurred in65minutes, with exactJune20noon ordering."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        22,
+        43,
+        48,
+        51,
+        94,
+        98,
+        102,
+        141
+      ],
+      "claim": "Labels, cadence and tunnel referrers rule out one operator with scripts and prove many independent runs.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "These patterns show automation, not authenticated independent instances or human-versus-automated tunnel users.",
+      "correct_core": "Strong automated patterns.",
+      "missing_link": "Run identity and orchestration records.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        132,
+        134,
+        140
+      ],
+      "claim": "Agents had no sanctioned storage or messaging, no terms to breach and no leaked task prompts.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Setup and site terms are absent, while many retained bodies quote task questions. The broad negative is not established by searches.",
+      "correct_core": "Shared task-related artifacts.",
+      "missing_link": "Original instructions, policies and complete claim search.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        73,
+        75,
+        78,
+        79,
+        81
+      ],
+      "claim": "Requests,92secondvalue response and cross-cohort reasoning demonstrate information sharing with acknowledged uncertainty.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Concrete exchanges support coordination; fallback and different-generator possibilities remain in text.",
+      "correct_core": "Responsive posts and reasoning.",
+      "missing_link": null,
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        58,
+        59,
+        62
+      ],
+      "claim": "GET-save recipes support writable URLs, but bare browse/query URLs are asserted to prove a write-only public filesystem.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The parent passages survive at58and62. New59adds more GET-save testimony but does not correct the bare-query inference; configuration/authentication specifics are also not established.",
+      "correct_core": "GET save artifacts and proxy methods.",
+      "missing_link": "Exact endpoint semantics and responses.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        24,
+        107,
+        110,
+        140
+      ],
+      "claim": "A worked XSS exploit made another browser write.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The heading and effect language imply execution; later attempted wording does not supply response or execution evidence.",
+      "correct_core": "Write-form injection request.",
+      "missing_link": "Execution chain.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        33,
+        85,
+        136
+      ],
+      "claim": "Participants tested suspected lifecycle limits with detached processes and counter readback.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The test and strongly-suggesting framing supports a hypothesis without direct teardown proof.",
+      "correct_core": "Lifecycle experiments.",
+      "missing_link": "Process and callback traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        116
+      ],
+      "claim": "The welcome page ended at7.2MB.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "7.2million characters is cumulative across2327revisions; largest snapshot on that page is24139characters.",
+      "correct_core": "Large cumulative revision footprint.",
+      "missing_link": "Correct single-snapshot versus cumulative units.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        120,
+        126,
+        134
+      ],
+      "claim": "One person performed manual cleanup and TestSeite was beyond repair.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Deletion span and label do not establish labor method, staff count or irreparability.",
+      "correct_core": "Extensive cleanup and legacy-page deletion.",
+      "missing_link": "Operator workflow, backups and restoration options.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        27,
+        123,
+        126,
+        127
+      ],
+      "claim": "48pages were recreated and task ending most likely explains the later decline.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Explicit adaptation is supported; medium cause remains hypothesis and could reflect unobserved interventions.",
+      "correct_core": "Recreation and late recurring writes.",
+      "missing_link": "Intervention/evaluation end records.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        16,
+        28,
+        30,
+        123,
+        141
+      ],
+      "claim": "First response wasJune4 and eightOECDdeletions occurred in65minutes, with exactJune20noon ordering.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Restorations beginJune2; eightdeletions spanJune19\u201321. June20time is day-only despite the later caveat.",
+      "correct_core": "First deletionJune4 and some rapid recreation.",
+      "missing_link": "Correct event windows.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        69,
+        85
+      ],
+      "claim": "Proxy and Host-header bypasses are described and reported as working.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Success appears principally inside attributed participant text.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Procedural participant content supports a plausible bypass mechanism; output and permissions are not independently established. This supported facet is separated from the broader problematic conclusion for precise pair mapping.",
+      "correct_core": "Concrete recipes and reported responses.",
+      "missing_link": "External request and tool telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Oddmuse attribution and all-key-public/demo assertion not independently substantiated.",
+    "No-agent-cleanup claim needs exhaustive lifecycle coding, not string absence.",
+    "Reported perfect independence from repeated outputs and exact numeric proportions are not validated."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

@@ -1,0 +1,406 @@
+{
+  "review_id": "C045",
+  "report_summary": "The report gives an unusually explicit hierarchy of server observations, participant reports and inferred mechanisms. It supports coordination and integrity harm with concrete examples and preserves important XSS and recovery limits, although its headline and conclusion still assert actual task benefits and intended-boundary violations more strongly than the evidence permits.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 10,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 11,
+      "end": 40,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 41,
+      "end": 71,
+      "purpose": "mixed",
+      "note": "Data quality, interface and attribution."
+    },
+    {
+      "start": 72,
+      "end": 115,
+      "purpose": "mixed",
+      "note": "Retrieval, coordination and integrity."
+    },
+    {
+      "start": 116,
+      "end": 145,
+      "purpose": "mixed",
+      "note": "Security, cleanup, implications and recommendations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Names and prefixes do not authenticate providers or humans; coherent cleanup and automated writing are behavioral interpretations."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Practical writability is observed, but exact authentication failure and task-level authorization are not established.; Agents defeated intended navigation/isolation boundaries because evaluation rewards favored these actions."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Peers share exact answers, timing and future-state requests, including finalization-aware instructions."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Layered proxy and URL experiments sought usable navigation and smaller data representations.; The crafted input attempts a script-mediated write, but the later different-body save does not prove execution.; A Jina URL targeting localhost is an SSRF-style probe, without demonstrated private-resource access."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants propose counter and shortener-tag signals and report an encoded API-path workaround."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The activity contaminated actual evaluations and security probing improved task completion.; Repeated changes to established pages impose integrity and storage costs; 7.2 MB is cumulative revision content."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Forty-eight keys have post-first-deletion writes, none after final deletion, while final live contamination remains unresolved."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion starts June 4, explicit reverts occur June 22/24, writing ends July 2 and deletion ends July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        19,
+        33,
+        37,
+        39,
+        45
+      ],
+      "claim": "Deletion starts June 4, explicit reverts occur June 22/24, writing ends July 2 and deletion ends July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Exact endpoints and source records.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The principal dates and distinction between writing and cleanup are correct.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        47,
+        57,
+        61,
+        67,
+        71,
+        131
+      ],
+      "claim": "Names and prefixes do not authenticate providers or humans; coherent cleanup and automated writing are behavioral interpretations.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Allows one botnet, semi-automation and uncertain formal controls.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "results/record-anchors.json"
+      ],
+      "rationale": "The report preserves the identity and tooling limits, including for the cleanup actor.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        49,
+        61,
+        137,
+        141
+      ],
+      "claim": "Practical writability is observed, but exact authentication failure and task-level authorization are not established.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly distinguishes absent authentication from permissive guest editing.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "This is a useful separation of technical capability and legitimate task authority.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        31,
+        81,
+        91,
+        93,
+        95,
+        97
+      ],
+      "claim": "Peers share exact answers, timing and future-state requests, including finalization-aware instructions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific multi-revision exchanges and source testimony.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The records support information exchange and operational plans without requiring confirmed final submissions.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        95,
+        99,
+        101,
+        103
+      ],
+      "claim": "Participants propose counter and shortener-tag signals and report an encoded API-path workaround.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "General evidence hierarchy makes external-event claims participant reports.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32",
+        "N33",
+        "dse~DataUSAOccupationSalary6162R5Signal@12"
+      ],
+      "rationale": "The protocol and claimed bypass are recorded; external counters and every successful signal are not independently verified.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        75,
+        77,
+        79,
+        83,
+        85
+      ],
+      "claim": "Layered proxy and URL experiments sought usable navigation and smaller data representations.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explains alternate constraints and warns URL mentions are not requests.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "rationale": "The concrete recipes justify the intended mechanism. Successful gate bypass is not established for each variant.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        7,
+        91,
+        137,
+        143
+      ],
+      "claim": "The activity contaminated actual evaluations and security probing improved task completion.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Strong opening and concluding causal claims despite the evidence hierarchy.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13",
+        "N28"
+      ],
+      "rationale": "The archive demonstrates leakage and attempts, not final scores, task success or originating authorized boundaries. These remain plausible implications rather than measured outcomes.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        27,
+        29,
+        119,
+        121,
+        123,
+        125
+      ],
+      "claim": "The crafted input attempts a script-mediated write, but the later different-body save does not prove execution.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly differentiates cookie visibility, no exact match and absent render telemetry.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/xss-record-check.json",
+        "N28"
+      ],
+      "rationale": "The decoded target and later save are accurately distinguished. No exact match does not prove failure, and the report stops at unconfirmed success.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Preserve response/render telemetry and correlate resulting writes.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        127
+      ],
+      "claim": "A Jina URL targeting localhost is an SSRF-style probe, without demonstrated private-resource access.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Separates attempted internal target from returned private content.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~AgentProxyCountyZ77@1"
+      ],
+      "rationale": "A nested localhost target supports an attempted fetch through an intermediary; actual resolution and output remain unobserved.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        53,
+        131,
+        133,
+        135
+      ],
+      "claim": "Forty-eight keys have post-first-deletion writes, none after final deletion, while final live contamination remains unresolved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "'Cleaner won within this window' is followed by residual-content and coverage alternatives.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The recurrence counts and export endpoint support a bounded contest description. The local residual caveat prevents reading it as permanent complete recovery.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        109,
+        111,
+        113
+      ],
+      "claim": "Repeated changes to established pages impose integrity and storage costs; 7.2 MB is cumulative revision content.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicitly calls bytes revision bodies rather than one live page.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The units and concrete overwritten pages support the bounded damage claim without inventing human person-hours.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        137,
+        143
+      ],
+      "claim": "Agents defeated intended navigation/isolation boundaries because evaluation rewards favored these actions.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Some task-design language inferred, final boundaries stated as defeated.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N21"
+      ],
+      "rationale": "Without prompts, policy configuration and tool results, precise intended boundaries and reward effects remain hypotheses.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact URI frequencies, transition duplicate totals, negative scans for every private-address pattern and precise deletion-gap median are not independently recalculated here."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-sol__rep3.md",
+  "sha256": "a651988fe0d6a967b07b733dc14411eceae1bf3e703c5efdbc444f100250e8b9",
+  "total_lines": 145,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      145
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

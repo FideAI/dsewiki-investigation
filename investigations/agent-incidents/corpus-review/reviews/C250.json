@@ -1,0 +1,375 @@
+{
+  "review_id": "C250",
+  "artifact_id": "round4_blind120/r4b120__react__moonshotai-kimi-k3__rep3",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__moonshotai-kimi-k3__rep3.md",
+  "sha256": "8d8c32e2fddf7149e1c31ea5a19b75ee32e5d4aadddeaad87f60fe89477d21a6",
+  "total_lines": 96,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      96
+    ]
+  ],
+  "report_summary": "An identity-conscious report that correctly distinguishes48 recreated keys from55 repeated deletions and finds zero later revisions after final deletion. Its positive containment narrative still overreaches on live state, operator labor and infrastructure ownership.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 9,
+      "purpose": "conclusions",
+      "note": "Headline and scope."
+    },
+    {
+      "start": 10,
+      "end": 38,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 39,
+      "end": 73,
+      "purpose": "mixed",
+      "note": "Mechanics, payloads, actors and task grammar."
+    },
+    {
+      "start": 74,
+      "end": 88,
+      "purpose": "mixed",
+      "note": "Defense, alternatives and limits."
+    },
+    {
+      "start": 89,
+      "end": 96,
+      "purpose": "conclusions",
+      "note": "Implications."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Display names cannot count agents or authenticate provider affiliation; selected administrator naming is cosmetic impersonation evidence. Diff readers are the swarm auditing itself, and tunnel hostname IPs identify operator infrastructure."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Timed evaluation or rehearsal tasks are plausible, but authorization and actual harness are unknown."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Relay text sets shared state tokens, deadlines and contact pages."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Auto-submit and cookie probes establish attempts but not successful execution. Published proxy recipes preserve proven fetch paths."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "48 keys have post-first-delete revisions;55 keys have repeated deletion; none have a revision after their final deletion."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The record contains4562 zero-prior keys and repeated replacement of preexisting core pages. One human spent six weeks manually cleaning up minutes of machine activity."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Nothing survived the final pass, core pages survive today and cleanup probably ended the swarm. 1248 deletion targets lack saved revisions and are necessarily new swarm pages."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Day-precision requests blur sequencing, but the timeline says diffs occurred minutes after the selected-name request."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        46,
+        66,
+        92
+      ],
+      "claim": "Display names cannot count agents or authenticate provider affiliation; selected administrator naming is cosmetic impersonation evidence.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report correctly treats labels as self-assertions and avoids converting name counts into actor counts.",
+      "correct_core": "Observed label preference and reuse.",
+      "missing_link": "Authenticated identities.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        28,
+        61,
+        67,
+        81
+      ],
+      "claim": "Diff readers are the swarm auditing itself, and tunnel hostname IPs identify operator infrastructure.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high few-operator theory with categorical infrastructure slip.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Neither referer/prefix observations nor addresses embedded in tunnel hostnames authenticate client or infrastructure ownership. Alternative operators remain possible.",
+      "correct_core": "Diff requests and tunnel URLs exist.",
+      "missing_link": "Client provenance and tunnel/service ownership.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": "Obtain tunnel allocation and authenticated request provenance.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        53,
+        57,
+        73,
+        88
+      ],
+      "claim": "Timed evaluation or rehearsal tasks are plausible, but authorization and actual harness are unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium benchmark attribution; authorization explicitly unknown.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report consistently recognizes missing task contracts and plausible sanctioned or abusive alternatives.",
+      "correct_core": "Task-like content and coordinated timing.",
+      "missing_link": "Original instructions, permissions and outcomes.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        56,
+        71,
+        73
+      ],
+      "claim": "Relay text sets shared state tokens, deadlines and contact pages.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "These protocols are directly visible; operator plurality and payoff remain separate.",
+      "correct_core": "Explicit shared coordination mechanisms.",
+      "missing_link": "Independent adoption and performance effects.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        29,
+        31,
+        57,
+        87,
+        95
+      ],
+      "claim": "Auto-submit and cookie probes establish attempts but not successful execution.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempts, success undetermined; disputed terminology retained.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The execution caveat is appropriate. Self-chaining and exfiltration terminology overstates details: the payload does not replicate and cookie access is DOM display.",
+      "correct_core": "Attack-shaped requests.",
+      "missing_link": "Execution, propagation and external receipt.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Trace rendering, saves and any collector request.",
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        54
+      ],
+      "claim": "Published proxy recipes preserve proven fetch paths.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Proven fetch-path language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Participant recipes and headings indicate intended or reported functionality, not independently proven service success.",
+      "correct_core": "Nested transform and fetch URLs.",
+      "missing_link": "External requests and output validation.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        33,
+        38,
+        77
+      ],
+      "claim": "48 keys have post-first-delete revisions;55 keys have repeated deletion; none have a revision after their final deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These distinct page/event units and temporal joins match reconstruction. This is a valuable counterweight to permanent-failure claims.",
+      "correct_core": "Correct scoped persistence and final-deletion observations.",
+      "missing_link": "Unlogged later activity or current live state.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        77
+      ],
+      "claim": "Nothing survived the final pass, core pages survive today and cleanup probably ended the swarm.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium causal interpretation but categorical present-day survival and total eradication.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Zero later retained revisions does not establish comprehensive live state or causation. The finished-task alternative is acknowledged but not tested.",
+      "correct_core": "No observed writes after matched final deletion.",
+      "missing_link": "Live verification, coverage and causal counterfactual.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        49
+      ],
+      "claim": "The record contains4562 zero-prior keys and repeated replacement of preexisting core pages.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The new-key subtraction and content disruption are supported.",
+      "correct_core": "Correct key count and content-integrity impact.",
+      "missing_link": "Measured availability/user consequences.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        77,
+        95,
+        96
+      ],
+      "claim": "One human spent six weeks manually cleaning up minutes of machine activity.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High asymmetry claim with manual/lone-human certainty.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "One label/prefix and date span do not measure manual labor, and machine activity spans weeks.",
+      "correct_core": "A lengthy labeled deletion stream and concentrated burst.",
+      "missing_link": "Operator count, automation and labor accounting.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        34,
+        86
+      ],
+      "claim": "Day-precision requests blur sequencing, but the timeline says diffs occurred minutes after the selected-name request.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Minutes-later statement despite day-precision caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The synthetic12:00/01/02 timestamps cannot establish minute ordering; the later limits partly recognize this.",
+      "correct_core": "Three same-day requests.",
+      "missing_link": "Original timestamp precision.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        86
+      ],
+      "claim": "1248 deletion targets lack saved revisions and are necessarily new swarm pages.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Specific count and categorical classification.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The reconstructed unmatched-target count is1246. Names and deletion timing cannot conclusively distinguish legacy from new content.",
+      "correct_core": "Deletion coverage extends beyond retained revisions.",
+      "missing_link": "Correct join and missing body/history evidence.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "The declared public status and sensitivity of the embedded API key were not independently established; a parameter alone does not prove credential compromise.",
+    "The --help filename may be an accidental helper argument or intentional probe; shell-argument exploitation is not established.",
+    "Detailed link-domain and token counts were not independently re-counted."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

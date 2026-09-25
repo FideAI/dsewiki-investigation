@@ -1,0 +1,224 @@
+{
+  "input_hashes": {
+    "revisions": "fedf20200c28bca717f616f36bc6d00a1e9a35fe377f5f8a3cf9278fc6c397f4",
+    "pages": "4e04bcd522555504df6d7eed96db32154897aba0c781d77eb9b539aa688d5689",
+    "events": "8a1b647d92d105e606a978744b16074810b0f7cc61ae2b748a1c81e5f32ff6fa",
+    "labels": "7ebf896de4abedb1c7b203497211e28d8465f29dfee232ce4025f56114be093a"
+  },
+  "queries": {
+    "revision_scale": {
+      "sql": "SELECT COUNT(*),COUNT(DISTINCT page_key),SUM(declared_len),SUM(actual_chars),SUM(utf8_bytes),MAX(actual_chars),MIN(time),MAX(time) FROM revisions",
+      "columns": [
+        "COUNT(*)",
+        "COUNT(DISTINCT page_key)",
+        "SUM(declared_len)",
+        "SUM(actual_chars)",
+        "SUM(utf8_bytes)",
+        "MAX(actual_chars)",
+        "MIN(time)",
+        "MAX(time)"
+      ],
+      "rows": [
+        [
+          14591,
+          4579,
+          27186058,
+          27186069,
+          27219664,
+          38832,
+          "2026-05-24T06:02:19Z",
+          "2026-07-02T17:51:22Z"
+        ]
+      ]
+    },
+    "page_scale": {
+      "sql": "SELECT COUNT(*),SUM(body_bytes),MAX(body_bytes) FROM pages",
+      "columns": [
+        "COUNT(*)",
+        "SUM(body_bytes)",
+        "MAX(body_bytes)"
+      ],
+      "rows": [
+        [
+          4579,
+          27186058,
+          7218730
+        ]
+      ]
+    },
+    "largest_cumulative_page": {
+      "sql": "SELECT p.page_key,p.body_bytes,COUNT(r.id),MAX(r.actual_chars),SUM(r.actual_chars) FROM pages p JOIN revisions r USING(page_key) GROUP BY p.page_key ORDER BY p.body_bytes DESC LIMIT 5",
+      "columns": [
+        "page_key",
+        "body_bytes",
+        "COUNT(r.id)",
+        "MAX(r.actual_chars)",
+        "SUM(r.actual_chars)"
+      ],
+      "rows": [
+        [
+          "dse~WillkommenImWiki",
+          7218730,
+          2327,
+          24139,
+          7218730
+        ],
+        [
+          "dse~StartSeite",
+          1040151,
+          456,
+          11113,
+          1040151
+        ],
+        [
+          "dse~HealthdataCVDSequenceCollab",
+          876309,
+          121,
+          16407,
+          876309
+        ],
+        [
+          "dse~DataUSAStateSequenceCollab2027",
+          445502,
+          97,
+          8081,
+          445502
+        ],
+        [
+          "dse~PoliceWageAgeSequenceMar10Collab",
+          353640,
+          52,
+          12649,
+          353640
+        ]
+      ]
+    },
+    "largest_single_snapshots": {
+      "sql": "SELECT id,actual_chars,utf8_bytes FROM revisions ORDER BY actual_chars DESC LIMIT 5",
+      "columns": [
+        "id",
+        "actual_chars",
+        "utf8_bytes"
+      ],
+      "rows": [
+        [
+          "dse~AgentNextJoinedJuneBA@7",
+          38832,
+          38832
+        ],
+        [
+          "dse~WillkommenImWiki@1749",
+          24139,
+          24139
+        ],
+        [
+          "dse~WillkommenImWiki@1748",
+          17331,
+          17331
+        ],
+        [
+          "dse~HealthdataCVDSequenceCollab@65",
+          16407,
+          16407
+        ],
+        [
+          "dse~HealthdataCVDSequenceCollab@64",
+          16149,
+          16149
+        ]
+      ]
+    },
+    "moderator_prefix_writes": {
+      "sql": "SELECT label,COUNT(*),MIN(time),MAX(time) FROM revisions WHERE ip16='2.202' GROUP BY label",
+      "columns": [
+        "label",
+        "COUNT(*)",
+        "MIN(time)",
+        "MAX(time)"
+      ],
+      "rows": [
+        [
+          "MartinHuber",
+          26,
+          "2026-06-02T23:23:02Z",
+          "2026-06-24T13:01:02Z"
+        ]
+      ]
+    },
+    "delete_targets": {
+      "sql": "SELECT COUNT(*),COUNT(DISTINCT page_key),MIN(time),MAX(time) FROM events WHERE kind='delete'",
+      "columns": [
+        "COUNT(*)",
+        "COUNT(DISTINCT page_key)",
+        "MIN(time)",
+        "MAX(time)"
+      ],
+      "rows": [
+        [
+          5217,
+          5144,
+          "2026-06-04T10:53:40Z",
+          "2026-07-14T13:56:54Z"
+        ]
+      ]
+    },
+    "unicode_name_writes": {
+      "sql": "SELECT label,COUNT(*) FROM revisions WHERE label LIKE 'Fri%1982' GROUP BY label",
+      "columns": [
+        "label",
+        "COUNT(*)"
+      ],
+      "rows": [
+        [
+          "Friеdrich1982",
+          4
+        ]
+      ]
+    },
+    "later_revisions": {
+      "sql": "SELECT COUNT(*),COUNT(DISTINCT r.page_key) FROM revisions r JOIN (SELECT page_key,MIN(time) AS t FROM events WHERE kind='delete' GROUP BY page_key) d ON r.page_key=d.page_key WHERE r.time>d.t",
+      "columns": [
+        "COUNT(*)",
+        "COUNT(DISTINCT r.page_key)"
+      ],
+      "rows": [
+        [
+          420,
+          48
+        ]
+      ]
+    },
+    "after_final_delete": {
+      "sql": "SELECT COUNT(*) FROM revisions r JOIN (SELECT page_key,MAX(time) AS t FROM events WHERE kind='delete' GROUP BY page_key) d ON r.page_key=d.page_key WHERE r.time>d.t",
+      "columns": [
+        "COUNT(*)"
+      ],
+      "rows": [
+        [
+          0
+        ]
+      ]
+    },
+    "request_schema": {
+      "sql": "SELECT COUNT(*),MIN(time),MAX(time) FROM events WHERE kind='request'",
+      "columns": [
+        "COUNT(*)",
+        "MIN(time)",
+        "MAX(time)"
+      ],
+      "rows": [
+        [
+          123,
+          "2026-05-17T05:46:45Z",
+          "2026-06-30T12:10:38Z"
+        ]
+      ]
+    }
+  },
+  "limits": [
+    "Stored body totals aggregate revisions and can repeat the same content; they do not measure bytes actually transmitted or largest live page.",
+    "body_len and body_bytes are retained declared character-based metadata, affected by prior transformations; explicit actual_chars/utf8_bytes measure current restored text.",
+    "Name labels and truncated prefixes are not authentication.",
+    "Static request/payload or participant text is not proof of browser execution, network response, task outcome or external process survival."
+  ]
+}

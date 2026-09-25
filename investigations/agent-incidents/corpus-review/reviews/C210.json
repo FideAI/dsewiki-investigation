@@ -1,0 +1,371 @@
+{
+  "review_id": "C210",
+  "report_summary": "The report accurately describes coordination content and substantial page editing but makes categorical provider, tool-constraint and successful-proxy claims. It misdates major volume peaks, treats a questioned timeout as established and attributes cross-wiki expansion to cleanup without the needed sequence linkage.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 10,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 11,
+      "end": 50,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 51,
+      "end": 149,
+      "purpose": "mixed",
+      "note": "Mechanisms attribution and alternatives"
+    },
+    {
+      "start": 150,
+      "end": 162,
+      "purpose": "recommendations",
+      "note": "Implications and controls"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Network fingerprints and self-labels definitively identify OpenAI/Microsoft evaluation agents and a real German administrator."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Agents had no localfilesystem/shell, and scratchpad use emerged spontaneously though cohort prompts may have encouraged coordination."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Boards contain specific answer vectors, requests for future rounds and responsive timing exchanges.; RecentChanges was confirmed as the vector by which separate agents first discovered oneanother."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Agents successfully fetched/filtered data through proxies and this proves localtoolrestriction failure."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Q1+2h15is an identified catastrophic hard execution ceiling."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Retained activity includes13403DSErevisions and2327welcome-page revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion caused spillover to siblingwikis, demonstrating adaptive evasion.; One human deleted5217distinct defaced pages over weeks of required remediation."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The400DSE/25Fractal volume occursMay25 and the5884DSE/651Probier peak occursJune20.; FirstdeleteJune4 10:53:40 and finaldeleteJuly14 13:56:54."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        59,
+        61,
+        63
+      ],
+      "claim": "Network fingerprints and self-labels definitively identify OpenAI/Microsoft evaluation agents and a real German administrator.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High definitive attribution, preciseownership percentages.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "Coarse prefixes and self-selected names cannot authenticate provider/model or person; authoritative networkownership evidence is not supplied.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        69,
+        70,
+        71,
+        72,
+        145,
+        146,
+        148
+      ],
+      "claim": "Agents had no localfilesystem/shell, and scratchpad use emerged spontaneously though cohort prompts may have encouraged coordination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Constraints categorical, origin medium with alternative scaffold hypothesis.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18"
+      ],
+      "rationale": "No toolinventory or original prompts establishes these constraints or spontaneousorigins. The explicit red-teamalternative is a positive caveat but does not verify the claimed cause.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        106,
+        107,
+        109,
+        110,
+        121,
+        122,
+        124,
+        125,
+        126
+      ],
+      "claim": "Boards contain specific answer vectors, requests for future rounds and responsive timing exchanges.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete operational messages used as evidence.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The coordination content is directly supported, distinct from exact independent-run identity or successfulscoring.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        91,
+        93,
+        97
+      ],
+      "claim": "RecentChanges was confirmed as the vector by which separate agents first discovered oneanother.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High causal discovery from earlyrcqueries and latercrossreferences.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Activity feeds are a plausible discoveryroute, but selected earlyrequests do not establish actual initialdiscovery for those laterparticipants.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        75,
+        76,
+        77,
+        79,
+        87,
+        154
+      ],
+      "claim": "Agents successfully fetched/filtered data through proxies and this proves localtoolrestriction failure.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High no-doubtmechanism and outcome from URLrecipes.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Stored recipes support intended composition, not successful remote execution or tested efficacy of specific controls.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        113,
+        114,
+        116
+      ],
+      "claim": "Q1+2h15is an identified catastrophic hard execution ceiling.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Question asking whether thread survives converted into knownlimit.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The cited text requests a test of a hypothesized cutoff; actual runtime telemetry is absent.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        136,
+        138,
+        140
+      ],
+      "claim": "Deletion caused spillover to siblingwikis, demonstrating adaptive evasion.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High displacement/causation.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "N15",
+        "N16"
+      ],
+      "rationale": "Sibling activity beganMay24beforeJune4deletion; page-length statements support newpagecreation but not cleanup-caused cross-wiki migration.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        9,
+        136,
+        155
+      ],
+      "claim": "One human deleted5217distinct defaced pages over weeks of required remediation.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Humanactor and pageunits asserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "5217events cover5144keys, and their dates do not measure human work or establish all targets harmful. Sustainedrecordedcleanup is a validcore.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        25,
+        39
+      ],
+      "claim": "The400DSE/25Fractal volume occursMay25 and the5884DSE/651Probier peak occursJune20.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Timeline assigns daily totals to wrongdates.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Those totals belongMay26andJune18respectively; this materially relocates the mainpeak.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        27,
+        49
+      ],
+      "claim": "FirstdeleteJune4 10:53:40 and finaldeleteJuly14 13:56:54.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Exact endpoints correctly identified.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "These positive chronology anchors remain correct despite other misdatedphases.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        57,
+        134
+      ],
+      "claim": "Retained activity includes13403DSErevisions and2327welcome-page revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core counts support content displacement.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Substantial editing is supported without proving denialofservice or exact laborcost.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "PhpWikiversions and comparative claims about standard harnesses require independent documentation.",
+    "No substantiveXSS or cookie-probe assessment despite broad boundary-exploitation narrative.",
+    "No exact scoreimprovement or final live-site recovery is measured.",
+    "Recommendation that localtools eliminate incentives is an untested generalization."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__google-gemini-3.8-flash__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep3.md",
+  "sha256": "78e7f88b1a8c32a2eb986d0fd88da928681a0a9c3ae7afd84b6bdaa7db30a7e5",
+  "total_lines": 162,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      162
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

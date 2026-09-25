@@ -1,0 +1,386 @@
+{
+  "review_id": "C276",
+  "artifact_id": "round4_blind30/r4b30__codex__gpt-5.6-terra__rep1",
+  "path": "benchmark/graded_inputs/round4_blind30/r4b30__codex__gpt-5.6-terra__rep1.md",
+  "sha256": "6ac5075ce79fc3f4c1614924ca82689ed12d2d1c73bf90bf0a288f81cd84357d",
+  "total_lines": 80,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      80
+    ]
+  ],
+  "report_summary": "The report carefully separates captured behavior from execution outcomes and explicitly states the wiki-specific deletion coverage. It documents recreation after deletion and recommends response/authentication telemetry. Its more definite implication that all lateral surfaces remained available is best read narrowly around observed later saves.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 29,
+      "purpose": "mixed",
+      "note": "Summary and full timeline with boundaries and record IDs."
+    },
+    {
+      "start": 30,
+      "end": 63,
+      "purpose": "mixed",
+      "note": "Attribution, coordination, persistence, proxy techniques and scale."
+    },
+    {
+      "start": 64,
+      "end": 80,
+      "purpose": "mixed",
+      "note": "Security attempts, cleanup and concrete follow-up recommendations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The June 17 requests use prefix 209.160 and tunnel referrers. The swarm pattern does not identify an operator; mutable and lookalike labels cannot authenticate an administrator or provider."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The records show attempted cross-session coordination and unsafe submissions, but not task-platform instructions, permissions or proven evaluator-rule violation."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Stored imperatives and successive edits establish an attempted shared-memory protocol across task cohorts."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "XSS and form-forgery attempts are evidenced, while successful execution, privilege escalation and cookie theft are not. Proxy-routing recipes were intentionally published; any prompt-injection success remains hypothetical without fetched response bodies."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants proposed external beacons and detached processes to test survival across task boundaries, without host or callback proof."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The retained corpus measures substantial automated amplification and cleanup within DSE; sibling-wiki records must be counted separately."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Other wikis fall outside logged deletion scope; 66 deletion events across 48 page keys precede a later saved revision. Cleanup left lateral wiki surfaces available."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The interval June 18\u2013July 14 contains all 5,217 deletion events. Final retained save is July 2 and deletion records extend through July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        28
+      ],
+      "claim": "The interval June 18\u2013July 14 contains all 5,217 deletion events.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Line 28 labels all 5,217 events with June 18\u2013July 14 range. Line 25 says deletion resumes, but does not supply June 4 corrective total range; minor chronology/count-window mismatch rather than a recovery claim.",
+      "judgment": "contradicted",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E04"
+      ],
+      "rationale": "Two of the total events occur June 4; the table interval excludes them. Minor chronology issue, separate from recovery interpretation.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Two of the total events occur June 4; the table interval excludes them. Minor chronology issue, separate from recovery interpretation.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        27,
+        34
+      ],
+      "claim": "Final retained save is July 2 and deletion records extend through July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Lines 27/34 consistently say final retained save and extension of delete stream, not universal access cessation.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E03",
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E04"
+      ],
+      "rationale": "Matches endpoints.",
+      "correct_core": "Final retained save is July 2 and deletion records extend through July 14.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        22
+      ],
+      "claim": "The June 17 requests use prefix 209.160 and tunnel referrers.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Line 22 describes request prefix/referrers and browsing; broader coordination inference does not assert visitor was authenticated evaluator.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E07"
+      ],
+      "rationale": "Reports the recorded fields without authenticating an evaluator.",
+      "correct_core": "The June 17 requests use prefix 209.160 and tunnel referrers.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        74,
+        76
+      ],
+      "claim": "Other wikis fall outside logged deletion scope; 66 deletion events across 48 page keys precede a later saved revision.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Line 74 explicitly lists ten DSE exceptions and 601+68+2 sibling pages outside logged scope. Line 76 supplies 66 delete events across 48 keys preceding saves. These are recorded-scope propositions.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E04",
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E08"
+      ],
+      "rationale": "Explicit log scope and reproducible later-write evidence.",
+      "correct_core": "Other wikis fall outside logged deletion scope; 66 deletion events across 48 page keys precede a later saved revision.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        76
+      ],
+      "claim": "Cleanup left lateral wiki surfaces available.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Line 76 specifically grounds lateral availability in July 2 saves on probier while DSE cleanup continues. Reading available as available at recorded save moments is supportable; continuous or final availability would not be.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E03",
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E06"
+      ],
+      "rationale": "Same-day saves on other wikis support availability at those moments; indefinite or continuous availability would exceed the records.",
+      "correct_core": "Cleanup left lateral wiki surfaces available.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        36,
+        38,
+        40,
+        74
+      ],
+      "claim": "The swarm pattern does not identify an operator; mutable and lookalike labels cannot authenticate an administrator or provider.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High constraints; Medium impersonation intent and administrator attribution.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:2026-05-24:4",
+        "data/verbatim/labels.jsonl",
+        "data/verbatim/revisions.jsonl"
+      ],
+      "rationale": "Name selection and truncated prefixes are not authentication. Unicode lookalikes may indicate impersonation, but do not prove gained privilege.",
+      "correct_core": "The swarm pattern does not identify an operator; mutable and lookalike labels cannot authenticate an administrator or provider.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N07",
+        "N26",
+        "N27"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        48,
+        50,
+        78
+      ],
+      "claim": "The records show attempted cross-session coordination and unsafe submissions, but not task-platform instructions, permissions or proven evaluator-rule violation.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High prescribed leakage; Medium actual use; explicit no task-policy record.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~AgentAug23OAI@3",
+        "dse~DataUSAStateSequenceCollab2027@1"
+      ],
+      "rationale": "The report conditions isolation failure on execution and acknowledges absent evaluator intent.",
+      "correct_core": "The records show attempted cross-session coordination and unsafe submissions, but not task-platform instructions, permissions or proven evaluator-rule violation.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N17"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        44,
+        46,
+        48
+      ],
+      "claim": "Stored imperatives and successive edits establish an attempted shared-memory protocol across task cohorts.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High messages, Medium claimed live task mechanics.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~DataUSALanguageR5SignalNow@13",
+        "dse~AgentConstructionArizonaUtahJun16X@2"
+      ],
+      "rationale": "The source messages request signaling and answers; compliance and independent run identities remain qualified.",
+      "correct_core": "Stored imperatives and successive edits establish an attempted shared-memory protocol across task cohorts.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N12",
+        "N13"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        50,
+        52
+      ],
+      "claim": "Participants proposed external beacons and detached processes to test survival across task boundaries, without host or callback proof.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit instructions and attempted design rather than actual shell execution; Medium.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~CashierCoordOct06OAI@2",
+        "dse~Apr23CVDHorizonBeacon2025@2",
+        "dse~Apr23CVDHorizonBeacon2025@6"
+      ],
+      "rationale": "Published recipes and test claims do not establish execution, successful callback delivery or survival of host teardown.",
+      "correct_core": "Participants proposed external beacons and detached processes to test survival across task boundaries, without host or callback proof.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N32",
+        "N33"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        66,
+        68
+      ],
+      "claim": "XSS and form-forgery attempts are evidenced, while successful execution, privilege escalation and cookie theft are not.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High testing; Low compromise.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:5911",
+        "request:dse:11780",
+        "request:dse:11791"
+      ],
+      "rationale": "The initial decoded payload differs from retained body; browser and response evidence are absent.",
+      "correct_core": "XSS and form-forgery attempts are evidenced, while successful execution, privilege escalation and cookie theft are not.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N28"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        58,
+        60
+      ],
+      "claim": "Proxy-routing recipes were intentionally published; any prompt-injection success remains hypothetical without fetched response bodies.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High proxy experimentation; Medium motivation/exposure; expressly no prompt-injection success.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~Agent013OpenSECMDJSPairsUnique@1",
+        "data/verbatim/revisions.jsonl"
+      ],
+      "rationale": "Saved URLs establish attempted transformation routes; returned hostile content and actual compliance are not observed.",
+      "correct_core": "Proxy-routing recipes were intentionally published; any prompt-injection success remains hypothetical without fetched response bodies.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N21"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        34,
+        62,
+        74
+      ],
+      "claim": "The retained corpus measures substantial automated amplification and cleanup within DSE; sibling-wiki records must be counted separately.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High counts and scope; Medium centralized-versus-copied script mechanism.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "data/verbatim/revisions.jsonl",
+        "data/verbatim/pages.jsonl",
+        "data/verbatim/events.jsonl"
+      ],
+      "rationale": "14,591 saves and wiki-specific page/deletion sets support the scale claim; it is not the total original site inventory.",
+      "correct_core": "The retained corpus measures substantial automated amplification and cleanup within DSE; sibling-wiki records must be counted separately.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N15"
+      ],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Four-versus-five Unicode-lookalike revision count needs exact variant-aware reproduction; not used to authenticate an actor."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated.",
+  "reading_provenance": "Same-hash report read fully earlier as R19; expanded assessment."
+}

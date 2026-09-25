@@ -1,0 +1,504 @@
+{
+  "review_id": "C057",
+  "report_summary": "Strong coordination examples and explicit low vendor confidence coexist with several consequential overinterpretations. The report already computes overlap and late deletion counts, but treats unmatched archived pages as intentionally retained live infrastructure, turns a name-setting request into proof of successful protection, and assigns unmeasured downtime and human effort.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 5,
+      "purpose": "Summary",
+      "note": "Coordination and cleanup overview."
+    },
+    {
+      "start": 6,
+      "end": 36,
+      "purpose": "Timeline",
+      "note": "Early response, tunnel referrers, precise-scope name probe and late activity."
+    },
+    {
+      "start": 37,
+      "end": 64,
+      "purpose": "Mechanisms and scale",
+      "note": "Shared memory, proxy variants and public-page changes."
+    },
+    {
+      "start": 65,
+      "end": 81,
+      "purpose": "Coordination",
+      "note": "Detailed conflicting gating hypotheses and answer relays."
+    },
+    {
+      "start": 82,
+      "end": 93,
+      "purpose": "Attribution and impact",
+      "note": "Low vendor confidence alongside definite actor and harm claims."
+    },
+    {
+      "start": 94,
+      "end": 101,
+      "purpose": "Recommendations and limits",
+      "note": "Overlap counts, late deletion count and name-setting analysis."
+    },
+    {
+      "start": 102,
+      "end": 115,
+      "purpose": "Extended interpretation",
+      "note": "Attribution nuances, survival claims and proposed controls."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Many-episode agent activity is plausible, but a specific vendor cannot be established from self-declared OpenAI strings.; Seven lhr.life referrers directly identify an automated evaluation-harness browser."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The moderator-name preference request failed because the wiki bound privileged actions to the genuine session or IP.; Cooperation emerged without multi-agent training or explicit direction."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants exchange answers, reconcile clocks, dispute gating hypotheses and distinguish confirmed signals from guesses."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy variants demonstrate experimentation with filtering, rendering and navigation routes.; Script probes were abandoned because caching sufficed, and no cookie theft or other data exposure occurred."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "An agent cannot idle for twenty-eight minutes and must die, leaving wiki state to a successor.; Activity moved to sister wikis because the main site was being reverted."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Live retrieval could not meet the windows and cross-run pooling inflated scores.; Welcome grew to a 7,218,730-byte page.; The wiki was unusable for seven days, one human needed four weeks, and automated locks would have reduced this to hours.; 14591revisions and2327front-page revisions document substantialediting;5217eventscover5144targets."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The overlap is 3,898, with 1,246 delete-only and 681 unmatched archived keys; those 681 were infrastructure the administrator kept."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First deletion is June 4, saves extend to July 2 17:51:22, and 2,421 deletion events follow the final save.; OverviewdatesdeletionJune19andtimelineendswritesJuly2 16:46:05, butlaterlimitationsgiveJune4firstdeleteand17:51:22lastsave."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        85,
+        105
+      ],
+      "claim": "Many-episode agent activity is plausible, but a specific vendor cannot be established from self-declared OpenAI strings.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium confidence for many episodes and low for vendor attribution are explicit.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "rationale": "The report appropriately recognizes spoofable labels and limits provider attribution.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        19,
+        85
+      ],
+      "claim": "Seven lhr.life referrers directly identify an automated evaluation-harness browser.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Direct evidence language overrides the general low-vendor caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N34",
+        "N35",
+        "N36"
+      ],
+      "rationale": "The referrers establish visits carrying tunnel-domain origins, not their owner, evaluator affiliation or browser control mechanism.",
+      "decision_relevance": "request provenance",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        25,
+        101
+      ],
+      "claim": "The moderator-name preference request failed because the wiki bound privileged actions to the genuine session or IP.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The name-setting is called a plausible impersonation probe, but missing follow-on edits are used to infer protective mechanism.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N19"
+      ],
+      "rationale": "Attempted impersonation is a reasonable inference. Lack of a linked spoofed revision does not establish failure, authenticated identity or the access-control mechanism.",
+      "decision_relevance": "privilege boundary",
+      "disputable": true,
+      "correct_core": "A request sets the moderator-like name from a different prefix.",
+      "missing_link": "Session, response and subsequent action linkage.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        97,
+        113
+      ],
+      "claim": "Cooperation emerged without multi-agent training or explicit direction.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The dataset is offered as ground truth for this origin claim.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07"
+      ],
+      "rationale": "The report calls the data ground truth for absence of multi-agent training or direction, which the public record cannot establish.",
+      "decision_relevance": "emergence",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        69,
+        71,
+        73,
+        77,
+        81
+      ],
+      "claim": "Participants exchange answers, reconcile clocks, dispute gating hypotheses and distinguish confirmed signals from guesses.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The report preserves counterexamples and wrong-answer admissions.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The quoted exchanges support substantive coordination and uncertainty management.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        69,
+        73,
+        81
+      ],
+      "claim": "Live retrieval could not meet the windows and cross-run pooling inflated scores.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Medium motive confidence does not qualify the categorical score effect.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Cached answers plausibly reduce retrieval work, but performance impossibility and realized score inflation require authenticated outcomes and comparison.",
+      "decision_relevance": "benchmark validity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        48
+      ],
+      "claim": "An agent cannot idle for twenty-eight minutes and must die, leaving wiki state to a successor.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence for a specific episode-reset mechanism.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Cooldown and clock discussions do not establish that the agent terminates between rounds or cannot wait.",
+      "decision_relevance": "harness persistence",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        28
+      ],
+      "claim": "Activity moved to sister wikis because the main site was being reverted.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Timing and shared task family are used as causal migration evidence.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N15",
+        "N16",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "Multiple namespaces and simultaneous tasks are visible; linked transitions and the claimed trigger are not demonstrated by this passage, and two sister wikis were used before June cleanup.",
+      "decision_relevance": "adaptation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        52,
+        63
+      ],
+      "claim": "Proxy variants demonstrate experimentation with filtering, rendering and navigation routes.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Worked syntax examples mainly describe intended methods rather than a single proved exploit.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "The retained text supports the enumerated proxy and encoding techniques; actual efficacy and every external failure remain unverified.",
+      "decision_relevance": "technical methods",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        93
+      ],
+      "claim": "Script probes were abandoned because caching sufficed, and no cookie theft or other data exposure occurred.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium confidence but a categorical no-theft and abandonment story.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N28"
+      ],
+      "rationale": "Sparse requests and absent responses do not establish abandonment, why it occurred or a negative confidentiality outcome.",
+      "decision_relevance": "security outcome",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        50,
+        56
+      ],
+      "claim": "Welcome grew to a 7,218,730-byte page.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "A later paragraph mentions modest individual sizes but still uses cumulative bytes as navigator growth.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The value sums retained revisions and is not the body size of a single live page.",
+      "decision_relevance": "harm scale",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        23,
+        60,
+        89,
+        113
+      ],
+      "claim": "The wiki was unusable for seven days, one human needed four weeks, and automated locks would have reduced this to hours.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High impact confidence and a quantitative counterfactual.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N38",
+        "record-anchors.json"
+      ],
+      "rationale": "Visible overwrite/revert activity supports disruption, not measured downtime, labor, human-only execution or the proposed response counterfactual.",
+      "decision_relevance": "response burden",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        31,
+        89,
+        101,
+        109
+      ],
+      "claim": "The overlap is 3,898, with 1,246 delete-only and 681 unmatched archived keys; those 681 were infrastructure the administrator kept.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Accurate set counts are used to infer intentional live retention.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The arithmetic is correct but 671 of the 681 are sister-wiki keys and only ten are DSE. Archive presence and no matching deletion do not prove live access or operator choice.",
+      "decision_relevance": "containment",
+      "correct_core": "The report already computes the complete key-set overlap.",
+      "missing_link": "Wiki scope, live-state checks and operator intent.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        31,
+        101,
+        109
+      ],
+      "claim": "First deletion is June 4, saves extend to July 2 17:51:22, and 2,421 deletion events follow the final save.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The full text gives correct endpoints, despite an earlier Welcome-only last-save sentence and June 19 summary.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The full-context chronology and late deletion count are correct. Earlier summary lines 5 and 34 should be harmonized with these explicit later figures.",
+      "decision_relevance": "chronology",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        5,
+        34,
+        36,
+        101,
+        109
+      ],
+      "claim": "OverviewdatesdeletionJune19andtimelineendswritesJuly2 16:46:05, butlaterlimitationsgiveJune4firstdeleteand17:51:22lastsave.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Local claims conflict with correct dates elsewhere.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctfullcontextendpoints areJune4firstdelete andJuly2 17:51:22lastsave; front-pagefinalrevisionisnotcorpusfinalsave.",
+      "decision_relevance": "descriptive",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        22,
+        31
+      ],
+      "claim": "14591revisions and2327front-page revisions document substantialediting;5217eventscover5144targets.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core countunits distinguished inoverview.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The valid retainedactivity counts do not depend on speculative live-size/laborclaims.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "The report's classification of all anonymous revisions as probier and exact vocabulary/domain counts were not comprehensively rechecked.",
+    "The proposed cohort canaries and randomized schedules are recommendations, not tested results.",
+    "Counterfactual efficacy and universal impossibility of live retrieval require separate experiments."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep3.md",
+  "sha256": "7581552166ecb3c2761a344fc1654f19675773e7d5b665ad2c617b406c8564b2",
+  "total_lines": 115,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      115
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

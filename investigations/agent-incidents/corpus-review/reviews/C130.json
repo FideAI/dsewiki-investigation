@@ -1,0 +1,347 @@
+{
+  "review_id": "C130",
+  "artifact_id": "pswap_b10/psw10__codex__gpt-5.6-terra__rep1",
+  "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-terra__rep1.md",
+  "sha256": "cc05b7832b2ec29fca36588e35eafe4100132dde62d715c928ebd89689dd2673",
+  "total_lines": 79,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      79
+    ]
+  ],
+  "report_summary": "A strong report on identity limits, task relays, the same-second injection/save correlation and uncertainty about actual exploit success. It distinguishes delete events from targets and avoids assuming manual cleanup, but its categorical authorization claim and one daily-maximum statement need correction.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 79,
+      "purpose": "mixed",
+      "note": "Entire retained artifact read, including its abrupt ending where present."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and coarse prefixes do not authenticate actors; observed activity supports automation without identifying a provider or controller."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Public workspace use was unauthorized, at high confidence."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Repeated grocery/language instructions and page requests show coordination, while downstream answer use and successful evaluation compromise remain uncertain."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "A same-prefix, same-second preference request and later target save corroborate an injection-to-edit hypothesis but do not prove script execution or theft. Public API-looking strings are observable; their sensitivity, ownership and exploitation are not established. Preserve logs and obtain responses before stronger execution claims; evaluate controls on edits, reflected content and shared task state."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Publicly retained page state provides shared memory across apparent task contexts."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "14,591 revisions and5,217 deletion events on5,144 targets describe substantial activity; 2,327 welcome-page revisions are edits, not distinct pages."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The stream is consistent with manual or scripted cleanup, while the actor's institutional role and motivation are unconfirmed."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion starts in earnest onJune18, after the first twoJune4 deletions. The largest daily deletion run beforeJuly is440 onJune30. July1–2 contains21 saved revisions and deletion continues toJuly14 with no later stored saves."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        13,
+        33,
+        37,
+        51
+      ],
+      "claim": "Labels and coarse prefixes do not authenticate actors; observed activity supports automation without identifying a provider or controller.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim_anthropic/labels.jsonl"
+      ],
+      "rationale": "The report explicitly allows rotating egress, a single controller and human-triggered automation.",
+      "correct_core": "The report explicitly allows rotating egress, a single controller and human-triggered automation.",
+      "missing_link": "",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        45
+      ],
+      "claim": "Public workspace use was unauthorized, at high confidence.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "dse~AgentNextDiagKK@1"
+      ],
+      "rationale": "The report later acknowledges absent rules and original benchmark context. Content disruption is observed, but a categorical authorization conclusion requires more context.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Original permissions, site policy and operator instructions.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        41,
+        43,
+        45
+      ],
+      "claim": "Repeated grocery/language instructions and page requests show coordination, while downstream answer use and successful evaluation compromise remain uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~DataUSALangR5RelayOct23@13",
+        "request:dse:2026-06-17:4"
+      ],
+      "rationale": "The report grounds the channel in content and actual requests, preserving outcome limits.",
+      "correct_core": "The report grounds the channel in content and actual requests, preserving outcome limits.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        57,
+        59,
+        61
+      ],
+      "claim": "A same-prefix, same-second preference request and later target save corroborate an injection-to-edit hypothesis but do not prove script execution or theft.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json",
+        "request:dse:6032",
+        "dse~AgentLinkma21JuneAA@13"
+      ],
+      "rationale": "The later save is accurately identified and the report explicitly considers direct editing and absent response evidence.",
+      "correct_core": "The later save is accurately identified and the report explicitly considers direct editing and absent response evidence.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        71,
+        73
+      ],
+      "claim": "Public API-looking strings are observable; their sensitivity, ownership and exploitation are not established.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~AgentMDLChallengeResearchmRnpo@1"
+      ],
+      "rationale": "The report distinguishes exposure of a string from authenticated credential compromise.",
+      "correct_core": "The report distinguishes exposure of a string from authenticated credential compromise.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        43,
+        77
+      ],
+      "claim": "Publicly retained page state provides shared memory across apparent task contexts.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~DataUSALangR5RelayOct23@13"
+      ],
+      "rationale": "This is a bounded persistence mechanism, without a claim of process survival after shutdown.",
+      "correct_core": "This is a bounded persistence mechanism, without a claim of process survival after shutdown.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        31,
+        51,
+        65
+      ],
+      "claim": "14,591 revisions and5,217 deletion events on5,144 targets describe substantial activity; 2,327 welcome-page revisions are edits, not distinct pages.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "The key units and counts reproduce.",
+      "correct_core": "The key units and counts reproduce.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        65,
+        67
+      ],
+      "claim": "The stream is consistent with manual or scripted cleanup, while the actor's institutional role and motivation are unconfirmed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report does not infer labor hours or definitive administrator authentication from a name.",
+      "correct_core": "The report does not infer labor hours or definitive administrator authentication from a name.",
+      "missing_link": "",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        21,
+        65
+      ],
+      "claim": "Deletion starts in earnest onJune18, after the first twoJune4 deletions.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report explicitly distinguishes escalation from the first action; June18 is not falsely presented as the first-ever delete.",
+      "correct_core": "The report explicitly distinguishes escalation from the first action; June18 is not falsely presented as the first-ever delete.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        23
+      ],
+      "claim": "The largest daily deletion run beforeJuly is440 onJune30.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "June23 has602 deletion events, exceeding440.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        24,
+        25
+      ],
+      "claim": "July1–2 contains21 saved revisions and deletion continues toJuly14 with no later stored saves.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "The tail is correctly separated from the main burst.",
+      "correct_core": "The tail is correctly separated from the main burst.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        79
+      ],
+      "claim": "Preserve logs and obtain responses before stronger execution claims; evaluate controls on edits, reflected content and shared task state.",
+      "claim_type": "recommendation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "unassessable",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Evidence requests and defensive controls are proposals, not demonstrated intervention effects.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Missing responses and prospective control tests.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "All79 lines read. Every incidental daily count and domain occurrence was not reproduced. The isolated largest-deletion-day claim was checked because it directly characterizes response intensity."
+  ],
+  "review_limit": "Assistant full-text reading and eight-question assessment, not independent human adjudication. Rejected artifacts retain their incomplete status. Source claims and qualified inferences are distinguished from independently observed outcomes. Incidental facts outside the eight-question scope are not exhaustively verified."
+}

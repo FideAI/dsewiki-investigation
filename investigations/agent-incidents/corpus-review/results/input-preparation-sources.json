@@ -1,0 +1,27 @@
+{
+  "commit": "e1eea3b4eaf93f9a7e2898da97096ef643916da1",
+  "archive_sha256": "eb68aa12d26bf189d8bfc4ce47f4d8af66ae5ba7ebbadd429738297a3cbb25ae",
+  "sources": [
+    {
+      "path": "scripts/strip_analysis_fields.py",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/scripts/strip_analysis_fields.py",
+      "sha256": "3995a7511528fdcb5bed410d22c8e3150567ca939d6b17ca9d8a74fd26cef75e"
+    },
+    {
+      "path": "scripts/fill_verbatim.py",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/scripts/fill_verbatim.py",
+      "sha256": "5fd69ec25f419dd1ee6c6ef39bbec8464e05e52b792e7450546ab714c072dd7f"
+    },
+    {
+      "path": "scripts/swap_provider.py",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/scripts/swap_provider.py",
+      "sha256": "e674feebeb37c0c4e89f10e6ae9962281bbe85b265452cd1b823d0e960850c2b"
+    },
+    {
+      "path": "benchmark/human_report.txt",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/human_report.txt",
+      "sha256": "dcec8843f182b1b74c32b84e9dd9c555e6f018960039671ea0e8188044962bba"
+    }
+  ],
+  "verified_input_files": 8
+}

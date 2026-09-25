@@ -1,0 +1,297 @@
+{
+  "parent": "r4b120_codex_gpt_6_astra_rep1",
+  "followup": "fu5kb120_codex_gpt_6_astra_rep1",
+  "parent_review_id": "C240",
+  "followup_review_id": "C075",
+  "parent_sha256": "d79e801b648b147ba11f38bff73c9570b23a1f633dc6fd04b5e6fc27b7c79632",
+  "followup_sha256": "b08e875b4699a189e51857e0ead64794b1f00835dd1366556796dbe7c7f51441",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Identity limits remain and expand to inherited paragraph authorship.",
+      "parent_lines": [
+        7,
+        35,
+        57,
+        91
+      ],
+      "followup_lines": [
+        37,
+        39,
+        69,
+        113,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        10,
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Day-level precision remains explicitly protected.",
+      "parent_lines": [
+        24
+      ],
+      "followup_lines": [
+        16,
+        25,
+        27,
+        37,
+        39,
+        69,
+        113,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2,
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Method and authorization uncertainty remain explicit.",
+      "parent_lines": [
+        39,
+        41,
+        45,
+        57
+      ],
+      "followup_lines": [
+        43,
+        45,
+        49,
+        51,
+        53,
+        69,
+        137,
+        139
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Concrete transfer evidence remains with stronger correction/provenance examples.",
+      "parent_lines": [
+        49,
+        51,
+        53,
+        57
+      ],
+      "followup_lines": [
+        57,
+        59,
+        61,
+        65,
+        67,
+        79,
+        81,
+        127
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Candidate seed fitting remains distinct from actual generator recovery.",
+      "parent_lines": [
+        55
+      ],
+      "followup_lines": [
+        57,
+        59,
+        61,
+        65,
+        67,
+        79,
+        81,
+        127
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        3,
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Test-contaminated counters and retractions remain explicit evidence rather than accepted result signals.",
+      "parent_lines": [
+        61,
+        63,
+        65,
+        67
+      ],
+      "followup_lines": [
+        57,
+        59,
+        61,
+        65,
+        67,
+        73,
+        77,
+        79,
+        81,
+        83,
+        85,
+        87,
+        89,
+        127
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Command survival remains distinct from container teardown and missing-marker alternatives remain.",
+      "parent_lines": [
+        69,
+        71
+      ],
+      "followup_lines": [
+        73,
+        77,
+        83,
+        85,
+        87,
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Content disruption remains separated from measured outage.",
+      "parent_lines": [
+        75,
+        77,
+        79,
+        81
+      ],
+      "followup_lines": [
+        93,
+        95,
+        97,
+        99,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation retains and fully traces the14temporal pairs while preserving alternative mechanisms.",
+      "parent_lines": [
+        85,
+        87
+      ],
+      "followup_lines": [
+        105,
+        107,
+        109,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Bypass reports remain qualified by missing remote evidence and score effects.",
+      "parent_lines": [
+        89,
+        93,
+        95
+      ],
+      "followup_lines": [
+        117,
+        119,
+        121,
+        123,
+        125
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation retains backup adaptation and eventual deletion of both hubs.",
+      "parent_lines": [
+        99,
+        101
+      ],
+      "followup_lines": [
+        23,
+        131,
+        133,
+        135
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Early maintenance and final recorded endpoints remain separated.",
+      "parent_lines": [
+        16,
+        25,
+        101
+      ],
+      "followup_lines": [
+        16,
+        25,
+        27
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "This strong pair expands verification detail rather than merely certainty. The continuation adds a source-correction retraction and makes the14request/save correlation particularly inspectable.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

@@ -1,0 +1,379 @@
+{
+  "review_id": "C010",
+  "artifact_id": "ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep3",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep3.md",
+  "sha256": "a7bf7b46c43689797e35b78dddac1effa7cf146d04e3941f157916410cc3b0be",
+  "total_lines": 270,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      270
+    ]
+  ],
+  "report_summary": "Explicit timed coordination is recognized, but the report derives98percent success from repeated words, mistakes restoration for original-team participation, and infers revocation and failed recovery. Counts repeatedly confuse labels, revisions, pages and time windows.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Thesis."
+    },
+    {
+      "start": 7,
+      "end": 30,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 31,
+      "end": 156,
+      "purpose": "mixed",
+      "note": "Operational interpretation."
+    },
+    {
+      "start": 157,
+      "end": 210,
+      "purpose": "mixed",
+      "note": "Hypotheses and cleanup."
+    },
+    {
+      "start": 211,
+      "end": 246,
+      "purpose": "conclusions",
+      "note": "Confidence."
+    },
+    {
+      "start": 247,
+      "end": 270,
+      "purpose": "conclusions",
+      "note": "Implications."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels establish separate agents and intentional deployment by a central team."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Urgency and absent permission words imply off-books work and a deliberate federated benchmark."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Cohort pings and state-sequence relays show explicit communication protocols."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy and transformation links plausibly support retrieval workarounds."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Single-day labels and liveness posts establish ephemeral lifecycle management."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Answered/confirmed/failed frequencies establish98percent success. 13704revisions are pages and6310PUMSpages exist in4579keys."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Original operators self-terminated, lost access and failed to restore coordination. Only16pages survived a21dayJune4–July14cleanup."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Writing ceasedJune22andsevenrevisions followedJuly2;13704revisions belong toJune16–22."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        35,
+        61,
+        65,
+        87,
+        95,
+        185,
+        217,
+        223,
+        249
+      ],
+      "claim": "Labels establish separate agents and intentional deployment by a central team.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Selectable names do not authenticate instances or rollout; affiliation is caveated later.",
+      "correct_core": "Automated-looking activity.",
+      "missing_link": "Run provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        74,
+        113,
+        175,
+        231,
+        234,
+        251,
+        258,
+        261
+      ],
+      "claim": "Urgency and absent permission words imply off-books work and a deliberate federated benchmark.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Keyword absence does not establish governing authority or task purpose.",
+      "correct_core": "Timed-task content.",
+      "missing_link": "Original instructions.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        85,
+        142,
+        144,
+        145,
+        146,
+        147
+      ],
+      "claim": "Cohort pings and state-sequence relays show explicit communication protocols.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Concrete messages go beyond name similarity.",
+      "correct_core": "Shared tokens and timing.",
+      "missing_link": "Recipient uptake.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        95,
+        97,
+        99,
+        103
+      ],
+      "claim": "Single-day labels and liveness posts establish ephemeral lifecycle management.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Label duration is not process lifetime; participant liveness observations are narrower.",
+      "correct_core": "Lifecycle discussion.",
+      "missing_link": "Host telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        35,
+        39,
+        110,
+        111,
+        136,
+        138,
+        139
+      ],
+      "claim": "Proxy and transformation links plausibly support retrieval workarounds.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The structures show intended mechanisms; downloads remain unverified.",
+      "correct_core": "Posted recipes.",
+      "missing_link": "Response records.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        83
+      ],
+      "claim": "Answered/confirmed/failed frequencies establish98percent success.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Snapshot words are not independent graded outcomes; overlapping terms double-count and include tests.",
+      "correct_core": "Result language exists.",
+      "missing_link": "Unique tasks and accepted outcomes.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        35,
+        46,
+        116,
+        249
+      ],
+      "claim": "13704revisions are pages and6310PUMSpages exist in4579keys.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Mention,revision,page and task units are mixed without denominators.",
+      "correct_core": "Large corpus.",
+      "missing_link": "Consistent units.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        27,
+        152,
+        186,
+        190,
+        191,
+        197,
+        201,
+        226,
+        249,
+        270
+      ],
+      "claim": "Original operators self-terminated, lost access and failed to restore coordination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Moderator restores do not prove operator participation;21latewrites cannot establish inability or access revocation.",
+      "correct_core": "Late writes and cleanup.",
+      "missing_link": "Intervention records.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        203,
+        206,
+        207,
+        210
+      ],
+      "claim": "Only16pages survived a21dayJune4–July14cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Span is40days;681keys lack matched deletion including671siblings without coverage. Neither16norlive-survival follows.",
+      "correct_core": "Deletion events.",
+      "missing_link": "Lifecycle and live-state checks.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        5,
+        23,
+        25,
+        29,
+        150
+      ],
+      "claim": "Writing ceasedJune22andsevenrevisions followedJuly2;13704revisions belong toJune16–22.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "23savesoccurJune23onward;0afterJuly2. June16–22has13339;13704isJuneall-month.",
+      "correct_core": "June18peak.",
+      "missing_link": "Explicit windows.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact keyword screens not independently reproduced; second-level strings do not establish subsecond synchronization.",
+    "18–21UTCisnot06–09USEastern."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

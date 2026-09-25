@@ -1,0 +1,55 @@
+{
+  "indexed_reports": 297,
+  "published_pairs_checked": 78,
+  "published_pairs_matching_actual_parent": 77,
+  "repaired_pairs": 1,
+  "archive_sample_matches": 225,
+  "staged_text_matches_run": 225,
+  "input_hash_status_counts": {
+    "not_recorded": 184,
+    "match": 113
+  },
+  "input_hash_mismatches": [],
+  "primary_budget_conditions": [
+    {
+      "budget_min": 10,
+      "reports": 39,
+      "median_actual_minutes": 7.9501,
+      "minimum_actual_minutes": 7.516666666666667,
+      "maximum_actual_minutes": 10.096,
+      "prompt_ids": [
+        "46e93357",
+        "66b7fb24"
+      ],
+      "fallbacks": 0
+    },
+    {
+      "budget_min": 30,
+      "reports": 39,
+      "median_actual_minutes": 23.016666666666666,
+      "minimum_actual_minutes": 22.533333333333335,
+      "maximum_actual_minutes": 29.65,
+      "prompt_ids": [
+        "c59bd6e8"
+      ],
+      "fallbacks": 2
+    },
+    {
+      "budget_min": 120,
+      "reports": 35,
+      "median_actual_minutes": 90.9437,
+      "minimum_actual_minutes": 90.1,
+      "maximum_actual_minutes": 120.20241666666668,
+      "prompt_ids": [
+        "8543600d"
+      ],
+      "fallbacks": 3
+    }
+  ],
+  "limits": [
+    "Run JSON metadata and output hashes were inspected; behavioral transcripts were not comprehensively read.",
+    "Input hashes substantiate the recorded preflight for matched native samples; no hashes were available for some subscription runs.",
+    "Historical grades are separate from these run logs.",
+    "Budget conditions differ in prompts and runtime; the report census includes retries and missing requested replicates."
+  ]
+}

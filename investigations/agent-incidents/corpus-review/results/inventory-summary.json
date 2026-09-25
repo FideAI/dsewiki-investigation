@@ -1,0 +1,128 @@
+{
+  "commit": "e1eea3b4eaf93f9a7e2898da97096ef643916da1",
+  "staged_files": 304,
+  "indexed_report_artifacts": 297,
+  "rejected_attempts": 7,
+  "distinct_report_texts": 303,
+  "total_words_in_staged_files": 1006136,
+  "previously_read_reports": 39,
+  "expanded_conclusion_reviews_complete": 304,
+  "groups": [
+    {
+      "group": "earlier_provider_ablation",
+      "staged_files": 31,
+      "indexed_files": 31,
+      "unique_texts": 31,
+      "words": 79535,
+      "full_text_read_prior": 0,
+      "expanded_readings": 31,
+      "partial_flagged": 0,
+      "fallback_flagged": 0,
+      "rejected_attempts": 0,
+      "unresolved_metadata": 0
+    },
+    {
+      "group": "exploratory_followup",
+      "staged_files": 8,
+      "indexed_files": 8,
+      "unique_texts": 8,
+      "words": 37853,
+      "full_text_read_prior": 0,
+      "expanded_readings": 8,
+      "partial_flagged": 0,
+      "fallback_flagged": 0,
+      "rejected_attempts": 0,
+      "unresolved_metadata": 0
+    },
+    {
+      "group": "followup_min5",
+      "staged_files": 79,
+      "indexed_files": 79,
+      "unique_texts": 79,
+      "words": 373906,
+      "full_text_read_prior": 0,
+      "expanded_readings": 79,
+      "partial_flagged": 1,
+      "fallback_flagged": 0,
+      "rejected_attempts": 0,
+      "unresolved_metadata": 0
+    },
+    {
+      "group": "main",
+      "staged_files": 113,
+      "indexed_files": 113,
+      "unique_texts": 113,
+      "words": 328734,
+      "full_text_read_prior": 39,
+      "expanded_readings": 113,
+      "partial_flagged": 0,
+      "fallback_flagged": 5,
+      "rejected_attempts": 0,
+      "unresolved_metadata": 0
+    },
+    {
+      "group": "provider_swap",
+      "staged_files": 65,
+      "indexed_files": 65,
+      "unique_texts": 65,
+      "words": 179897,
+      "full_text_read_prior": 0,
+      "expanded_readings": 65,
+      "partial_flagged": 0,
+      "fallback_flagged": 2,
+      "rejected_attempts": 0,
+      "unresolved_metadata": 0
+    },
+    {
+      "group": "synthesis",
+      "staged_files": 8,
+      "indexed_files": 1,
+      "unique_texts": 8,
+      "words": 6211,
+      "full_text_read_prior": 0,
+      "expanded_readings": 8,
+      "partial_flagged": 0,
+      "fallback_flagged": 0,
+      "rejected_attempts": 7,
+      "unresolved_metadata": 0
+    }
+  ],
+  "cohorts": {
+    "ablation_anthropic_b10": 7,
+    "ablation_anthropic_b30": 24,
+    "fu5k": 8,
+    "fu5k_min5_b10": 26,
+    "fu5k_min5_b120": 26,
+    "fu5k_min5_b30": 27,
+    "pswap_b10": 20,
+    "pswap_b120": 21,
+    "pswap_b30": 24,
+    "round4_blind10": 39,
+    "round4_blind120": 35,
+    "round4_blind30": 39,
+    "synth_b120": 8
+  },
+  "index_rows": {
+    "ablation_anthropic_b10": 7,
+    "ablation_anthropic_b30": 24,
+    "fu5k": 8,
+    "fu5k_min5_b10": 26,
+    "fu5k_min5_b120": 26,
+    "fu5k_min5_b30": 27,
+    "pswap_b10": 20,
+    "pswap_b120": 21,
+    "pswap_b30": 24,
+    "round4_blind10": 39,
+    "round4_blind120": 35,
+    "round4_blind30": 39,
+    "synth_b120": 1
+  },
+  "duplicate_text_groups": [
+    [
+      "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep1.md",
+      "benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep1.md"
+    ]
+  ],
+  "provenance_issues": [],
+  "scope_note": "File inventory with reading attestations joined from current review records; build_study.py separately validates hashes and complete reading coverage. Reports are dependent across followups, synthesis and duplicates; distinct texts are not independent runs."
+}

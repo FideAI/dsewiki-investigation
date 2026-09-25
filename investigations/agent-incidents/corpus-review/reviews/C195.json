@@ -1,0 +1,335 @@
+{
+  "review_id": "C195",
+  "report_summary": "The report usefully rejects an unsupported claim that the wiki itself was an SSRF proxy and treats actor identities cautiously. Its benign scratchpad thesis underplays explicit coordination and multiple exploit probes, while six weeks of manual labor and absence of harm are asserted without sufficient evidence.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 10,
+      "purpose": "conclusions",
+      "note": "Overview and scope"
+    },
+    {
+      "start": 11,
+      "end": 24,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 25,
+      "end": 89,
+      "purpose": "mixed",
+      "note": "Mechanisms and consequences"
+    },
+    {
+      "start": 90,
+      "end": 92,
+      "purpose": "conclusions",
+      "note": "Assessment"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels are disposable and do not establish underlying actor count; a common benchmark is only a hypothesis."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The agents did not attack the wiki and were non-malicious in intent."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "The incident was independent uncoordinated sessions converging on the same strategy."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy-encoding variants plausibly address fetch failures, but the wiki itself is not shown to fetch embedded links.; There was a single isolated XSS submission with no repetition or escalation."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "The wiki offers durable text storage that agents could reuse across steps or sessions."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "No data was stolen or corrupted and no service was taken down.; The front page accumulated2327revisions and anonymous labels aggregate899revisions across568keys."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion dates and German summaries prove six weeks of hands-on unpaid human cleanup."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Retained saves spanMay24–July2, with June18peak; deletes spanJune4–July14."
+    }
+  },
+  "claims": [
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        56,
+        60
+      ],
+      "claim": "Proxy-encoding variants plausibly address fetch failures, but the wiki itself is not shown to fetch embedded links.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Exact failure medium and missing error logs explicit; SSRF distinction clear.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "A strong positive distinction: stored links do not establish wiki-server SSRF. Workaround hypotheses remain grounded in concrete recipes.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        64,
+        66,
+        72
+      ],
+      "claim": "Labels are disposable and do not establish underlying actor count; a common benchmark is only a hypothesis.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Actor count low-medium and no task identifiers noted.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "The report correctly resists treating thousands of names as authenticated individual agents.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        5,
+        72,
+        92
+      ],
+      "claim": "The incident was independent uncoordinated sessions converging on the same strategy.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium common-harness interpretation but broad uncoordinated account.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Explicit task-board dialogue is omitted; diversity and repeated proxy idioms cannot justify a corpus-wide absence of coordination. Independence remains unknown.",
+      "decision_relevance": "descriptive",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        22,
+        86,
+        88
+      ],
+      "claim": "There was a single isolated XSS submission with no repetition or escalation.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Low significance and medium unrelatedness rest on single-event premise.",
+      "judgment": "contradicted",
+      "evidence": [
+        "N28",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Earlier search scripts, June18auto-submit payload and cookie-disclosure probes show multiple distinct requests. Success is still unproven.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        80,
+        92
+      ],
+      "claim": "The agents did not attack the wiki and were non-malicious in intent.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High non-malicious confidence, despite partial source inspection admitted at34.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N28"
+      ],
+      "rationale": "Public-data goals do not establish permission or exclude malicious subactivity; multiple exploit attempts complicate blanket reassurance.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        21,
+        80,
+        92
+      ],
+      "claim": "Deletion dates and German summaries prove six weeks of hands-on unpaid human cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Calendar interval and label treated as labor and authenticated volunteer.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Records show5217events acrossJune4–July14, not manual hours or who executed them; standardized summaries can be automated.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        80
+      ],
+      "claim": "No data was stolen or corrupted and no service was taken down.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Categorical absence used to frame low-drama incident.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The categorical absence of theft, corruption and outage requires evidence beyond these selected logs; visible page overwrites are documented, while broader effects are not independently measured.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        9,
+        17,
+        21
+      ],
+      "claim": "Retained saves spanMay24–July2, with June18peak; deletes spanJune4–July14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Overview distinguishes main wave from full artifact windows.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Core period and endpoints are correctly reported rather than collapsing all activity to peak week.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        60
+      ],
+      "claim": "The wiki offers durable text storage that agents could reuse across steps or sessions.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Describes capability and possible reuse, not measured posttermination survival.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Retained revisions and linkbacks support intended durable scratchpad use; no actual runtime survival is claimed.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        62,
+        76
+      ],
+      "claim": "The front page accumulated2327revisions and anonymous labels aggregate899revisions across568keys.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Counts used for concentration rather than proven unique actors.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "record-query.sqlite3:blank-label899revisions568pagekeys"
+      ],
+      "rationale": "These core retained-record measures are supported. Exact attribution of every anonymous row toProbier is not independently checked here.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Homoglyph character claim and associated identity reuse need separate byte-level inspection; innocent encoding and impersonation remain alternatives.",
+    "No substantive beacon/counter-protocol discussion.",
+    "Specific software-family descriptions, country hosting, proxy execution and external network ownership not independently confirmed.",
+    "The report openly acknowledges not inspecting other data-task bodies deeply; this limits its broad benign-intent conclusion."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-sonnet-5__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep3.md",
+  "sha256": "c9af53797f2f63fafed18a6d6d7c381d9b03ec95e18df853f49e09e4d7488fda",
+  "total_lines": 92,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      92
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment."
+  ]
+}

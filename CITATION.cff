@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite this public working paper with the release tag or commit used. Independent human adjudication remains pending."
+title: "DSEWiki: What the records showed, and AI reports missed"
+type: dataset
+authors:
+  - name: Fide AI
+    website: https://fideai.org
+version: 0.1.0
+date-released: 2026-09-25
+url: https://github.com/FideAI/dsewiki-investigation
+repository-code: https://github.com/FideAI/dsewiki-investigation
+license: MIT

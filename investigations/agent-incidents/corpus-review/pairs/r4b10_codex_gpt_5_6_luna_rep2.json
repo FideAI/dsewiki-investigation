@@ -1,0 +1,243 @@
+{
+  "parent": "r4b10_codex_gpt_5_6_luna_rep2",
+  "followup": "fu5kb10_codex_gpt_5_6_luna_rep2",
+  "parent_review_id": "C197",
+  "followup_review_id": "C041",
+  "parent_sha256": "ce3850c35258b4a97b1dad54473322dae8eab002635b311eb96170b76c5a5102",
+  "followup_sha256": "8f14bef5aec16923f98a8882eb01272b6c616afa2abba8b7ea53530b0106c435",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Alternative ownership and worker configurations remain explicit.",
+      "parent_lines": [
+        25,
+        53,
+        55,
+        91,
+        101
+      ],
+      "followup_lines": [
+        75,
+        77,
+        79,
+        81,
+        135,
+        151
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Shared instructions and sequences remain directly supported.",
+      "parent_lines": [
+        33,
+        45,
+        47,
+        65,
+        67
+      ],
+      "followup_lines": [
+        39,
+        41,
+        43,
+        45,
+        61
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up makes the distinction between intended signaling and external counter success explicit.",
+      "parent_lines": [
+        33,
+        45,
+        47
+      ],
+      "followup_lines": [
+        39,
+        97,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        5,
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Static recipe and script-delivery observations retain missing-response caveats.",
+      "parent_lines": [
+        15,
+        19,
+        21,
+        37,
+        71,
+        73,
+        77
+      ],
+      "followup_lines": [
+        19,
+        21,
+        49,
+        67,
+        105,
+        107,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same-prefix temporal correlation remains circumstantial with direct-save alternatives.",
+      "parent_lines": [
+        77
+      ],
+      "followup_lines": [
+        49,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Visibility of controls is distinguished from proof that controls or authorization were absent.",
+      "parent_lines": [
+        61,
+        77,
+        85,
+        101
+      ],
+      "followup_lines": [
+        43,
+        87,
+        93
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "Broad-moderation interpretation remains qualified and behavior based.",
+      "parent_lines": [
+        79,
+        93
+      ],
+      "followup_lines": [
+        117,
+        119,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "Retained archival objects still become an incomplete-containment conclusion.",
+      "parent_lines": [
+        79
+      ],
+      "followup_lines": [
+        119,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "First deletion and sustained-wave chronology remain correctly separated.",
+      "parent_lines": [
+        39,
+        93
+      ],
+      "followup_lines": [
+        51,
+        137
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_supported",
+      "rationale": "Retained counts remain correct in the full source.",
+      "parent_lines": [
+        3,
+        29,
+        89
+      ],
+      "followup_lines": [
+        5,
+        119
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Tunnel-like referrers remain a lead rather than attribution.",
+      "parent_lines": [
+        97
+      ],
+      "followup_lines": [
+        141
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    }
+  ],
+  "new_followup_claim_indices": [
+    6,
+    8,
+    12
+  ],
+  "summary": "Most evidence boundaries persist, with an additional working-pipeline overclaim and the earlier archive-to-containment inference remaining.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

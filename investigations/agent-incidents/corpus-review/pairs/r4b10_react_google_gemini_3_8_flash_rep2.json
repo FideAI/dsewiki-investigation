@@ -1,0 +1,306 @@
+{
+  "parent": "r4b10_react_google_gemini_3_8_flash_rep2",
+  "followup": "fu5kb10_react_google_gemini_3_8_flash_rep2",
+  "parent_review_id": "C209",
+  "followup_review_id": "C053",
+  "parent_sha256": "5effdb2964d5854a6fce4b0f1cd17e89c38af8476b9e6fd5f9e3be961a5d913a",
+  "followup_sha256": "a829d1e64b4072928050cc461c7860faea0f0c4b695cef3594e119d63216847e",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Definitive provider and instance attribution persists.",
+      "parent_lines": [
+        3,
+        59,
+        136,
+        156
+      ],
+      "followup_lines": [
+        3,
+        72,
+        74,
+        248
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "superseded",
+      "rationale": "A reasonable name-adoption/impersonation interpretation becomes asserted successful administrative attribution.",
+      "parent_lines": [
+        37,
+        130,
+        161
+      ],
+      "followup_lines": [
+        45,
+        212,
+        218,
+        220,
+        253
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2,
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Spontaneous origin and a known restricted tool stack remain unsupported categorical premises.",
+      "parent_lines": [
+        5,
+        54,
+        57,
+        65,
+        107,
+        114,
+        171
+      ],
+      "followup_lines": [
+        169,
+        171,
+        173,
+        181,
+        190,
+        250,
+        251,
+        263,
+        266
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Detailed answer and timing exchanges remain grounded in the source.",
+      "parent_lines": [
+        70,
+        71,
+        76,
+        77,
+        85,
+        86,
+        88,
+        89
+      ],
+      "followup_lines": [
+        86,
+        95,
+        101,
+        104,
+        110,
+        119,
+        125
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "The stronger exploit execution and any-viewer outcome claims persist.",
+      "parent_lines": [
+        34,
+        57,
+        124,
+        160
+      ],
+      "followup_lines": [
+        42,
+        202,
+        203,
+        205,
+        206,
+        252
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Proxy-chain outputs and benefits remain treated as established results.",
+      "parent_lines": [
+        102,
+        103,
+        104,
+        105,
+        108,
+        109,
+        111,
+        158
+      ],
+      "followup_lines": [
+        169,
+        171,
+        173,
+        181,
+        190,
+        250,
+        251
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "Permanent restoration and complete termination remain contradicted by later activity.",
+      "parent_lines": [
+        43,
+        146,
+        148
+      ],
+      "followup_lines": [
+        46,
+        49,
+        50,
+        51,
+        238,
+        240
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        12,
+        13
+      ],
+      "transition": "retained_problem",
+      "rationale": "A page/event confusion and unmeasured dozens-of-hours labor conclusion retain the earlier cleanup problems.",
+      "parent_lines": [
+        148,
+        162,
+        174
+      ],
+      "followup_lines": [
+        51,
+        232,
+        237,
+        240,
+        254,
+        266
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "The exact noon timestamp remains unsupported day-precision normalization.",
+      "parent_lines": [
+        37,
+        130
+      ],
+      "followup_lines": [
+        45,
+        212,
+        218
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        10,
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "The first-deletion target is corrected, but cessation in June remains asserted despite July saves; the old OECD blanking misdate is no longer the basis of the narrative.",
+      "parent_lines": [
+        21,
+        38,
+        41
+      ],
+      "followup_lines": [
+        25,
+        26,
+        46,
+        49,
+        50,
+        51,
+        238,
+        240
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_supported",
+      "rationale": "Core activity and moderator-revision counts still support observed page disruption, while an all-rollbacks interpretation is a separate new claim.",
+      "parent_lines": [
+        51,
+        140,
+        162
+      ],
+      "followup_lines": [
+        38,
+        41,
+        62,
+        232
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_supported",
+      "rationale": "Persistent shared wiki placement remains a defensible mechanism account.",
+      "parent_lines": [
+        168,
+        171
+      ],
+      "followup_lines": [
+        16,
+        143,
+        149
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    4,
+    7
+  ],
+  "summary": "Some chronology is repaired, but a plausible impersonation attempt becomes asserted success and central attribution, exploit and cleanup overclaims persist.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

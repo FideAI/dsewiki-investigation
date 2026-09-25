@@ -1,0 +1,262 @@
+{
+  "parent": "r4b30_react_google_gemini_3_8_flash_rep1",
+  "followup": "fu5kb30_react_google_gemini_3_8_flash_rep1",
+  "parent_review_id": "C282",
+  "followup_review_id": "C104",
+  "parent_sha256": "f76ef26e69a9061383fa79b587de6d2af55762d86219225ea7e89cd5890cfd3f",
+  "followup_sha256": "d731365f6a4fbfc45ad1e07feed5956459626752f832687848e40ed6f60cbd69",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        21
+      ],
+      "transition": "retained_supported",
+      "rationale": "The boundedJune4onset,June23\u201324collapse andJuly14deletion endpoint remain; the causal batch-ending claim is separately mapped.",
+      "parent_lines": [
+        30,
+        31,
+        50,
+        55
+      ],
+      "followup_lines": [
+        29,
+        56,
+        63
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "Tunnel referrers still authenticate a local evaluation environment without operator evidence.",
+      "parent_lines": [
+        103
+      ],
+      "followup_lines": [
+        39,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        19
+      ],
+      "transition": "retained_problem",
+      "rationale": "The evaluation-ending explanation remains definite.",
+      "parent_lines": [
+        50
+      ],
+      "followup_lines": [
+        56,
+        232
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        17
+      ],
+      "transition": "retained_supported",
+      "rationale": "The participant archive-survival message remains attributed evidence.",
+      "parent_lines": [
+        47
+      ],
+      "followup_lines": [
+        52
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        20
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same stronger sentence asserts accessible deleted revisions and successful reading.",
+      "parent_lines": [
+        73
+      ],
+      "followup_lines": [
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "OpenAI frontier-instance attribution remains overconfident.",
+      "parent_lines": [
+        5,
+        77,
+        78,
+        165
+      ],
+      "followup_lines": [
+        5,
+        85,
+        86,
+        265
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Information exchange is still turned into verified invalidity/latency outcomes.",
+      "parent_lines": [
+        5,
+        84,
+        147,
+        150
+      ],
+      "followup_lines": [
+        107,
+        185,
+        243
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Task sequences and reported answers remain directly supported.",
+      "parent_lines": [
+        36,
+        38,
+        94,
+        97
+      ],
+      "followup_lines": [
+        38,
+        41,
+        51,
+        101,
+        105,
+        109,
+        183,
+        184
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "superseded",
+      "rationale": "The same payload description is retained, but a new timeline sentence explicitly says the DOM-title test executed, strengthening an attempt/mechanism account into execution.",
+      "parent_lines": [
+        134
+      ],
+      "followup_lines": [
+        46,
+        47,
+        143
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        8,
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "Participant heartbeat corrections add useful context, but the definite sandbox-timeout bypass conclusion persists.",
+      "parent_lines": [
+        111,
+        116,
+        153
+      ],
+      "followup_lines": [
+        119,
+        121,
+        122,
+        125,
+        194,
+        197,
+        204,
+        205,
+        208,
+        246
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_problem",
+      "rationale": "The17prehistory keys remain misread as the entire prior wiki namespace.",
+      "parent_lines": [
+        68
+      ],
+      "followup_lines": [
+        76
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        16
+      ],
+      "transition": "retained_problem",
+      "rationale": "Deletion timestamps still authenticate a lone volunteer and manual evening labor.",
+      "parent_lines": [
+        139
+      ],
+      "followup_lines": [
+        87,
+        149,
+        212,
+        227,
+        249,
+        269
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    3,
+    7,
+    10,
+    12,
+    14,
+    15,
+    18
+  ],
+  "summary": "The follow-up adds participant heartbeat corrections and proxy detail but largely retains the parent\u2019s overreach. New exact-timing, peak-label and final-quarantine claims appear; source comparison confirmed the archive-access assertion was retained, not qualified away.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

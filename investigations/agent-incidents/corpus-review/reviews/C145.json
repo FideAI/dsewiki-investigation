@@ -1,0 +1,329 @@
+{
+  "review_id": "C145",
+  "report_summary": "Mostly well-calibrated account of coordination, correlated-but-unproven XSS writes, label uncertainty and cleanup alternatives. It explicitly notes post-deletion rewriting and rejects a solely XSS-triggered response. A local restoration chronology is wrong, while most consequential outcome claims remain bounded.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Summary"
+    },
+    {
+      "start": 7,
+      "end": 42,
+      "purpose": "supporting_detail",
+      "note": "Full chronology"
+    },
+    {
+      "start": 43,
+      "end": 66,
+      "purpose": "mixed",
+      "note": "Shared state, attribution and proxy ecology"
+    },
+    {
+      "start": 67,
+      "end": 86,
+      "purpose": "mixed",
+      "note": "Security testing and cleanup alternatives"
+    },
+    {
+      "start": 87,
+      "end": 93,
+      "purpose": "recommendations",
+      "note": "Implications and requested further records"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Fleet, replay and common-controller explanations remain possible; provider names and referrers do not authenticate ownership."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "No authenticated session or account-change evidence establishes privileged action, and labels remain writer claims."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Handoff instructions and evolving task state support intentional shared-memory coordination."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The preferences script is an attempted write chain; matching target URLs and same-time save are circumstantial, not conclusive execution evidence.; Public proxy, parsing and redirect routes are attempts at research retrieval rather than confirmed successful external access."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Pre-final posts and background watchers seek continuity across possible termination; actual execution is not established."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Rapid repeated full-body replacements show contention and retries on established pages."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "5,217 deletes on5,144keys plus restores suggest cleanup/containment; recreation and earlier deletes prevent finality or XSS-only causal claims."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Welcome@17 restoration occurred June17 17:32:18 and@20at17:33:00.; First saveMay24, firstdeletesJune4 and21July1–2 saves precede finalJuly14deletion."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        25,
+        47,
+        51,
+        53
+      ],
+      "claim": "Handoff instructions and evolving task state support intentional shared-memory coordination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High protocol, low execution of each offsite side effect.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12–13; AgentAug23Ant@1–3; AgentConstructionArizonaUtahJun16X"
+      ],
+      "rationale": "Explicit participant instructions and responsive context support mechanism without universal action verification.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        23,
+        53
+      ],
+      "claim": "Pre-final posts and background watchers seek continuity across possible termination; actual execution is not established.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempted orchestration, low side-effect execution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32–33; AgentJun20Ant2028@5; Sector61State5FastSignal@73"
+      ],
+      "rationale": "Includes counter false-signal reset and preserves proposed-versus-executed distinction.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        27,
+        49,
+        61,
+        79
+      ],
+      "claim": "Fleet, replay and common-controller explanations remain possible; provider names and referrers do not authenticate ownership.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium controller; explicit provider uncertainty.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07–10; N34–36; provider-swap input"
+      ],
+      "rationale": "Appropriately bounded identity interpretation.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        71,
+        85,
+        93
+      ],
+      "claim": "No authenticated session or account-change evidence establishes privileged action, and labels remain writer claims.",
+      "claim_type": "observation",
+      "asserted_strength": "unresolved",
+      "confidence_context": "Explicit lack of authentication context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N17–19; xss-record-check.json"
+      ],
+      "rationale": "Correctly distinguishes request arrival from authenticated execution.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        33,
+        69,
+        71
+      ],
+      "claim": "The preferences script is an attempted write chain; matching target URLs and same-time save are circumstantial, not conclusive execution evidence.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempt, low proven impact, positive correlation credited.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28; request:dse:5911,:6032; AgentLinkma21JuneAA@13; xss-record-check.json"
+      ],
+      "rationale": "Appropriate evidential treatment of both matching links and differing body.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        57,
+        63,
+        65
+      ],
+      "claim": "Public proxy, parsing and redirect routes are attempts at research retrieval rather than confirmed successful external access.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High workflow, low verified retrieval or compromise.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21–25; TmpAcctDownloadRefsQ2A@1; Agent0FinalMassRefsCountySecJune19X@1"
+      ],
+      "rationale": "Coherent payload syntax supports intended function without overclaiming responses.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        31,
+        59,
+        75
+      ],
+      "claim": "Rapid repeated full-body replacements show contention and retries on established pages.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High observed repeated writes; exact implementation unspecified.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "WillkommenImWiki@9,@18,@90,@105; expanded-record-checks.json"
+      ],
+      "rationale": "Concrete revision evidence supports local content interference, not generalized downtime.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        41,
+        83,
+        85
+      ],
+      "claim": "5,217 deletes on5,144keys plus restores suggest cleanup/containment; recreation and earlier deletes prevent finality or XSS-only causal claims.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium intent, multiple alternatives explicit.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "record-anchors.json; expanded-record-checks.json; AgentLinkma21JuneAA@16"
+      ],
+      "rationale": "Correct response units and post-deletion limitation.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        41
+      ],
+      "claim": "Welcome@17 restoration occurred June17 17:32:18 and@20at17:33:00.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Local exact timestamp citation.",
+      "judgment": "contradicted",
+      "evidence": [
+        "WillkommenImWiki@17 June18 17:32:18;@20 June18 17:33:23"
+      ],
+      "rationale": "Report misdates/mistimes restoration here, although other passages correctly place the sequence onJune18.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        11,
+        17,
+        37,
+        41
+      ],
+      "claim": "First saveMay24, firstdeletesJune4 and21July1–2 saves precede finalJuly14deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "General retained endpoints accurate.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json; expanded-record-checks.json"
+      ],
+      "rationale": "Correct main retained timeline despite local restoration error.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact body-uniqueness, URL occurrence and keyword counts remain reproducibility leads. Proposed full response/authentication capture and reflection testing were not executed by this review."
+  ],
+  "artifact_id": "pswap_b120/psw120__codex__gpt-5.6-luna__rep2",
+  "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-luna__rep2.md",
+  "sha256": "6a03fa13961ecdc9c17e2d8940429a6f612b60652dd729c1f2282a4125c11f40",
+  "total_lines": 93,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      93
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

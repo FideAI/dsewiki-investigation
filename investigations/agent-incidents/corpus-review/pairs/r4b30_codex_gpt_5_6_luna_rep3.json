@@ -1,0 +1,258 @@
+{
+  "parent": "r4b30_codex_gpt_5_6_luna_rep3",
+  "followup": "fu5kb30_codex_gpt_5_6_luna_rep3",
+  "parent_review_id": "C272",
+  "followup_review_id": "C094",
+  "parent_sha256": "63ea4ac3f676ccd6849314fa702cb1323d7a2aca5c0e84a981ee17eb11123484",
+  "followup_sha256": "2dc27f8b18afd35f8644b79262c77658475a79a4ba8b01880e41d91fd666434d",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Both preserveJune4onset andJuly2/14endpoints.",
+      "parent_lines": [
+        43,
+        79
+      ],
+      "followup_lines": [
+        5,
+        41,
+        43
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Recurrence remains distinct from permanent removal or known lifecycle boundaries.",
+      "parent_lines": [
+        79,
+        89
+      ],
+      "followup_lines": [
+        43,
+        79,
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "The qualified visibility/disposable-name hypothesis remains verbatim.",
+      "parent_lines": [
+        81
+      ],
+      "followup_lines": [
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Single-controller and model identity remain uncertain.",
+      "parent_lines": [
+        49,
+        57,
+        75,
+        89
+      ],
+      "followup_lines": [
+        49,
+        57,
+        75,
+        89,
+        91
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "superseded",
+      "rationale": "No direct equivalent to the peer-instruction authority proposition is in the follow-up coding; the mapped entry instead concerns impact and is not comparable.",
+      "parent_lines": [
+        69,
+        85
+      ],
+      "followup_lines": [
+        31
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Published sequences and relays are retained.",
+      "parent_lines": [
+        23,
+        25,
+        51,
+        55
+      ],
+      "followup_lines": [
+        23,
+        25,
+        27,
+        55,
+        57
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Probes and POST recipes remain attempts, not proven execution.",
+      "parent_lines": [
+        65,
+        71,
+        85
+      ],
+      "followup_lines": [
+        11,
+        65,
+        71,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Counter fallback and pre-answer persistence remain plans with uncertain delivery.",
+      "parent_lines": [
+        35,
+        69,
+        73
+      ],
+      "followup_lines": [
+        35,
+        69,
+        73
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The explicit external-load caveat extends the distinction between stored activity and successful external effects.",
+      "parent_lines": [
+        31,
+        61,
+        89
+      ],
+      "followup_lines": [
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "superseded",
+      "rationale": "The follow-up strengthens a partly hypothetical side-effect account into a realized CounterAPI-consumption chain without endpoint telemetry.",
+      "parent_lines": [
+        69,
+        85
+      ],
+      "followup_lines": [
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same cumulative7.2MBvalue is still described as reached page size.",
+      "parent_lines": [
+        31
+      ],
+      "followup_lines": [
+        31
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "The administrator-role mismatch was already in the parent and remains explicit.",
+      "parent_lines": [
+        79
+      ],
+      "followup_lines": [
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Public/demo-key alternatives and unknown privileges already appeared in the parent.",
+      "parent_lines": [
+        89
+      ],
+      "followup_lines": [
+        5,
+        71,
+        85,
+        127
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "Mostly an extension of the original account, including pre-existing role-field and credential cautions. The7.2MBsingle-page error persists; the realized CounterAPI-consumption claim becomes stronger without additional external evidence.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

@@ -1,0 +1,376 @@
+{
+  "review_id": "C119",
+  "artifact_id": "pswap_b10/psw10__claude__claude-haiku-4-5__rep1",
+  "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-haiku-4-5__rep1.md",
+  "sha256": "a2db980ea60ad58ca13f0e660e65d324961c222f8d73809df593c2a07683c7a1",
+  "total_lines": 233,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      233
+    ]
+  ],
+  "report_summary": "The report recasts moderator cleanup as a proved administrator compromise and evidence-destruction campaign. It observes real revision and deletion volume but repeatedly infers malicious identity, data export and defeated controls without supporting records, and confuses revision totals with pages and storage.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Attack hypothesis and confidence."
+    },
+    {
+      "start": 9,
+      "end": 32,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 33,
+      "end": 79,
+      "purpose": "mixed",
+      "note": "Deletion and creation characteristics."
+    },
+    {
+      "start": 80,
+      "end": 109,
+      "purpose": "conclusions",
+      "note": "Exfiltration and cloud attribution."
+    },
+    {
+      "start": 110,
+      "end": 149,
+      "purpose": "conclusions",
+      "note": "Actor and platform claims."
+    },
+    {
+      "start": 150,
+      "end": 190,
+      "purpose": "conclusions",
+      "note": "Security implications and confidence."
+    },
+    {
+      "start": 191,
+      "end": 226,
+      "purpose": "mixed",
+      "note": "Gaps and purported detection failures."
+    },
+    {
+      "start": 227,
+      "end": 233,
+      "purpose": "mixed",
+      "note": "Conclusion and recommendations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Cloud prefixes and shared pages prove one botnet controller, compromised infrastructure and possible insider involvement."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "MartinHuber credentials were stolen and bypassed authentication, with missing or unmonitored MFA."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Labels establish thousands of bots under central direction, while collaboration pages are pre-existing legitimate research partnerships."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "June 29 records an XSS probe, treated as the separate single XSS episode."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "An attacker maintained uninterrupted credential access for 40 days and defeated IP rate limits."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The record shows 12,254 peak-week revisions, a 6.8 MB single page, gigabytes of storage and 14,500 new pages. Content was staged for model training or commercial resale and exported before evidence was destroyed."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The 5,217 deletions prove a compromised administrator destroying evidence across multiple wikis. Deletion damage is reversible from pre-June 4 backups and all deleted content should be restored."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Content creation ended June 22 before an exfiltration-to-deletion pivot."
+    }
+  },
+  "claims": [
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        37,
+        44,
+        113,
+        177,
+        188,
+        229
+      ],
+      "claim": "The 5,217 deletions prove a compromised administrator destroying evidence across multiple wikis.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "All deletion events belong to DSEWiki; maintenance writes and restores are visible. Delete capability does not prove compromise, and the statistical probability of legitimacy is invented.",
+      "correct_core": "5,217 recorded deletions and maintenance activity exist.",
+      "missing_link": "Authenticated operator history, authorization and incident-response records.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        56,
+        61,
+        96,
+        101,
+        106,
+        122,
+        125,
+        137
+      ],
+      "claim": "Cloud prefixes and shared pages prove one botnet controller, compromised infrastructure and possible insider involvement.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Truncated prefixes and selected names do not identify machines, account ownership, compromised infrastructure or controller count. Shared editing alone cannot prove one operator.",
+      "correct_core": "Distributed-looking source prefixes and overlapping page edits.",
+      "missing_link": "Full network and authenticated run mappings.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        113,
+        117,
+        160,
+        217
+      ],
+      "claim": "MartinHuber credentials were stolen and bypassed authentication, with missing or unmonitored MFA.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The corpus has no login, credential theft, MFA or authorization records. The same report later says 2.202 never created content, contradicting its own 26-write observation.",
+      "correct_core": "Maintenance prefix has 26 writes and delete events.",
+      "missing_link": "Authentication and access-control logs.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        48,
+        58,
+        60,
+        106,
+        141
+      ],
+      "claim": "Labels establish thousands of bots under central direction, while collaboration pages are pre-existing legitimate research partnerships.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Labels are editable identifiers, not bot identities. Real answer/state exchange is ignored and task-specific collaboration pages are mischaracterized without history evidence.",
+      "correct_core": "High-rate repeated writes support automation.",
+      "missing_link": "Run-level linkage and page histories.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        48,
+        64,
+        65,
+        66,
+        144,
+        231
+      ],
+      "claim": "The record shows 12,254 peak-week revisions, a 6.8 MB single page, gigabytes of storage and 14,500 new pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Peak June 16–22 revisions are 13,339. The largest cumulative page history is 7,218,730 characters, its largest snapshot 24,139; global maximum 38,832. There are 4,579 retained page keys and 14,591 revisions, not 14,500 pages.",
+      "correct_core": "Large retained revision history.",
+      "missing_link": "Correct snapshot, cumulative revision and page denominators.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        74,
+        90,
+        108,
+        153,
+        189,
+        229
+      ],
+      "claim": "Content was staged for model training or commercial resale and exported before evidence was destroyed.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Public task-data references and deletion timing do not establish training, resale, export or cover-up. Later success uncertainty does not retract the categorical exfiltration sequence.",
+      "correct_core": "Research-topic content exists.",
+      "missing_link": "Destination, export and downstream-use records.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        27,
+        128,
+        178
+      ],
+      "claim": "June 29 records an XSS probe, treated as the separate single XSS episode.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The June 29 script-valued action is an observable attempt, although the report omits the earlier June 18 payload and related probes.",
+      "correct_core": "Identifies a genuine script probe.",
+      "missing_link": "Review earlier payloads and response/execution evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        115,
+        160,
+        208,
+        215,
+        223
+      ],
+      "claim": "An attacker maintained uninterrupted credential access for 40 days and defeated IP rate limits.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "A span of recorded deletes is not continuous malicious access or evidence of configured controls being bypassed.",
+      "correct_core": "Deletion activity spans June 4–July 14.",
+      "missing_link": "Credential sessions and enforcement configuration.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        23,
+        48,
+        88,
+        90
+      ],
+      "claim": "Content creation ended June 22 before an exfiltration-to-deletion pivot.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Retained writes continue June 23, June 24, July 1 and July 2, acknowledged by the report's own full-window date but excluded from its causal story.",
+      "correct_core": "Major June 16–22 concentration and 4,773 later deletes.",
+      "missing_link": "Use complete chronology and independent export evidence.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        231,
+        233
+      ],
+      "claim": "Deletion damage is reversible from pre-June 4 backups and all deleted content should be restored.",
+      "claim_type": "recommendation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "unassessable",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Backup existence, recoverability and whether restoring unwanted task material is appropriate are not established.",
+      "correct_core": "Recovery review is a reasonable operational question.",
+      "missing_link": "Backup inventory and legitimate content selection.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Hourly distributions, individual label counts and purported statistical baselines were not all independently recomputed.",
+    "The report omits concrete state/answer protocols, early June 18 XSS chain and most credential/local-target probes."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

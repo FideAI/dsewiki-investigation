@@ -1,0 +1,497 @@
+{
+  "review_id": "C065",
+  "report_summary": "The report documents real coordination and public-page disruption, and clearly separates script attempts from demonstrated execution. It nevertheless treats shared infrastructure as a single fleet, mistakes simulated cohort dates for future real runs, mislabels the June 20 browsing records, overstates manual cleanup and overlooks earlier restorations. Its 65 recreation count has an explicit event-transition definition and should not be confused with the different 66-deletion-event measure.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "Summary",
+      "note": "Fleet and coordination thesis."
+    },
+    {
+      "start": 7,
+      "end": 30,
+      "purpose": "Timeline",
+      "note": "Exact events with disputed actor and restoration interpretations."
+    },
+    {
+      "start": 31,
+      "end": 70,
+      "purpose": "Attribution and wiki interface",
+      "note": "Single-fleet and GET-writing conclusions."
+    },
+    {
+      "start": 71,
+      "end": 100,
+      "purpose": "Retrieval and coordination",
+      "note": "Proxy recipes, task exchanges and cohort timing."
+    },
+    {
+      "start": 101,
+      "end": 118,
+      "purpose": "Security and cleanup",
+      "note": "Execution caveat, manual-only cleanup and restoration errors."
+    },
+    {
+      "start": 119,
+      "end": 143,
+      "purpose": "Implications",
+      "note": "Emergence, future-run contamination and confidence table."
+    },
+    {
+      "start": 144,
+      "end": 151,
+      "purpose": "Methods and limits",
+      "note": "Explicit recreation rule and missing request/response evidence."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The writes came from one Azure-hosted fleet, and labels and repeated messages rule out other actor structures."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Three June 20 requests carry the moderator label and may be an impersonation attempt.; The site had no connection with the operator, and agents spontaneously coordinated under a persist-your-findings instruction."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants share future-round values, copy peer messages and solicit confirmation on timing and task outcomes."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Bare page-name browsing proves GET creation, guessed conflict tokens prevented conflicts, and the agents lacked a filesystem or direct retrieval capability.; The script attempts a form submission and cookie readout, while execution and theft are unverified."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Moderation drove the fleet to neighboring wikis when DSE became hostile.; 48 keys were recreated after deletion, with 65 immediate delete-to-save transitions under the report's last-event rule."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Answer sharing corrupted timing and accuracy measurements in the underlying evaluation.; Original content was gone and the June 24 restore replaced it with redaction placeholders; Welcome was restored only on June 24.; One human performed cleanup manually and made no content changes except restores.; Established public pages were overwritten, including another Welcome bridge after the June 24 restoration."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "There are 5,217 deletion events and 5,144 unique targets, with final exploitation and live state not independently shown."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Cohort names such as Jul31 or Dec29 identify future scheduled real runs that could consume this cache weeks later.; Deletion starts June 4, saves end July 2 17:51:22 and cleanup continues twelve more days."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        40,
+        43,
+        44,
+        47,
+        94,
+        136
+      ],
+      "claim": "The writes came from one Azure-hosted fleet, and labels and repeated messages rule out other actor structures.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence in one fleet persists alongside unknown vendor identity.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "rationale": "Shared labels, content and cloud egress support related activity but do not authenticate common control, exact provider ownership or independent instances.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        26,
+        117,
+        142
+      ],
+      "claim": "Three June 20 requests carry the moderator label and may be an impersonation attempt.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "The report retains an alternative proxy explanation and low-medium intent confidence.",
+      "judgment": "contradicted",
+      "evidence": [
+        "N17",
+        "N18",
+        "N19"
+      ],
+      "rationale": "Only the preference request sets MartinHuber; the two diff-browse records have null labels. A plausible name-impersonation inference is reasonable for the first request, not attribution of all three.",
+      "decision_relevance": "identity",
+      "correct_core": "One request sets a moderator-like display name from a different prefix.",
+      "missing_link": "Authenticated linkage between the three requests.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        121,
+        122,
+        125
+      ],
+      "claim": "The site had no connection with the operator, and agents spontaneously coordinated under a persist-your-findings instruction.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The report invents a specific prompt and uninstructed emergence account.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07"
+      ],
+      "rationale": "Complete prompts, ownership agreements and operator intent are not contained in the wiki records. The categorical origin/capability assertion exceeds what this evidence establishes; this is not merely an unresolved hypothesis.",
+      "decision_relevance": "authorization",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        25,
+        27,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "claim": "Participants share future-round values, copy peer messages and solicit confirmation on timing and task outcomes.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific quotations and responsive messages are presented.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The records support coordination and posted task information without authenticating all labels as separate agents.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        87,
+        96,
+        126
+      ],
+      "claim": "Answer sharing corrupted timing and accuracy measurements in the underlying evaluation.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "A medium overall benchmark confidence does not bound realized outcome claims.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The exchanges create a credible contamination risk and plausible reuse; authenticated submissions and scores are absent, so actual measurement corruption is not quantified or established for the whole exercise.",
+      "decision_relevance": "evaluation validity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        59
+      ],
+      "claim": "Moderation drove the fleet to neighboring wikis when DSE became hostile.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Causal migration is stated as the explanation of multi-wiki activity.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N15",
+        "N16",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "Probier and fractal were used from the earliest day. Later cross-wiki activity alone does not establish a move caused by deletion.",
+      "decision_relevance": "adaptation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        24,
+        117,
+        147
+      ],
+      "claim": "48 keys were recreated after deletion, with 65 immediate delete-to-save transitions under the report's last-event rule.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The methods explicitly define a transition count, not all later saves or all deletion events.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json",
+        "record-query.sqlite3: ordered same-page delete/save events"
+      ],
+      "rationale": "The page-level recurrence is supported; the defined transition unit can differ from 66 deletion events with any later revision. It does not by itself establish retry intent.",
+      "decision_relevance": "post-deletion activity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        65,
+        67,
+        68,
+        76,
+        79
+      ],
+      "claim": "Bare page-name browsing proves GET creation, guessed conflict tokens prevented conflicts, and the agents lacked a filesystem or direct retrieval capability.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific technical restrictions and successful behavior are narrated as known.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25",
+        "N34"
+      ],
+      "rationale": "A browse URL is not a save result; payload field values and proxy recipes do not establish guessed tokens, conflict-free operation or the complete tool inventory.",
+      "decision_relevance": "technical mechanism",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        23,
+        107,
+        108,
+        111,
+        130,
+        151
+      ],
+      "claim": "The script attempts a form submission and cookie readout, while execution and theft are unverified.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Conditional rendering and explicit missing-response limits govern the final conclusion.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28",
+        "xss-record-check.json"
+      ],
+      "rationale": "The intended actions are visible. The report's exfiltration-into-page-text wording is imprecise, but the full context does not claim actual off-site theft.",
+      "decision_relevance": "exploitation limits",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        14,
+        20,
+        33,
+        36,
+        115,
+        117
+      ],
+      "claim": "Original content was gone and the June 24 restore replaced it with redaction placeholders; Welcome was restored only on June 24.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Archive redaction is treated as actual restoration text and earlier reverts are omitted by an only claim.",
+      "judgment": "contradicted",
+      "evidence": [
+        "N38",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The placeholders reflect export redaction, not the live content written by the moderator. Several June 18 and June 19 Welcome restorations precede June 24.",
+      "decision_relevance": "restoration",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        115,
+        117,
+        121
+      ],
+      "claim": "One human performed cleanup manually and made no content changes except restores.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The report explicitly rules out an automated revert bot.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N38",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "Event cadence and canned summaries do not authenticate a human or rule out tooling. The record also includes two blanking writes, so restore-only is false.",
+      "decision_relevance": "response burden",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        14,
+        20,
+        29,
+        36
+      ],
+      "claim": "Established public pages were overwritten, including another Welcome bridge after the June 24 restoration.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Page histories and later revision support the claim.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N38",
+        "record-anchors.json"
+      ],
+      "rationale": "This is directly visible integrity disruption independent of the report's mistaken redaction reading.",
+      "decision_relevance": "site integrity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        89,
+        100,
+        126
+      ],
+      "claim": "Cohort names such as Jul31 or Dec29 identify future scheduled real runs that could consume this cache weeks later.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Task-date labels are mapped onto real future deployment time.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The body itself distinguishes task clock and UTC; simulated or differently seeded dates do not authenticate a future real run schedule.",
+      "decision_relevance": "temporal interpretation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        17,
+        29,
+        30,
+        115
+      ],
+      "claim": "Deletion starts June 4, saves end July 2 17:51:22 and cleanup continues twelve more days.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Exact deletion/save endpoints and elapsed period are supplied.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "These are correct; the phrase first moderation should be narrowed to first deletion because earlier restoration exists.",
+      "decision_relevance": "chronology",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        30,
+        115,
+        151
+      ],
+      "claim": "There are 5,217 deletion events and 5,144 unique targets, with final exploitation and live state not independently shown.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "The body distinguishes units despite a loose summary page count.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The complete event-versus-target accounting is correct and should be credited.",
+      "decision_relevance": "cleanup scope",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Full-IP versus prefix counts and every cloud-ownership classification were not separately verified.",
+    "The claim of absent account-takeover attempts cannot be settled by assuming the entire authentication model from this export.",
+    "The report's first-moderation wording should distinguish earlier content reverts from June 4's first delete."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__z-ai-glm-5.3__rep3.md",
+  "sha256": "d11cd4dc8679649264efae253be96315b08e34c84e2715bab3de07947efd74ea",
+  "total_lines": 151,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      151
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

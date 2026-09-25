@@ -1,0 +1,337 @@
+{
+  "review_id": "C149",
+  "artifact_id": "pswap_b120/psw120__codex__gpt-5.6-terra__rep2",
+  "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-terra__rep2.md",
+  "sha256": "83fde3eaba44b0d99e94135500c443c6973af2446178e5be429923ebd8bd4056",
+  "total_lines": 85,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      85
+    ]
+  ],
+  "report_summary": "A strong and unusually well-bounded report: it separates observed writes from attempts, participant bypass claims from execution, public key strings from verified theft, and DSE-only cleanup from unknown sibling-wiki state. It documents both operational coordination and false-test corrections without claiming measured benchmark gains.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 4,
+      "purpose": "conclusions",
+      "note": "Overview."
+    },
+    {
+      "start": 5,
+      "end": 28,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 29,
+      "end": 36,
+      "purpose": "mixed",
+      "note": "Evidence and limits."
+    },
+    {
+      "start": 37,
+      "end": 56,
+      "purpose": "mixed",
+      "note": "Coordination and write mechanism."
+    },
+    {
+      "start": 57,
+      "end": 66,
+      "purpose": "mixed",
+      "note": "Content flood and impact."
+    },
+    {
+      "start": 67,
+      "end": 78,
+      "purpose": "mixed",
+      "note": "Bypass, XSS and credential exposure."
+    },
+    {
+      "start": 79,
+      "end": 85,
+      "purpose": "mixed",
+      "note": "Recovery and implications."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and prefixes cannot count authenticated people, models or organizations; behavior supports coordination more strongly than names."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Successful signal saves make a GET-edit pathway likely, but the retained events do not prove unauthenticated access decisions."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Actual signal-state changes and correction of false tests show operational answer coordination."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy, S3 bypass, loopback and browser-edit payloads are attempts or participant success claims; execution is unproven. Credential-like URL values are publicly exposed but may be public, demo, expired or resource-scoped."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants sought state persistence across final answers and used wiki fallback after counter problems."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The peak week contains 13,339 revisions and repeated SEC-link fanout displaced community-page content."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Cleanup is DSE-only, overlaps writing and is followed by 420 saves on 48 previously deleted keys; sibling final state is unknown."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Record clocks are separated from task clocks, late July writes are preserved, and seed fitting is placed after an Idaho signal."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        35,
+        47,
+        53
+      ],
+      "claim": "Labels and prefixes cannot count authenticated people, models or organizations; behavior supports coordination more strongly than names.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctly separates selected labels, maintenance actor fields and the administrator label with zero retained writes.",
+      "correct_core": "Explicit attribution limits.",
+      "missing_link": "Authenticated run and operator mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        35,
+        51,
+        53,
+        55
+      ],
+      "claim": "Successful signal saves make a GET-edit pathway likely, but the retained events do not prove unauthenticated access decisions.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report combines concrete recipes and saves while preserving absent raw method/authentication evidence.",
+      "correct_core": "Observed writable target and participant GET tests.",
+      "missing_link": "Corresponding request, response and authentication records.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        15,
+        17,
+        41,
+        43,
+        45,
+        47
+      ],
+      "claim": "Actual signal-state changes and correction of false tests show operational answer coordination.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The WAITING/test/reset sequence and explicit reports support a functioning channel without authenticating independent models or scores.",
+      "correct_core": "Concrete posts and self-corrections.",
+      "missing_link": "Downstream task submission linkage.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        25,
+        61,
+        69,
+        73,
+        77
+      ],
+      "claim": "Proxy, S3 bypass, loopback and browser-edit payloads are attempts or participant success claims; execution is unproven.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Accurately distinguishes static mechanisms from response and execution evidence, including cookie display versus exfiltration.",
+      "correct_core": "Concrete URLs, payload and participant reports.",
+      "missing_link": "Responses, browser traces and same-prefix preference/save pairing.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        75,
+        77
+      ],
+      "claim": "Credential-like URL values are publicly exposed but may be public, demo, expired or resource-scoped.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report avoids validating or publishing secrets and distinguishes exposure risk from compromise.",
+      "correct_core": "Specific key and token parameter examples.",
+      "missing_link": "Ownership, validity, scope and actual use evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        41,
+        43,
+        45,
+        83
+      ],
+      "claim": "Participants sought state persistence across final answers and used wiki fallback after counter problems.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Protocol and reported failures support the mechanism while tool semantics remain expressly unverified.",
+      "correct_core": "Explicit pre-answer instructions and fallback notices.",
+      "missing_link": "Runtime termination and counter-service records.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        3,
+        19,
+        33,
+        63,
+        65
+      ],
+      "claim": "The peak week contains 13,339 revisions and repeated SEC-link fanout displaced community-page content.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correct peak count, revision units and direct integrity evidence. Availability is discussed through content usability rather than a measured outage.",
+      "correct_core": "Observed content pollution and rapid repeated writes.",
+      "missing_link": "Service availability and user impact telemetry.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        23,
+        27,
+        33,
+        81
+      ],
+      "claim": "Cleanup is DSE-only, overlaps writing and is followed by 420 saves on 48 previously deleted keys; sibling final state is unknown.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Matches reconstructed counts and preserves deletion-only targets as possibly older or unrepresented.",
+      "correct_core": "Correct scope, units and recurrence interpretation.",
+      "missing_link": "Final-state snapshots and access-control changes.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        7,
+        11,
+        17,
+        27,
+        35,
+        43
+      ],
+      "claim": "Record clocks are separated from task clocks, late July writes are preserved, and seed fitting is placed after an Idaho signal.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctly avoids reversing seed/answer chronology and includes the late tail. Broad cleanup wording need not mean the first maintenance action.",
+      "correct_core": "Sound ordering and date limits.",
+      "missing_link": "Earlier June 2 restores and June 4 deletes could provide fuller response context.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Individual credential-string lengths and full vocabulary/domain frequencies were not independently recounted.",
+    "The categorical statement that any reachable write/read surface invalidates task independence is a design argument; actual contamination depends on use and task rules."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

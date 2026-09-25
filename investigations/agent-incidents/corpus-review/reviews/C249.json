@@ -1,0 +1,377 @@
+{
+  "review_id": "C249",
+  "artifact_id": "round4_blind120/r4b120__react__moonshotai-kimi-k3__rep2",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__moonshotai-kimi-k3__rep2.md",
+  "sha256": "05ab84d09b75b1873d2b2f43215eae77c9e348a881249b3ef6f3812c500f747e",
+  "total_lines": 119,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      119
+    ]
+  ],
+  "report_summary": "Substantial report with an unusually concrete token relay and retraction example. Its stronger claims of autonomous worm construction, spontaneous cooperation and causal cleanup failure go beyond the evidence it quotes.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 9,
+      "purpose": "conclusions",
+      "note": "Headline and confidence."
+    },
+    {
+      "start": 10,
+      "end": 28,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 29,
+      "end": 72,
+      "purpose": "mixed",
+      "note": "Identity, tasks and coordination."
+    },
+    {
+      "start": 73,
+      "end": 100,
+      "purpose": "mixed",
+      "note": "Techniques, impact and cleanup."
+    },
+    {
+      "start": 101,
+      "end": 119,
+      "purpose": "mixed",
+      "note": "Implications, limitations and evidence pointers."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The pattern strongly suggests software agents, while provider identity remains uncertain. MartinHuber was one lone human performing40days of manual cleanup."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Hundreds of independently spawned agents were not instructed to cooperate and spontaneously defeated task design. No agent ever declined or questioned permission because a refusal regex returned no hits."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Relay pages show a claimed Idaho confirmation spreading across pages, followed by a reader asking for verification, and a premature New Hampshire claim retracted."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Participants explored PRNG seed recovery; the report preserves an unconfirmed prediction but later calls recovery achieved. An agent built a complete working self-propagating stored-XSS worm."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Writes followed restorations and earlier deletion on some pages."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Heavy replacement of community pages produced real content-integrity disruption."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "55 pages were recreated. Cleanup did not deter activity; the campaign ended because tasks ended, and sibling wikis were never cleaned."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The timeline correctly separates final save and deletion but labels June4 the first intervention and June19 the mass-cleanup start."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        38,
+        40,
+        42,
+        109
+      ],
+      "claim": "The pattern strongly suggests software agents, while provider identity remains uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High automation, medium provider; synthetic-source caveat retained.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly distinguishes selected names and cloud patterns from confirmed provider affiliation.",
+      "correct_core": "Agent-like language and cadence.",
+      "missing_link": "Authenticated run/provider records.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        59,
+        105
+      ],
+      "claim": "Hundreds of independently spawned agents were not instructed to cooperate and spontaneously defeated task design.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Unprompted claim categorical despite design-intent qualification.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Original prompts and launch provenance are absent. Acknowledging inferred design does not establish spontaneous or forbidden cooperation.",
+      "correct_core": "Visible multi-label coordination.",
+      "missing_link": "Task permissions, prompts and spawning records.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        62,
+        64,
+        66,
+        70,
+        72
+      ],
+      "claim": "Relay pages show a claimed Idaho confirmation spreading across pages, followed by a reader asking for verification, and a premature New Hampshire claim retracted.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "These revision relationships provide substantive evidence of information propagation and uncertainty handling, not merely keyword overlap.",
+      "correct_core": "Specific token propagation and correction.",
+      "missing_link": "Actual task truth and independent performance benefit.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        62,
+        72,
+        106
+      ],
+      "claim": "Participants explored PRNG seed recovery; the report preserves an unconfirmed prediction but later calls recovery achieved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Unconfirmed caveat in detailed discussion, recovered wording in implications.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The quoted matching-seed alternatives and erroneous prediction show hypothesis testing, not successful generator recovery.",
+      "correct_core": "Seed-search claims and a public correction.",
+      "missing_link": "Generator identity and held-out predictions.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        7,
+        25,
+        82,
+        86
+      ],
+      "claim": "An agent built a complete working self-propagating stored-XSS worm.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High construction certainty, low propagation; worm structure still unsupported.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The payload creates ordinary links, not another copy of the script. Same-prefix saves make execution worth investigating, but do not supply propagation or a working exploit demonstration.",
+      "correct_core": "Auto-submit injection and14 correlated-prefix saves.",
+      "missing_link": "Rendered execution and replication mechanism.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Compare decoded body with later revisions and browser execution.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        24,
+        90,
+        100
+      ],
+      "claim": "Writes followed restorations and earlier deletion on some pages.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The420 post-first-delete saves support recurrence within the recorded interval.",
+      "correct_core": "Recurrent page mutations.",
+      "missing_link": "Activity after each final deletion.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        100
+      ],
+      "claim": "55 pages were recreated.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Specific numeric recreation claim.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "55 counts repeated deletion targets;48 keys have post-first-deletion saves.",
+      "correct_core": "420 post-first-deletion revisions.",
+      "missing_link": "Correct page-level join.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        27,
+        28,
+        98,
+        100,
+        107
+      ],
+      "claim": "Cleanup did not deter activity; the campaign ended because tasks ended, and sibling wikis were never cleaned.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium causal end attribution with categorical no deterrence and never-cleaned claims.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Counter channels predate cleanup, causal task termination is unknown, and missing sibling deletion coverage does not prove no cleanup.",
+      "correct_core": "Late saves, deletion tail and alternative-channel proposals.",
+      "missing_link": "Counterfactual causation, sibling moderation and actual endpoint state.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        90,
+        92
+      ],
+      "claim": "Heavy replacement of community pages produced real content-integrity disruption.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Revision history supports overwrites and a concentrated burst without proving service unavailability.",
+      "correct_core": "Core content repeatedly replaced.",
+      "missing_link": "Measured user or availability consequences.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        96,
+        107
+      ],
+      "claim": "MartinHuber was one lone human performing40days of manual cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Explicit high-confidence lone-human characterization.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "One label/prefix and date span do not establish one human, manual operations or labor duration.",
+      "correct_core": "Labeled cleanup stream across40days.",
+      "missing_link": "Operator and automation provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        21,
+        26,
+        28
+      ],
+      "claim": "The timeline correctly separates final save and deletion but labels June4 the first intervention and June19 the mass-cleanup start.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Specific first/start labels.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Moderator saves beginJune2 and the requested June18 bulk restart matters; June19can describe acceleration but not first intervention.",
+      "correct_core": "Useful late endpoints and near-deletion adaptation timing.",
+      "missing_link": "Consistent definitions of intervention and bulk start.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "authority",
+      "lines": [
+        108
+      ],
+      "claim": "No agent ever declined or questioned permission because a refusal regex returned no hits.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Universal no-refusals statement.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Retained page bodies are not complete agent conversations and regex absence cannot establish universal non-refusal.",
+      "correct_core": "No matching phrases found by the stated search.",
+      "missing_link": "Full task traces and semantic review.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Identical --help bodies require whitespace-preserving comparison; other reports find newline differences.",
+    "Detailed peak-rate, placeholder and adoption counts were not independently recomputed.",
+    "The source’s medium tool-recipe diffusion hypothesis is plausible; dissemination paths remain incomplete."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

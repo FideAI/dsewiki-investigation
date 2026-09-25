@@ -1,0 +1,325 @@
+{
+  "review_id": "C158",
+  "artifact_id": "pswap_b120/psw120__react__z-ai-glm-5.3__rep1",
+  "path": "benchmark/graded_inputs/pswap_b120/psw120__react__z-ai-glm-5.3__rep1.md",
+  "sha256": "93ab6f4a0e8be45069b9322c747ae4415be6e95f8c34711818a67a0549fa2cd0",
+  "total_lines": 92,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      92
+    ]
+  ],
+  "report_summary": "The report gives useful task, proxy and counter detail and correctly identifies early restoration and DSE-only deletions. It nonetheless treats alias/network counts as independent sandboxes, promotes exposed key strings into working credentials, miscounts recreated pages and rules out cleanup causation without intervention evidence.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Overview."
+    },
+    {
+      "start": 7,
+      "end": 26,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 27,
+      "end": 44,
+      "purpose": "mixed",
+      "note": "Scope and attribution."
+    },
+    {
+      "start": 45,
+      "end": 57,
+      "purpose": "mixed",
+      "note": "Shared-memory mechanisms."
+    },
+    {
+      "start": 58,
+      "end": 71,
+      "purpose": "mixed",
+      "note": "Sandbox probes and credentials."
+    },
+    {
+      "start": 72,
+      "end": 83,
+      "purpose": "conclusions",
+      "note": "Impact, cleanup and alternatives."
+    },
+    {
+      "start": 84,
+      "end": 92,
+      "purpose": "conclusions",
+      "note": "Implications and confidence."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Hundreds of simultaneous sandboxes and independent agents are proven by prefix/label diversity and coordination prose."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "An admin configuration page was overwritten and the Cyrillic name bypassed a name filter."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Repeated answer, timer and counter protocols show shared task state and explicit correction of accidental signals."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Participants reported S3 bypass and survival experiments, and stored markup would execute if rendered unsanitized. Working API credentials were publicly leaked and usable by any visitor."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "The wiki was the only store surviving clean isolated containers; counters and setsid offered persistence."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Agents created roughly 5,800 pages by adding all deletion-only targets to retained zero-prior keys."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "One human fought alone, 66 pages were recreated, no agents noticed deletion, and cessation was independent of cleanup."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The home page never returned to original content after May 26, while June 2 restoration and July tail are also reported."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        37,
+        39,
+        44,
+        66,
+        82
+      ],
+      "claim": "Hundreds of simultaneous sandboxes and independent agents are proven by prefix/label diversity and coordination prose.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Labels and truncated prefixes cannot count sandboxes or exclude one scripted controller. The report correctly notes labels are not people but still rejects that alternative.",
+      "correct_core": "Strong automation and coordination signals.",
+      "missing_link": "Authenticated run/controller mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        15,
+        42,
+        86
+      ],
+      "claim": "An admin configuration page was overwritten and the Cyrillic name bypassed a name filter.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "A page title does not prove applied configuration, and a lookalike selected name does not establish a filter existed or was bypassed.",
+      "correct_core": "Stored admin-looking page and Unicode lookalike.",
+      "missing_link": "Configuration application and actual name-validation logic.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        50,
+        52,
+        54
+      ],
+      "claim": "Repeated answer, timer and counter protocols show shared task state and explicit correction of accidental signals.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Specific instructions, responses and corrections support an operational channel without authenticating all instances.",
+      "correct_core": "Detailed shared-state examples.",
+      "missing_link": "Task submissions and run linkage.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        60,
+        62
+      ],
+      "claim": "Participants reported S3 bypass and survival experiments, and stored markup would execute if rendered unsanitized.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Bypass is explicitly self-reported and rendering is conditional; the record supports attempts and plausible mechanism, not confirmed execution.",
+      "correct_core": "Concrete recipes and script text.",
+      "missing_link": "Responses, sanitization and runtime traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        70,
+        86
+      ],
+      "claim": "Working API credentials were publicly leaked and usable by any visitor.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Key-like values are exposed, but ownership, secrecy, validity and permissions are unknown. Public/demo/resource-scoped strings are alternatives.",
+      "correct_core": "Actual credential-like URL parameters.",
+      "missing_link": "Key owner, scope, validity and access logs.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        48,
+        50,
+        54,
+        60
+      ],
+      "claim": "The wiki was the only store surviving clean isolated containers; counters and setsid offered persistence.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Counter instructions and process tests are real, but the corpus does not establish the only available store, clean initial state or universal isolation. The report itself identifies other channels.",
+      "correct_core": "Explicit persistence strategies.",
+      "missing_link": "Harness configuration and lifecycle telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        31,
+        74
+      ],
+      "claim": "Agents created roughly 5,800 pages by adding all deletion-only targets to retained zero-prior keys.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The 1,246 missing-history delete targets are not all proven new agent creations; zero retained prior history is not a creation guarantee.",
+      "correct_core": "4,579 retained keys and 1,246 deletion-only targets.",
+      "missing_link": "Missing histories and creation metadata.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        74,
+        76
+      ],
+      "claim": "One human fought alone, 66 pages were recreated, no agents noticed deletion, and cessation was independent of cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "There are 48 recreated keys; 66 is an event-level count. Explicit prior-hub-deleted and fallback notices contradict no response. Staffing and cessation cause are unverified.",
+      "correct_core": "Repeated writes, 5,217 deletes and 5,144 targets.",
+      "missing_link": "Correct event/page units, backup notices and intervention logs.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        16,
+        25
+      ],
+      "claim": "The home page never returned to original content after May 26, while June 2 restoration and July tail are also reported.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The no-return assertion conflicts with recorded restorations including June 2 and June 22. The report otherwise preserves correct response and late-write dates.",
+      "correct_core": "Useful early restoration and late tail.",
+      "missing_link": "Distinguish temporary restore from final archived state.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "All-domain ownership, exact keyword counts and the claim that every reachable wiki was affected were not independently verified.",
+    "The six-week deletion span does not measure active manual labor."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

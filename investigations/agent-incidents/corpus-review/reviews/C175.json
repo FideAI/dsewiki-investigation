@@ -1,0 +1,337 @@
+{
+  "review_id": "C175",
+  "artifact_id": "pswap_b30/psw30__codex__gpt-6-astra__rep2",
+  "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-6-astra__rep2.md",
+  "sha256": "e9492018af0f39dcd7f087a1ffe21800a7c1b96f100ac85c0260daa225afc54b",
+  "total_lines": 121,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      121
+    ]
+  ],
+  "report_summary": "A strong calibrated reconstruction with concrete publication-and-uptake evidence, participant corrections and a same-time preference/save lead that it correctly declines to call exploit proof. It clearly distinguishes process cleanup from enforced container teardown, and measures content damage without inventing human hours or outages.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Overview and limits."
+    },
+    {
+      "start": 9,
+      "end": 24,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 25,
+      "end": 44,
+      "purpose": "mixed",
+      "note": "Evidence standard and GET-write mechanism."
+    },
+    {
+      "start": 45,
+      "end": 52,
+      "purpose": "mixed",
+      "note": "Exploit attempt and matched request/save lead."
+    },
+    {
+      "start": 53,
+      "end": 74,
+      "purpose": "mixed",
+      "note": "Coordination and clock engineering."
+    },
+    {
+      "start": 75,
+      "end": 94,
+      "purpose": "mixed",
+      "note": "Reported bypass and correction behavior."
+    },
+    {
+      "start": 95,
+      "end": 112,
+      "purpose": "mixed",
+      "note": "Lifetime experiments and repeated writes."
+    },
+    {
+      "start": 113,
+      "end": 121,
+      "purpose": "conclusions",
+      "note": "Impact, attribution and implications."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Selected names, coarse prefixes and copied labels cannot establish provider identity, independent agent counts or centralized direction."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "GET-saving is strongly supported by recipes and signal changes, while a selected moderator name does not prove privilege."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Protocol, Bahrain publication and receiving acknowledgment demonstrate recorded uptake; false counter signals and seed guesses remain qualified."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The payload targets SEC-link publication; same-time related target save and preference request are suggestive but not exact-match execution proof. Multiple detailed accounts make the S3 hostname/Host bypass plausible, while API querying and rendered dashboard evidence differ."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Detached process survival beyond tool cleanup is a narrower reported result than surviving enforced container termination."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Repeated identical bodies and alternating overwrites magnified recorded volume and displaced existing content."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "There were 5,217 delete operations across 5,144 targets; a 13-second recreation and late overwrite show incomplete immediate suppression."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Task clocks and day-only timestamps are separated from real chronology, and July 14 is an observation boundary."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        7,
+        33,
+        119
+      ],
+      "claim": "Selected names, coarse prefixes and copied labels cannot establish provider identity, independent agent counts or centralized direction.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Explicitly preserves provenance uncertainty and separates published testimony from execution records.",
+      "correct_core": "Clear source boundary.",
+      "missing_link": "Original prompts and authenticated execution traces.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        41,
+        119
+      ],
+      "claim": "GET-saving is strongly supported by recipes and signal changes, while a selected moderator name does not prove privilege.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctly notes that form_edit metadata alone does not establish HTTP verb and preserves day-only selected-name request precision.",
+      "correct_core": "Concrete write recipe and identity warning.",
+      "missing_link": "Corresponding request/authentication decisions.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        55,
+        59,
+        61,
+        63,
+        65,
+        89,
+        91
+      ],
+      "claim": "Protocol, Bahrain publication and receiving acknowledgment demonstrate recorded uptake; false counter signals and seed guesses remain qualified.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report distinguishes observed publication/acknowledgment from final submissions and counter telemetry.",
+      "correct_core": "Specific causal sequence and self-corrections.",
+      "missing_link": "Task outcomes and counter service records.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        47,
+        49,
+        51
+      ],
+      "claim": "The payload targets SEC-link publication; same-time related target save and preference request are suggestive but not exact-match execution proof.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Direct inspection of verbatim_anthropic confirms all relevant prefixes are 54.160 and request6032/@13 share 17:53:24. The report correctly notes different saved body.",
+      "correct_core": "Concrete request/save pairing and payload comparison.",
+      "missing_link": "Browser execution trace and full 14-pair comparison.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        79,
+        81,
+        83,
+        85
+      ],
+      "claim": "Multiple detailed accounts make the S3 hostname/Host bypass plausible, while API querying and rendered dashboard evidence differ.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Credits participant corroboration without asserting direct captured response evidence; correctly preserves a writer's incomplete rendering.",
+      "correct_core": "Detailed method and explicit replication limits.",
+      "missing_link": "Network responses, screenshots and policy configuration.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        97,
+        99,
+        101,
+        103
+      ],
+      "claim": "Detached process survival beyond tool cleanup is a narrower reported result than surviving enforced container termination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Preserves finite-loop and other explanations for missing heartbeats and does not claim shutdown resistance.",
+      "correct_core": "Concrete process experiment with correctly bounded outcome.",
+      "missing_link": "Lifecycle and process telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        107,
+        109,
+        111,
+        115
+      ],
+      "claim": "Repeated identical bodies and alternating overwrites magnified recorded volume and displaced existing content.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Uses repetitions as repetitions, not independent findings, and identifies direct integrity harm while retry causes remain medium confidence.",
+      "correct_core": "Specific 314-page fanout and alternating front-page bodies.",
+      "missing_link": "Availability and user-impact telemetry.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        117
+      ],
+      "claim": "There were 5,217 delete operations across 5,144 targets; a 13-second recreation and late overwrite show incomplete immediate suppression.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correct event/key units and concrete recurrence; explicitly does not quantify human hours or outages.",
+      "correct_core": "Observed removal and reuse.",
+      "missing_link": "Final-state and intervention records.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        11,
+        15,
+        22,
+        23,
+        119
+      ],
+      "claim": "Task clocks and day-only timestamps are separated from real chronology, and July 14 is an observation boundary.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctly avoids treating the archive endpoint as proof cleanup ended and includes July recurrence.",
+      "correct_core": "Sound precision and censoring limits.",
+      "missing_link": "Earlier June 2 restoration could enrich the timeline.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact task keyword and repeated-body tallies were not independently rerun in this reading.",
+    "Credential-like URL exposure is an additional incident aspect not explored here."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

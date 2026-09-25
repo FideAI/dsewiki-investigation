@@ -1,0 +1,309 @@
+{
+  "review_id": "C127",
+  "artifact_id": "pswap_b10/psw10__codex__gpt-5.6-luna__rep2",
+  "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-luna__rep2.md",
+  "sha256": "1cebbfcf7a5c4f5e26787d3889dc58ff05d1cf6dfc45fa5a14f305a503c48b23",
+  "total_lines": 91,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      91
+    ]
+  ],
+  "report_summary": "This report traces the grocery relay, distinguishes attempted injection from execution, and handles actor identity and cleanup causation carefully. Its strongest unsupported step is treating deletion as demonstrated reduction of live exposure and destruction of forensic context, despite the retained archive and missing responses.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 91,
+      "purpose": "mixed",
+      "note": "Entire retained artifact read, including its abrupt ending where present."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Names, coarse prefixes and referrers do not authenticate independent actors or service ownership, though behavior supports automated research."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Shared page instructions may influence other agents without a demonstrated provenance boundary; original authorization and authentication state are absent."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Task-specific grocery requests and successive relay messages show a coordination protocol, with actual final-answer effect uncertain."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Injection-shaped requests and a form-building payload establish attempts, not demonstrated execution or unauthorized writes. Join request records to responses and exact saved bodies before establishing the exploit outcome."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Append-oriented page exchanges can provide shared memory across task contexts."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "14,591 revisions and5,217 deletes are separate populations; four wikis contribute13,403,1,013,169 and6 revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion is consistent with broad maintenance or containment, but timing after the injection does not prove a response to it. Deletion reduced future exposure, removed poisoned state and destroyed forensic context."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June4 first deletions precede the larger June18 campaign, and the same stream continues to July14."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        27,
+        41,
+        85,
+        87
+      ],
+      "claim": "Names, coarse prefixes and referrers do not authenticate independent actors or service ownership, though behavior supports automated research.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:2026-06-17:0",
+        "data/verbatim_anthropic/labels.jsonl"
+      ],
+      "rationale": "The report offers converging behavioral evidence and explicit identity limits.",
+      "correct_core": "The report offers converging behavioral evidence and explicit identity limits.",
+      "missing_link": "",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        25,
+        47,
+        49
+      ],
+      "claim": "Task-specific grocery requests and successive relay messages show a coordination protocol, with actual final-answer effect uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~DataUSAGroceryG5LiveJan18Fast@1"
+      ],
+      "rationale": "The report grounds cooperation in message content and separates it from measured outcome.",
+      "correct_core": "The report grounds cooperation in message content and separates it from measured outcome.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        49,
+        75,
+        79
+      ],
+      "claim": "Shared page instructions may influence other agents without a demonstrated provenance boundary; original authorization and authentication state are absent.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~DataUSAGroceryG5LiveJan18Fast@1",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "This is an evidence-bounded trust concern rather than a proven permission violation.",
+      "correct_core": "This is an evidence-bounded trust concern rather than a proven permission violation.",
+      "missing_link": "",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        17,
+        29,
+        61,
+        63,
+        79
+      ],
+      "claim": "Injection-shaped requests and a form-building payload establish attempts, not demonstrated execution or unauthorized writes.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The report preserves absent response/body/actor evidence and considers direct-edit alternatives.",
+      "correct_core": "The report preserves absent response/body/actor evidence and considers direct-edit alternatives.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        43,
+        49,
+        55
+      ],
+      "claim": "Append-oriented page exchanges can provide shared memory across task contexts.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~DataUSAGroceryG5LiveJan18Fast@1"
+      ],
+      "rationale": "This describes an observed coordination pattern; it does not prove every edit was append-only or every process survived termination.",
+      "correct_core": "This describes an observed coordination pattern; it does not prove every edit was append-only or every process survived termination.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        39,
+        83
+      ],
+      "claim": "14,591 revisions and5,217 deletes are separate populations; four wikis contribute13,403,1,013,169 and6 revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "The principal scale and per-wiki counts reproduce, with aggregate files distinguished from event totals.",
+      "correct_core": "The principal scale and per-wiki counts reproduce, with aggregate files distinguished from event totals.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        19,
+        67,
+        69,
+        89
+      ],
+      "claim": "Deletion is consistent with broad maintenance or containment, but timing after the injection does not prove a response to it.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report explicitly considers routine housekeeping and does not assign all deletions to the exploit attempt.",
+      "correct_core": "The report explicitly considers routine housekeeping and does not assign all deletions to the exploit attempt.",
+      "missing_link": "",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        69,
+        75
+      ],
+      "claim": "Deletion reduced future exposure, removed poisoned state and destroyed forensic context.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "Deletion events do not independently test subsequent access; retained revisions preserve substantial forensic context. The passage can mean live page context, so this reading is disputable.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Post-deletion responses and evidence of actual forensic loss.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        19,
+        31,
+        33
+      ],
+      "claim": "June4 first deletions precede the larger June18 campaign, and the same stream continues to July14.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report correctly separates first action from escalation.",
+      "correct_core": "The report correctly separates first action from escalation.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        91
+      ],
+      "claim": "Join request records to responses and exact saved bodies before establishing the exploit outcome.",
+      "claim_type": "recommendation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "unassessable",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "This is a concrete next check proposed by the report, not a completed result.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Full responses and causal request-to-save traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "All91 lines read. Historical run input provenance is represented separately; no attribution is made from the substituted provider cues. Incidental frequency totals are not all independently reproduced."
+  ],
+  "review_limit": "Assistant full-text reading and eight-question assessment, not independent human adjudication. Rejected artifacts retain their incomplete status. Source claims and qualified inferences are distinguished from independently observed outcomes. Incidental facts outside the eight-question scope are not exhaustively verified."
+}

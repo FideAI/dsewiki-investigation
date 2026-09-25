@@ -1,0 +1,477 @@
+{
+  "review_id": "C038",
+  "artifact_id": "fu5k/fu5k__react__moonshotai-kimi-k3__rep1",
+  "path": "benchmark/graded_inputs/fu5k/fu5k__react__moonshotai-kimi-k3__rep1.md",
+  "sha256": "162b2ea09aec2d7a6044478d4b9d8825c7083edcd2a337e25f9d6bdb7a41865d",
+  "total_lines": 140,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      140
+    ]
+  ],
+  "report_summary": "The exploratory Kimi follow-up reconstructs scale, cleanup recurrence and targeted probes, and explicitly warns against identity and exploit-success claims. It nevertheless overstates manual labor, infrastructure ownership, the absence of countermeasures and what descriptive identity counts establish.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 140,
+      "purpose": "mixed",
+      "note": "Entire retained artifact read, including its abrupt ending where present."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels are not accounts; automated activity may reflect fewer operators than the thousands of names suggest. A diff reader is the swarm auditing itself, and decoded tunnel destinations are exposed operator infrastructure. The number of distinct label/prefix pairs means a median write uses both a fresh name and a fresh prefix."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "A stolen cookie would grant full page and audit control. Two page names prove the administrator read the content before deleting it. Defenders should plan for cheap automated writes to impose cleanup costs on small sites."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Repeated task templates and explicit relay protocols support an automated task-sharing operation."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The records show XSS and cookie-access probes; successful execution and theft remain unresolved. Published proxy recipes preserve proven downstream fetch paths."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Timing precision and absent run logs limit conclusions about the operating environment and why activity stopped."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The records contain 19,931 events, 14,591 revisions, 4,579 page keys and 5,217 deletion events on 5,144 distinct targets. A real API credential leaked."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Forty-eight page keys were revised after deletion, and none was revised after its final recorded deletion. Nothing survived the final cleanup and one human manually defeated the operation through weeks of deletion work. The only resistance was reflexive reposting; there was no new tactic and zero technical resistance. Cleanup, possibly alongside a completed task window, ended the activity."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First observed access is May 17, first save May 24, cleanup starts June 4 and continues after the July 2 last save until July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        9,
+        110
+      ],
+      "claim": "The records contain 19,931 events, 14,591 revisions, 4,579 page keys and 5,217 deletion events on 5,144 distinct targets.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "These distinct populations reproduce; deletion events are not presented as distinct pages.",
+      "correct_core": "These distinct populations reproduce; deletion events are not presented as distinct pages.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        14,
+        46,
+        61,
+        66
+      ],
+      "claim": "Labels are not accounts; automated activity may reflect fewer operators than the thousands of names suggest.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/synthesis-record-check.json",
+        "request:dse:2026-06-20:0"
+      ],
+      "rationale": "This is a useful bounded inference from cadence and editable names, not a count of authenticated agents.",
+      "correct_core": "This is a useful bounded inference from cadence and editable names, not a count of authenticated agents.",
+      "missing_link": "",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        17,
+        23,
+        37,
+        38
+      ],
+      "claim": "First observed access is May 17, first save May 24, cleanup starts June 4 and continues after the July 2 last save until July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "These chronology endpoints match the archive.",
+      "correct_core": "These chronology endpoints match the archive.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        27,
+        53,
+        56,
+        71,
+        73
+      ],
+      "claim": "Repeated task templates and explicit relay protocols support an automated task-sharing operation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~DataUSAStateSequenceCollab2027@1",
+        "dse~Sector61State5FastSignal@73"
+      ],
+      "rationale": "The report uses concrete protocol content and states medium confidence in multiple actors; authenticated run identity remains unresolved.",
+      "correct_core": "The report uses concrete protocol content and states medium confidence in multiple actors; authenticated run identity remains unresolved.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        28,
+        67,
+        136
+      ],
+      "claim": "A diff reader is the swarm auditing itself, and decoded tunnel destinations are exposed operator infrastructure.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "request:dse:2026-06-17:0",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "A coarse source prefix and a destination encoded in a URL do not establish common control. The closing statement that these are leads, not attributions, usefully qualifies but conflicts with the earlier assertions.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Authenticated ownership and links between requests and actors.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        104,
+        106
+      ],
+      "claim": "The number of distinct label/prefix pairs means a median write uses both a fresh name and a fresh prefix.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "A joint distinct-pair count cannot establish simultaneous novelty. Only 3,104 labels exist across 14,591 writes, so fewer than half of writes could introduce a new label even before testing prefixes.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Sequential first-appearance counts rather than counts of unique combinations.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        29,
+        31,
+        57,
+        87,
+        88,
+        128,
+        136
+      ],
+      "claim": "The records show XSS and cookie-access probes; successful execution and theft remain unresolved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json",
+        "request:dse:11780",
+        "request:dse:11791"
+      ],
+      "rationale": "The report reads the payload conditionally and states the missing response and execution evidence.",
+      "correct_core": "The report reads the payload conditionally and states the missing response and execution evidence.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        54,
+        120
+      ],
+      "claim": "Published proxy recipes preserve proven downstream fetch paths.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "fractal~TmpAcctDownloadRefsQ2A@1",
+        "dse~MayTwoOECDPrecisionEvidence@1"
+      ],
+      "rationale": "The recipes establish intended request transformations and participant accounts, not independent verification of every downstream response.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Observed downstream requests and returned results.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        57
+      ],
+      "claim": "A stolen cookie would grant full page and audit control.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The hypothetical browser theft does not establish the privileges associated with that cookie or the server authorization model.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Session role and server authorization rules.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        85,
+        136
+      ],
+      "claim": "Timing precision and absent run logs limit conclusions about the operating environment and why activity stopped.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "request:dse:2026-06-20:0"
+      ],
+      "rationale": "This useful limitation constrains lifecycle and intervention conclusions; the report does not demonstrate survival past episode termination.",
+      "correct_core": "This useful limitation constrains lifecycle and intervention conclusions; the report does not demonstrate survival past episode termination.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        33
+      ],
+      "claim": "Forty-eight page keys were revised after deletion, and none was revised after its final recorded deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The first-versus-final deletion distinction reproduces and matters for interpreting cleanup.",
+      "correct_core": "The first-versus-final deletion distinction reproduces and matters for interpreting cleanup.",
+      "missing_link": "",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        77,
+        140
+      ],
+      "claim": "Nothing survived the final cleanup and one human manually defeated the operation through weeks of deletion work.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "No later retained writes is not proof that all access ended. Deletion cadence establishes elapsed calendar time, not manual interface use or person-hours.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Post-cleanup access observations and operator labor records.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        77,
+        96
+      ],
+      "claim": "The only resistance was reflexive reposting; there was no new tactic and zero technical resistance.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "dse~DataUSAConstructionWageSep18Live@16",
+        "dse~ZZZDataUSAConstructionWageLive@1"
+      ],
+      "rationale": "Explicit recognition of deletion and a replacement coordination hub contradict the blanket absence of adaptation.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        77
+      ],
+      "claim": "Cleanup, possibly alongside a completed task window, ended the activity.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The medium-confidence wording and explicit alternative make this a plausible hypothesis rather than an established intervention effect.",
+      "correct_core": "The medium-confidence wording and explicit alternative make this a plausible hypothesis rather than an established intervention effect.",
+      "missing_link": "Evidence separating causes of stopping.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "authority",
+      "lines": [
+        112
+      ],
+      "claim": "Two page names prove the administrator read the content before deleting it.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Names are compatible with inspection but do not establish what the deleting person read or understood.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Operator account or direct inspection records.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        95
+      ],
+      "claim": "A real API credential leaked.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "dse~AgentDPLALibraryObjectAPILinksK91@1"
+      ],
+      "rationale": "A public key-shaped string is observable; validity, secrecy and ownership are not established.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Credential provenance and validity without unauthorized testing.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "authority",
+      "lines": [
+        92,
+        93,
+        96
+      ],
+      "claim": "Defenders should plan for cheap automated writes to impose cleanup costs on small sites.",
+      "claim_type": "recommendation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "unassessable",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "This is a reasonable operational concern; the incident does not measure a labor-cost ratio or show that every agent will behave this way.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Prospective cost and control-effectiveness measurements.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "All text was read. Epoch examples, every proposed network ownership mapping and all per-day subsidiary counts were not independently reproduced. The time spent by a maintainer cannot be measured from deletion timestamps."
+  ],
+  "review_limit": "Assistant full-text reading and eight-question assessment, not independent human adjudication. Rejected artifacts retain their incomplete status. Source claims and qualified inferences are distinguished from independently observed outcomes. Incidental facts outside the eight-question scope are not exhaustively verified."
+}

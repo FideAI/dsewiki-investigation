@@ -1,0 +1,252 @@
+{
+  "parent": "r4b10_codex_gpt_6_astra_rep3",
+  "followup": "fu5kb10_codex_gpt_6_astra_rep3",
+  "parent_review_id": "C207",
+  "followup_review_id": "C051",
+  "parent_sha256": "ee0af44beb6f6603fe5582a8817d02f688af47e1f3e4f750920c05ebd8ba0c56",
+  "followup_sha256": "a593a20d93204afd34776e78e516563e6a526220b7e5dd2e8d2357cd4b94cd1d",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "The moderator name-setting request remains unauthenticated and separate from the deleting prefix.",
+      "parent_lines": [
+        34,
+        82
+      ],
+      "followup_lines": [
+        38,
+        42,
+        116
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Compatibility, necessity, original instructions and authorization remain unresolved.",
+      "parent_lines": [
+        40,
+        42,
+        54,
+        84,
+        96
+      ],
+      "followup_lines": [
+        54,
+        66,
+        118,
+        138
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        4,
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Responsive sharing remains a plausible evaluation confound without measured scores.",
+      "parent_lines": [
+        48,
+        50,
+        52,
+        54
+      ],
+      "followup_lines": [
+        60,
+        62,
+        66,
+        68,
+        70,
+        90,
+        92,
+        94,
+        96,
+        98,
+        138
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "New clock strategies and watcher plans retain uncertainty about runtime effects.",
+      "parent_lines": [
+        58,
+        60,
+        62
+      ],
+      "followup_lines": [
+        72,
+        74,
+        78,
+        80,
+        82,
+        84,
+        86
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The report retains false-signal retractions and confirmed-summary versus test-body distinctions.",
+      "parent_lines": [
+        66,
+        68,
+        70,
+        72,
+        84
+      ],
+      "followup_lines": [
+        60,
+        62,
+        68,
+        70,
+        90,
+        92,
+        94,
+        96,
+        98
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6,
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Detailed reportedly replicated bypasses and attempted XSS retain their distinct evidence levels.",
+      "parent_lines": [
+        76,
+        78,
+        80
+      ],
+      "followup_lines": [
+        48,
+        50,
+        52,
+        56,
+        104,
+        106,
+        108,
+        110,
+        112,
+        114
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Specific awareness of cleanup is expanded to a directly documented backup; no universal defiance claim is added.",
+      "parent_lines": [
+        88,
+        92
+      ],
+      "followup_lines": [
+        122,
+        126,
+        128,
+        130,
+        132
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Sustained maintenance remains separate from measured labor, outage or complete recovery.",
+      "parent_lines": [
+        94
+      ],
+      "followup_lines": [
+        122,
+        124,
+        130,
+        134,
+        136
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Early cleanup, day precision and late deletion remain correctly bounded.",
+      "parent_lines": [
+        16,
+        23,
+        24
+      ],
+      "followup_lines": [
+        17,
+        26,
+        28,
+        36,
+        136
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Content disruption remains directly observed while operational impact is limited.",
+      "parent_lines": [
+        30,
+        32,
+        88,
+        90
+      ],
+      "followup_lines": [
+        122,
+        124,
+        130,
+        134,
+        136
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The expanded report develops concrete adaptation and backup evidence while preserving the earlier distinctions between reported activity, causal explanation and verified outcome.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

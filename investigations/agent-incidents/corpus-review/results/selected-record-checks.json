@@ -1,0 +1,264 @@
+{
+  "delete_targets_are_pages": {
+    "sql": "SELECT id,page_key,time FROM events WHERE id='delete:dse:rclog:131972'",
+    "rows": [
+      [
+        "delete:dse:rclog:131972",
+        "dse~TestFoobaAgent",
+        "2026-06-04T10:53:40Z"
+      ]
+    ],
+    "expected": [
+      [
+        "delete:dse:rclog:131972",
+        "dse~TestFoobaAgent",
+        "2026-06-04T10:53:40Z"
+      ]
+    ],
+    "matched_expected": true
+  },
+  "moderator_writes": {
+    "sql": "SELECT count(*),sum(length(body)=0),sum(length(body)>0) FROM revisions WHERE label='MartinHuber'",
+    "rows": [
+      [
+        26,
+        2,
+        24
+      ]
+    ],
+    "expected": [
+      [
+        26,
+        2,
+        24
+      ]
+    ],
+    "matched_expected": true
+  },
+  "after_first_delete": {
+    "sql": "SELECT count(*),count(DISTINCT r.page_key) FROM revisions r JOIN (SELECT page_key,min(time) AS first_delete FROM events WHERE kind='delete' GROUP BY page_key)d USING(page_key) WHERE r.time>d.first_delete",
+    "rows": [
+      [
+        420,
+        48
+      ]
+    ],
+    "expected": [
+      [
+        420,
+        48
+      ]
+    ],
+    "matched_expected": true
+  },
+  "after_last_delete": {
+    "sql": "SELECT count(*) FROM revisions r JOIN (SELECT page_key,max(time) AS final_delete FROM events WHERE kind='delete' GROUP BY page_key)d USING(page_key) WHERE r.time>d.final_delete",
+    "rows": [
+      [
+        0
+      ]
+    ],
+    "expected": [
+      [
+        0
+      ]
+    ],
+    "matched_expected": true
+  },
+  "delete_events_with_later_write": {
+    "sql": "SELECT count(*) FROM events e WHERE kind='delete' AND EXISTS(SELECT 1 FROM revisions r WHERE r.page_key=e.page_key AND r.time>e.time)",
+    "rows": [
+      [
+        66
+      ]
+    ],
+    "expected": [
+      [
+        66
+      ]
+    ],
+    "matched_expected": true
+  },
+  "repeated_delete_keys": {
+    "sql": "SELECT count(*) FROM (SELECT page_key FROM events WHERE kind='delete' GROUP BY page_key HAVING count(*)>1)",
+    "rows": [
+      [
+        55
+      ]
+    ],
+    "expected": [
+      [
+        55
+      ]
+    ],
+    "matched_expected": true
+  },
+  "archived_summary_coverage": {
+    "sql": "SELECT p.wiki,count(*),sum(EXISTS(SELECT 1 FROM events e WHERE e.kind='delete' AND e.page_key=p.page_key)),sum(NOT EXISTS(SELECT 1 FROM events e WHERE e.kind='delete' AND e.page_key=p.page_key)) FROM pages p GROUP BY p.wiki ORDER BY p.wiki",
+    "rows": [
+      [
+        "dorfwiki",
+        2,
+        0,
+        2
+      ],
+      [
+        "dse",
+        3908,
+        3898,
+        10
+      ],
+      [
+        "fractal",
+        68,
+        0,
+        68
+      ],
+      [
+        "probier",
+        601,
+        0,
+        601
+      ]
+    ],
+    "expected": [
+      [
+        "dorfwiki",
+        2,
+        0,
+        2
+      ],
+      [
+        "dse",
+        3908,
+        3898,
+        10
+      ],
+      [
+        "fractal",
+        68,
+        0,
+        68
+      ],
+      [
+        "probier",
+        601,
+        0,
+        601
+      ]
+    ],
+    "matched_expected": true
+  },
+  "welcome_sizes": {
+    "sql": "SELECT count(*),sum(actual_chars),max(actual_chars),max(utf8_bytes) FROM revisions WHERE page_key='dse~WillkommenImWiki'",
+    "rows": [
+      [
+        2327,
+        7218730,
+        24139,
+        24139
+      ]
+    ],
+    "expected": null,
+    "matched_expected": null
+  },
+  "welcome_final_save": {
+    "sql": "SELECT id,time,label,actual_chars FROM revisions WHERE page_key='dse~WillkommenImWiki' ORDER BY time DESC LIMIT 1",
+    "rows": [
+      [
+        "dse~WillkommenImWiki@2335",
+        "2026-07-02T16:46:05Z",
+        "FooBar",
+        243
+      ]
+    ],
+    "expected": null,
+    "matched_expected": null
+  },
+  "oecd_deletes_and_next_save": {
+    "sql": "SELECT e.id,e.time,min(r.time) FROM events e LEFT JOIN revisions r ON r.page_key=e.page_key AND r.time>e.time WHERE e.kind='delete' AND e.page_key='dse~OECDEducationEquitySequence' GROUP BY e.id ORDER BY e.time",
+    "rows": [
+      [
+        "delete:dse:rclog:146156",
+        "2026-06-19T23:40:50Z",
+        "2026-06-19T23:56:08Z"
+      ],
+      [
+        "delete:dse:rclog:146261",
+        "2026-06-20T00:01:24Z",
+        "2026-06-20T00:02:05Z"
+      ],
+      [
+        "delete:dse:rclog:146265",
+        "2026-06-20T00:01:52Z",
+        "2026-06-20T00:02:05Z"
+      ],
+      [
+        "delete:dse:rclog:146278",
+        "2026-06-20T00:03:10Z",
+        "2026-06-20T00:21:54Z"
+      ],
+      [
+        "delete:dse:rclog:146297",
+        "2026-06-20T00:31:08Z",
+        "2026-06-20T00:37:32Z"
+      ],
+      [
+        "delete:dse:rclog:146376",
+        "2026-06-20T00:45:06Z",
+        "2026-06-20T00:52:25Z"
+      ],
+      [
+        "delete:dse:rclog:147217",
+        "2026-06-20T19:40:37Z",
+        "2026-06-21T08:30:16Z"
+      ],
+      [
+        "delete:dse:rclog:147729",
+        "2026-06-21T11:59:19Z",
+        null
+      ]
+    ],
+    "expected": null,
+    "matched_expected": null
+  },
+  "cleanup_adaptation": {
+    "sql": "SELECT id,time FROM revisions WHERE id IN ('dse~DataUSAConstructionWageSep18Live@16','dse~ZZZDataUSAConstructionWageLive@1') ORDER BY time",
+    "rows": [
+      [
+        "dse~DataUSAConstructionWageSep18Live@16",
+        "2026-06-19T14:05:02Z"
+      ],
+      [
+        "dse~ZZZDataUSAConstructionWageLive@1",
+        "2026-06-19T14:06:38Z"
+      ]
+    ],
+    "expected": null,
+    "matched_expected": null
+  },
+  "counter_false_positive_retracted": {
+    "sql": "SELECT id,time FROM revisions WHERE id IN ('dse~DataUSALanguageR5LiveDec29@2','dse~DataUSALanguageR5LiveDec29@5') ORDER BY time",
+    "rows": [
+      [
+        "dse~DataUSALanguageR5LiveDec29@2",
+        "2026-06-17T00:01:03Z"
+      ],
+      [
+        "dse~DataUSALanguageR5LiveDec29@5",
+        "2026-06-17T00:03:23Z"
+      ]
+    ],
+    "expected": [
+      [
+        "dse~DataUSALanguageR5LiveDec29@2",
+        "2026-06-17T00:01:03Z"
+      ],
+      [
+        "dse~DataUSALanguageR5LiveDec29@5",
+        "2026-06-17T00:03:23Z"
+      ]
+    ],
+    "matched_expected": true
+  }
+}

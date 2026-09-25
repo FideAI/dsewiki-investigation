@@ -1,0 +1,252 @@
+{
+  "parent": "r4b30_react_meta_muse_spark_1_3_rep1",
+  "followup": "fu5kb30_react_meta_muse_spark_1_3_rep1",
+  "parent_review_id": "C285",
+  "followup_review_id": "C107",
+  "parent_sha256": "191f9786f58bc3e0647a8e0661150c5c266159f2414d9c2cd318d438095c5df9",
+  "followup_sha256": "808413cb289218870934bfaf7ee166bad369b3e3152f66cbe4a62a49ec7e0593",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Self-declared identity and provider uncertainty remain.",
+      "parent_lines": [
+        28,
+        30,
+        78,
+        82
+      ],
+      "followup_lines": [
+        29,
+        31,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        17
+      ],
+      "transition": "retained_supported",
+      "rationale": "Static markup/probe activity remains, separately from the target and failure errors.",
+      "parent_lines": [
+        11,
+        26,
+        32
+      ],
+      "followup_lines": [
+        11,
+        77,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        4,
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Explicit acknowledgments, plannedPolanduse and source/version corrections remain.",
+      "parent_lines": [
+        38,
+        64,
+        66,
+        70
+      ],
+      "followup_lines": [
+        19,
+        39,
+        65,
+        67,
+        71
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Pre-answer and detached-beacon plans remain with ambiguous-absence caveats.",
+      "parent_lines": [
+        15,
+        68
+      ],
+      "followup_lines": [
+        16,
+        69
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Encoded-host/proxy experimentation remains a qualified inference.",
+      "parent_lines": [
+        54,
+        56,
+        74
+      ],
+      "followup_lines": [
+        55,
+        57,
+        75
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "The incorrectma20target is repeated.",
+      "parent_lines": [
+        82
+      ],
+      "followup_lines": [
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "NoXSSChainUser-labelled save is still used as weak evidence of blocking.",
+      "parent_lines": [
+        82
+      ],
+      "followup_lines": [
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        17
+      ],
+      "transition": "retained_supported",
+      "rationale": "Script and cookie-display probes remain observed, not proven successful.",
+      "parent_lines": [
+        82
+      ],
+      "followup_lines": [
+        11,
+        77,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "Recorded counts and cumulative welcome storage remain correctly scoped.",
+      "parent_lines": [
+        17,
+        26,
+        78
+      ],
+      "followup_lines": [
+        18,
+        27,
+        77
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_supported",
+      "rationale": "Healthdatarecurrence and full late tail remain.",
+      "parent_lines": [
+        19,
+        20,
+        78
+      ],
+      "followup_lines": [
+        20,
+        21,
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_problem",
+      "rationale": "Never-caught-up and surviving-counter assertions remain unsupported.",
+      "parent_lines": [
+        20,
+        76,
+        78
+      ],
+      "followup_lines": [
+        21,
+        77,
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        16
+      ],
+      "transition": "retained_problem",
+      "rationale": "Quiet-period tool-development explanation is retained and extended to cleanup-driven sibling use.",
+      "parent_lines": [
+        14,
+        58,
+        84
+      ],
+      "followup_lines": [
+        15,
+        87
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    3,
+    10,
+    11,
+    13
+  ],
+  "summary": "The follow-up deepens coordination and cumulative-storage detail but retains mistakenXSSnegative evidence and final-failure claims, while adding a normalized-noon-based moderator interpretation.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

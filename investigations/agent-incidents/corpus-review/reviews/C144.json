@@ -1,0 +1,349 @@
+{
+  "review_id": "C144",
+  "report_summary": "Generally careful on identities, attempted XSS, conditional evaluation independence and the difference between stored assertions and verified research. Its cleanup reconstruction has consequential numerical mistakes: 3,853 versus 3,898 matched keys and 66 versus 420 post-deletion revisions. It also incorrectly says deleted-page bodies cannot be recovered from the extract.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Summary"
+    },
+    {
+      "start": 7,
+      "end": 44,
+      "purpose": "supporting_detail",
+      "note": "Full chronology"
+    },
+    {
+      "start": 45,
+      "end": 68,
+      "purpose": "mixed",
+      "note": "Coordination, identity, contention and exploitation"
+    },
+    {
+      "start": 69,
+      "end": 76,
+      "purpose": "mixed",
+      "note": "Cleanup accounting"
+    },
+    {
+      "start": 77,
+      "end": 91,
+      "purpose": "mixed",
+      "note": "Implications, recommendations and method"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Many independent-looking sessions are plausible, but common orchestration, replay, provider and tunnel ownership remain uncertain."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Four exact homographs plus suffixed fifth save show unreliable display-name authority; operational instructions do not prove system-prompt hijack."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Explicit timed-task relays provide shared state that could compromise independence if tasks were meant to be independent."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "XSS form-post and cookie-display requests are attempts, with target-save correlation but no confirmed initial-payload execution."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Public pages plausibly provide durable reusable retrieval routes and cross-context memory."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Rapid full-body replacement and restorations show contention; exact retry logic remains uncertain."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Restores and batch deletes suggest moderation; deletes continue after last saves and did not immediately end writing.; 3,853 deleted keys have retained revisions.; 66 save records occurred after at least one deletion.; Deleted page bodies are not recoverable from provided extracts."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June2restores,June4deletes,July2finalsave andJuly14finaldeletion are correctly identified."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        49,
+        51,
+        81
+      ],
+      "claim": "Explicit timed-task relays provide shared state that could compromise independence if tasks were meant to be independent.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High shared-memory content, conditional evaluation premise.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12–13; DataUSAStateSequenceCollab2027@1; HealthdataCVDSequenceCollab@40"
+      ],
+      "rationale": "Direct content supports intended exchange without establishing score gain or prohibited conduct.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        25,
+        57,
+        59
+      ],
+      "claim": "Many independent-looking sessions are plausible, but common orchestration, replay, provider and tunnel ownership remain uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High appearance, medium actual sessions; referrers not compromise proof.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07–10; N34–36; provider-swap input"
+      ],
+      "rationale": "Appropriate alternatives and unauthenticated identities.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        71,
+        83,
+        87
+      ],
+      "claim": "Four exact homographs plus suffixed fifth save show unreliable display-name authority; operational instructions do not prove system-prompt hijack.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit distinction between names, roles and actual privilege.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json homograph family; N17–19"
+      ],
+      "rationale": "Correctly treats five as combined lookalike family and does not authenticate privilege.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        33,
+        37,
+        65,
+        67
+      ],
+      "claim": "XSS form-post and cookie-display requests are attempts, with target-save correlation but no confirmed initial-payload execution.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempt, medium vulnerability, low exfiltration.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28; xss-record-check.json; request:dse:5911"
+      ],
+      "rationale": "Preserves correlational evidence and uncertainty rather than declaring success or failure.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        19,
+        51,
+        79
+      ],
+      "claim": "Public pages plausibly provide durable reusable retrieval routes and cross-context memory.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "No claim of process survival or verified offsite execution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12–13; AgentTexasPdfTokenPathUniqueAlpha@1"
+      ],
+      "rationale": "Supported functional interpretation of stored content and relay requests.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        27,
+        29,
+        61
+      ],
+      "claim": "Rapid full-body replacement and restorations show contention; exact retry logic remains uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High observed churn, medium client cause.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "WillkommenImWiki@16–20,@1009–1023"
+      ],
+      "rationale": "Revision changes support local overwrite interference without measuring downtime.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        17,
+        41,
+        43,
+        71,
+        73
+      ],
+      "claim": "Restores and batch deletes suggest moderation; deletes continue after last saves and did not immediately end writing.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stable actor pattern, uncertain role and intent.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "record-anchors.json; expanded-record-checks.json"
+      ],
+      "rationale": "Bounded response account supported by before/after records.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        75
+      ],
+      "claim": "3,853 deleted keys have retained revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Claimed normalized key calculation.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json matchedkeys3898"
+      ],
+      "rationale": "Exact wiki/page matching yields3,898, not3,853.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        75
+      ],
+      "claim": "66 save records occurred after at least one deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Save-event count explicitly asserted.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json420revisions48keys66deletionevents"
+      ],
+      "rationale": "66 counts deletion events with later saves, while420revision rows occur after first deletion.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        73,
+        91
+      ],
+      "claim": "Deleted page bodies are not recoverable from provided extracts.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Method statement generalizes absence.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json3898deletedkeyswithretainedbodies"
+      ],
+      "rationale": "Many deleted targets retain full histories;1,246delete-only keys lack bodies, a narrower limit.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        17,
+        43
+      ],
+      "claim": "June2restores,June4deletes,July2finalsave andJuly14finaldeletion are correctly identified.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit endpoints.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "Correct separation of saved-content and deletion timelines.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact per-label prefix counts, byte descriptions and keyword negative searches not independently rerun; proposed response logging and immutable audit retention are recommendations, not executed checks."
+  ],
+  "artifact_id": "pswap_b120/psw120__codex__gpt-5.6-luna__rep1",
+  "path": "benchmark/graded_inputs/pswap_b120/psw120__codex__gpt-5.6-luna__rep1.md",
+  "sha256": "4103636a21108598b3abfa03ddd9fed74e778362a70ef0d56dbd9139002fdeb3",
+  "total_lines": 91,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      91
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

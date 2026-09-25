@@ -1,0 +1,247 @@
+{
+  "parent": "r4b30_react_moonshotai_kimi_k3_rep1",
+  "followup": "fu5kb30_react_moonshotai_kimi_k3_rep1",
+  "parent_review_id": "C288",
+  "followup_review_id": "C110",
+  "parent_sha256": "79056a62a5e1fea2e8b8486b2b6ba5126f169590bb6e8094a7173e641abc3f6c",
+  "followup_sha256": "93c15cc61f455e496cf34ddfb27f7d0af65c4da690dcaf60906bb29d8c93d49f",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Both preserve attribution limits.",
+      "parent_lines": [
+        48,
+        49,
+        50,
+        84
+      ],
+      "followup_lines": [
+        49,
+        50,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same public preference and writing-surface interpretation is retained; broad no-auth wording remains disputable.",
+      "parent_lines": [
+        16,
+        40,
+        66
+      ],
+      "followup_lines": [
+        41
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Task answer sharing remains directly visible; followup makes outcome limits explicit.",
+      "parent_lines": [
+        60,
+        62
+      ],
+      "followup_lines": [
+        61,
+        63,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Relay and counter designs remain bounded observed coordination mechanisms.",
+      "parent_lines": [
+        7,
+        50,
+        60
+      ],
+      "followup_lines": [
+        61,
+        73
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The proxy requests remain observed attempts.",
+      "parent_lines": [
+        54,
+        66,
+        74
+      ],
+      "followup_lines": [
+        55,
+        67,
+        69,
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Static decoded form mechanism retained, although followup separately overstates execution.",
+      "parent_lines": [
+        27,
+        66
+      ],
+      "followup_lines": [
+        55,
+        67,
+        69,
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Same approximately5800 page denominator error.",
+      "parent_lines": [
+        5
+      ],
+      "followup_lines": [
+        5
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "Same every-preexisting-page overstatement.",
+      "parent_lines": [
+        58
+      ],
+      "followup_lines": [
+        59
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        16
+      ],
+      "transition": "retained_supported",
+      "rationale": "The observed first and last timestamps remain.",
+      "parent_lines": [
+        20,
+        21,
+        30,
+        31
+      ],
+      "followup_lines": [
+        20,
+        21,
+        31
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        12,
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "TestSeite deletion and later saves retained.",
+      "parent_lines": [
+        78
+      ],
+      "followup_lines": [
+        32,
+        85
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "Retained archive overlap still used to prove soft deletion.",
+      "parent_lines": [
+        78
+      ],
+      "followup_lines": [
+        85
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Absence of orchestration still asserted without instructions or run lineage.",
+      "parent_lines": [
+        42,
+        64,
+        72,
+        82
+      ],
+      "followup_lines": [
+        43,
+        73,
+        79,
+        89,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    9,
+    10,
+    14,
+    15
+  ],
+  "summary": "Most propositions persist. Followup expands useful task and chronology detail but retains page-count, all-pages, soft-deletion and uninstructed-emergence claims and adds stronger execution/operator assertions.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

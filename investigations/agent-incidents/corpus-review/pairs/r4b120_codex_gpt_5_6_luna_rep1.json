@@ -1,0 +1,282 @@
+{
+  "parent": "r4b120_codex_gpt_5_6_luna_rep1",
+  "followup": "fu5kb120_codex_gpt_5_6_luna_rep1",
+  "parent_review_id": "C231",
+  "followup_review_id": "C066",
+  "parent_sha256": "d61ff487987a5b7f4e57d3ecd4218c1f53ebaf273f42b034ccf4341275f8ab82",
+  "followup_sha256": "5b4c67f92344f312dc2520ad63decffef7e66741297116e9921ae750d4b99d59",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Both explicitly limit labels and prefixes as identity evidence.",
+      "parent_lines": [
+        49,
+        51,
+        87,
+        89
+      ],
+      "followup_lines": [
+        51,
+        97,
+        115,
+        132,
+        134
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "The followup retains concrete GET/proxy mechanisms with access and response limitations.",
+      "parent_lines": [
+        16,
+        24,
+        61,
+        77
+      ],
+      "followup_lines": [
+        61,
+        73,
+        77,
+        83,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Shared timing, signaling and correction remain concrete findings.",
+      "parent_lines": [
+        28,
+        29,
+        30,
+        53,
+        65
+      ],
+      "followup_lines": [
+        29,
+        53,
+        65,
+        85,
+        93,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "The continuation still turns survival-oriented design into established isolation/governance failure.",
+      "parent_lines": [
+        53
+      ],
+      "followup_lines": [
+        53,
+        121,
+        123,
+        134
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5,
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Lifecycle ambiguity and absent local-service responses remain explicit.",
+      "parent_lines": [
+        65,
+        73
+      ],
+      "followup_lines": [
+        61,
+        65,
+        73,
+        77,
+        83,
+        91,
+        93,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "The payload-to-later-save comparison still preserves imperfect match and missing execution evidence.",
+      "parent_lines": [
+        5,
+        35,
+        36,
+        69,
+        71,
+        75
+      ],
+      "followup_lines": [
+        35,
+        36,
+        69,
+        71,
+        75,
+        101,
+        103,
+        105,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Stored payloads and cookie-access attempts remain distinguished from theft or execution.",
+      "parent_lines": [
+        38,
+        71,
+        75,
+        89
+      ],
+      "followup_lines": [
+        35,
+        36,
+        69,
+        71,
+        75,
+        101,
+        103,
+        105,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "The indexed4579keys are still described as newly created.",
+      "parent_lines": [
+        3
+      ],
+      "followup_lines": [
+        3
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Template fan-out and replacement remain observations without proving autonomous replication.",
+      "parent_lines": [
+        55
+      ],
+      "followup_lines": [
+        51,
+        55,
+        95
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation preserves uncertainty about whether public token-like parameters were secrets.",
+      "parent_lines": [
+        63
+      ],
+      "followup_lines": [
+        63,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Both distinguish repeated deletions from actual later saves and use correct denominators.",
+      "parent_lines": [
+        7,
+        83
+      ],
+      "followup_lines": [
+        7,
+        117,
+        128,
+        130
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        10,
+        11
+      ],
+      "transition": "superseded",
+      "rationale": "The cleanup overlap and end-window distinction remain, but the continuation introduces a misdated scratch event and misleading first-containment heading.",
+      "parent_lines": [
+        37,
+        43,
+        83,
+        85
+      ],
+      "followup_lines": [
+        7,
+        30,
+        32,
+        37,
+        117,
+        128,
+        130
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The followup preserves the parent's strongest evidence limits and useful lifecycle denominators. It does not fix the all-pages-created error or overconfident survival/governance conclusion and introduces a chronology problem.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

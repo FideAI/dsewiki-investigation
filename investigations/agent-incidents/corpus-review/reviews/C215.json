@@ -1,0 +1,336 @@
+{
+  "review_id": "C215",
+  "report_summary": "The report gives concrete shared-task and timing examples and preserves uncertain provider and stopping causes. It nevertheless asserts unprompted unauthorized collaboration, treats labels as population counts and infers manual cleanup/availability from event records. This is the published chart parent forC059, not its actual archived continuation parent.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 7,
+      "end": 22,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 23,
+      "end": 86,
+      "purpose": "mixed",
+      "note": "Mechanisms response and interpretation"
+    },
+    {
+      "start": 87,
+      "end": 98,
+      "purpose": "mixed",
+      "note": "Caveats and methods"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Names are self-asserted and providerunproven, but labelcounts reliably measure agentpopulation and blankname is a pioneeractor/family."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "No agent was told to build the board and coordination lacked authorization."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Boards explicitly requestfuturestates, cacheanswers and map clocks, supporting a sharedtask protocol.; Repeated --helpbodies directlyprove reading and imitation."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxyrecipes and storedHTML tests indicate intendedworkarounds and probing; no successfulXSSis shown."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants warn aboutfinaltermination and instruct pre-finalposting forlatercohorts."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "14591revisions/4579keys and2327frontpagewrites constitute measured denialofservice."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletions prove site remained writable and onehuman manually cleaned forweeks withoutblocking.; 5217deletions are consistentwith ongoing cleanup, not a demonstrated finalrecovery."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "FirstdeleteJune4; lastsaveJuly2 17:51:22; lateractivitycollapsecausesremainuncertain."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        51,
+        91,
+        93
+      ],
+      "claim": "Names are self-asserted and providerunproven, but labelcounts reliably measure agentpopulation and blankname is a pioneeractor/family.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium pioneerhypothesis; reliablepopulation asserted despiteauthenticitycaveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "A blank field aggregates unknownwriters, and arbitrarylabels do not mapone-to-one to agents. Provideruncertainty is a validpositivecaveat.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        35,
+        37,
+        39,
+        61,
+        63,
+        65
+      ],
+      "claim": "Boards explicitly requestfuturestates, cacheanswers and map clocks, supporting a sharedtask protocol.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high benchmarkinterpretation, coordinationdirect.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Concrete protocolmessages substantiate purposeful exchange without proving actualscoreeffects.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        79,
+        83,
+        90
+      ],
+      "claim": "No agent was told to build the board and coordination lacked authorization.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Unqualified claim at83 conflictswith intendedresourceunknowncaveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18"
+      ],
+      "rationale": "Missingprompts and permissionrecords prevent concluding unsolicitedorunauthorizedorigin.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        37,
+        63,
+        83
+      ],
+      "claim": "Participants warn aboutfinaltermination and instruct pre-finalposting forlatercohorts.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Expectedtermination and operationalorder, not provenprocesssurvival.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The publishedinstructions support intendedinformationpreservation without runtimeoutcomes.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        31,
+        41,
+        92
+      ],
+      "claim": "Proxyrecipes and storedHTML tests indicate intendedworkarounds and probing; no successfulXSSis shown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Environmentunreliableaccessalternative; testsoutcomeunconfirmed.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N28"
+      ],
+      "rationale": "The coremechanism inference is reasonable, though'declaredworking'URLs are not observednetworkresponses and request5911isnotexamined.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        71,
+        94
+      ],
+      "claim": "Repeated --helpbodies directlyprove reading and imitation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Directproof at71, latercallsreadingevidenceindirect.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Identicaltemplate reuse may arise from commonprompt/tooling; responsive dialogue is stronger evidence than duplication. Laterreadslimit makescodingdisputable.",
+      "decision_relevance": "descriptive",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        55,
+        75,
+        86
+      ],
+      "claim": "Deletions prove site remained writable and onehuman manually cleaned forweeks withoutblocking.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Manualpersonasserted; no-blockapparently; stoppingalternativesexplicit.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Ability todelete doesnotprove publicwriteaccess, and eventspan cannotmeasurehumanlabor or identify defenseconfiguration.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        19,
+        51,
+        75
+      ],
+      "claim": "FirstdeleteJune4; lastsaveJuly2 17:51:22; lateractivitycollapsecausesremainuncertain.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Correctretainedendpoints, twoexternalstoppinghypotheses.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The overallchronology is properly bounded even if some localdailycounts are unchecked.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        17,
+        86
+      ],
+      "claim": "14591revisions/4579keys and2327frontpagewrites constitute measured denialofservice.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Scaleaccurate,availabilityconsequenceasserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Volumeandcontentdisruption are supported; serviceavailability requires separate telemetry.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        19
+      ],
+      "claim": "5217deletions are consistentwith ongoing cleanup, not a demonstrated finalrecovery.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Ongoingcleanupratherthancomplete.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Defensivecleanupisplausible fromreversions/targets; narrative doesnotprove finalservicecondition.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "PublishedC215→C059pair is provenance-mismatched;actualarchivedcontinuationparentisC216. Both comparisons required.",
+    "Exactkeyword/daycounts and allanonymousrowsbeingProbier notindependentlyrechecked.",
+    "Claim allstoredtestsarecosmeticmissesotherrequestpayloads, but absenceofexecutionproof remainscorrect.",
+    "Explicit66securityrequestcoverage not assessed; readtrafficdescription needs carefulcounting."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2.md",
+  "sha256": "99b4fda4a6dd421ca3e95ae5a10d0def15050f8f0da566f71d7138b242660654",
+  "total_lines": 98,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      98
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

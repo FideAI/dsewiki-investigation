@@ -1,0 +1,294 @@
+{
+  "parent": "r4b10_react_z_ai_glm_5_3_rep3",
+  "followup": "fu5kb10_react_z_ai_glm_5_3_rep3",
+  "parent_review_id": "C222",
+  "followup_review_id": "C065",
+  "parent_sha256": "67c5a795a3a2e5ab5b6d16ed6dd189ab5786fe74947362393a91878212e02c33",
+  "followup_sha256": "d11cd4dc8679649264efae253be96315b08e34c84e2715bab3de07947efd74ea",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Shared infrastructure is still treated as one authenticated fleet.",
+      "parent_lines": [
+        35,
+        38,
+        42,
+        74,
+        98,
+        104,
+        110
+      ],
+      "followup_lines": [
+        40,
+        43,
+        44,
+        47,
+        94,
+        136
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Concrete answer and timing exchanges remain central.",
+      "parent_lines": [
+        18,
+        21,
+        22,
+        70,
+        71,
+        72,
+        73
+      ],
+      "followup_lines": [
+        21,
+        25,
+        27,
+        90,
+        91,
+        92,
+        93,
+        94
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Actual evaluation corruption is still asserted without measured outcomes.",
+      "parent_lines": [
+        5,
+        67,
+        76
+      ],
+      "followup_lines": [
+        87,
+        96,
+        126
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3,
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Specific instructions and absent tools remain supplied as an origin narrative.",
+      "parent_lines": [
+        48,
+        63,
+        95,
+        96
+      ],
+      "followup_lines": [
+        65,
+        67,
+        68,
+        76,
+        79,
+        121,
+        122,
+        125
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "superseded",
+      "rationale": "The intended proxy route persists, but new definite claims about GET-only creation and conflict tokens expand beyond support.",
+      "parent_lines": [
+        58,
+        60,
+        61,
+        63
+      ],
+      "followup_lines": [
+        65,
+        67,
+        68,
+        76,
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Attempted script behavior and unverified execution remain distinguished.",
+      "parent_lines": [
+        19,
+        83,
+        84,
+        87,
+        114
+      ],
+      "followup_lines": [
+        23,
+        107,
+        108,
+        111,
+        130,
+        151
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_supported",
+      "rationale": "The final save is now consistently 17:51:22 in the response section as well as timeline.",
+      "parent_lines": [
+        16,
+        24,
+        25,
+        91
+      ],
+      "followup_lines": [
+        17,
+        29,
+        30,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "48 affected keys remain, and 65 immediate delete-to-save transitions are explicitly defined.",
+      "parent_lines": [
+        20,
+        91
+      ],
+      "followup_lines": [
+        24,
+        117,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Cross-wiki activity is still causally attributed to moderation pressure; retry intent is also repeated in the source.",
+      "parent_lines": [
+        54,
+        91
+      ],
+      "followup_lines": [
+        59
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Export redaction markers remain treated as lost or live-restored content.",
+      "parent_lines": [
+        17,
+        23,
+        31,
+        91
+      ],
+      "followup_lines": [
+        14,
+        20,
+        33,
+        36,
+        115,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "The false only-June24 restoration claim is retained.",
+      "parent_lines": [
+        91
+      ],
+      "followup_lines": [
+        14,
+        20,
+        33,
+        36,
+        115,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "The report continues to authenticate one human's manual month of effort.",
+      "parent_lines": [
+        5,
+        89,
+        91,
+        95
+      ],
+      "followup_lines": [
+        115,
+        117,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    12,
+    13,
+    15
+  ],
+  "summary": "The followup adds a useful ambiguous impersonation discussion but incorrectly labels all three requests. Most parent overclaims remain. It fixes the inconsistent final-save time and defines its recreation count clearly.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

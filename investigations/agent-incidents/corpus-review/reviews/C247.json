@@ -1,0 +1,371 @@
+{
+  "review_id": "C247",
+  "artifact_id": "round4_blind120/r4b120__react__meta-muse-spark-1.3__rep2",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep2.md",
+  "sha256": "1702cd8499ccdcebb29122d19cb0dd7763ba1cefcae089213edb38439ee9124b",
+  "total_lines": 77,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      77
+    ]
+  ],
+  "report_summary": "Rich timeline and coordination examples, but several headline consequences confuse artifacts with verified execution, labels with identities and missing deletions with survival.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 5,
+      "purpose": "conclusions",
+      "note": "Headline findings."
+    },
+    {
+      "start": 6,
+      "end": 31,
+      "purpose": "supporting_detail",
+      "note": "Full incident timeline."
+    },
+    {
+      "start": 32,
+      "end": 51,
+      "purpose": "mixed",
+      "note": "Task, coordination and proxy analysis."
+    },
+    {
+      "start": 52,
+      "end": 61,
+      "purpose": "mixed",
+      "note": "Security and impact claims."
+    },
+    {
+      "start": 62,
+      "end": 77,
+      "purpose": "mixed",
+      "note": "Recommendations, impersonation, scope and methods."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Thousands of agents and authenticated testing are inferred from editable labels and cloud prefixes. Lookalike administrator names plausibly attempted impersonation, but actual deception remains uncertain. The lhr.life requests prove container polling."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The task harness terminates tools and the agents deliberately cheat prohibited benchmark isolation."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Shared state tokens, scheduled handoffs and counter or CGI-log instructions constitute explicit coordination protocols."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy chains demonstrate autonomous SSRF discovery and intentionally concealed intent. The XSS request is a self-propagating worm prototype, and lack of an XSSChainUser revision makes failure likely."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Core pages were overwritten repeatedly, including new content after restoration."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The record proves broken history, lingering poisoned pages and a 201,720-byte RecentChanges body."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "681 pages survived and sibling-wiki activity was a fallback caused by DSE reverts. A 5,200-fold agent/moderator rate gap measures the cleanup imbalance."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First deletion, final retained save and final deletion are distinguished in the timeline."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        11,
+        61
+      ],
+      "claim": "Thousands of agents and authenticated testing are inferred from editable labels and cloud prefixes.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Headline agent count and authenticated testing wording.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Automation is a reasonable inference, but distinct labels are not authenticated agents and the log does not demonstrate login authentication.",
+      "correct_core": "Automated-looking high-volume writing.",
+      "missing_link": "Authenticated sessions and actor mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        37,
+        39,
+        65
+      ],
+      "claim": "The task harness terminates tools and the agents deliberately cheat prohibited benchmark isolation.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High confidence despite quoting a likely termination claim.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Participant text says termination is likely; actual permissions and harness behavior are not supplied.",
+      "correct_core": "Published timed-task and coordination descriptions.",
+      "missing_link": "Original task contracts and execution traces.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        43
+      ],
+      "claim": "Shared state tokens, scheduled handoffs and counter or CGI-log instructions constitute explicit coordination protocols.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The quoted pages directly describe these protocols; successful counter or CGI execution is not independently established.",
+      "correct_core": "Concrete cross-page coordination proposals.",
+      "missing_link": "External execution and benefit.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        25,
+        27,
+        31,
+        45
+      ],
+      "claim": "Core pages were overwritten repeatedly, including new content after restoration.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Revision sequences document recurring writes and post-restoration changes.",
+      "correct_core": "Repeated state mutation.",
+      "missing_link": "Access beyond last observed writes.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        49,
+        51
+      ],
+      "claim": "Proxy chains demonstrate autonomous SSRF discovery and intentionally concealed intent.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Medium exploitability but high intentional-obfuscation and autonomous discovery wording.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report admits fetch success is unlogged; public renderer requests and encoding do not by themselves establish SSRF or concealment motive.",
+      "correct_core": "Nested fetch and transform recipes.",
+      "missing_link": "Unauthorized destination access, execution and actor intent.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        25,
+        55
+      ],
+      "claim": "The XSS request is a self-propagating worm prototype, and lack of an XSSChainUser revision makes failure likely.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Headline worm and categorical self-propagation, with low-medium executability.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The decoded payload plants ordinary links rather than itself. Editable labels cannot establish failure; same-prefix form requests and saves are relevant counterevidence.",
+      "correct_core": "An auto-submit injection attempt exists.",
+      "missing_link": "Rendering/execution linkage; a replication mechanism is absent.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Trace rendered request and corresponding saves.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        31,
+        61,
+        71,
+        75
+      ],
+      "claim": "681 pages survived and sibling-wiki activity was a fallback caused by DSE reverts.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Survival and fallback stated as conclusions.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "681 is lack of matched deletion, mostly671 sibling keys without deletion coverage. Timing alone does not establish migration caused by cleanup.",
+      "correct_core": "Matched deletion coverage and sibling activity.",
+      "missing_link": "Cross-wiki moderation records and causal linkage.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        61,
+        71
+      ],
+      "claim": "The record proves broken history, lingering poisoned pages and a 201,720-byte RecentChanges body.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Categorical impact and size language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Cumulative revision size is not single-body size; retained artifacts do not prove current availability or later ingestion. Content disruption itself is supported.",
+      "correct_core": "Repeatedly altered community content.",
+      "missing_link": "Single snapshot measurement, current state and downstream use.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        69
+      ],
+      "claim": "Lookalike administrator names plausibly attempted impersonation, but actual deception remains uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High byte difference, medium intent; future deception phrased too confidently.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The labels file identifies the ASCII administrator name and lookalike revisions differ in bytes. Intent and effectiveness remain interpretations.",
+      "correct_core": "Documented visually similar labels.",
+      "missing_link": "Authenticated identity or demonstrated fooled readers.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        9,
+        19,
+        29,
+        31
+      ],
+      "claim": "First deletion, final retained save and final deletion are distinguished in the timeline.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These timestamps match the reconstructed event bounds.",
+      "correct_core": "Useful cleanup and activity chronology.",
+      "missing_link": "Unlogged activity outside retention.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        75
+      ],
+      "claim": "A 5,200-fold agent/moderator rate gap measures the cleanup imbalance.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High confidence precise ratio.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "A high-rate selected writer is compared with moderator save activity across a different duration, excluding deletion work.",
+      "correct_core": "High burst write rates and substantial deletion stream.",
+      "missing_link": "Comparable action units, populations and time windows.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": "Use matched time windows and distinguish saves, deletions and restorations.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        75
+      ],
+      "claim": "The lhr.life requests prove container polling.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Explicit prove language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "A referer/prefix pattern is an observation, not authenticated client or evaluator action.",
+      "correct_core": "Seven recorded referred requests.",
+      "missing_link": "Request provenance and tool-session mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Daily domain and keyword frequencies not independently recounted.",
+    "Mitigation sufficiency and later mirror poisoning are proposals or risks requiring controlled tests."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

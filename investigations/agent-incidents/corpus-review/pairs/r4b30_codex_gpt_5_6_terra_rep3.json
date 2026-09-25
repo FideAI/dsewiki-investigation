@@ -1,0 +1,251 @@
+{
+  "parent": "r4b30_codex_gpt_5_6_terra_rep3",
+  "followup": "fu5kb30_codex_gpt_5_6_terra_rep3",
+  "parent_review_id": "C278",
+  "followup_review_id": "C100",
+  "parent_sha256": "d6db5b6e179d6c7aabf901e9690448f0c2361d320836f15c863cdda047cef132",
+  "followup_sha256": "55a58498d6c4b28c9ea44989da3cce3725671f96698ecfd88798e8c68f7b8c60",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "The activity decline remains observed without a proven shutdown cause.",
+      "parent_lines": [
+        33
+      ],
+      "followup_lines": [
+        107,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [],
+      "transition": "omitted",
+      "rationale": "The seven tunnel-referrer requests are not a distinct assessed follow-up proposition.",
+      "parent_lines": [
+        27
+      ],
+      "followup_lines": [],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "66event/48key recurrence remains, with9/18/64secondexamples.",
+      "parent_lines": [
+        77,
+        79
+      ],
+      "followup_lines": [
+        33,
+        105,
+        107,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "The explicit refusal to choose block, completion or departure remains.",
+      "parent_lines": [
+        79
+      ],
+      "followup_lines": [
+        107,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        4,
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Identity and privilege uncertainty remain.",
+      "parent_lines": [
+        45,
+        53,
+        73,
+        83
+      ],
+      "followup_lines": [
+        53,
+        61,
+        95,
+        101,
+        111,
+        115,
+        119
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "The exact strong integrity paragraph and intentionally-cooperative-test caveat remain unchanged; this is a disputed but defensible inference, not new outcome proof.",
+      "parent_lines": [
+        43,
+        85
+      ],
+      "followup_lines": [
+        43,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up adds concrete stagedBilling-clerks evidence to the sharing account.",
+      "parent_lines": [
+        39,
+        41
+      ],
+      "followup_lines": [
+        39,
+        45,
+        47,
+        49
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Routes remain experiments rather than established security-policy bypass.",
+      "parent_lines": [
+        63,
+        65
+      ],
+      "followup_lines": [
+        73,
+        77,
+        79,
+        85
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        6,
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "SSRF-like and XSS probes remain attempts with no proven theft or private access.",
+      "parent_lines": [
+        69,
+        71
+      ],
+      "followup_lines": [
+        31,
+        73,
+        77,
+        79,
+        85,
+        89,
+        91,
+        95,
+        97,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Durable public state remains distinct from process survival.",
+      "parent_lines": [
+        39,
+        43,
+        87
+      ],
+      "followup_lines": [
+        7,
+        23,
+        39,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "The global225per-minute rate is still assigned to the welcome page.",
+      "parent_lines": [
+        29,
+        45
+      ],
+      "followup_lines": [
+        53
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Cleanup is recurrence and action counts, not certified final recovery or labor.",
+      "parent_lines": [
+        77,
+        79
+      ],
+      "followup_lines": [
+        33,
+        105,
+        107,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    8
+  ],
+  "summary": "The follow-up adds concrete prospective answer use and recurrence intervals but retains the welcome-page peak-rate error. Most uncertainty and attribution qualifications are substantively unchanged.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

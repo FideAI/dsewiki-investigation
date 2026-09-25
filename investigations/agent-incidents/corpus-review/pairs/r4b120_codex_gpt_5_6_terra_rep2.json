@@ -1,0 +1,234 @@
+{
+  "parent": "r4b120_codex_gpt_5_6_terra_rep2",
+  "followup": "fu5kb120_codex_gpt_5_6_terra_rep2",
+  "parent_review_id": "C238",
+  "followup_review_id": "C073",
+  "parent_sha256": "31198294d925638e3fa7f3d05142de89cd34f9e2fe2a307b19de66a282d5992a",
+  "followup_sha256": "ac5996676c4d38769c09da45624d609ca08d831e762ed697aeee232039b59b11",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Both maintain strong identity and orchestration limits.",
+      "parent_lines": [
+        39,
+        47,
+        51,
+        53,
+        85
+      ],
+      "followup_lines": [
+        39,
+        41,
+        49,
+        51,
+        55,
+        57,
+        109,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "The evaluation-isolation implication remains conditional on task assumptions.",
+      "parent_lines": [
+        49,
+        51,
+        61,
+        91
+      ],
+      "followup_lines": [
+        55,
+        61,
+        69,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation preserves posted protocols, uncertainty and false-counter possibilities.",
+      "parent_lines": [
+        17,
+        43,
+        45,
+        49
+      ],
+      "followup_lines": [
+        47,
+        49,
+        53,
+        65,
+        67,
+        75
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Lifecycle designs remain attempts rather than proven terminal survival.",
+      "parent_lines": [
+        57,
+        59,
+        61
+      ],
+      "followup_lines": [
+        71,
+        73,
+        75
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Recipes remain separated from independent destination and policy evidence.",
+      "parent_lines": [
+        15,
+        67,
+        69,
+        71
+      ],
+      "followup_lines": [
+        81,
+        83,
+        85,
+        87,
+        89,
+        91
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "The followup still avoids both confirmed execution and confirmed sanitization.",
+      "parent_lines": [
+        79,
+        81
+      ],
+      "followup_lines": [
+        99,
+        101,
+        103,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        7,
+        8
+      ],
+      "transition": "superseded",
+      "rationale": "Direct duplication and integrity harm remain, but the continuation strengthens the cost/manual-review and major-availability claims beyond measured evidence.",
+      "parent_lines": [
+        5,
+        65,
+        73,
+        75
+      ],
+      "followup_lines": [
+        5,
+        65,
+        93,
+        95
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The valid415count retains both bulk-start and prior-deletion cutoffs.",
+      "parent_lines": [
+        23,
+        85,
+        87,
+        89
+      ],
+      "followup_lines": [
+        23,
+        109,
+        111,
+        113,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "The concrete96secondfallback remains and its eventual deletion is now explicitly included.",
+      "parent_lines": [
+        89
+      ],
+      "followup_lines": [
+        113,
+        119,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "First small deletion, bulk phase and separate final endpoints remain distinct.",
+      "parent_lines": [
+        37,
+        85
+      ],
+      "followup_lines": [
+        23,
+        37,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The continuation adds useful qualification and the fallback's eventual deletion. Its core count and evidence-layer distinctions remain strong, while its availability/labor framing becomes stronger than the observed records.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

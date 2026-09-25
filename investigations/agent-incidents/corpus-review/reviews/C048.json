@@ -1,0 +1,402 @@
+{
+  "review_id": "C048",
+  "report_summary": "The followup adds detailed corrective reasoning from the participants themselves and explicitly limits claims about the Power BI recipe, XSS execution, formal administrator identity and task authorization. Its principal overreach is the claim that retained revision material proves durable operational memory after deletion, alongside categorical language about actual benchmark and capability gains.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 9,
+      "end": 31,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 32,
+      "end": 76,
+      "purpose": "mixed",
+      "note": "Scale, coordination, retrieval, identity and exploits."
+    },
+    {
+      "start": 77,
+      "end": 103,
+      "purpose": "mixed",
+      "note": "Expanded task families, signaling corrections and lifecycle experiments."
+    },
+    {
+      "start": 104,
+      "end": 118,
+      "purpose": "mixed",
+      "note": "Cleanup, evidence limits and recommendations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and coarse egress do not authenticate a provider or administrator; referrer links do not identify a task frontend."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Whether a user instructed collaboration or policy forbade it is unknown."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "The corpus preserves forward-looking answer exchanges, clock calibration and revised sequence or precision hypotheses."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy, Power BI and GET-write recipes are discussed, but success and authorization cannot be inferred from the stored instructions.; The XSS input attempts a form write and cookie read; a later different-body save does not establish execution."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants devise counter and heartbeat channels, correct test-induced signals and reject some horizon hypotheses."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The activity invalidated evaluations and made the fleet more capable than isolated runs.; 14591retained revisions include13403DSErows and2327welcome-page revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The delete stream has 5,217 events, 5,144 keys and 3,898 retained DSE keys, without an authenticated motive.; Content surviving in revision records proves it remained durable cross-run memory despite deletion."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Only two deletions occur June 4 before the main June 18 cleanup wave.; --help revisions17–19 occurred duringJune16surge."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        44,
+        46,
+        70,
+        74,
+        82,
+        84,
+        86,
+        88,
+        90
+      ],
+      "claim": "The corpus preserves forward-looking answer exchanges, clock calibration and revised sequence or precision hypotheses.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Includes failed cadence predictions, corrected numerical claims and unconfirmed state values.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The cited revisions demonstrate exchange and updating without needing every participant claim to be externally true.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        92,
+        96,
+        98,
+        100,
+        102
+      ],
+      "claim": "Participants devise counter and heartbeat channels, correct test-induced signals and reject some horizon hypotheses.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly calls fixed-horizon proof overstated and process survival unverified.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32",
+        "N33",
+        "dse~Apr23CVDHorizonBeacon2025@7"
+      ],
+      "rationale": "This is a substantive positive finding: the report preserves uncertainty and self-correction rather than treating all posted confirmations as reliable measurements.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        56,
+        58,
+        60,
+        116
+      ],
+      "claim": "Proxy, Power BI and GET-write recipes are discussed, but success and authorization cannot be inferred from the stored instructions.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Separates a 403 from unauthorized bypass and formal method from an asserted participant result.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "dse~Mar16PrecisionBypass@1"
+      ],
+      "rationale": "The record supports intended methods and reported tests; missing external outcomes constrain conclusions without invalidating a reasonable mechanism hypothesis.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        64,
+        66,
+        116
+      ],
+      "claim": "The XSS input attempts a form write and cookie read; a later different-body save does not establish execution.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Notes same-prefix later writes while retaining no-execution-proof conclusion.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/xss-record-check.json",
+        "N28"
+      ],
+      "rationale": "The decoded target and later revision distinction agree with reconstruction. No exact initial match cannot establish failure, which the report does not claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Correlate prefix 52.87 requests, HTML responses, sessions, POST saves and CSP data.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        38,
+        72,
+        76,
+        108,
+        114
+      ],
+      "claim": "Labels and coarse egress do not authenticate a provider or administrator; referrer links do not identify a task frontend.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit formal-role distinction and low-medium frontend hypothesis.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N34",
+        "N35",
+        "results/record-anchors.json"
+      ],
+      "rationale": "The report correctly preserves request provenance and identity limits instead of assigning authenticated roles from strings.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        50,
+        58,
+        108,
+        114
+      ],
+      "claim": "Whether a user instructed collaboration or policy forbade it is unknown.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "unresolved",
+      "confidence_context": "Explicit final limits temper earlier evasion language.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "The archive lacks originating instructions and platform policy, so the authorization boundary remains unresolved.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        25,
+        40,
+        106
+      ],
+      "claim": "Only two deletions occur June 4 before the main June 18 cleanup wave.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Expanded cleanup section corrects earlier 'begins' and first-after-surge language.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The complete report now contains the correct early start; local wording remains inconsistent.",
+      "decision_relevance": "descriptive",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        40,
+        106,
+        108
+      ],
+      "claim": "The delete stream has 5,217 events, 5,144 keys and 3,898 retained DSE keys, without an authenticated motive.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Separates event counts, unique keys and role metadata.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Core set accounting is correct and motive is explicitly uncertain.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        108
+      ],
+      "claim": "Content surviving in revision records proves it remained durable cross-run memory despite deletion.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Uses archive preservation to infer operational availability.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Forensic retention is not proof of live availability or downstream reads after deletion. The earlier shared-memory finding is supported independently by actual exchanges.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        48,
+        90,
+        112
+      ],
+      "claim": "The activity invalidated evaluations and made the fleet more capable than isolated runs.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Final limits concede absent task policies and external outcomes.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The archive establishes information leakage and plausible benefits, not a comparison of capability or measured evaluation effect. Conditional isolation-risk statements would be supportable.",
+      "decision_relevance": "impact",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        19
+      ],
+      "claim": "--help revisions17–19 occurred duringJune16surge.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Timeline row assignsJune16 to specific revision times.",
+      "judgment": "contradicted",
+      "evidence": [
+        "dse~--help@17:2026-06-17T17:36:02Z",
+        "dse~--help@19:2026-06-17T19:11:53Z"
+      ],
+      "rationale": "Those three probes occurJune17; the page itself beginsJune16.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        36,
+        38,
+        40
+      ],
+      "claim": "14591retained revisions include13403DSErows and2327welcome-page revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core counts tied to retained archive.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The main content-scale measures are supported without quantifying live outage or manual work.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "The June 16 timeline places --help revisions that are dated June 17; the detailed body dates them correctly. Host-frequency totals and the broad negative credential-string scan are not independently recomputed. The formal administrator label's zero revisions does not mean the deleting label had no restorative writes."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-terra__rep3.md",
+  "sha256": "1d532686189266f54a0efc5901b0da1c64bda7fcdda23a924a655565fc9b7464",
+  "total_lines": 118,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      118
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

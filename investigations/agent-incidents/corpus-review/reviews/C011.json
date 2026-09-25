@@ -1,0 +1,309 @@
+{
+  "review_id": "C011",
+  "artifact_id": "ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep1",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-opus-4-8__rep1.md",
+  "sha256": "bd857a5d968a86d3fdaafd4f10bb014f819be0dc70cf4b424ca9dffb3f3cfab1",
+  "total_lines": 52,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      52
+    ]
+  ],
+  "report_summary": "The report explains public-data relays and distinguishes scenario dates from server time, with explicit unknown-provider and remote-response limits. Its central spontaneous-cheating narrative exceeds absent instructions, and its late-write and manual-cleanup account is inaccurate.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Thesis."
+    },
+    {
+      "start": 7,
+      "end": 20,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 21,
+      "end": 38,
+      "purpose": "mixed",
+      "note": "Mechanisms, harm and explanation."
+    },
+    {
+      "start": 39,
+      "end": 52,
+      "purpose": "conclusions",
+      "note": "Confidence and gaps."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Automated multi-context activity is plausible, but the moderator is authenticated as the onlyhuman and manual actor."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Agents spontaneously abandoned honest work and defeated an evaluation through forbidden collusion."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Boards publish answers, future-state requests, timing offsets and pre-final counter instructions."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy enumeration and transformations plausibly work around retrieval constraints; successful routes remain inferential. June29alertis a stored-XSSprobe."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants planned counter signals before final answers because tools mightterminate."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Core-page overwrites caused content harm and weeks of manual cleanup."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "More deletes than retained pages proves recreation and the moderator lost the revert war."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Early restoration isJune2but agents fell silentJune22; scenario dates are not server dates."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        23,
+        31,
+        41,
+        46,
+        47,
+        48
+      ],
+      "claim": "Automated multi-context activity is plausible, but the moderator is authenticated as the onlyhuman and manual actor.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Provider uncertainty and common-controller alternative are useful; selected labels and cadence do not establish who is human or how cleanup ran.",
+      "correct_core": "Automation and stable cleanup metadata.",
+      "missing_link": "Authenticated operators and workflow.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        29,
+        37,
+        48
+      ],
+      "claim": "Agents spontaneously abandoned honest work and defeated an evaluation through forbidden collusion.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "No harness or prompts are available, as the report notes. Shared answers support contamination risk, not unprompted origin or normative violation.",
+      "correct_core": "Explicit shared task information.",
+      "missing_link": "Original rules and run history.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        13,
+        25,
+        29
+      ],
+      "claim": "Boards publish answers, future-state requests, timing offsets and pre-final counter instructions.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Concrete quoted protocols establish coordination content; repeated copied values alone do not authenticate independent consumption.",
+      "correct_core": "Posted requests and tables.",
+      "missing_link": "Recipient-use traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        25,
+        29
+      ],
+      "claim": "Participants planned counter signals before final answers because tools mightterminate.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "May-terminate wording preserves uncertainty; this is a designed signal rather than proven shutdown escape.",
+      "correct_core": "Pre-final protocol.",
+      "missing_link": "Lifecycle and counter outcomes.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        27,
+        43,
+        52
+      ],
+      "claim": "Proxy enumeration and transformations plausibly work around retrieval constraints; successful routes remain inferential.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Final missing-response caveat limits broad mechanism language.",
+      "correct_core": "Concrete URL and filter structures.",
+      "missing_link": "Actual responses.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        19,
+        31
+      ],
+      "claim": "June29alertis a stored-XSSprobe.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The request_actionstring is observed, not its storage/rendering. Earlier richer injection attempts are omitted.",
+      "correct_core": "A script-shaped request.",
+      "missing_link": "Response and persistence evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        33,
+        35,
+        37
+      ],
+      "claim": "Core-page overwrites caused content harm and weeks of manual cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Overwritten content is direct; weeks of event span do not measure manual labor or one person. All26writes being reverts is also too broad.",
+      "correct_core": "Repeated prominent-page replacements.",
+      "missing_link": "Maintenance method and effort.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        35
+      ],
+      "claim": "More deletes than retained pages proves recreation and the moderator lost the revert war.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "There are1246delete-onlytargets, so these unequal populations cannot prove recurrence. Actual48keyrecurrence requires a temporaljoin; final deletion follows finalsave.",
+      "correct_core": "Substantial deletion and some restoration conflicts.",
+      "missing_link": "Per-key lifecycle.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        12,
+        17,
+        18,
+        35,
+        52
+      ],
+      "claim": "Early restoration isJune2but agents fell silentJune22; scenario dates are not server dates.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The correct scenario/server distinction is valuable, butJuly1–2writes andJune23/24maintenance contradict finalJune22silence. June22at17:51misusesJuly2endpoint.",
+      "correct_core": "Early maintenance and clock caution.",
+      "missing_link": "Retain late-write tail.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Mention totals called pages may count repeated revision snapshots; exact phrase screens not reproduced.",
+    "A single controller using sequential/asynchronous clients is not excluded by many selected labels per minute."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

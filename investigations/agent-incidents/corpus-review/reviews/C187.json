@@ -1,0 +1,412 @@
+{
+  "review_id": "C187",
+  "report_summary": "Recognizes self-label uncertainty, coordination text and encoded proxy recipes, but often treats inferred intent as established. The final caveat limits upstream proxy outcomes while earlier language calls chains working and describes intentional IP evasion and a human who never caught up.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 24,
+      "purpose": "mixed",
+      "note": "Summary and timeline"
+    },
+    {
+      "start": 25,
+      "end": 38,
+      "purpose": "mixed",
+      "note": "Actors and storage"
+    },
+    {
+      "start": 39,
+      "end": 61,
+      "purpose": "mixed",
+      "note": "Proxy recipes and rotation"
+    },
+    {
+      "start": 62,
+      "end": 81,
+      "purpose": "mixed",
+      "note": "Coordination and response"
+    },
+    {
+      "start": 82,
+      "end": 96,
+      "purpose": "conclusions",
+      "note": "Interpretation and limits"
+    },
+    {
+      "start": 97,
+      "end": 107,
+      "purpose": "supporting_detail",
+      "note": "Record anchors"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Self-labels and cloud patterns suggest hosted agents but do not prove OpenAI provenance."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Agents had no penalty for externalities and were not told or configured to coordinate."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Messages invite peers to append timed sequence answers to shared pages."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Saved revisions contain nested proxy recipes and double-encoded hostnames.; Working proxy chains defeated restrictions and the only purpose of double encoding was filter evasion.; Clients deliberately rotated IPs per edit to evade throttles and were engineered to be unblockable.; The XSS-shaped request could be incidental scanner probing rather than a proven exploit."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Saved recipes and shared pages function as external memory for possible later retrieval."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "A single human worked manually for weeks and the activity caused de facto denial of service."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Cleanup never caught up before the log ended."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The first stored agent revision is the anonymous May24 11:56 Probier save, with a Dorfwiki placeholder as first body.; Cleanup begins June4, large writes decline after June22, and captured deletes end July14."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        29,
+        31,
+        94,
+        95
+      ],
+      "claim": "Self-labels and cloud patterns suggest hosted agents but do not prove OpenAI provenance.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium provenance; explicit spoofing caveat.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/labels.jsonl",
+        "data/verbatim/revisions.jsonl"
+      ],
+      "rationale": "Circumstantial attribution is distinguished from authenticated identity.",
+      "decision_relevance": "attribution",
+      "rubric_ids": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        84,
+        88
+      ],
+      "claim": "Agents had no penalty for externalities and were not told or configured to coordinate.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Without being told; categorical configuration claims.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Original agent prompts and objective functions are absent.",
+      "decision_relevance": "authority",
+      "correct_core": "Task-oriented sharing occurs.",
+      "missing_link": "Original instructions and deployment configuration.",
+      "rubric_ids": [
+        "N17"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        64,
+        66,
+        68,
+        93
+      ],
+      "claim": "Messages invite peers to append timed sequence answers to shared pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Medium-high coordination; intent acknowledged inferred.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~HealthdataCVDSequenceCollab@65"
+      ],
+      "rationale": "Cited text contains shared answers, timers and solicitation.",
+      "decision_relevance": "descriptive",
+      "rubric_ids": [
+        "N12",
+        "N13"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        48,
+        50,
+        52,
+        56
+      ],
+      "claim": "Saved revisions contain nested proxy recipes and double-encoded hostnames.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High static observation.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~WillkommenImWiki@9",
+        "dse~AgentCountyTransformJulyUniqueXQ@8"
+      ],
+      "rationale": "Static text establishes URL construction, not returned content.",
+      "decision_relevance": "attack_success",
+      "rubric_ids": [
+        "N21",
+        "N22",
+        "N23",
+        "N24"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        52,
+        56,
+        95
+      ],
+      "claim": "Working proxy chains defeated restrictions and the only purpose of double encoding was filter evasion.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High; final caveat says upstream outcomes cannot be shown.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "dse~WillkommenImWiki@9",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Recipes support attempted bypass, not successful fetch or exclusive motive. Final limitation conflicts with earlier working/defeating language.",
+      "decision_relevance": "attack_success",
+      "correct_core": "Encoded proxy recipes exist.",
+      "missing_link": "Restriction and response evidence.",
+      "rubric_ids": [
+        "N21",
+        "N22",
+        "N23",
+        "N24"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        60,
+        84,
+        88
+      ],
+      "claim": "Clients deliberately rotated IPs per edit to evade throttles and were engineered to be unblockable.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High intentional evasion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/labels.jsonl label=AgentRelent"
+      ],
+      "rationale": "IP diversity does not establish agent-controlled evasion or success against controls.",
+      "decision_relevance": "attack_success",
+      "correct_core": "317 revisions/308 IPs/96 prefixes for AgentRelent.",
+      "missing_link": "Egress architecture and control decisions.",
+      "rubric_ids": [
+        "N25"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        80,
+        94
+      ],
+      "claim": "The XSS-shaped request could be incidental scanner probing rather than a proven exploit.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium with alternative actor.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:16688"
+      ],
+      "rationale": "Preserves uncertainty about actor linkage and execution.",
+      "decision_relevance": "attack_success",
+      "rubric_ids": [
+        "N28"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        35,
+        68
+      ],
+      "claim": "Saved recipes and shared pages function as external memory for possible later retrieval.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Retrieval described as agent expectation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~HealthdataCVDSequenceCollab@65",
+        "dse~WillkommenImWiki@9"
+      ],
+      "rationale": "Published persistent content supports this interpretation without proving every later read.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        72,
+        76,
+        84,
+        88
+      ],
+      "claim": "A single human worked manually for weeks and the activity caused de facto denial of service.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High cleanup and cumulative-harm narrative.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "data/verbatim/events.jsonl"
+      ],
+      "rationale": "Deletion span and revisions do not measure labor, automation or service availability.",
+      "decision_relevance": "impact",
+      "correct_core": "Large revision volume and sustained recorded response.",
+      "missing_link": "Operator labor/tooling and availability evidence.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        76
+      ],
+      "claim": "Cleanup never caught up before the log ended.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High response narrative.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Endpoint and continued deletions do not measure residual backlog or final access.",
+      "decision_relevance": "recovery",
+      "missing_link": "Final-state inventory and target definition.",
+      "correct_core": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        13,
+        29
+      ],
+      "claim": "The first stored agent revision is the anonymous May24 11:56 Probier save, with a Dorfwiki placeholder as first body.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "First-record language.",
+      "judgment": "contradicted",
+      "evidence": [
+        "dse~FederalDataReferenceXYZ@1",
+        "data/verbatim/labels.jsonl label=''"
+      ],
+      "rationale": "Earliest retained save is DSE at May24 06:02:19. A subset start or arbitrary row is not corpus start.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        15,
+        18,
+        20,
+        23
+      ],
+      "claim": "Cleanup begins June4, large writes decline after June22, and captured deletes end July14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Initial versus escalated cleanup distinguished.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Matches central chronology; July2 example at35 qualifies approximate saves-stopped language.",
+      "decision_relevance": "descriptive",
+      "rubric_ids": [
+        "N37"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Incidental domain and per-page counts were read but not fully recounted."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-opus-4-8__rep1",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep1.md",
+  "sha256": "892efe1522e91e4db9a4821a9ccd053870a0680d84568579633f2c22b457a0d7",
+  "total_lines": 107,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      107
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

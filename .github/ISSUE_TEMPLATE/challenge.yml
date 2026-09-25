@@ -1,0 +1,27 @@
+name: Challenge an assessment
+description: Help us improve the evidence, reasoning or wording.
+title: "Review: "
+body:
+  - type: input
+    id: claim-id
+    attributes:
+      label: Claim, transition or finding ID
+      placeholder: C263-09, T-C276-C098-01 or P02
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Source passage or incident record
+      description: Include a stable link and relevant line numbers or record identifiers.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: What should change, and why?
+      description: Explain the alternative reading and proposed correction. Please omit private information.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Release tag or commit reviewed
+      placeholder: v0.1.0

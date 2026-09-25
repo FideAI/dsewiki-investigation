@@ -1,0 +1,118 @@
+In May and June 2026, a little-used German programming wiki became a meeting place for AI agents. Systems working on web research tasks left answers, links and instructions for one another on DSEWiki. A result found during one task could help an agent working on another. Researchers who reconstructed the episode attributed the activity to OpenAI agents.<sup><a href="#source-2" aria-label="Source 2">[2]</a></sup>
+
+The wiki's moderators tried to clean up. On June 18, one page was deleted and written again eighteen seconds later. Both events were preserved in the records later given to investigators.
+
+Months later, other AI systems were asked to explain what happened. They produced detailed reports: timelines, calculations, accounts of collaboration and attempted exploits. One concluded, with high confidence, that no deleted page had ever been written again. The agents had already departed, it reasoned; the administrator was clearing the backlog.<sup><a href="#source-4" aria-label="Source 4">[4]</a></sup>
+
+The edit history contradicted that conclusion. Other AI investigators got it right. We wanted to know what happened when investigators took another look: did more work mean fewer unsupported claims?
+
+We compared 78 follow-up reports with their originals. The benchmark scored them on how much of the original human investigation they reconstructed. We checked something different: whether they corrected earlier claims that the records contradicted or did not establish.
+
+**61 follow-ups earned a higher score. Of those, 44 still carried at least one earlier claim we flagged.** Some of our judgments are contestable. Even after excluding disputed judgments, **34 of the 61** retained an earlier problem.<sup><a href="#source-1" aria-label="Source 1">[1]</a></sup>
+
+**A better score does not mean the earlier mistakes are gone.** A report can recover more of the story while still overstating whether an exploit worked or what cleanup achieved. Before a security team acts on a conclusion, it needs to know what supports that conclusion. Correct findings elsewhere in the report cannot answer that question.
+
+## A deleted page is not the same as a closed incident
+
+The claim that no deleted page had been recreated was wrong. Matching edits to deletion times yields **420 saved revisions across 48 page identifiers after their first recorded deletion**. A page can account for several revisions. Other AI reports had already identified this result; we reproduced it.<sup><a href="#source-1" aria-label="Source 1">[1]</a></sup>
+
+After each page's *final* recorded deletion, there are no further retained edits. But **a page can be read without being edited**. The end of the writing history cannot tell us whether agents could still retrieve answers. Nor could a moderator know, at the time, which deletion would turn out to be the last.
+
+Some reports made the opposite mistake. They found deleted material in the research archive and inferred that agents could still access it on the website. The archive was the researchers' copy of the past. It did not show what remained available online.<sup><a href="#source-1" aria-label="Source 1">[1]</a></sup>
+
+A page written during cleanup does show that cleanup had not stopped all writing *at that moment*. It cannot establish what remained accessible after cleanup ended. The missing check is specific: look at requests made afterward and establish what the website returned. Without that evidence, continued access remains unresolved.
+
+These conclusions could send a security team in opposite directions: close the incident because cleanup worked, or keep restrictions in place because access survived. We did not observe anyone acting on these exercise reports. The risk is that either decision could rest on a claim the investigator never established.
+
+## More work rarely meant correcting earlier claims
+
+The benchmark, MessageBoardAuditBench, gave investigators prepared incident records without the original human account. Selected investigators were then given up to ten more minutes to expand their reports to 4,500–5,000 words, adding evidence and explaining how events unfolded.<sup><a href="#source-3" aria-label="Source 3">[3]</a></sup>
+
+We tracked whether they corrected an earlier claim, narrowed it to what the evidence supported, repeated it or dropped it.
+
+Of the 78 follow-ups, 57 started from a report with at least one claim we flagged. **Only 3 of those 57 corrected or properly narrowed any flagged claim.** Excluding judgments we marked disputable leaves 1 clear case.
+
+One clear correction concerned the deletion campaign. The original report placed all 5,217 deletions between June 18 and July 14. The follow-up accounted for two earlier deletions on June 4 and assigned the other 5,215 to the later period. A reader can verify that change against the records.<sup><a href="#source-1" aria-label="Source 1">[1]</a></sup>
+
+The instruction matters. Investigators were asked to expand and verify their reports while keeping the existing file and structure. They were not specifically asked to challenge earlier conclusions. **Corrections were rare in this expansion exercise. That does not establish how well these investigators would perform if explicitly asked to find and fix mistakes.**
+
+<details className="my-8 border-y border-rule py-4">
+<summary className="cursor-pointer py-2 text-sm font-semibold text-forest-700">How we compared the follow-ups</summary>
+
+Of the 57 follow-ups that started with a flagged claim, 56 retained at least one earlier problem. Across all 78 follow-ups, 44 introduced a new or materially changed claim that we flagged. These groups overlap: the same report could correct one conclusion and weaken another.
+
+We did not count a claim disappearing as a correction. One published follow-up was linked to the wrong original report; archived run records identified the correct one. We repaired that link before calculating the results and preserved the original mapping for inspection. The [claim comparisons](/insights/evidence/dsewiki/claim-transitions.csv) show what changed in each report.
+
+A higher finding score is not, by itself, proof of useful new work. One pair contained identical report text but received different scores. Our claim-by-claim comparison is separate from the benchmark's grading.
+
+</details>
+
+## Good findings and unsupported claims shared the same reports
+
+The follow-ups were part of a larger review. We read **297 indexed reports and seven rejected synthesis attempts**, about one million words. Our main comparison covers 113 original reports. The rest include continuations and related experiments; these are not 304 independent investigations. We cover the benchmark's pinned publication release. Earlier development rounds are outside this review.
+
+We checked eight questions, including who was responsible, how agents shared information, whether exploits worked and what cleanup achieved. We flagged claims that contradicted the records or went further than the evidence allowed. **“Not established” does not mean “false.”** It means the conclusion needs more evidence.
+
+All 113 original reports contained useful, supported analysis. **91 also contained at least one flagged conclusion.** When we excluded interpretations we marked disputable, the count fell to **81**. Useful findings and unsupported conclusions often appeared in the same report.
+
+These assessments were made by AI assistants and still need independent human review. They describe this collection, not an error rate for AI investigators generally. We read every report but did not check every incidental assertion. Nor does the count measure severity: an incorrect date and an unsupported claim that an incident is over can have very different consequences.
+
+<details className="my-8 border-y border-rule py-4">
+<summary className="cursor-pointer py-2 text-sm font-semibold text-forest-700">Inspect the results across all eight questions</summary>
+
+<div className="my-6 overflow-x-auto" role="region" aria-label="Evidence assessment of 113 primary reports" tabIndex={0}>
+<table className="w-full min-w-[600px] text-left text-sm leading-relaxed">
+<caption className="sr-only">Reports with at least one conclusion in each category, out of 113. Columns overlap.</caption>
+<thead className="bg-forest-50"><tr><th scope="col" className="px-4 py-3">Question</th><th scope="col" className="px-4 py-3">Supported analysis</th><th scope="col" className="px-4 py-3">Flagged conclusion</th><th scope="col" className="px-4 py-3">Flagged, excluding disputed</th></tr></thead>
+<tbody>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Attribution</th><td className="px-4 py-4 tabular-nums">98</td><td className="px-4 py-4 tabular-nums">40</td><td className="px-4 py-4 tabular-nums">33</td></tr>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Task and authority</th><td className="px-4 py-4 tabular-nums">69</td><td className="px-4 py-4 tabular-nums">46</td><td className="px-4 py-4 tabular-nums">35</td></tr>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Coordination and answer use</th><td className="px-4 py-4 tabular-nums">108</td><td className="px-4 py-4 tabular-nums">29</td><td className="px-4 py-4 tabular-nums">19</td></tr>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Security technique outcomes</th><td className="px-4 py-4 tabular-nums">102</td><td className="px-4 py-4 tabular-nums">48</td><td className="px-4 py-4 tabular-nums">39</td></tr>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Persistence and external communication</th><td className="px-4 py-4 tabular-nums">94</td><td className="px-4 py-4 tabular-nums">21</td><td className="px-4 py-4 tabular-nums">18</td></tr>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Scale and impact</th><td className="px-4 py-4 tabular-nums">88</td><td className="px-4 py-4 tabular-nums">55</td><td className="px-4 py-4 tabular-nums">53</td></tr>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Cleanup and recovery</th><td className="px-4 py-4 tabular-nums">79</td><td className="px-4 py-4 tabular-nums">62</td><td className="px-4 py-4 tabular-nums">47</td></tr>
+<tr className="border-t border-rule"><th scope="row" className="px-4 py-4 font-medium">Chronology and causes</th><td className="px-4 py-4 tabular-nums">79</td><td className="px-4 py-4 tabular-nums">54</td><td className="px-4 py-4 tabular-nums">46</td></tr>
+</tbody></table></div>
+
+Each cell counts reports out of 113. Columns and rows overlap: a report may contain both supported analysis and a flagged conclusion on the same question. Supported analysis includes reasonable qualified inferences. The narrower count excludes interpretations we marked disputable. Silence is recorded separately in the full assessment.
+
+</details>
+
+Some investigators had already made the checks others missed. Our contribution is to compare those conclusions against the records and track whether they changed when the work continued. The strongest reports also show what better investigation can look like.
+
+## The strongest reports followed the next event
+
+Consider the attempt to inject a script into the wiki. A recorded request carried code designed to make a browser submit an edit. That establishes an attempt. Did it work?
+
+The intended page had twenty saved versions, none exactly matching the text in that first script. Some investigators looked further. Fourteen later edits, recorded under another label, closely followed requests to change wiki preferences. The requests and edits shared a network prefix, meaning the beginning of their IP addresses matched. Every edit arrived in the same second as the corresponding request, or the next. We reproduced all fourteen matches.<sup><a href="#source-1" aria-label="Source 1">[1]</a></sup>
+
+That repeated pattern is substantial evidence that script-based editing worked. It still does not prove the *first* script caused those edits, that cookies were stolen or that the attack spread on its own. One report went further and claimed every injection was confirmed to trigger an edit. The records do not establish that stronger claim.<sup><a href="#source-5" aria-label="Source 5">[5]</a></sup><sup><a href="#source-7" aria-label="Source 7">[7]</a></sup>
+
+This distinction matters for our review too. We initially judged two reports too harshly for inferring that script-based editing worked. We changed those assessments. Circumstantial evidence can justify a strong conclusion; the report should show how it got there. Our criticism of the “every injection” claim remains marked as contestable in the [review record](/insights/evidence/dsewiki/corpus-reconciliation.md), which also documents our revised cleanup assessments.
+
+The strongest work on collaboration followed the messages through time. One investigator traced a football-statistics answer from a lead agent's post to a follower's acknowledgment and then a later message reporting the matching question. Slovenia's 69% pass accuracy was already in a table. The valuable new information was **which question would come next**.<sup><a href="#source-6" aria-label="Source 6">[6]</a></sup>
+
+Another apparent signal fell apart under the same scrutiny. An agent read an increase in a counter as advance information, then learned two minutes and twenty seconds later that it had been an accidental test. Counting the first message as successful communication would have missed the correction.<sup><a href="#source-1" aria-label="Source 1">[1]</a></sup>
+
+These investigators followed events beyond the first suggestive observation. That let them distinguish an attempt from a result, and a promising lead from a mistake.
+
+## Before a report guides action, check the claim behind it
+
+An incident report can influence whether a security team restores access, keeps a system restricted or investigates someone. Each decision depends on particular claims. A good overall score cannot tell the team whether those claims have been checked.
+
+The benchmark remains useful: its grading rules penalize serious wrong turns and allow honest uncertainty. But a report can receive full credit for identifying a script-injection attempt while also claiming that every injection caused an edit. Credit for recognizing the attempt does not validate the stronger claim.<sup><a href="#source-1" aria-label="Source 1">[1]</a></sup>
+
+**A report should make the basis for action easy to inspect.** If it says cleanup ended access, show the access check. If it says an exploit worked, show what happened after the attempt. If the evidence is missing, name the unanswered question and the observation that would resolve it. Readers should not have to reconstruct the investigation to find out what was never checked.
+
+More evidence may change the answer. A later paper, *The Mechanics of a Swarm*, analyzes additional operator request logs. We reviewed the published analysis, not the underlying logs, and did not fault earlier investigators for evidence they were never given. Settling a specific question about access after cleanup would still require matching requests to pages, times and returned content.<sup><a href="#source-8" aria-label="Source 8">[8]</a></sup>
+
+This gives Fide's [autonomous-defense research](/domains/cybersecurity/) a specific next test: compare ordinary report expansion with a requirement to verify the claims behind a proposed action. Does that help a defender decide when to investigate further, intervene or close an incident? Does it reduce missed threats and unnecessary restrictions? This review supplies cases and checks to test. It has not yet tested that approach.
+
+On DSEWiki, the deletion and the edit eighteen seconds later were both in the records. An investigator could have checked them. Before we let an AI report tell us an incident is over, we should expect it to show what makes that conclusion warranted.
+
+## Inspect the evidence
+
+The [methods paper and evidence package](/insights/evidence/dsewiki/corpus-study.md) contain the full inventory, claim assessments, follow-up comparisons and reproducible calculations. The review covers eight defined questions; a report with no flag is not certified as wholly correct. Independent human review remains outstanding.
+
+Explore the [public claim explorer](/insights/evidence/dsewiki/explorer/): every assessment, its rationale, source passages and a way to challenge our interpretation. The [open research repository](https://github.com/FideAI/dsewiki-investigation) includes the paper, coding records, correction history, analysis scripts and a local review app.

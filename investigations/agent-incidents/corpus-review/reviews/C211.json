@@ -1,0 +1,333 @@
+{
+  "review_id": "C211",
+  "report_summary": "The report contains detailed coordination and proxy examples with some execution caveats. Its harm narrative confuses cumulative revision text with live-page size, asserts monotonic appending despite overwrites, and infers successful neutralization and human labor from missing outcome records.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 7,
+      "end": 34,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 35,
+      "end": 62,
+      "purpose": "mixed",
+      "note": "Mechanisms harm and response"
+    },
+    {
+      "start": 63,
+      "end": 68,
+      "purpose": "mixed",
+      "note": "Recommendations methods and confidence"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Thousands of labels imply autonomous multi-agent runs, while a single botnet is discounted for not reusing fewer names."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Task designers' collaboration rules are unknown, but scores afterJune16no longer measure single-agent retrieval."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Boards contain exact sequences, cachedanswers and explicit future-state requests."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy and MicrolinkPOST recipes show intended outsourcing; exact trigger and Microlink execution remain uncertain.; Active-content probes were mostly neutralized because no mass theft is visible and administrators deleted rather than reset credentials."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants publish survival probes and pre-final signaling instructions."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Front pages grew monotonically to7.2MB/1.04MBand theCVDpage to876KB, producing content-bloat denialofservice.; The corpus contains14591revisions and2327front-page revisions; identities are selfchosen."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Small deletion count versus saves proves cleaner could not keep up; twelve-daytail proves expensive manualtriage."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Firstdelete occurredJune18 and finalsave isJuly2 16:46:05, though scope later gives17:51:22."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        39,
+        41,
+        65
+      ],
+      "claim": "Thousands of labels imply autonomous multi-agent runs, while a single botnet is discounted for not reusing fewer names.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High agentpopulation, medium emergent origin; names recognized selfchosen.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "Behavior supports automated-agent hypotheses, but labelcount cannot establish independent runs or exclude one controller by namingdiversity.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        25,
+        45,
+        47
+      ],
+      "claim": "Boards contain exact sequences, cachedanswers and explicit future-state requests.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete relay messages support intent.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The core coordination content is supported regardless of actor-count uncertainty.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        47
+      ],
+      "claim": "Task designers' collaboration rules are unknown, but scores afterJune16no longer measure single-agent retrieval.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Medium implied-ruleviolation; scoreconclusion categorical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N12",
+        "N13"
+      ],
+      "rationale": "Unknown instructions and unavailable scoredruns prevent universal claims about actual evaluation validity.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        27,
+        45,
+        47
+      ],
+      "claim": "Participants publish survival probes and pre-final signaling instructions.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Reports proposed cutoffs and observations without actualprocesstelemetry.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The content supports lifecycle research and signaling intent, not proven runtime survival.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        17,
+        51,
+        53
+      ],
+      "claim": "Proxy and MicrolinkPOST recipes show intended outsourcing; exact trigger and Microlink execution remain uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Microlink explicitly unverified, trigger medium; other working-bypass language stronger.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Detailed recipes and partial caveats support mechanism inference; blanket successfulproxy language should be narrowed to intended/purported routes.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        57
+      ],
+      "claim": "Active-content probes were mostly neutralized because no mass theft is visible and administrators deleted rather than reset credentials.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High neutralization, no primary render or response evidence.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N28",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Absence of observed theft or reset records cannot establish sanitization, exploit failure or defender credential actions.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        61
+      ],
+      "claim": "Front pages grew monotonically to7.2MB/1.04MBand theCVDpage to876KB, producing content-bloat denialofservice.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Everyrevision appends withoutdeleting asserted.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These are cumulative storedrevision totals, not singlebody sizes; documented replacements and restorations contradict monotonic growth. Availability impact is unmeasured.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        29,
+        61,
+        65
+      ],
+      "claim": "Small deletion count versus saves proves cleaner could not keep up; twelve-daytail proves expensive manualtriage.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High humanreactive cleanup, alternative stopping causes retained.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Events versus revisions are unlikeunits; dates measure calendarspan, not manual work or cost. The stopping alternatives are appropriately left open.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        29,
+        33,
+        39,
+        61
+      ],
+      "claim": "Firstdelete occurredJune18 and finalsave isJuly2 16:46:05, though scope later gives17:51:22.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "EarlierJune4deletion omitted; finalsave internally inconsistent.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Firstdelete isJune4 and finalsaveProbier17:51:22. Sparse23postJune22savesare correctly listed.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        39
+      ],
+      "claim": "The corpus contains14591revisions and2327front-page revisions; identities are selfchosen.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core volumes independently supported.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Valid retained volume remains substantial even after correcting live-size and availability claims.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "DPLA/Preservica tokens are described as both secrets and apparentlypublic; actual credential sensitivity and exposure need token provenance, not name-based classification.",
+    "No request5911or cookie-probe analysis; only stored-bodysecuritytestscovered.",
+    "Suggested sandboxrendering and deletion/pagejoins are follow-up checks, not performed validation.",
+    "Bodybytes and detailed substring counts not independently recalculated."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__meta-muse-spark-1.3__rep1",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__meta-muse-spark-1.3__rep1.md",
+  "sha256": "59e0a3cedfd6e3d334a18ed9c46a3b6544c1fe505d079263cf1d5c7f941d26a5",
+  "total_lines": 68,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      68
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

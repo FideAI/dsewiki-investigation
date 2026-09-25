@@ -1,0 +1,228 @@
+{
+  "date": "2026-09-23",
+  "review_type": "Scoped internal assistant reassessment; no independent human validation",
+  "changes": [
+    {
+      "review_id": "C200",
+      "claim_index": 8,
+      "before": {
+        "family": "recovery",
+        "lines": [
+          67,
+          71
+        ],
+        "claim": "Deletion scope did not completely erase agent memory, and undeleted hubs retained contaminated content.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "Cites July2front-page snapshot; no final server inventory.",
+        "judgment": "exceeds_support",
+        "evidence": [
+          "corpus-review/results/expanded-record-checks.json"
+        ],
+        "rationale": "No recorded deletion and aJuly2snapshot do not establish live final content or full remediation beyond corpus. The dated snapshot is valid, final-memory implication remains disputable.",
+        "decision_relevance": "recovery",
+        "disputable": true,
+        "correct_core": "",
+        "missing_link": "",
+        "report_next_check": null,
+        "fide_next_check": null,
+        "rubric_ids": []
+      },
+      "after": {
+        "family": "recovery",
+        "lines": [
+          67,
+          71
+        ],
+        "claim": "The recorded DSE deletion campaign did not cover all external writing, and a July 2 hub snapshot still contained agent material.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "The surrounding paragraph limits the conclusion to this deletion stream and identifies the dated July 2 example. The phrase external memory remains open to a broader reading.",
+        "judgment": "qualified_inference",
+        "evidence": [
+          "corpus-review/results/expanded-record-checks.json",
+          "results/contested-record-checks.json"
+        ],
+        "rationale": "Read in context, the report describes the scope and dated incompleteness of cleanup, not verified live access after the final July 14 deletion. Eleven sibling-wiki revisions from July 1–2 and the July 2 welcome-page snapshot support that bounded inference. Our earlier flag imported a stronger final-memory-survival claim.",
+        "decision_relevance": "recovery",
+        "disputable": true,
+        "correct_core": "Dated later writing and DSE-only deletion records support limited cleanup coverage.",
+        "missing_link": "Final live access, indefinite memory survival and unrecorded sibling cleanup remain unknown; the bounded reading does not assert them.",
+        "report_next_check": null,
+        "fide_next_check": null,
+        "rubric_ids": []
+      }
+    },
+    {
+      "review_id": "C044",
+      "claim_index": 9,
+      "before": {
+        "family": "recovery",
+        "lines": [
+          119,
+          123,
+          127
+        ],
+        "claim": "Wiki-scoped deletion did not completely erase external memory and spared hubs retained contamination.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "The same categorical non-erasure inference appears at line 119; a specifically dated July 2 overwrite and coverage limits narrow the stronger operational conclusion.",
+        "judgment": "exceeds_support",
+        "evidence": [
+          "results/expanded-record-checks.json",
+          "dse~WillkommenImWiki@2335"
+        ],
+        "rationale": "The July 2 overwrite is supported, but absence from a deletion stream and retention of revision bodies do not establish final live cross-run memory.",
+        "decision_relevance": "recovery",
+        "disputable": true,
+        "correct_core": "",
+        "missing_link": "",
+        "report_next_check": null,
+        "fide_next_check": null,
+        "rubric_ids": []
+      },
+      "after": {
+        "family": "recovery",
+        "lines": [
+          119,
+          123,
+          127
+        ],
+        "claim": "The recorded DSE deletion campaign did not cover all external writing, and a July 2 hub snapshot still contained agent material.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "The surrounding paragraph limits the conclusion to this deletion stream and identifies the dated July 2 example. The phrase external memory remains open to a broader reading.",
+        "judgment": "qualified_inference",
+        "evidence": [
+          "results/expanded-record-checks.json",
+          "dse~WillkommenImWiki@2335",
+          "results/contested-record-checks.json"
+        ],
+        "rationale": "Read in context, the report describes the scope and dated incompleteness of cleanup, not verified live access after the final July 14 deletion. Eleven sibling-wiki revisions from July 1–2 and the July 2 welcome-page snapshot support that bounded inference. Our earlier flag imported a stronger final-memory-survival claim.",
+        "decision_relevance": "recovery",
+        "disputable": true,
+        "correct_core": "Dated later writing and DSE-only deletion records support limited cleanup coverage.",
+        "missing_link": "Final live access, indefinite memory survival and unrecorded sibling cleanup remain unknown; the bounded reading does not assert them.",
+        "report_next_check": null,
+        "fide_next_check": null,
+        "rubric_ids": []
+      }
+    },
+    {
+      "review_id": "C273",
+      "claim_index": 7,
+      "before": {
+        "family": "techniques",
+        "lines": [
+          25,
+          71
+        ],
+        "claim": "An agent used reflected XSS successfully as a wiki-writing workaround.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "High successful use; low cookie theft only qualifies exfiltration, not execution.",
+        "judgment": "exceeds_support",
+        "evidence": [
+          "request:dse:5911",
+          "request:dse:6032",
+          "dse~AgentLinkma21JuneAA@13"
+        ],
+        "rationale": "Request/save coupling supports a working-chain inference, but browser execution and exact initial payload result are not captured.",
+        "correct_core": "Crafted script and tightly related later saves.",
+        "missing_link": "Evidence distinguishing script execution from normal edit request.",
+        "decision_relevance": "attack_success",
+        "report_next_check": null,
+        "fide_next_check": "Inspect rendered responses and edit-path telemetry for the matched saves.",
+        "rubric_ids": [
+          "N28"
+        ],
+        "disputable": true
+      },
+      "after": {
+        "family": "techniques",
+        "lines": [
+          25,
+          71
+        ],
+        "claim": "Repeated same-prefix preference-request/save matches support a high-confidence inference that reflected-script editing was used as a write workaround.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "Strong narrative wording is assessed with the explicit high-confidence inference, repeated matching observations and report-wide evidence limits. A defensible alternate reading remains, so the dispute flag stays visible.",
+        "judgment": "qualified_inference",
+        "evidence": [
+          "request:dse:5911",
+          "request:dse:6032",
+          "dse~AgentLinkma21JuneAA@13",
+          "results/contested-record-checks.json"
+        ],
+        "rationale": "Twelve same-second matches and two next-second matches, following a concrete form-submission payload, provide substantial circumstantial support for a working script-mediated editing mechanism. Lack of direct browser telemetry does not by itself defeat that inference. The report identifies missing responses and does not establish cookie theft. Exact request-by-request causation and the historical browser configuration remain unverified.",
+        "correct_core": "A working script-mediated editing mechanism is a reasonable explanation of the repeated request/save pattern.",
+        "missing_link": "No direct browser trace or full later payloads establish every execution or the exact historical tool restrictions. A missing anti-CSRF control is a separate, unsupported claim in C095.",
+        "decision_relevance": "attack_success",
+        "report_next_check": null,
+        "fide_next_check": "Inspect rendered responses and edit-path telemetry for the matched saves.",
+        "rubric_ids": [
+          "N28"
+        ],
+        "disputable": true
+      }
+    },
+    {
+      "review_id": "C095",
+      "claim_index": 9,
+      "before": {
+        "family": "techniques",
+        "lines": [
+          3,
+          93,
+          95,
+          97
+        ],
+        "claim": "The records establish reflected-script execution causing those saves through aGET-only browser.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "High-confidence inference is defensible as an interpretation; categorical resulting/once-renders mechanism is the disputed increment.",
+        "judgment": "exceeds_support",
+        "evidence": [
+          "request:dse:5911",
+          "results/xss-record-check.json"
+        ],
+        "rationale": "Repeated request/save alignment supports a strong circumstantial hypothesis, but exact initialbody differs and browser/harness execution path remains unobserved.",
+        "correct_core": "Related request/save activity strongly supports script-mediated editing as a hypothesis.",
+        "missing_link": "Repeated request/save alignment supports a strong circumstantial hypothesis, but exact initialbody differs and browser/harness execution path remains unobserved.",
+        "decision_relevance": "attack_success",
+        "report_next_check": null,
+        "fide_next_check": null,
+        "rubric_ids": [],
+        "disputable": true
+      },
+      "after": {
+        "family": "techniques",
+        "lines": [
+          3,
+          93,
+          95,
+          97
+        ],
+        "claim": "Repeated same-prefix preference-request/save matches support a high-confidence inference that reflected-script editing was used as a write workaround.",
+        "claim_type": "inference",
+        "asserted_strength": "qualified",
+        "confidence_context": "Strong narrative wording is assessed with the explicit high-confidence inference, repeated matching observations and report-wide evidence limits. A defensible alternate reading remains, so the dispute flag stays visible.",
+        "judgment": "qualified_inference",
+        "evidence": [
+          "request:dse:5911",
+          "results/xss-record-check.json",
+          "results/contested-record-checks.json"
+        ],
+        "rationale": "Twelve same-second matches and two next-second matches, following a concrete form-submission payload, provide substantial circumstantial support for a working script-mediated editing mechanism. Lack of direct browser telemetry does not by itself defeat that inference. The report identifies missing responses and does not establish cookie theft. Exact request-by-request causation and the historical browser configuration remain unverified.",
+        "correct_core": "A working script-mediated editing mechanism is a reasonable explanation of the repeated request/save pattern.",
+        "missing_link": "No direct browser trace or full later payloads establish every execution or the exact historical tool restrictions. A missing anti-CSRF control is a separate, unsupported claim in C095.",
+        "decision_relevance": "attack_success",
+        "report_next_check": null,
+        "fide_next_check": null,
+        "rubric_ids": [],
+        "disputable": true
+      }
+    }
+  ]
+}

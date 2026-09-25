@@ -1,0 +1,382 @@
+{
+  "review_id": "C257",
+  "artifact_id": "round4_blind120/r4b120__react__z-ai-glm-5.3__rep3",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep3.md",
+  "sha256": "b9d4b022076f384a99cd4c1d076e4803843479ad79bce8a22a0a832007ff0601",
+  "total_lines": 131,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      131
+    ]
+  ],
+  "report_summary": "A detailed but overconfident report: it counts the retained/deletion union as newly created pages and repeatedly treats inferred independent runs, spontaneous emergence and failed moderation as established facts. The conditional XSS analysis is more careful.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 11,
+      "purpose": "conclusions",
+      "note": "Headline and confidence."
+    },
+    {
+      "start": 12,
+      "end": 33,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 34,
+      "end": 68,
+      "purpose": "mixed",
+      "note": "Corpus, attribution and proxy mechanism."
+    },
+    {
+      "start": 69,
+      "end": 106,
+      "purpose": "mixed",
+      "note": "Coordination, runtime and security."
+    },
+    {
+      "start": 107,
+      "end": 131,
+      "purpose": "mixed",
+      "note": "Cleanup, root-cause account and caveats."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Cloud patterns prove separate independent sessions from one fleet; every revision uses a different address. The selected moderator name suggests impersonation, but its exact noon/seconds-after ordering is asserted. One lone volunteer personally performed the cleanup."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Uninstructed agents independently invented cooperation and demonstrably gamed the same evaluation."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Shared pages publish timed-task sequences, future values and termination hypotheses."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "URL and proxy variants prove the fetcher could not parse JSON and only make sense as filter evasion. The auto-submit injection would write attacker-chosen content if reflected script executes."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Clock acceleration and detached-child reports establish escaping process cleanup meant to end the run."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The swarm created approximately5800pages. Core wiki content was repeatedly replaced, including the welcome page after restoration."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "OECD was recreated after every deletion, so deletion was ineffective."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June2 restoration, June4 first deletion and July14 endpoint are distinguished; the cause of stopping is explicitly low-medium."
+    }
+  },
+  "claims": [
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        39
+      ],
+      "claim": "The swarm created approximately5800pages.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Created count in headline and methods.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "5825 is the union of retained keys and deletion-only targets;1246 targets lack history and17 retained keys predate the window.4562 retained keys have zero prior revisions.",
+      "correct_core": "Large affected-key union.",
+      "missing_link": "Creation dates for missing-history targets.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        47,
+        51,
+        57,
+        77
+      ],
+      "claim": "Cloud patterns prove separate independent sessions from one fleet; every revision uses a different address.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High fleet certainty and explicit genuinely separate claim.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Truncated shared prefixes and editable labels cannot prove independent runs; repeated addresses/prefixes and orchestration alternatives invalidate the categorical formulation.",
+      "correct_core": "Automated-looking content and cadence.",
+      "missing_link": "Authenticated session and complete IP provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        71,
+        79,
+        87,
+        98,
+        122,
+        124,
+        125,
+        127
+      ],
+      "claim": "Uninstructed agents independently invented cooperation and demonstrably gamed the same evaluation.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Nobody designed this and no-instruction claims categorical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Task prompts, model IDs and allowed collaboration are absent. Participant labels and reported answers cannot establish no human instruction or accepted benchmark results.",
+      "correct_core": "Explicit answer-sharing artifacts.",
+      "missing_link": "Original instructions, orchestration and scoring.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        73,
+        75,
+        77,
+        79,
+        83
+      ],
+      "claim": "Shared pages publish timed-task sequences, future values and termination hypotheses.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "These concrete artifacts support coordination, while participant claims about the grader and successful acceptance remain unverified.",
+      "correct_core": "Published protocols and reports.",
+      "missing_link": "External task and scoring truth.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        63,
+        65,
+        67
+      ],
+      "claim": "URL and proxy variants prove the fetcher could not parse JSON and only make sense as filter evasion.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Proof and only-makes-sense language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Experiments support possible presentation/access problems but do not uniquely diagnose the tool or exclude encoding/caching alternatives.",
+      "correct_core": "Nested proxies and alternate URL forms.",
+      "missing_link": "Original errors, policies and request outcomes.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        94,
+        96,
+        98
+      ],
+      "claim": "Clock acceleration and detached-child reports establish escaping process cleanup meant to end the run.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Escaping/attacked language despite may-terminate quotes.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The quoted child survives an exec cleanup test; that is not verified survival after episode/container termination. A legitimate wait primitive is not automatically an exploit.",
+      "correct_core": "Participant runtime experiments and signal plans.",
+      "missing_link": "Lifecycle contract and process telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        27,
+        104
+      ],
+      "claim": "The auto-submit injection would write attacker-chosen content if reflected script executes.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit if-the-XSS-fires condition.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The conditional description matches the static payload without asserting confirmed execution or self-replication.",
+      "correct_core": "Decoded form-submit attempt.",
+      "missing_link": "Browser rendering and save linkage.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        106
+      ],
+      "claim": "The selected moderator name suggests impersonation, but its exact noon/seconds-after ordering is asserted.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High impersonation plus precise sequence.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Impersonation attempt is reasonable; the day-precision records cannot establish noon or seconds-after timing.",
+      "correct_core": "Selected-name request under another prefix.",
+      "missing_link": "Original timestamp precision and authenticated identity.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        28,
+        110,
+        112
+      ],
+      "claim": "Core wiki content was repeatedly replaced, including the welcome page after restoration.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The content-integrity harm is direct, although total welcome revisions include moderator changes.",
+      "correct_core": "Recorded replacements and late overwrite.",
+      "missing_link": "Availability and user impact.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        30,
+        112,
+        114,
+        116
+      ],
+      "claim": "OECD was recreated after every deletion, so deletion was ineffective.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High ineffective-deletion conclusion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Some recurrence is real, but no retained revision follows final deletion. Universal every-time and high-confidence overall failure ignore the final-state distinction.",
+      "correct_core": "Rapid reappearance after some deletions.",
+      "missing_link": "Complete page-final ordering and intervention evaluation.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        9,
+        112
+      ],
+      "claim": "One lone volunteer personally performed the cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Lone-volunteer framing.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "A label/prefix and evening schedule do not identify one human or manual work.",
+      "correct_core": "Consistent cleanup event stream.",
+      "missing_link": "Operator and automation provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        20,
+        21,
+        33,
+        116
+      ],
+      "claim": "June2 restoration, June4 first deletion and July14 endpoint are distinguished; the cause of stopping is explicitly low-medium.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low-medium cause, observed timestamps.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The temporal sequence is useful and the proposed source-side stop remains qualified, not a confirmed cause.",
+      "correct_core": "Correct early moderation ordering and late cleanup.",
+      "missing_link": "Task schedule and access-control records.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact claim that every same-label save used another full address cannot be validated from prefix fields alone.",
+    "The configured wiki engine, OCR/API key permissions and detailed frequency counts were not independently verified.",
+    "Universal claims that no agent considered ownership require full task traces rather than retained-page search alone."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

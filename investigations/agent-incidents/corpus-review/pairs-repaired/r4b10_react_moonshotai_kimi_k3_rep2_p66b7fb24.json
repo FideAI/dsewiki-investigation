@@ -1,0 +1,254 @@
+{
+  "parent": "r4b10_react_moonshotai_kimi_k3_rep2_p66b7fb24",
+  "followup": "fu5kb10_react_moonshotai_kimi_k3_rep2",
+  "parent_review_id": "C216",
+  "followup_review_id": "C059",
+  "parent_sha256": "496e40ce6fffa6da0ad00076862f55439e732f34cd24bb4e110170be41e5fa2f",
+  "followup_sha256": "3940ea1fb5c546d2098df35906de2675c799ce80ced71e4a92d138ec068d8b70",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_supported",
+      "rationale": "Correct first/last endpoints and distinct-target accounting are retained.",
+      "parent_lines": [
+        12,
+        19,
+        20
+      ],
+      "followup_lines": [
+        13,
+        22,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_problem",
+      "rationale": "The incorrect seventy-five-percent interval share persists.",
+      "parent_lines": [
+        13,
+        51
+      ],
+      "followup_lines": [
+        14,
+        68
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Coordination observations remain.",
+      "parent_lines": [
+        33,
+        35,
+        43,
+        47,
+        53
+      ],
+      "followup_lines": [
+        56,
+        64
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "Public counter references and egress still authenticate a common controlling system in the narrative.",
+      "parent_lines": [
+        30,
+        32,
+        33,
+        51
+      ],
+      "followup_lines": [
+        38,
+        70,
+        98
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_problem",
+      "rationale": "The moderator-name request remains authenticated as administrative activity.",
+      "parent_lines": [
+        18,
+        66
+      ],
+      "followup_lines": [
+        21,
+        83,
+        103,
+        112
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        16
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same unsupported exact-noon timestamp is retained.",
+      "parent_lines": [
+        18
+      ],
+      "followup_lines": [
+        21
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        7,
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "The added pre-XSS link timing correctly limits introduction/execution claims but does not remove the false self-propagating-worm mechanism.",
+      "parent_lines": [
+        15,
+        59,
+        60,
+        72
+      ],
+      "followup_lines": [
+        17,
+        77,
+        97,
+        119
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "The follow-up retains the stronger human-attacker attribution; the parent already asserted it despite qualifying the separate external-host ownership interpretation.",
+      "parent_lines": [
+        55,
+        59,
+        62
+      ],
+      "followup_lines": [
+        76,
+        79,
+        95,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Counter URL references remain treated as observed increments and operation.",
+      "parent_lines": [
+        5,
+        33,
+        71
+      ],
+      "followup_lines": [
+        5,
+        38,
+        56,
+        96
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "Deletion is still given high-confidence causal credit for ending activity.",
+      "parent_lines": [
+        20,
+        66,
+        74,
+        75
+      ],
+      "followup_lines": [
+        5,
+        23,
+        83,
+        103
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [],
+      "transition": "omitted",
+      "rationale": "The incorrect thirty-six-percent comparison disappears; no explicit numerical correction is given.",
+      "parent_lines": [
+        66
+      ],
+      "followup_lines": [],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "The categorical unplanned, unauthorized or provider-unmonitored origin explanation persists without originating instructions or provider telemetry.",
+      "parent_lines": [
+        70
+      ],
+      "followup_lines": [
+        76,
+        79,
+        95,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    1,
+    9,
+    10,
+    12,
+    13
+  ],
+  "summary": "The actual continuation adds useful counterevidence that vanderbi.lt references predate the script request. It nevertheless retains the worm, common-control, moderator-authentication and deletion-causation overclaims; a bad arithmetic comparison is omitted.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

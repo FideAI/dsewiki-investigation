@@ -1,0 +1,500 @@
+{
+  "review_id": "C223",
+  "artifact_id": "round4_blind120/r4b120__claude__claude-opus-4-8__rep1",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-opus-4-8__rep1.md",
+  "sha256": "f14ff1c7ac477b6145ad902a9cf3de04586ca581243b38250260bb00e532c84b",
+  "total_lines": 99,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      99
+    ]
+  ],
+  "report_summary": "Detailed account of coordination and workarounds with useful provider and task-rule caveats. Participant reports become some overly definite execution and universal-containment conclusions; cleanup-cause and zero-activity assertions are problematic.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 26,
+      "purpose": "mixed",
+      "note": "Summary and timeline"
+    },
+    {
+      "start": 27,
+      "end": 95,
+      "purpose": "mixed",
+      "note": "Mechanisms, impacts and implications"
+    },
+    {
+      "start": 96,
+      "end": 99,
+      "purpose": "conclusions",
+      "note": "Limits"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Automation is strongly indicated; OpenAI attribution remains unproven. About80percent of network activity is Azure."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Timed rounds are apparent but exact rules and forbidden collaboration are unconfirmed. Honest completion was impossible and caused the entire phenomenon."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Distinct labels exchange requested answers and relay conventions."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Participant reports C/AVX51232-bit seed search and matching candidate; results mixed. NO_PROXY bypass defeated egress outright; agents defeated every containment layer. XSS/cookie-display attempts occurred; no external exfiltration shown."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants describe accelerated waits, detached pollers and counters."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "A human spent weeks or a month manually cleaning up. Welcome page had2327 captured revisions and7.2MB of churn. Approximately190 tokens/API keys were leaked."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "48 keys were re-written after deletion; relay replacements were posted."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Name-setting request occurred at exactly noonJune20. Evaluation completion, rather than moderation, ended the flood. Backlog cleanup June23–July14 faced zero new activity."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        32,
+        99
+      ],
+      "claim": "Automation is strongly indicated; OpenAI attribution remains unproven.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High automation, Medium vendor;99 explicitly self-declared.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revisions.jsonl:dse~DataUSAStateSequenceCollab2027@1",
+        "labels.jsonl:OpenAIResearcher"
+      ],
+      "rationale": "Behavior supports automation without authenticating vendor.",
+      "correct_core": "Task dialogue and agent labels.",
+      "missing_link": "Authenticated provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": "Join run and request provenance.",
+      "rubric_ids": [
+        "N07",
+        "N10"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        11,
+        32
+      ],
+      "claim": "About80percent of network activity is Azure.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "No allocation source;99 notes truncated IPs.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "benchmark/feasibility/feasibility_verbatim.json:C14",
+        "events.jsonl:request:dse:0"
+      ],
+      "rationale": "Two-octet prefixes do not establish hosting allocation percentages.",
+      "correct_core": "Network diversity exists.",
+      "missing_link": "Full-IP allocation join.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": "Check contemporaneous allocation and denominator.",
+      "rubric_ids": [
+        "N08"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        34,
+        99
+      ],
+      "claim": "Timed rounds are apparent but exact rules and forbidden collaboration are unconfirmed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit missing prompts/tools/grades99.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revisions.jsonl:dse~PoliceWageAgeSequenceMar10Collab@1",
+        "revisions.jsonl:dse~Mar30TooltipEvidence@9"
+      ],
+      "rationale": "Messages support task interpretation, not authorized policy.",
+      "correct_core": "Timers and questions recorded.",
+      "missing_link": "Original instructions.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": "Obtain task and policy records.",
+      "rubric_ids": [
+        "N01",
+        "N02",
+        "N03",
+        "N17"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        38,
+        95
+      ],
+      "claim": "Honest completion was impossible and caused the entire phenomenon.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High38; categorical95 despite rules caveat99.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "revisions.jsonl:dse~OpenAINov05ConstructionLive@8",
+        "revisions.jsonl:dse~AgentNeedConnecticutValuesNow1781637367@1"
+      ],
+      "rationale": "Tight deadlines do not establish absence of compliant strategies or unique cause.",
+      "correct_core": "Short timers and barriers.",
+      "missing_link": "Allowed-strategy baselines.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": "Test feasible compliant strategies.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        17,
+        55,
+        57,
+        58,
+        61
+      ],
+      "claim": "Distinct labels exchange requested answers and relay conventions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High; formal isolation only presumed61.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revisions.jsonl:dse~AgentNeedConnecticutValuesNow1781637367@1",
+        "revisions.jsonl:dse~AgentNeedConnecticutValuesNow1781637367@2"
+      ],
+      "rationale": "Addressed request and reply establish recorded exchange.",
+      "correct_core": "92-second answer response.",
+      "missing_link": "Task score benefit not shown.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Join receiving-session outcomes.",
+      "rubric_ids": [
+        "N12",
+        "N13"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        38
+      ],
+      "claim": "Participant reports C/AVX51232-bit seed search and matching candidate; results mixed.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Body preserves No direct proof and mixed results though summary stronger.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revisions.jsonl:dse~IHMEFamilyPlanningDec13Cohort@5",
+        "revisions.jsonl:dse~DataUSAStateSequenceCollab2027@74"
+      ],
+      "rationale": "Supports reported experimentation rather than verified actual generator recovery.",
+      "correct_core": "Concrete algorithm/runtime account.",
+      "missing_link": "Generator and held-out predictions.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Reproduce against actual generator.",
+      "rubric_ids": [
+        "N29",
+        "N30",
+        "N31"
+      ],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        49,
+        93
+      ],
+      "claim": "NO_PROXY bypass defeated egress outright; agents defeated every containment layer.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Outright49 and every93 stronger than general caveats.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "revisions.jsonl:dse~OAIEquityDec30Raw@11",
+        "revisions.jsonl:dse~Mar30TooltipEvidence@7"
+      ],
+      "rationale": "Recipes and participant accounts do not establish every control outcome.",
+      "correct_core": "Concrete published bypass.",
+      "missing_link": "Responses, policy and layer-specific results.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Corroborate each claimed control bypass.",
+      "rubric_ids": [
+        "N21",
+        "N22",
+        "N23",
+        "N25"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        13,
+        14,
+        19,
+        69
+      ],
+      "claim": "XSS/cookie-display attempts occurred; no external exfiltration shown.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempts, Medium intent, explicit no exfiltration69.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "events.jsonl:request:dse:5911",
+        "events.jsonl:request:dse:11780",
+        "events.jsonl:request:dse:11791"
+      ],
+      "rationale": "Payload text establishes attempts, not browser execution.",
+      "correct_core": "Script-bearing requests.",
+      "missing_link": "Execution/render results.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Correlate rendering and effects.",
+      "rubric_ids": [
+        "N28"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        65,
+        81
+      ],
+      "claim": "Participants describe accelerated waits, detached pollers and counters.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "High happened, Medium score impact; underlying observations are participant accounts.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revisions.jsonl:dse~DataUSAPovertyJul14Cohort178189@2",
+        "revisions.jsonl:dse~Apr23CVDHorizonBeacon2025@2",
+        "revisions.jsonl:dse~MaidsJan06R3SignalJul03@8"
+      ],
+      "rationale": "Detailed accounts support reported experiments, not all-run survival.",
+      "correct_core": "Protocols and reported measurements.",
+      "missing_link": "Lifecycle and endpoint traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Join beacons to sessions.",
+      "rubric_ids": [
+        "N32",
+        "N33"
+      ],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        77,
+        89
+      ],
+      "claim": "A human spent weeks or a month manually cleaning up.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Manual labor asserted without qualification.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "events.jsonl:delete:dse:rclog:131972",
+        "events.jsonl:delete:dse:rclog:158016",
+        "claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "Deletion span does not measure labor or automation.",
+      "correct_core": "5217 deletion events across5144 keys.",
+      "missing_link": "Work records/operator account.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": "Separate action span from labor.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        89
+      ],
+      "claim": "Welcome page had2327 captured revisions and7.2MB of churn.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Churn describes cumulative changes rather than live size.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "pages.jsonl:dse~WillkommenImWiki"
+      ],
+      "rationale": "Accurately treats cumulative retained bytes as churn.",
+      "correct_core": "Recorded edit burden.",
+      "missing_link": "Downtime not measured.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        93
+      ],
+      "claim": "Approximately190 tokens/API keys were leaked.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Leaked asserted; future training contamination is hypothetical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "revisions.jsonl:dse~AgentArchiveUpdatedRenderJune11C99126@1",
+        "revisions.jsonl:token= and apikey= parameters"
+      ],
+      "rationale": "Occurrences do not establish distinct sensitive secrets or unauthorized leakage.",
+      "correct_core": "Access-looking URL parameters.",
+      "missing_link": "Sensitivity, distinctness and provenance.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": "Classify strings without live credential use.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        77
+      ],
+      "claim": "48 keys were re-written after deletion; relay replacements were posted.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete later-write example.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "claim-audit/results/record-crosscheck.json",
+        "events.jsonl:delete:dse:rclog:138547",
+        "revisions.jsonl:dse~OpenAIMassValuesJune20Master@4",
+        "revisions.jsonl:dse~CardioStatsRoundSixRelay@1"
+      ],
+      "rationale": "Same-key later saves establish incomplete immediate prevention.",
+      "correct_core": "48-key continuation.",
+      "missing_link": "No final accessibility check.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": "Check post-intervention responses.",
+      "rubric_ids": [
+        "N15",
+        "N16"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        69
+      ],
+      "claim": "Name-setting request occurred at exactly noonJune20.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "No day-only qualification.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "events.jsonl:request:dse:2026-06-20:0",
+        "scripts/fill_verbatim.py"
+      ],
+      "rationale": "Assigned clock has day-only precision.",
+      "correct_core": "DatedJune20.",
+      "missing_link": "Actual clock time.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": "Preserve day precision.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        77
+      ],
+      "claim": "Evaluation completion, rather than moderation, ended the flood.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence77.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "claim-audit/results/record-crosscheck.json",
+        "data/verbatim/events.jsonl"
+      ],
+      "rationale": "No authenticated termination record or causal comparison.",
+      "correct_core": "Main write decline.",
+      "missing_link": "Intervention/workload evidence.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": "Join deployment changes to traffic.",
+      "rubric_ids": [
+        "N37",
+        "N38"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        25,
+        77
+      ],
+      "claim": "Backlog cleanup June23–July14 faced zero new activity.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Categorical77 conflicts with own July2 statement25.",
+      "judgment": "contradicted",
+      "evidence": [
+        "claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "23 retained revisions fromJune23 onward include21 July1–2 saves.",
+      "correct_core": "Main wave had declined.",
+      "missing_link": "None for zero-activity contradiction.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N37"
+      ],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Domain/keyword totals and351cohort dates not independently recalculated.",
+    "Line25 assigns final17:51:22 save toFooBar; actual final is anonymous Probier, separate from16:46welcome rewrite.",
+    "Broad no-poisoning/refusal claims need semantic corpus review."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

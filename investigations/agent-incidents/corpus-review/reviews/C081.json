@@ -1,0 +1,376 @@
+{
+  "review_id": "C081",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep1.md",
+  "sha256": "a7d2c6e9f99e4678aa4d48aa8d6f8d08a26adf0ffda28ac83cf057538f258c03",
+  "total_lines": 101,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      101
+    ]
+  ],
+  "report_summary": "This dense followup adds descriptive counts and timing, overwrite and proxy workflows. It preserves late saves, a day-only qualifier and lack of proved XSS takeover. Its cheating, identity and moderation-failure claims outrun the descriptive counts.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 32,
+      "purpose": "mixed",
+      "note": "Timeline."
+    },
+    {
+      "start": 33,
+      "end": 50,
+      "purpose": "mixed",
+      "note": "Coordination."
+    },
+    {
+      "start": 51,
+      "end": 62,
+      "purpose": "mixed",
+      "note": "Proxy patterns."
+    },
+    {
+      "start": 63,
+      "end": 80,
+      "purpose": "mixed",
+      "note": "Impact and identity."
+    },
+    {
+      "start": 81,
+      "end": 101,
+      "purpose": "mixed",
+      "note": "Injection and mitigations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels are verified run IDs and tunnel patterns confirm lab versus human origins."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Systematic cheating and unprompted probing are established despite unavailable prompts. Moderator-name and administrator-lookalike choices suggest spoofing attempts without gained delete authority."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Token relays, acknowledgments and signal hygiene establish substantive communication."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy matrices and format changes show systematic search for usable retrieval paths. Injection and cookie-display probes show no demonstrated takeover."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants reordered communication and used beacon tests to investigate suspected session limits."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Proxy queries and public key-like parameters are called exfiltration and leaked credentials. Prominent pages were displaced; default-page behavior or visibility seeking may explain concentration."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Save/delete ratios establish no deterrence and cleanup never catching up."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Final saves occurJuly2 and deletion continuesJuly14; the June20 request is marked day precision."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        74,
+        76,
+        78,
+        100
+      ],
+      "claim": "Labels are verified run IDs and tunnel patterns confirm lab versus human origins.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Editable labels and prefixes do not authenticate runs or operators.",
+      "correct_core": "Agent-like statements.",
+      "missing_link": "Authenticated run mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        44,
+        50,
+        88,
+        94,
+        98,
+        100
+      ],
+      "claim": "Systematic cheating and unprompted probing are established despite unavailable prompts.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Missing instructions prevent establishing prohibited conduct or absence of malicious prompting.",
+      "correct_core": "Answer sharing and probes.",
+      "missing_link": "Task permissions and prompts.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        18,
+        40,
+        42,
+        46,
+        48
+      ],
+      "claim": "Token relays, acknowledgments and signal hygiene establish substantive communication.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: Sector61State5FastSignal; DataUSALanguageR5SignalNow@1",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Requests, receipts and corrections support communication.",
+      "correct_core": "Reciprocal posts.",
+      "missing_link": null,
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        40,
+        46,
+        48
+      ],
+      "claim": "Participants reordered communication and used beacon tests to investigate suspected session limits.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Quoted may/likely language and test framing preserve uncertainty.",
+      "correct_core": "Pre-answer and lifecycle experiments.",
+      "missing_link": "Lifecycle/callback telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        23,
+        54,
+        56,
+        58,
+        62
+      ],
+      "claim": "Proxy matrices and format changes show systematic search for usable retrieval paths.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: probier~ProxySplitAgentBeta",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Revision differences support the mechanism, with medium-high success confidence.",
+      "correct_core": "Stored workaround variants.",
+      "missing_link": "Response/results evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        60
+      ],
+      "claim": "Proxy queries and public key-like parameters are called exfiltration and leaked credentials.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: AgentDPLALibraryObjectAPILinksK91@1"
+      ],
+      "rationale": "Followup60retains the parent52categorical sentence; removing a later exploit-library sentence does not establish changed execution or secrecy evidence.",
+      "correct_core": "Key/token values in content.",
+      "missing_link": "Original publicity and access impact.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        66,
+        68,
+        70
+      ],
+      "claim": "Prominent pages were displaced; default-page behavior or visibility seeking may explain concentration.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Observed displacement and alternative explanations are distinguished.",
+      "correct_core": "Navigation replacement.",
+      "missing_link": "Reader impact and action traces.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        17,
+        22,
+        28,
+        68
+      ],
+      "claim": "Save/delete ratios establish no deterrence and cleanup never catching up.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Different units and final-delete ordering do not support that conclusion.",
+      "correct_core": "Rapid recreation and continuing overwrites.",
+      "missing_link": "Lifecycle and intervention evidence.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        15,
+        21,
+        84,
+        86
+      ],
+      "claim": "Injection and cookie-display probes show no demonstrated takeover.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Execution is appropriately withheld; associated later writes are stronger than its no-follow-on framing suggests.",
+      "correct_core": "Concrete attempts.",
+      "missing_link": "Response and execution evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "authority",
+      "lines": [
+        29,
+        76,
+        90
+      ],
+      "claim": "Moderator-name and administrator-lookalike choices suggest spoofing attempts without gained delete authority.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/labels.jsonl: Friedrich1982 administrator",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The name relationship and absence of additional privileges are distinguished.",
+      "correct_core": "Name choices.",
+      "missing_link": "Authenticated access outcome.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        9,
+        27,
+        29,
+        30,
+        31,
+        32,
+        96
+      ],
+      "claim": "Final saves occurJuly2 and deletion continuesJuly14; the June20 request is marked day precision.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Correct endpoints and useful qualifier, despite displayed noon time.",
+      "correct_core": "Correct observation windows.",
+      "missing_link": null,
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Numerous regex token/domain counts and exact script-revision counts not independently reproduced; they do not measure independent actions or exposure."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

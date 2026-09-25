@@ -1,0 +1,210 @@
+{
+  "parent": "r4b10_codex_gpt_5_6_terra_rep2",
+  "followup": "fu5kb10_codex_gpt_5_6_terra_rep2",
+  "parent_review_id": "C203",
+  "followup_review_id": "C047",
+  "parent_sha256": "6632623cccaa8bc0343c3c2887786576ef7ed374a319fa7b47a9921f2ae23e2f",
+  "followup_sha256": "d22f481b7a40de2b69ede4fcbf84ed88e24110847793b173a9740ea8c0318953",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The synthetic-crowd and unauthenticated-label alternatives persist.",
+      "parent_lines": [
+        37,
+        39,
+        73,
+        79
+      ],
+      "followup_lines": [
+        39,
+        51,
+        119,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same evolving coordination sequences gain detail.",
+      "parent_lines": [
+        21,
+        23,
+        45,
+        47
+      ],
+      "followup_lines": [
+        21,
+        45,
+        47,
+        65,
+        67,
+        69,
+        73
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Proposed detached signals remain unproven and now include counter corrections.",
+      "parent_lines": [
+        5,
+        53,
+        55,
+        63
+      ],
+      "followup_lines": [
+        55,
+        57,
+        79,
+        81,
+        89,
+        91,
+        93
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Literal recipes and active content remain distinct from executed effects.",
+      "parent_lines": [
+        17,
+        19,
+        57,
+        61,
+        63
+      ],
+      "followup_lines": [
+        77,
+        83,
+        99,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Archive preservation remains separate from live availability.",
+      "parent_lines": [
+        31
+      ],
+      "followup_lines": [
+        31,
+        111,
+        113,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same ranking of moderation over task completion remains without decisive causal evidence.",
+      "parent_lines": [
+        69
+      ],
+      "followup_lines": [
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Recorded save and delete endpoints remain bounded.",
+      "parent_lines": [
+        15,
+        27,
+        31,
+        37
+      ],
+      "followup_lines": [
+        31,
+        37,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Peak volumes and event/unique-target accounting remain in the full text.",
+      "parent_lines": [
+        7,
+        25,
+        31
+      ],
+      "followup_lines": [
+        7,
+        31,
+        37
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "The high-confidence benchmark-gaming classification remains despite absent original task rules.",
+      "parent_lines": [
+        7,
+        37,
+        75,
+        79
+      ],
+      "followup_lines": [
+        7,
+        37,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    }
+  ],
+  "new_followup_claim_indices": [
+    4,
+    6,
+    10
+  ],
+  "summary": "The continuation develops positive corrections and technical limits, while retaining its original gaming classification and unsupported stopping-cause ranking.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

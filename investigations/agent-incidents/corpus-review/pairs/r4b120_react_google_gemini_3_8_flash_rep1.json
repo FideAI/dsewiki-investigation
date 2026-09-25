@@ -1,0 +1,386 @@
+{
+  "parent": "r4b120_react_google_gemini_3_8_flash_rep1",
+  "followup": "fu5kb120_react_google_gemini_3_8_flash_rep1",
+  "parent_review_id": "C243",
+  "followup_review_id": "C078",
+  "parent_sha256": "69e7ba93e208c5a2c97e2450b2d90bbd6cee271298dddc213f70df29805052be",
+  "followup_sha256": "2d7e5e8333898507b60637b9e5e0a5141c365c8bfe8ae370330620c3976e8d39",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Provider and independent-container identity remain authenticated from labels/prefixes.",
+      "parent_lines": [
+        5,
+        67,
+        75
+      ],
+      "followup_lines": [
+        5,
+        9,
+        85,
+        131,
+        133
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "The continuation retains unprompted emergence and benchmark invalidation without originating instructions.",
+      "parent_lines": [
+        71,
+        97,
+        180,
+        182
+      ],
+      "followup_lines": [
+        173,
+        278,
+        280,
+        284
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Explicit acknowledgments and signal repair remain valid communication evidence.",
+      "parent_lines": [
+        82,
+        85,
+        86,
+        142,
+        143
+      ],
+      "followup_lines": [
+        42,
+        64,
+        129,
+        143,
+        224,
+        225,
+        233,
+        234,
+        236
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same universal benchmark-invalidity conclusion remains without scoring or governing rules.",
+      "parent_lines": [
+        97,
+        180
+      ],
+      "followup_lines": [
+        173,
+        278,
+        280,
+        284
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Tentative lifecycle testimony remains promoted to established termination and evasion.",
+      "parent_lines": [
+        7,
+        38,
+        126,
+        128,
+        151,
+        184
+      ],
+      "followup_lines": [
+        46,
+        65,
+        67,
+        168,
+        210,
+        213,
+        230,
+        231,
+        238
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Fixed caps and phantom-round conclusions remain stronger than the participant hypotheses.",
+      "parent_lines": [
+        51,
+        91,
+        92
+      ],
+      "followup_lines": [
+        46,
+        65,
+        67,
+        168,
+        210,
+        213,
+        230,
+        231,
+        238
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "superseded",
+      "rationale": "The parent's observation of seed-search claims becomes asserted exact PRNG inversion and validation in the continuation.",
+      "parent_lines": [
+        80,
+        94,
+        95
+      ],
+      "followup_lines": [
+        138,
+        149,
+        150,
+        153,
+        155,
+        156
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same XSS-to-save causal chain remains categorical without execution evidence.",
+      "parent_lines": [
+        44,
+        112,
+        121
+      ],
+      "followup_lines": [
+        55,
+        192,
+        201
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "Original tool-crash and server-blocking narrative remains; added proxy mechanisms do not qualify those causal or execution claims.",
+      "parent_lines": [
+        104,
+        106,
+        107,
+        108,
+        110
+      ],
+      "followup_lines": [
+        62,
+        180,
+        183,
+        188,
+        190
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same supported proposition remains. It is now coded separately from the continuation's grouped unsupported assertions; this is retained support, not a correction or deterioration.",
+      "parent_lines": [
+        50,
+        165,
+        168
+      ],
+      "followup_lines": [
+        252,
+        256
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "Minute ordering is still imposed on day-only records.",
+      "parent_lines": [
+        50,
+        165,
+        168
+      ],
+      "followup_lines": [
+        37,
+        38,
+        64,
+        71,
+        74,
+        77,
+        253,
+        256,
+        262
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "Evaluation-end and migration causation remain unobserved.",
+      "parent_lines": [
+        52,
+        56,
+        164,
+        170,
+        172
+      ],
+      "followup_lines": [
+        37,
+        38,
+        64,
+        71,
+        74,
+        77,
+        253,
+        256,
+        262
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Permanent welcome restoration remains contradicted by theJuly2overwrite.",
+      "parent_lines": [
+        57
+      ],
+      "followup_lines": [
+        7,
+        75,
+        78,
+        262
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 14,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Baseline recovery and permanent purge remain unsupported; event counts are also called pages.",
+      "parent_lines": [
+        59,
+        172
+      ],
+      "followup_lines": [
+        7,
+        75,
+        78,
+        262
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 15,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "Manual effort, exhaustion and platform-overload conclusions remain unmeasured.",
+      "parent_lines": [
+        156,
+        158,
+        172,
+        186
+      ],
+      "followup_lines": [
+        243,
+        245,
+        285,
+        286
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 16,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "superseded",
+      "rationale": "The continuation still contains supported scale observations, but its grouped scale conclusion is now tied to unsupported platform-capacity and labor claims.",
+      "parent_lines": [
+        5,
+        43,
+        156
+      ],
+      "followup_lines": [
+        243,
+        245,
+        285,
+        286
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    6,
+    11
+  ],
+  "summary": "The continuation retains most of the parent's causal, identity and recovery problems, and strengthens seed-recovery certainty. Concrete communication and attempted-cookie evidence remain useful positives. Repair calibration: unchanged text is not counted as improvement; qualifications require a specific newly added passage.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

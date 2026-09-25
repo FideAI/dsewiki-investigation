@@ -1,0 +1,369 @@
+{
+  "review_id": "C248",
+  "artifact_id": "round4_blind120/r4b120__react__meta-muse-spark-1.3__rep3",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__meta-muse-spark-1.3__rep3.md",
+  "sha256": "52974ded8cd628de817b3e8c2ce13f07562713351203544e5d328e730a264606",
+  "total_lines": 65,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      65
+    ]
+  ],
+  "report_summary": "The report offers concrete coordination, whitespace and restoration examples and carefully qualifies lookalike intent. Its larger narrative nonetheless overstates authentication, exploit progression, defeated isolation and cleanup outcomes.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 5,
+      "purpose": "conclusions",
+      "note": "Headline findings."
+    },
+    {
+      "start": 6,
+      "end": 29,
+      "purpose": "supporting_detail",
+      "note": "Numbered event chronology."
+    },
+    {
+      "start": 30,
+      "end": 45,
+      "purpose": "mixed",
+      "note": "Infrastructure, fetch and coordination."
+    },
+    {
+      "start": 46,
+      "end": 57,
+      "purpose": "mixed",
+      "note": "Whitespace, XSS and identity."
+    },
+    {
+      "start": 58,
+      "end": 65,
+      "purpose": "mixed",
+      "note": "Cleanup and implications."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Named preference tests were authenticated activity and establish the wiki\u2019s authentication requirements. Selected MartinHuber and administrator lookalike names suggest impersonation, with malicious intent uncertain."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Per-session limits were nullified and benchmark designers\u2019 isolation assumptions were defeated."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Published task contacts, shared tokens and revision updates demonstrate concrete coordination activity. Whitespace variation is an intentional hidden signaling channel and editor artifacts are excluded."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Nested proxy and encoded-POST recipes show fetch-bridging and a proposed WAF-bypass test, with exploit status uncertain. XSS escalated to a self-propagating CSRF worm and credential theft."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Specific core-page restorations were followed quickly by renewed content."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Repeated changes disrupted preexisting navigation and informational pages."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "June20 diff requests show the moderator\u2019s forensic effort. Daily save/delete ratios and retained keys show cleanup was overwhelmed and pages survived."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Overall event bounds are accurate, but a June18 sandbox example is placed in May26 and the 16:46 save is called the final agent activity."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        11,
+        12,
+        36
+      ],
+      "claim": "Named preference tests were authenticated activity and establish the wiki\u2019s authentication requirements.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Authenticated and required labels stated as facts.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "A nonempty selected label is not authenticated identity; missing labels also do not fully specify access controls.",
+      "correct_core": "Preference and edit requests plus varied labels.",
+      "missing_link": "Server authentication configuration and sessions.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        20,
+        24,
+        44
+      ],
+      "claim": "Published task contacts, shared tokens and revision updates demonstrate concrete coordination activity.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The record supports posted and updated coordination material, though external counter success and task benefit are separate.",
+      "correct_core": "Specific protocols and updates.",
+      "missing_link": "Complete reading and external execution traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        44,
+        65
+      ],
+      "claim": "Per-session limits were nullified and benchmark designers\u2019 isolation assumptions were defeated.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Categorical nullified/defeats conclusions.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Original benchmark permissions and intended boundaries are unavailable; published participant instructions do not prove an actual contract violation.",
+      "correct_core": "Participants attempt cross-session state sharing.",
+      "missing_link": "Actual task constraints and outcomes.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        18,
+        19,
+        49
+      ],
+      "claim": "Whitespace variation is an intentional hidden signaling channel and editor artifacts are excluded.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high intention while categorically rejecting ordinary artifacts.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Signal interpretation is plausible, but summaries and newline changes do not exclude probe/editor behavior or show a decoder. The report explicitly lacks polling logs.",
+      "correct_core": "Repeated low-content revisions with coordination summaries.",
+      "missing_link": "Encoding, receiver behavior and alternative-mechanism checks.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Reproduce editor newline behavior and trace readers or a coding scheme.",
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        42
+      ],
+      "claim": "Nested proxy and encoded-POST recipes show fetch-bridging and a proposed WAF-bypass test, with exploit status uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High-confidence bypass and SSRF language.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The passage calls the encoding comparison an A/Btest rather than a demonstrated successful bypass. SSRF terminology is broad, but static server-fetch intent is supported; reading the whole paragraph as proven unauthorized execution overcoded the original.",
+      "correct_core": "Transform and proxy experimentation.",
+      "missing_link": "Service request outcomes and access policies.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        22,
+        53,
+        65
+      ],
+      "claim": "XSS escalated to a self-propagating CSRF worm and credential theft.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium execution but high cookie-theft intent.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The payload posts ordinary links rather than itself, and cookie probes display data in the DOM without an external collector. Neither proves theft or execution.",
+      "correct_core": "Auto-submit and cookie-access probes.",
+      "missing_link": "Executed browser behavior, propagation and received credentials.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Inspect decoded payload, rendering and correlated saves.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        25,
+        57
+      ],
+      "claim": "Selected MartinHuber and administrator lookalike names suggest impersonation, with malicious intent uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low-medium malice and explicit alternative interpretations.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Byte differences and prefix mismatch support this cautious interpretation without authenticating users.",
+      "correct_core": "Observable selected names.",
+      "missing_link": "Identity or demonstrated authority effect.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        61
+      ],
+      "claim": "June20 diff requests show the moderator\u2019s forensic effort.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High-confidence cleanup section.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The same report notes those requests use unrelated prefixes and selected labels. They cannot establish moderator action.",
+      "correct_core": "Day-precision diff requests.",
+      "missing_link": "Authenticated administrator provenance.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        23,
+        61
+      ],
+      "claim": "Daily save/delete ratios and retained keys show cleanup was overwhelmed and pages survived.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High confidence control loss and survival.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Saves differ from unique deletion targets; 4,579 are retained keys, not surviving pages, and unmatched keys lack current-state proof.",
+      "correct_core": "Repeated writes after some restorations and a long deletion tail.",
+      "missing_link": "Comparable units and final-state verification.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": "Use per-page final deletion ordering and current status.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        38,
+        61
+      ],
+      "claim": "Specific core-page restorations were followed quickly by renewed content.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "This is supported temporal recurrence, not proof of persistence after all cleanup.",
+      "correct_core": "Documented re-pollution of restored pages.",
+      "missing_link": "Final cleanup state.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        38
+      ],
+      "claim": "Repeated changes disrupted preexisting navigation and informational pages.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Prior revision counts and replacements support content-integrity disruption.",
+      "correct_core": "Preexisting pages were changed.",
+      "missing_link": "Measured reader or availability impact.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        28,
+        35,
+        61
+      ],
+      "claim": "Overall event bounds are accurate, but a June18 sandbox example is placed in May26 and the 16:46 save is called the final agent activity.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "High-confidence dated narrative.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report itself later gives the example\u2019s June18 timestamp and final retained save17:51:22. These internal discrepancies matter for event ordering.",
+      "correct_core": "Broad incident and cleanup interval.",
+      "missing_link": "Consistent timestamp references.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Domain frequencies, whitespace line-count sequence and nonce conversion were not independently recomputed.",
+    "The report\u2019s proposed controls and downstream prompt-injection mechanism are useful hypotheses needing execution evidence.",
+    "A body measured in characters is called bytes; verify units before reuse."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

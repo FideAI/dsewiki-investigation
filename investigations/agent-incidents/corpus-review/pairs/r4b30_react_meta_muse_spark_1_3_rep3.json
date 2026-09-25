@@ -1,0 +1,294 @@
+{
+  "parent": "r4b30_react_meta_muse_spark_1_3_rep3",
+  "followup": "fu5kb30_react_meta_muse_spark_1_3_rep3",
+  "parent_review_id": "C287",
+  "followup_review_id": "C109",
+  "parent_sha256": "f044a5c6dc2d6fd86b8d30e3d5ccabdba1ba2856ee7916768f90abfb054786a1",
+  "followup_sha256": "31b91241e56e6497296e9a4c13d845827b65a58dd0d37f7ba1e554578aa44211",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Provider names remain unverified.",
+      "parent_lines": [
+        33,
+        53
+      ],
+      "followup_lines": [
+        57
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "Cohort diversity still becomes cross-model identity without model provenance.",
+      "parent_lines": [
+        35
+      ],
+      "followup_lines": [
+        37,
+        39
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3,
+        4
+      ],
+      "transition": "superseded",
+      "rationale": "Plausible administrator-name impersonation remains, but the follow-up adds unsupported blocklist-evasion effect.",
+      "parent_lines": [
+        41
+      ],
+      "followup_lines": [
+        45
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Published values and requests remain observed.",
+      "parent_lines": [
+        21,
+        23,
+        33,
+        51
+      ],
+      "followup_lines": [
+        25,
+        27,
+        31,
+        39,
+        57
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "URLsignal and beacon protocols remain participant designs.",
+      "parent_lines": [
+        35,
+        53
+      ],
+      "followup_lines": [
+        25,
+        31,
+        39
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "Proxy/encoding experiments remain a reasonable inference.",
+      "parent_lines": [
+        37,
+        46,
+        51,
+        53
+      ],
+      "followup_lines": [
+        17,
+        41,
+        50
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_problem",
+      "rationale": "Use ofthird-partyservices still becomes agent deployment/ownership.",
+      "parent_lines": [
+        37
+      ],
+      "followup_lines": [
+        41,
+        55
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The correct6032/save13same-second match remains.",
+      "parent_lines": [
+        39
+      ],
+      "followup_lines": [
+        29,
+        43
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "The payload continues to be characterized as a self-propagating worm despite posting only link text.",
+      "parent_lines": [
+        25,
+        39
+      ],
+      "followup_lines": [
+        5,
+        29,
+        43
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "The negativeexecutiontest still examines thema20page rather than the actualma21target.",
+      "parent_lines": [
+        39
+      ],
+      "followup_lines": [
+        29,
+        43
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        20
+      ],
+      "transition": "unassessable",
+      "rationale": "The same all-keys-public-demo assertion remains without independent validation of key provenance.",
+      "parent_lines": [
+        13,
+        43
+      ],
+      "followup_lines": [
+        13,
+        47
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        16,
+        19
+      ],
+      "transition": "retained_supported",
+      "rationale": "Moderator reverts andJuly2recurrence remain observed.",
+      "parent_lines": [
+        29,
+        43
+      ],
+      "followup_lines": [
+        21,
+        33,
+        47
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        17
+      ],
+      "transition": "retained_problem",
+      "rationale": "The681unmatchedkeys still become proof of unrecovered wiki state.",
+      "parent_lines": [
+        29
+      ],
+      "followup_lines": [
+        33,
+        47
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 14,
+      "followup_claim_indices": [
+        18
+      ],
+      "transition": "retained_problem",
+      "rationale": "Retained deleted bodies are still wrongly said to be unavailable.",
+      "parent_lines": [
+        53
+      ],
+      "followup_lines": [
+        57
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 15,
+      "followup_claim_indices": [
+        19
+      ],
+      "transition": "retained_supported",
+      "rationale": "June4\u2013July14cleanupspan remains correct.",
+      "parent_lines": [
+        17,
+        29,
+        43
+      ],
+      "followup_lines": [
+        21,
+        33,
+        47
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    1,
+    6,
+    12,
+    15
+  ],
+  "summary": "The follow-up preserves the correctXSSrequest/save pair and moderator-count distinctions, but retains worm, deleted-body and survivor errors. It adds an unsupported absence-of-Idahocorroboration claim despite retained cross-posts and acknowledgments.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

@@ -1,0 +1,240 @@
+{
+  "parent": "r4b10_react_openai_gpt_5_6_sol_rep2",
+  "followup": "fu5kb10_react_openai_gpt_5_6_sol_rep2",
+  "parent_review_id": "C218",
+  "followup_review_id": "C061",
+  "parent_sha256": "d5292beb92623a9c594f0a4ae8e654410dab8ba5c0f3092be14a6b7ad021e03d",
+  "followup_sha256": "ea53d4148b8a4c163a0f223cbbbd2ba1614398dd5de7cc5208ff619827f48fae",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "Early deletion, later overwrite and final-save dates remain correct.",
+      "parent_lines": [
+        17,
+        35,
+        85
+      ],
+      "followup_lines": [
+        17,
+        37,
+        47,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation further emphasizes multiple possible ownership structures while preserving the parent's attribution limits.",
+      "parent_lines": [
+        41,
+        57,
+        69,
+        71
+      ],
+      "followup_lines": [
+        45,
+        51,
+        81,
+        93,
+        95,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Answer exchanges and correction examples are retained and expanded.",
+      "parent_lines": [
+        25,
+        53,
+        55,
+        57
+      ],
+      "followup_lines": [
+        25,
+        27,
+        61,
+        69,
+        73,
+        75,
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The original already qualified missing final submissions; the continuation more clearly distinguishes operational sharing from score outcomes.",
+      "parent_lines": [
+        3,
+        55,
+        65,
+        89
+      ],
+      "followup_lines": [
+        71,
+        77,
+        79,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "The intended retrieval-route explanation remains grounded in participant complaints and syntax, with execution limits.",
+      "parent_lines": [
+        43,
+        45,
+        47
+      ],
+      "followup_lines": [
+        53,
+        55,
+        57,
+        59
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The noncumulative edit-war analysis remains, countering a simplistic growth narrative.",
+      "parent_lines": [
+        49
+      ],
+      "followup_lines": [
+        65
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Signal decoding and false-signal correction remain participant-record evidence, not independently logged counters.",
+      "parent_lines": [
+        23,
+        61,
+        63
+      ],
+      "followup_lines": [
+        23,
+        25,
+        85,
+        87
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Whether a common harness directed cooperation remains unknown.",
+      "parent_lines": [
+        57,
+        89
+      ],
+      "followup_lines": [
+        81,
+        117,
+        125
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Cookie display and probes remain separated from proven theft or execution.",
+      "parent_lines": [
+        75,
+        77
+      ],
+      "followup_lines": [
+        33,
+        103,
+        105,
+        107,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The public-token risk remains qualified by unknown scope and actual receipt.",
+      "parent_lines": [
+        79
+      ],
+      "followup_lines": [
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        10,
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation adds explicit420-write/48-key accounting while keeping final-state and labor limits.",
+      "parent_lines": [
+        83,
+        85
+      ],
+      "followup_lines": [
+        115,
+        119,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "A largely well-calibrated parent is expanded with stronger post-deletion accounting and clearer identity and score limitations. No parent issue is counted as repaired merely because the exposition became longer.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

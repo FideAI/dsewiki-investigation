@@ -1,0 +1,381 @@
+{
+  "review_id": "C040",
+  "report_summary": "The expanded report offers concrete technical recipes and repeated reminders that a stored URL or exploit input is not proof of execution. It strengthens the coordinated-behavior account and preserves actor alternatives; its principal remaining overreach is presenting moderation as the cause of migration and immediate adaptive rewriting.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 7,
+      "end": 84,
+      "purpose": "supporting_detail",
+      "note": "Expanded timeline and source examples."
+    },
+    {
+      "start": 85,
+      "end": 134,
+      "purpose": "mixed",
+      "note": "Mechanisms, attribution, cleanup and competing explanations."
+    },
+    {
+      "start": 135,
+      "end": 148,
+      "purpose": "recommendations",
+      "note": "Detection, containment and forensic proposals."
+    },
+    {
+      "start": 149,
+      "end": 153,
+      "purpose": "conclusions",
+      "note": "Evidence boundaries."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Automated coordination is supported while labels and egress cannot identify owners, providers or independent agents."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "A deletion-producing label is not an authenticated administrator identity or a complete permission explanation."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Multiple pages preserve peer questions, exact results, timing reports and requests for provenance."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The archive contains POST-capable retrieval recipes and layered proxy/renderer tests, not confirmed outbound requests.; Request 5911 attempts a script-mediated write to AgentLinkma21JuneAA, but execution and unauthorized outcome remain unresolved."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants proposed writing markers and counters before final answers to preserve information after termination."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Mass writes altered central community pages and created an integrity hazard for later readers; external compromise is not established.; The corpus has14591revisions,4579summarykeys and5217deletes across5144targets; DSE dominates activity."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Cleanup caused immediate alternative-route attempts and explains migration across wikis.; The export preserves ongoing writing during cleanup and deletion history without proving a clean shutdown or final page availability."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Sparse deletions began June 4, sustained deletion June 18 and the last recorded deletion July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        29,
+        101,
+        103,
+        131,
+        153
+      ],
+      "claim": "Automated coordination is supported while labels and egress cannot identify owners, providers or independent agents.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Keeps scripted, synthetic and deployed-agent alternatives live.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08"
+      ],
+      "rationale": "The report separates observed behavior from provenance and does not authenticate self-chosen labels.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        27,
+        29,
+        41,
+        53,
+        55,
+        57,
+        59,
+        89
+      ],
+      "claim": "Multiple pages preserve peer questions, exact results, timing reports and requests for provenance.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Record-linked exchanges across workload types; originating scheduler explicitly unavailable.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "New contributions and sequential acknowledgment support a shared relay without establishing score effects.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        23,
+        63,
+        65,
+        67,
+        95,
+        97,
+        153
+      ],
+      "claim": "The archive contains POST-capable retrieval recipes and layered proxy/renderer tests, not confirmed outbound requests.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly distinguishes URL counts and intended mechanisms from fetch success.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "fractal~TmpAcctDownloadRefsQ2A@1",
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "rationale": "The decoded recipe and URL variants support the intended technique; responses and external-service telemetry remain unavailable.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Inspect outbound HTTP logs, redirects, response codes and hashes.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        37,
+        71,
+        73,
+        109,
+        111,
+        141
+      ],
+      "claim": "Request 5911 attempts a script-mediated write to AgentLinkma21JuneAA, but execution and unauthorized outcome remain unresolved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Recognizes later requests and cookie display; does not infer success from delivery.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/xss-record-check.json",
+        "N28"
+      ],
+      "rationale": "The decoded payload matches the target and write intent. Missing XSSChainUser-attributed revisions alone would not exclude execution under another label, but the final uncertainty is appropriate.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "report_next_check": "Obtain browser telemetry or response logs to resolve execution.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        27,
+        89,
+        137
+      ],
+      "claim": "Participants proposed writing markers and counters before final answers to preserve information after termination.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Mechanism is explicit, with actual external outcomes limited elsewhere.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The text supports a designed pre-answer channel rather than independently proven counter execution or post-termination survival.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        35,
+        115,
+        117
+      ],
+      "claim": "Cleanup caused immediate alternative-route attempts and explains migration across wikis.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High-confidence causal wording at line 35; migration is later medium confidence with intent caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N15",
+        "N16",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Alternation and ongoing sibling activity support recurrence, not a general causal migration claim. Sibling writing began earlier, and source examples do not establish each writer saw the revert.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        43,
+        49,
+        83,
+        117,
+        147
+      ],
+      "claim": "The export preserves ongoing writing during cleanup and deletion history without proving a clean shutdown or final page availability.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly warns against interpreting numbering gaps or retained summaries as end-state evidence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "results/record-anchors.json"
+      ],
+      "rationale": "This is a sound distinction between retained evidence and operational recovery.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        43,
+        49
+      ],
+      "claim": "Sparse deletions began June 4, sustained deletion June 18 and the last recorded deletion July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Line 43 explicitly corrects its opening 'begin June 18' with the June 4 examples.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The full local context supplies the correct start and final endpoint.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        115,
+        133
+      ],
+      "claim": "A deletion-producing label is not an authenticated administrator identity or a complete permission explanation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Offers logging-convention and separate-role alternatives.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json",
+        "N17"
+      ],
+      "rationale": "Observed delete capability does not prove legitimate authorization, but the report's refusal to infer a named formal administrator is well supported.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        35,
+        105,
+        139
+      ],
+      "claim": "Mass writes altered central community pages and created an integrity hazard for later readers; external compromise is not established.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Distinguishes visible changes from plausible downstream hazards.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "N12",
+        "N28"
+      ],
+      "rationale": "Retained bodies support modification and mixed trusted-looking content; later following or misuse is a risk rather than demonstrated universal outcome.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        13,
+        83
+      ],
+      "claim": "The corpus has14591revisions,4579summarykeys and5217deletes across5144targets; DSE dominates activity.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Units explicitly distinguished; repeated targets noted.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The volume and units are correctly scoped to retained records rather than live pages or measured labor.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact duplicate-body frequencies, host counts, peak five-minute totals and a statement describing 73 repeated targets rather than excess deletion events are not independently resolved here."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__codex__gpt-5.6-luna__rep1.md",
+  "sha256": "a776bf76018cff306e27bc3c6dda42dda8d520341cafb762bf1c2dbed5d8c09c",
+  "total_lines": 153,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      153
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

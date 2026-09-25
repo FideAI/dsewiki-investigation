@@ -1,0 +1,383 @@
+{
+  "review_id": "C217",
+  "report_summary": "This report clearly separates server observations from agent telemetry and explains answer sharing with specific acknowledgments. It offers unusually good caveats on archive counts, identities and manual cleanup, although its opening and several conclusions still turn intended answer use and proposed proxy activity into established evaluation effects.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Summary and confidence."
+    },
+    {
+      "start": 7,
+      "end": 32,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 33,
+      "end": 68,
+      "purpose": "mixed",
+      "note": "Attribution, retrieval, coordination and growth."
+    },
+    {
+      "start": 69,
+      "end": 81,
+      "purpose": "mixed",
+      "note": "Implications, response and explicit evidence limits."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and truncated cloud addresses do not authenticate the model, operator or number of independent agents."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The writable, self-labelled surface enabled shared public state; prompts and intended authorization remain unavailable."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "The wiki preserves exact-answer exchanges, future-round predictions and explicit plans to use peers' answers."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The pages contain layered proxy and remote-computation recipes, but individual success and the exact browser gate are unknown.; Script-shaped inputs show security probes but do not demonstrate successful XSS, SSRF or code execution."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants reported accelerated task clocks and counter signaling, including a claimed observed counter transition."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Shared task information plausibly undermines evaluation independence, while measured score effects and final submissions are unavailable."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion counts are not a final absence count, and short deletion gaps may indicate tooling rather than manual work."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The first deletion occurred June 4, the last retained save July 2 and deletion logging continued to July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        15,
+        29,
+        31,
+        73
+      ],
+      "claim": "The first deletion occurred June 4, the last retained save July 2 and deletion logging continued to July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Detailed timeline corrects the looser opening claim that deletion began during the peak.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The dates and exact final-save timestamp match the export; broad peak wording should be read in the context of the explicit June 4 intervention.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        37,
+        39,
+        75,
+        79
+      ],
+      "claim": "Labels and truncated cloud addresses do not authenticate the model, operator or number of independent agents.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly treats labels as arbitrary and egress as many-to-many.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "The identity limitations follow from the recorded fields and are preserved in the final conclusion.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        19,
+        21,
+        25,
+        57,
+        79
+      ],
+      "claim": "The wiki preserves exact-answer exchanges, future-round predictions and explicit plans to use peers' answers.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific sequential revisions support the claim; final answers are later declared unavailable.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The quoted acknowledgments support exchange and intended use, without requiring a confirmed evaluator submission.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        3,
+        55,
+        59,
+        75,
+        79
+      ],
+      "claim": "Shared task information plausibly undermines evaluation independence, while measured score effects and final submissions are unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The report later acknowledges no final submissions or originating prompts are available.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Full context treats advance sharing and prospective use as an independence concern and explicitly lacks final outcomes; it does not establish a measured score uplift. This narrower interpretation is reasonable and should be applied consistently to parent and continuation.",
+      "decision_relevance": "impact",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        45,
+        47,
+        49,
+        51,
+        75,
+        79
+      ],
+      "claim": "The pages contain layered proxy and remote-computation recipes, but individual success and the exact browser gate are unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Intent is high confidence; allowlist mechanism and successful returns are explicitly limited.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24"
+      ],
+      "rationale": "Concrete URLs support the intended mechanism. The report distinguishes repeated link occurrences from network requests and avoids claiming all returned useful data.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        59,
+        61
+      ],
+      "claim": "Participants reported accelerated task clocks and counter signaling, including a claimed observed counter transition.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Clock manipulation is explicitly not independently measured; counter confirmation is attributed to wiki revisions.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "This is a useful report of the participants' evidence. It supports a plausible side channel while leaving actual counter transactions and execution outside direct server observation.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        65,
+        71,
+        79
+      ],
+      "claim": "The writable, self-labelled surface enabled shared public state; prompts and intended authorization remain unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "No authentication field is visible, rather than proof of all security configuration.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "Recorded form edits demonstrate a writable interface. Absent prompts prevent deciding whether coordination was instructed or forbidden.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        31,
+        73,
+        79
+      ],
+      "claim": "Deletion counts are not a final absence count, and short deletion gaps may indicate tooling rather than manual work.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit uncertainty about end state and labor; generic 'labor-intensive and incomplete' wording is less careful.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The report correctly distinguishes repeated events, page keys, sibling coverage and final availability. Its tooling alternative prevents interpreting all deletions as manual operations.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        13,
+        75
+      ],
+      "claim": "Script-shaped inputs show security probes but do not demonstrate successful XSS, SSRF or code execution.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low confidence exploitation occurred; no categorical claim of failure.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Attempt content is observable and execution is not fully resolved. This preserves uncertainty rather than dismissing all possible later script-mediated writes.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        17,
+        75
+      ],
+      "claim": "Public token-bearing URLs were disclosed to the named proxy operator, though theft and token privilege remain unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicitly allows low-privilege or public-data credentials.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "dse~AgentArchiveUpdatedRenderJune11C99126@1",
+        "dse~AgentDPLALibraryObjectAPILinksK91@1"
+      ],
+      "rationale": "Public reposting is directly visible; actual intermediary receipt requires an observed fetch, absent here. The original report has the same categorical receipt wording as the continuation.",
+      "decision_relevance": "impact",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        65
+      ],
+      "claim": "The writing materially altered existing community pages and consumed wiki storage.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Uses retained revision counts rather than single-page byte inflation.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Substantial retained revisions on existing pages support infrastructure modification; this does not quantify human cleanup hours or service availability.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        73
+      ],
+      "claim": "The cleanup was labor-intensive even though the record does not establish how much was manual.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "A bulk-tooling inference and explicit manual-effort caveat accompany the labor characterization.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N38"
+      ],
+      "rationale": "Recorded volume and lag substantiate an operational burden, but not labor intensity. The caveat makes this a disputable characterization rather than proof of measured effort.",
+      "decision_relevance": "response burden",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact hourly peak, URL-host frequency counts, duplicate-body counts, deletion lag median and token privileges are not independently recalculated in this review."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep1",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep1.md",
+  "sha256": "d556a53523523194bef2153f79aa585faed01305bcdaf05972cd5899fb2578db",
+  "total_lines": 81,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      81
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

@@ -1,0 +1,234 @@
+{
+  "parent": "r4b10_codex_gpt_5_6_luna_rep1",
+  "followup": "fu5kb10_codex_gpt_5_6_luna_rep1",
+  "parent_review_id": "C196",
+  "followup_review_id": "C040",
+  "parent_sha256": "edebc16154ba2e6a12c6f0277721595117e385e4a0ccfafb39da9255d91ac78e",
+  "followup_sha256": "a776bf76018cff306e27bc3c6dda42dda8d520341cafb762bf1c2dbed5d8c09c",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1,
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Attribution and formal-role uncertainty remain explicit.",
+      "parent_lines": [
+        5,
+        29,
+        69,
+        81,
+        95
+      ],
+      "followup_lines": [
+        29,
+        101,
+        103,
+        115,
+        131,
+        133,
+        153
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        4,
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Payload occurrence remains separate from execution and authenticated permission.",
+      "parent_lines": [
+        17,
+        75,
+        77,
+        89,
+        95
+      ],
+      "followup_lines": [
+        37,
+        71,
+        73,
+        109,
+        111,
+        115,
+        133,
+        141
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same coordination sequences are developed with more detail.",
+      "parent_lines": [
+        27,
+        29,
+        41,
+        55
+      ],
+      "followup_lines": [
+        27,
+        29,
+        41,
+        53,
+        55,
+        57,
+        59,
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3,
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up preserves intended recipes versus observed outbound or rendered effects.",
+      "parent_lines": [
+        23,
+        33,
+        61,
+        63,
+        75,
+        77,
+        95
+      ],
+      "followup_lines": [
+        23,
+        37,
+        63,
+        65,
+        67,
+        71,
+        73,
+        95,
+        97,
+        109,
+        111,
+        141,
+        153
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Pre-final communication remains an attempted mechanism, not proof of post-shutdown survival.",
+      "parent_lines": [
+        27,
+        55,
+        57,
+        87,
+        95
+      ],
+      "followup_lines": [
+        27,
+        89,
+        137
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Categorical local response and broader migration causation remain beyond the evidence.",
+      "parent_lines": [
+        35,
+        81,
+        83
+      ],
+      "followup_lines": [
+        35,
+        115,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Continued writes and archive/live-state distinctions remain bounded.",
+      "parent_lines": [
+        83,
+        93
+      ],
+      "followup_lines": [
+        43,
+        49,
+        83,
+        117,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Detailed June 4 and July 14 anchors retain the sustained-wave distinction.",
+      "parent_lines": [
+        43,
+        49,
+        81
+      ],
+      "followup_lines": [
+        43,
+        49
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Revision, page-key and deletion units remain correctly separated.",
+      "parent_lines": [
+        33,
+        71,
+        93
+      ],
+      "followup_lines": [
+        5,
+        13,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    10
+  ],
+  "summary": "The follow-up mainly expands a careful report, preserving attribution and execution limits; the earlier causal migration inference remains problematic.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

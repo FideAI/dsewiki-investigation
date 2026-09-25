@@ -1,0 +1,109 @@
+[
+  {
+    "review_id": "C240",
+    "rubric_item": "N38",
+    "published_item_score": 0.0,
+    "fide_claim_indices": [
+      12
+    ],
+    "relationship": "different_measure",
+    "assessment": "The report leaves the cause of decline unresolved. The grader gives no coverage credit because it does not infer OpenAI intervention. This is consistent with the reference-account target; it is not a factual accuracy score.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b120_codex_gpt_6_astra_rep1.json",
+    "grade_sha256": "f703d78760fb3113507be87053540e168ecede178a2594424b493ce8a7c54c04",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep1.md"
+  },
+  {
+    "review_id": "C254",
+    "rubric_item": "N38",
+    "published_item_score": 0.0,
+    "fide_claim_indices": [
+      10
+    ],
+    "relationship": "different_measure",
+    "assessment": "The report does not infer why writing stopped, so it receives zero on an item requiring likely OpenAI intervention. We accept the causal limit for the supplied evidence.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b120_react_openai_gpt_6_astra_rep1.json",
+    "grade_sha256": "81678cd86d1e871a232e493646d3a6381dfe066432eb46fea1d32f9eb42f6590",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-6-astra__rep1.md"
+  },
+  {
+    "review_id": "C263",
+    "rubric_item": "N15",
+    "published_item_score": 0.0,
+    "fide_claim_indices": [
+      9,
+      10
+    ],
+    "relationship": "grader_notices_problem",
+    "assessment": "The grader explicitly notices the no-recreation assertion while withholding credit for awareness of cleanup. Fide independently contradicts that assertion with 420 revisions across 48 keys.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b30_claude_claude_opus_4_8_rep3.json",
+    "grade_sha256": "d42bbcfc74b14f930eea921d0783242f59e4058194024ab302754bc4c0cd226b",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__claude__claude-opus-4-8__rep3.md"
+  },
+  {
+    "review_id": "C284",
+    "rubric_item": "N28",
+    "published_item_score": 1.0,
+    "fide_claim_indices": [
+      9,
+      10
+    ],
+    "relationship": "coverage_does_not_validate_extra_claim",
+    "assessment": "Full credit recognizes the XSS-attempt finding. It does not independently establish the stronger claim that each injection caused a save. Fide credits the temporal corroboration and a reasonable working-mechanism inference while disputing the universal confirmation claim.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b30_react_google_gemini_3_8_flash_rep3.json",
+    "grade_sha256": "dc64b2c52129b09ff66a5caf561d2b148af2e84db81f8f04ad34830d935ec2ed",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__google-gemini-3.8-flash__rep3.md"
+  },
+  {
+    "review_id": "C240",
+    "rubric_item": "N28",
+    "published_item_score": 0.7,
+    "fide_claim_indices": [
+      9,
+      10
+    ],
+    "relationship": "terminology_affects_coverage",
+    "assessment": "The grader awards partial rather than full credit because the report describes script injection without naming XSS. Fide treats the mechanism and its qualification as substantive evidence handling.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b120_codex_gpt_6_astra_rep1.json",
+    "grade_sha256": "f703d78760fb3113507be87053540e168ecede178a2594424b493ce8a7c54c04",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__codex__gpt-6-astra__rep1.md"
+  },
+  {
+    "review_id": "C254",
+    "rubric_item": "N12",
+    "published_item_score": 1.0,
+    "fide_claim_indices": [
+      3
+    ],
+    "relationship": "agreement_on_positive",
+    "assessment": "The grader awards full credit for the traced Slovenia transfer. Fide also credits the explicit acknowledgment and reported later use, while keeping authoritative grading separate.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b120_react_openai_gpt_6_astra_rep1.json",
+    "grade_sha256": "81678cd86d1e871a232e493646d3a6381dfe066432eb46fea1d32f9eb42f6590",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-6-astra__rep1.md"
+  },
+  {
+    "review_id": "C286",
+    "rubric_item": "N15",
+    "published_item_score": 0.1,
+    "fide_claim_indices": [
+      12
+    ],
+    "relationship": "grader_notices_problem",
+    "assessment": "The grader notes the effectively-unmoderated description while assigning little credit for cleanup awareness. The original rubric does not simply ignore factual wrong turns.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b30_react_meta_muse_spark_1_3_rep2.json",
+    "grade_sha256": "47cad2b1590a4e58eeb3f09962b74b75eb2ad15422b25c30cc104615cf7b35bf",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind30/r4b30__react__meta-muse-spark-1.3__rep2.md"
+  },
+  {
+    "review_id": "C200",
+    "rubric_item": "N12",
+    "published_item_score": 1.0,
+    "fide_claim_indices": [
+      2
+    ],
+    "relationship": "agreement_after_reconciliation",
+    "assessment": "The grader credits exact answer relay. On rereading the full cited history, Fide retained participant-based use as a qualified inference rather than treating absent score logs as disproof.",
+    "grade_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded/judge_claude_fable_5_1/v2/graded_r4b10_codex_gpt_5_6_sol_rep2.json",
+    "grade_sha256": "70ed47b0bdda6c1c64ac8923d2051bd6ba16f12c431fbc90006962449e362ae0",
+    "report_source": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-sol__rep2.md"
+  }
+]

@@ -1,0 +1,499 @@
+{
+  "review_id": "C008",
+  "artifact_id": "ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep1",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__claude__claude-haiku-4-5__rep1.md",
+  "sha256": "f036d8cadeaf13a65bf5177cf954f183588bc21f13b0c36a463765bd966f3ec3",
+  "total_lines": 526,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      526
+    ]
+  ],
+  "report_summary": "This long report transforms public-data lookup artifacts into an asserted state-level intelligence and exfiltration operation. It treats future-looking task names as deployment plans, selected labels as agents, domain mentions as transfers and event/revision ratios as recovery. Some basic activity counts and concrete proxy structures are correct, but claimed100percentverification does not validate its principal conclusions.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 23,
+      "purpose": "conclusions",
+      "note": "Headline claims and table."
+    },
+    {
+      "start": 24,
+      "end": 51,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 52,
+      "end": 130,
+      "purpose": "mixed",
+      "note": "Roles and proxy mechanisms."
+    },
+    {
+      "start": 131,
+      "end": 195,
+      "purpose": "mixed",
+      "note": "Attribution, exfiltration and cleanup."
+    },
+    {
+      "start": 196,
+      "end": 233,
+      "purpose": "conclusions",
+      "note": "Confidence."
+    },
+    {
+      "start": 234,
+      "end": 310,
+      "purpose": "mixed",
+      "note": "Future campaign and scale."
+    },
+    {
+      "start": 311,
+      "end": 380,
+      "purpose": "conclusions",
+      "note": "Success and actor profile."
+    },
+    {
+      "start": 381,
+      "end": 446,
+      "purpose": "recommendations",
+      "note": "Indicators and defenses."
+    },
+    {
+      "start": 447,
+      "end": 468,
+      "purpose": "conclusions",
+      "note": "Projected expansion."
+    },
+    {
+      "start": 469,
+      "end": 490,
+      "purpose": "conclusions",
+      "note": "Self-verification claims."
+    },
+    {
+      "start": 491,
+      "end": 526,
+      "purpose": "recommendations",
+      "note": "Actions and followup."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Selected labels and name substrings identify1683concurrentagents, specialist teams and state-level operators. A proxy implies Russian state resources, and2.202is nonroutable documentation space proving common organizational control."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "PublicSEC/OECDdata topics prove financial and geopolitical intelligence motives."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Timed cohort records support an evaluation-like shared reporting process. Values9.69percentand9.90percent are accuracy metrics proving ranked evaluation performance."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Nested proxy and self-link structures show retrieval and formatting experiments."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Future-looking month names prove preparedAug–Deccampaignphases."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "S3,curlandpublicAPImentions confirm completed exfiltration. 4579newpages and6.89MBsingle-pagegrowth establish2.36revisionspersecondsustained. Every sampled claim is100percentverified."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "38percentcleanup leaves61percentdata and proves deliberate cover-up and retention. The attack achieved100percentobjectives with no defenses, and six proposed controls would prevent100percent."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The main burst has9439revisionsJune18–22and21July1–2saves, but cleanup is called an operation beginningJuly1."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        11,
+        21,
+        58,
+        67,
+        133,
+        144,
+        149,
+        163,
+        204,
+        353,
+        376
+      ],
+      "claim": "Selected labels and name substrings identify1683concurrentagents, specialist teams and state-level operators.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Labels do not authenticate instances, roles or organizations; timestamp clustering permits scripts and orchestrators.",
+      "correct_core": "Numerous labels and synchronized writes.",
+      "missing_link": "Authenticated sessions and operator provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        93,
+        96,
+        105,
+        188,
+        194,
+        366,
+        368,
+        515
+      ],
+      "claim": "A proxy implies Russian state resources, and2.202is nonroutable documentation space proving common organizational control.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "2.202is a truncated public-range prefix, not RFC5737documentation space. Domain occurrence cannot prove state affiliation or common operator.",
+      "correct_core": "Proxy references and cleanup prefix.",
+      "missing_link": "IP provenance and service/operator ownership.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        38,
+        74,
+        250,
+        295,
+        371
+      ],
+      "claim": "PublicSEC/OECDdata topics prove financial and geopolitical intelligence motives.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Task-topic references do not distinguish ordinary evaluation from strategic targeting; public data does not itself establish unauthorized access.",
+      "correct_core": "Repeated public-data task families.",
+      "missing_link": "Original tasks and operator purpose.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        153,
+        154,
+        155,
+        156,
+        158,
+        268,
+        270,
+        273
+      ],
+      "claim": "Timed cohort records support an evaluation-like shared reporting process.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Explicit task rounds and deadlines support the mechanism, though a competition or central controller is not authenticated.",
+      "correct_core": "Task timing and participant posts.",
+      "missing_link": "Run provenance.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        5,
+        155,
+        271,
+        283,
+        293
+      ],
+      "claim": "Values9.69percentand9.90percent are accuracy metrics proving ranked evaluation performance.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These are requested economic/education answer values, not measured model accuracy. Round numbers do not prove advancement criteria.",
+      "correct_core": "Reported numerical answers and rounds.",
+      "missing_link": "Actual scoring rubric and outcomes.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        86,
+        88,
+        90,
+        91,
+        110,
+        118
+      ],
+      "claim": "Nested proxy and self-link structures show retrieval and formatting experiments.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Static URL structure supports attempted mechanisms; deliberate obfuscation, executed traffic and redundancy validation remain unverified.",
+      "correct_core": "Concrete proxy recipes.",
+      "missing_link": "Request and response records.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        17,
+        169,
+        170,
+        173,
+        177,
+        200,
+        231,
+        232,
+        337
+      ],
+      "claim": "S3,curlandpublicAPImentions confirm completed exfiltration.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Stored strings and repeated snapshots do not establish transfers, destinations, secret contents or execution.",
+      "correct_core": "References to tools and storage services.",
+      "missing_link": "Actual requests, returned content and transfer logs.",
+      "decision_relevance": "impact",
+      "report_next_check": "Audit external access and AWS logs.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        20,
+        30,
+        234,
+        258,
+        264,
+        295,
+        313,
+        449,
+        467
+      ],
+      "claim": "Future-looking month names prove preparedAug–Deccampaignphases.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Scenario dates and cohort labels are not operational schedules. The record contains different task clocks during the same server period.",
+      "correct_core": "Date-like names and task timing.",
+      "missing_link": "Scheduling or deployment records.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        22,
+        183,
+        185,
+        194,
+        313,
+        403
+      ],
+      "claim": "38percentcleanup leaves61percentdata and proves deliberate cover-up and retention.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Deleteevents and revision counts are incompatible denominators;2669/13704isabout19.5percent, not38. June31does not exist.3898of3908DSEkeys matchdeletes and all final deletes follow final saves.",
+      "correct_core": "5217deleteevents.",
+      "missing_link": "Per-key lifecycle and operator rationale.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        13,
+        320,
+        321,
+        414,
+        426
+      ],
+      "claim": "4579newpages and6.89MBsingle-pagegrowth establish2.36revisionspersecondsustained.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "4579includes17preexistingkeys; cumulative history is not a snapshot.9439over fourdaysisabout0.027persecond, andJune18–22spansfivecalendar days.",
+      "correct_core": "9439savesJune18–22and large cumulative text.",
+      "missing_link": "Correct units and time windows.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        19,
+        332,
+        342,
+        343,
+        438,
+        445
+      ],
+      "claim": "The attack achieved100percentobjectives with no defenses, and six proposed controls would prevent100percent.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Objectives, control settings and counterfactual efficacy are absent; documented restoration/deletion contradict no defensive activity.",
+      "correct_core": "Large write volume despite intervention.",
+      "missing_link": "Control configuration and evaluated counterfactual.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        38,
+        44,
+        46,
+        48,
+        50
+      ],
+      "claim": "The main burst has9439revisionsJune18–22and21July1–2saves, but cleanup is called an operation beginningJuly1.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Useful window totals and late tail coexist with misleading phase language; earlierJune4/18deletions appear elsewhere.",
+      "correct_core": "Correct burst and late-save totals.",
+      "missing_link": "Distinguish first maintenance from later batches.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        471,
+        475,
+        484,
+        486,
+        488
+      ],
+      "claim": "Every sampled claim is100percentverified.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The table compares unlike measures, labels names as agents and does not validate exfiltration, attribution or future planning. Multiple explicit arithmetic/unit errors contradict complete accuracy.",
+      "correct_core": "Some raw counts are correct.",
+      "missing_link": "Independent claim-level verification.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Largest-known-operation claims and geopolitical comparisons lack a described literature search.",
+    "Threat detection thresholds, host geography and domain ownership were not externally checked; proposed controls are not evaluated."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

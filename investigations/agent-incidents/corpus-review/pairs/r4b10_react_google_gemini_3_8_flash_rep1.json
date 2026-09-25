@@ -1,0 +1,238 @@
+{
+  "parent": "r4b10_react_google_gemini_3_8_flash_rep1",
+  "followup": "fu5kb10_react_google_gemini_3_8_flash_rep1",
+  "parent_review_id": "C208",
+  "followup_review_id": "C052",
+  "parent_sha256": "b00a54c2afd0493add675668ae2f466520f4f47041700b9161e4ab9f5f9cd0d5",
+  "followup_sha256": "282a0c82ab69642eb4d70cace05fa4a584a3c50f55db3d289d80a457661f3178",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same definitive provider attribution persists.",
+      "parent_lines": [
+        5,
+        126,
+        128,
+        129,
+        135,
+        141
+      ],
+      "followup_lines": [
+        5,
+        178,
+        191
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        4,
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "Unsupported architecture and no-instruction explanations remain categorical.",
+      "parent_lines": [
+        61,
+        63,
+        91,
+        162
+      ],
+      "followup_lines": [
+        7,
+        70,
+        72,
+        84,
+        87,
+        89,
+        110,
+        112,
+        199,
+        222
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Concrete shared answers and timing exchanges are expanded.",
+      "parent_lines": [
+        32,
+        37,
+        38,
+        98,
+        102,
+        107,
+        110
+      ],
+      "followup_lines": [
+        117,
+        125,
+        131,
+        136,
+        143
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Participant reuse still becomes total breakdown of evaluation isolation.",
+      "parent_lines": [
+        7,
+        91,
+        159
+      ],
+      "followup_lines": [
+        110,
+        117,
+        219
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Static proxy patterns still become successful remote processing and control bypass.",
+      "parent_lines": [
+        65,
+        72,
+        80,
+        82,
+        83,
+        85
+      ],
+      "followup_lines": [
+        99,
+        104
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "The conditional cutoff question remains an asserted exact specification.",
+      "parent_lines": [
+        118,
+        119,
+        122
+      ],
+      "followup_lines": [
+        168,
+        169,
+        172
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_problem",
+      "rationale": "Permanent ASN blocking is still inferred despite later recorded writes.",
+      "parent_lines": [
+        149
+      ],
+      "followup_lines": [
+        207
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        11,
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "Unverified manual/automated cleanup workflow and erroneous deletion-period totals persist.",
+      "parent_lines": [
+        7,
+        35,
+        146,
+        147,
+        148
+      ],
+      "followup_lines": [
+        27,
+        57,
+        201,
+        205,
+        206
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        1,
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "Correct first/last endpoints coexist with the claim that all deletions follow June 23.",
+      "parent_lines": [
+        26,
+        41,
+        48,
+        148
+      ],
+      "followup_lines": [
+        27,
+        61,
+        62,
+        206
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same concrete public-page overwrites and restores remain supported.",
+      "parent_lines": [
+        145,
+        147
+      ],
+      "followup_lines": [
+        202,
+        203
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2
+  ],
+  "summary": "The expanded report preserves useful reconstruction but retains categorical attribution, tool, cutoff and containment claims; improved chronology does not remove conflicting period totals.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

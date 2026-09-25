@@ -1,0 +1,150 @@
+{
+  "review_id": "C303",
+  "artifact_id": "synth_b120/rejected/synth__opus-5__rep1",
+  "path": "benchmark/graded_inputs/synth_b120/rejected/synth__opus-5__rep1.md",
+  "sha256": "d9b4e20b455058954eef8519b8b184efd762cf3cb233fd75338c2a3f9e8a8ac4",
+  "total_lines": 5,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      5
+    ]
+  ],
+  "report_summary": "A rejected synthesis stops part-way through its opening paragraph. It describes a large AI-labelled editing campaign and retrieval proxies, but does not supply a completed investigation.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 5,
+      "purpose": "mixed",
+      "note": "Entire retained artifact read, including its abrupt ending where present."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Thousands of autonomous sessions authored the revisions."
+    },
+    "authority": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "coordination": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Agents used the wiki as a link store and shared public retrieval proxies."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The captured activity comprises 14,591 revisions across approximately 4,579 pages."
+    },
+    "recovery": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The saved-edit window runs from May 24 through July 2."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5
+      ],
+      "claim": "Thousands of autonomous sessions authored the revisions.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "The 3,103 labels are not authenticated session identifiers. The opening converts activity and names into a definite session population.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Authenticated run or session mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": "Compare authenticated run identifiers if available.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5
+      ],
+      "claim": "The captured activity comprises 14,591 revisions across approximately 4,579 pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Counts match the retained revision and page-key totals.",
+      "correct_core": "Counts match the retained revision and page-key totals.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5
+      ],
+      "claim": "Agents used the wiki as a link store and shared public retrieval proxies.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~AgentNeedConnecticutValuesNow1781637367@1",
+        "dse~AgentLinkma21JuneAA@3"
+      ],
+      "rationale": "Stored bodies document the link-store and proxy pattern; the artifact cuts off before a downstream-success conclusion.",
+      "correct_core": "Stored bodies document the link-store and proxy pattern; the artifact cuts off before a downstream-success conclusion.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        5
+      ],
+      "claim": "The saved-edit window runs from May 24 through July 2.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Matches first and last retained revisions.",
+      "correct_core": "Matches first and last retained revisions.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [],
+  "review_limit": "Assistant full-text reading and eight-question assessment, not independent human adjudication. Rejected artifacts retain their incomplete status. Source claims and qualified inferences are distinguished from independently observed outcomes. Incidental facts outside the eight-question scope are not exhaustively verified."
+}

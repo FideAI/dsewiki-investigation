@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "agent": "codex",
+      "path": "reports/followup-5k-min5/codex/prompts/93b57375.txt",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/followup-5k-min5/codex/prompts/93b57375.txt",
+      "sha256": "93b5737500be0523cc003db24ccd09c7ab397b4c98b2ff430f4522dc04bc41ad"
+    },
+    {
+      "agent": "react",
+      "path": "reports/followup-5k-min5/react/prompts/93b57375.txt",
+      "url": "https://raw.githubusercontent.com/hamzah2304/messageboardauditbench/e1eea3b4eaf93f9a7e2898da97096ef643916da1/reports/followup-5k-min5/react/prompts/93b57375.txt",
+      "sha256": "93b5737500be0523cc003db24ccd09c7ab397b4c98b2ff430f4522dc04bc41ad"
+    }
+  ],
+  "indexed_followups": 79,
+  "recorded_prompt_ids": [
+    "93b57375"
+  ],
+  "summary": "The continuation asks for expansion to 4,500\u20135,000 words with more evidence, fuller mechanisms and restored omitted findings. It allows returning to data and asks for verification, but does not specifically direct a systematic audit of prior conclusions. It requires editing the existing file in place without deleting, moving or truncating it.",
+  "inference_limit": "Observed retention under this expansion instruction does not estimate ability to self-correct under a targeted verification or correction prompt."
+}

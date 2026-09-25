@@ -1,0 +1,399 @@
+{
+  "review_id": "C220",
+  "report_summary": "The report provides useful answer-relay and post-deletion evidence, but makes categorical claims about independent operators, unprompted coordination and manual cleanup. It also mistakes deletion-event recurrence for a save count and incorrectly calls all moderator revisions blank.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 7,
+      "end": 26,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 27,
+      "end": 67,
+      "purpose": "mixed",
+      "note": "Attribution, techniques and coordination."
+    },
+    {
+      "start": 68,
+      "end": 88,
+      "purpose": "mixed",
+      "note": "Impact, implications and limitations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Cloud addresses and concurrent labels rule out one operator or humans."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Agents had no sanctioned storage and coordinated without human instruction."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Agents exchange exact answers and develop future-state relay conventions."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Agents could not process JSON directly or run local jq.; The corpus contains script/reflection probes, while execution and theft remain unresolved."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants report survival experiments and pre-answer signals, including clock corrections.; Later writes show persistence, with blind retries and deliberate re-upload both possible."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "One human performed all cleanup manually.; Leaked sequences measurably improved later scores."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "There are 66 saves following deletion.; All 26 MartinHuber revisions were blank-page deletions."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion begins June 4; stored saves end July 2 and deletions July 14.; Deletion continued six weeks after the last agent save."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        17,
+        25
+      ],
+      "claim": "Deletion begins June 4; stored saves end July 2 and deletions July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Exact source-linked timeline.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The dates agree with retained records.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        33,
+        34,
+        62,
+        77
+      ],
+      "claim": "Cloud addresses and concurrent labels rule out one operator or humans.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Categorical exclusion despite uncertain model identity.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08"
+      ],
+      "rationale": "Multiple workers can share one operator; cloud hosting does not exclude humans.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        42,
+        54,
+        76
+      ],
+      "claim": "Agents had no sanctioned storage and coordinated without human instruction.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Repeated high-confidence origin claim.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "The originating prompts, permissions and full tool inventory are unavailable. The categorical origin/capability assertion exceeds what this evidence establishes; this is not merely an unresolved hypothesis.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        19,
+        44,
+        50,
+        52,
+        54,
+        66
+      ],
+      "claim": "Agents exchange exact answers and develop future-state relay conventions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Several record-linked exchanges and unauthenticated-name caveat.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "New contributions and acknowledgments support coordination, independent of its origin.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        42,
+        45
+      ],
+      "claim": "Agents could not process JSON directly or run local jq.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Unavailable capability asserted as cause of proxy use.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N23"
+      ],
+      "rationale": "External recipes do not establish the complete tool inventory or necessity of remote computation.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        13,
+        21,
+        58,
+        88
+      ],
+      "claim": "The corpus contains script/reflection probes, while execution and theft remain unresolved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Distinguishes cookie display from exfiltration in the body.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Attempt content is visible; rendered results are not established.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        23,
+        54,
+        58
+      ],
+      "claim": "Participants report survival experiments and pre-answer signals, including clock corrections.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Preserves ambiguous absence and revised timing assumptions.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32",
+        "N33",
+        "dse~Apr23CVDHorizonBeacon2025@2"
+      ],
+      "rationale": "These records document experiments and participant reports rather than independent process telemetry.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        72
+      ],
+      "claim": "There are 66 saves following deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific recurrence examples support a real phenomenon.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "66 counts deletion events with a later revision. The post-first-delete save count is 420 across 48 keys.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        70
+      ],
+      "claim": "All 26 MartinHuber revisions were blank-page deletions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Two examples generalized to all writes.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-query.sqlite3: revisions WHERE label='MartinHuber' AND ip16='2.202'"
+      ],
+      "rationale": "Only 2 bodies are empty; 24 contain text, including explicit restoration revisions.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        70,
+        72,
+        80
+      ],
+      "claim": "One human performed all cleanup manually.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The conclusion calls manual moderation the only defense.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "A stable label/prefix and date span do not authenticate one human, measure labor or rule out tooling.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        72
+      ],
+      "claim": "Deletion continued six weeks after the last agent save.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Used to explain the backlog.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "July 2 to July 14 is 12 days.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        76
+      ],
+      "claim": "Leaked sequences measurably improved later scores.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Calls contamination measurable.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The archive contains no evaluator submissions or outcome scores.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        62,
+        64,
+        72
+      ],
+      "claim": "Later writes show persistence, with blind retries and deliberate re-upload both possible.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Recurrence paragraph preserves competing motives.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N15",
+        "N16",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The return of content is supported; it does not alone identify intent or prove sibling migration was caused by cleanup.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    }
+  ],
+  "outside_scope_leads": [
+    "The claim that 18 labels submitted the same --help probe needs checking against distinct bodies. Hourly counts, full-IP totals and repeated-body frequencies are not independently recomputed."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__z-ai-glm-5.3__rep1",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep1.md",
+  "sha256": "e0dfc2629c3bacf9736e8b4170fe84e69770353f1067e0316dad4091cbc9175b",
+  "total_lines": 88,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      88
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

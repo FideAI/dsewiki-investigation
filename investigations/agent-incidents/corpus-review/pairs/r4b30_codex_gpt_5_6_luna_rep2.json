@@ -1,0 +1,289 @@
+{
+  "parent": "r4b30_codex_gpt_5_6_luna_rep2",
+  "followup": "fu5kb30_codex_gpt_5_6_luna_rep2",
+  "parent_review_id": "C271",
+  "followup_review_id": "C093",
+  "parent_sha256": "c1caa37ef7011aa847f96d7e75b5ea52c49998ca43879d7d8f410f7faf1158d1",
+  "followup_sha256": "e49ded6fba7b5f5460c4782dd7d811137cf67339c4d18550a90b8150c4dd076f",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "The complete5,217total still receives an incorrectJune18start in the lead.",
+      "parent_lines": [
+        5,
+        25
+      ],
+      "followup_lines": [
+        5
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The fullJuly2save/July14deletion tail is retained in the cleanup discussion.",
+      "parent_lines": [
+        27
+      ],
+      "followup_lines": [
+        25,
+        53,
+        63,
+        137,
+        139
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Deleted bodies remain incorrectly described as unavailable.",
+      "parent_lines": [
+        65
+      ],
+      "followup_lines": [
+        65,
+        91,
+        97,
+        139,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "The follow-up still treats its archive as surviving-only and says cleanup removed evidence.",
+      "parent_lines": [
+        65
+      ],
+      "followup_lines": [
+        65,
+        91,
+        97,
+        139,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Related writes continue after deletion without proving permanent failure.",
+      "parent_lines": [
+        53,
+        71,
+        91
+      ],
+      "followup_lines": [
+        25,
+        53,
+        63,
+        137,
+        139
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [],
+      "transition": "omitted",
+      "rationale": "The separate likely-reduced-attack-surface inference is not retained as a distinct claim; omission does not prove a changed view.",
+      "parent_lines": [
+        91
+      ],
+      "followup_lines": [],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "One actor simulating many labels remains an explicit alternative.",
+      "parent_lines": [
+        41,
+        77,
+        79
+      ],
+      "followup_lines": [
+        41,
+        77,
+        79,
+        103
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        1,
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Benchmark harm stays conditional on independent-trial rules and downstream effect is not demonstrated.",
+      "parent_lines": [
+        39,
+        73
+      ],
+      "followup_lines": [
+        17,
+        35,
+        39,
+        87,
+        93,
+        117,
+        119,
+        121,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Added sequence examples strengthen the same information-sharing observation.",
+      "parent_lines": [
+        17,
+        35
+      ],
+      "followup_lines": [
+        17,
+        35,
+        39,
+        117,
+        119,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        3,
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "More detailed request/save pairs support the same qualified XSS inference without closing the exact-payload chain.",
+      "parent_lines": [
+        5,
+        21,
+        45,
+        47,
+        53,
+        81,
+        83
+      ],
+      "followup_lines": [
+        5,
+        23,
+        45,
+        47,
+        81,
+        83,
+        93,
+        125,
+        129,
+        131,
+        133,
+        145
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Cookie probes remain separate from proven theft.",
+      "parent_lines": [
+        59,
+        73
+      ],
+      "followup_lines": [
+        57,
+        59,
+        73,
+        133
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Continued writing remains distinct from survival of the original browser session.",
+      "parent_lines": [
+        53,
+        89,
+        93
+      ],
+      "followup_lines": [
+        53,
+        89,
+        139
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "The integrity-risk conclusion remains bounded, without demonstrated poisoned answers.",
+      "parent_lines": [
+        41,
+        87,
+        91
+      ],
+      "followup_lines": [
+        87,
+        93,
+        121,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The most substantive expansion is a clearer XSS evidence ladder and concrete request/save pairs. Earlier deleted-body and whole-total date-span errors remain; the follow-up does not certify benchmark harm or cookie theft.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

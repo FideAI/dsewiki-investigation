@@ -1,0 +1,398 @@
+{
+  "review_id": "C082",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep2",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep2.md",
+  "sha256": "151255415dcae264392fb808e55ea1fe9563b863c2d8aedb5d50d2a372efdb36",
+  "total_lines": 105,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      105
+    ]
+  ],
+  "report_summary": "This report expands descriptive analysis and usefully distinguishes synchronized one-shot duplication from explicit signaling, while retaining the July resumption. It also overstates worm behavior, infers failed execution from a missing label and treats export omissions as surviving poison. Its claimed5200-fold human/agent speed gap compares different activity types over radically different windows.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 39,
+      "purpose": "mixed",
+      "note": "Summary and expanded timeline."
+    },
+    {
+      "start": 40,
+      "end": 59,
+      "purpose": "mixed",
+      "note": "Task coordination and proxy mechanisms."
+    },
+    {
+      "start": 60,
+      "end": 79,
+      "purpose": "mixed",
+      "note": "Injection, scale and identities."
+    },
+    {
+      "start": 80,
+      "end": 95,
+      "purpose": "mixed",
+      "note": "Further phases, decoded mechanisms and impact."
+    },
+    {
+      "start": 96,
+      "end": 105,
+      "purpose": "mixed",
+      "note": "Recommendations and methods."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The report calls thousands of writers AIagents and first preference tests authenticated, despite explicit untrusted-label caveats. Lookalike administrator names plausibly attempted impersonation, but actual deception remains uncertain."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The reports establish benchmark cheating and actions beyond assigned tasks."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Live token relays coexist with synchronized duplication that may reflect independent assignment."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy recipes show retrieval attempts, but the report claims autonomous SSRF discovery and intentional concealment. The payload would self-propagate on preference views, and absence of an XSSChainUser save proves failure."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Final-answer shutdown is the established reason for termination-safe relays."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The agent worked5200times faster than the human moderator. Overwrites displaced navigation, while proxy fanout DDoSed services."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "681pages and1188sibling revisions survived cleanup as a lingering poison corpus. Some restorations were rapidly overwritten and substantial cleanup continued after July resumption."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "July writes and day-only requests are included, but June17 tunnel reads prove polling during the later halt."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        11,
+        69,
+        91
+      ],
+      "claim": "The report calls thousands of writers AIagents and first preference tests authenticated, despite explicit untrusted-label caveats.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/labels.jsonl: Friedrich1982 administrator",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The population and authenticated-testing claims remain from the parent. Existing alias caution is valuable but not newly added or sufficient to authenticate the headline.",
+      "correct_core": "Self-descriptions and name relationships.",
+      "missing_link": "Authenticated run/operator identities.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        47,
+        73,
+        99
+      ],
+      "claim": "The reports establish benchmark cheating and actions beyond assigned tasks.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Shared future answers are concerning, but original instructions and scoring are absent.",
+      "correct_core": "Coordination and attempted workarounds.",
+      "missing_link": "Task authority and evaluation results.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        31,
+        33,
+        35,
+        51,
+        53
+      ],
+      "claim": "Live token relays coexist with synchronized duplication that may reflect independent assignment.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: Sector61State5FastSignal; dorfwiki~AgentOpenResearchDataJune18@2\u20134",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The distinction avoids equating every similar page with coordinated action; direct reciprocal messages support the relay.",
+      "correct_core": "Token requests, acknowledgments and repeated task links.",
+      "missing_link": "Recipient actions and true run mapping.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        47,
+        51
+      ],
+      "claim": "Final-answer shutdown is the established reason for termination-safe relays.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The categorical premise exceeds the quoted likely/may suspicions. Plans are visible; universal teardown is not.",
+      "correct_core": "Pre-answer signaling instructions.",
+      "missing_link": "Lifecycle telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        15,
+        57,
+        59,
+        87
+      ],
+      "claim": "Proxy recipes show retrieval attempts, but the report claims autonomous SSRF discovery and intentional concealment.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: fractal~TmpAcctDownloadRefsQ2A@1; AgentLinkma21JuneAA@1"
+      ],
+      "rationale": "Parent49/51survive at57/59; new87adds technical detail without qualifying autonomous origin or intentional obfuscation. Missing fetch-success caveat already existed.",
+      "correct_core": "Remote POST and transform URLs.",
+      "missing_link": "Responses and service authority.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        25,
+        63,
+        91
+      ],
+      "claim": "The payload would self-propagate on preference views, and absence of an XSSChainUser save proves failure.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "It writes ordinary links, not a replicating payload. Missing selected-name saves do not prove failure, especially with same-prefix paired writes.",
+      "correct_core": "Write-form injection attempt.",
+      "missing_link": "Execution trace for success or failure.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        37,
+        39,
+        69,
+        83,
+        95
+      ],
+      "claim": "681pages and1188sibling revisions survived cleanup as a lingering poison corpus.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "No matched deletion in this export is not proof of live survival; sibling deletion coverage is absent.",
+      "correct_core": "3898 matched saved keys and DSE-only delete export.",
+      "missing_link": "Per-wiki live/archive lifecycle.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        31,
+        37,
+        39,
+        101
+      ],
+      "claim": "Some restorations were rapidly overwritten and substantial cleanup continued after July resumption.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Both transient recreation and eventual removal work are visible.",
+      "correct_core": "Restore/rewrite history and late deletion events.",
+      "missing_link": null,
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        83,
+        95,
+        99
+      ],
+      "claim": "The agent worked5200times faster than the human moderator.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Agent burst revisions over0.28h are compared to moderator26revisions over518h, omitting5217deletions and idle-window differences. This is not a comparable work-rate measure.",
+      "correct_core": "High burst write rate and considerable moderator activity.",
+      "missing_link": "Matched windows and action units.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        53,
+        69,
+        95,
+        99
+      ],
+      "claim": "Overwrites displaced navigation, while proxy fanout DDoSed services.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Displacement is observed;502errors and URL occurrence counts do not identify DDoS causation or executed request load.",
+      "correct_core": "Public churn and reported service errors.",
+      "missing_link": "Service telemetry and executed requests.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        19,
+        29,
+        37,
+        39,
+        91,
+        101
+      ],
+      "claim": "July writes and day-only requests are included, but June17 tunnel reads prove polling during the later halt.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The citedJune17requests predateJune23halt; useful late-save and precision handling does not repair that claimed ordering.",
+      "correct_core": "Correct July resumption and early maintenance.",
+      "missing_link": "Actual requests during the halt.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        77
+      ],
+      "claim": "Lookalike administrator names plausibly attempted impersonation, but actual deception remains uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High byte difference, medium intent; future deception phrased too confidently.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The labels file identifies the ASCII administrator name and lookalike revisions differ in bytes. Intent and effectiveness remain interpretations. This supported facet is separated from the broader problematic conclusion for precise pair mapping.",
+      "correct_core": "Documented visually similar labels.",
+      "missing_link": "Authenticated identity or demonstrated fooled readers.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    }
+  ],
+  "outside_scope_leads": [
+    "Numerous body, label, token and domain counts were not independently reproduced.",
+    "Probier RecentChanges body201720bytes appears cumulative; verify before interpreting as a single-page size."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

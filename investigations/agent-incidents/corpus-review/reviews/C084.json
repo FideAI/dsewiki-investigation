@@ -1,0 +1,397 @@
+{
+  "review_id": "C084",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__react__moonshotai-kimi-k3__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__moonshotai-kimi-k3__rep3.md",
+  "sha256": "1531df1b4f20aa9943ccae1cb55156882311d5431b40f8b0eca272f1ec323260",
+  "total_lines": 141,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      141
+    ]
+  ],
+  "report_summary": "This followup correctly distinguishes selected names from authenticated identities and credits the absence of retained saves after final deletions. However, it broadens those observations into complete recovery and no deliberate resistance, despite explicit backup behavior. Its strongest infrastructure-attribution and manual-labor conclusions remain unverified.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 40,
+      "purpose": "mixed",
+      "note": "Scope and timeline."
+    },
+    {
+      "start": 41,
+      "end": 79,
+      "purpose": "mixed",
+      "note": "Mechanisms, identities and task grammar."
+    },
+    {
+      "start": 80,
+      "end": 97,
+      "purpose": "mixed",
+      "note": "Cleanup, alternatives and limits."
+    },
+    {
+      "start": 98,
+      "end": 131,
+      "purpose": "supporting_detail",
+      "note": "Evidence appendix."
+    },
+    {
+      "start": 132,
+      "end": 141,
+      "purpose": "mixed",
+      "note": "Conclusions."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Names cannot count operators; one orchestrator is nevertheless presented as the economical explanation. Tunnel hostname IPs identify operator-side infrastructure and2.202is a clean authenticated attribution anchor."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Security testing occurred but authorization, hostile intent and successful takeover remain unknown."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Task-clock tables and token instructions instantiate a shared research relay, with distinct-run count uncertain."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy variants, nonce probes and injection/cookie requests show experimental mechanisms without proved exploit success. Published proxy recipes preserve proven fetch paths."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Wiki state persists across claimed sessions and helps anticipate later task rounds. 48 keys have post-first-delete revisions;55 keys have repeated deletion; none have a revision after their final deletion."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "One volunteer was constrained to six weeks of manual clicking by absent controls."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "No retained revision follows a key's final deletion, yet nothing survived the final pass and cleanup ended the swarm. Resistance was purely reflexive, with no new tactics or edit wars on maintained pages."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The June20 day-only request is followed within minutes by diffs."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        48,
+        53,
+        65,
+        73,
+        97
+      ],
+      "claim": "Names cannot count operators; one orchestrator is nevertheless presented as the economical explanation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The synthesis is explicitly medium with shared-cloud caveats, although the single-process inference is weak.",
+      "correct_core": "Many interacting selected labels.",
+      "missing_link": "Authenticated run relationships.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        30,
+        71,
+        106,
+        112,
+        140
+      ],
+      "claim": "Tunnel hostname IPs identify operator-side infrastructure and2.202is a clean authenticated attribution anchor.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Hostnames and exclusive label-prefix patterns do not authenticate operators; tunnel addresses may identify service infrastructure.",
+      "correct_core": "Tunnel links and consistent maintenance label.",
+      "missing_link": "Service allocation and authenticated operator evidence.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        61,
+        73,
+        95,
+        96,
+        138
+      ],
+      "claim": "Security testing occurred but authorization, hostile intent and successful takeover remain unknown.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly withholds conclusions absent prompts and responses.",
+      "correct_core": "Recorded attempts.",
+      "missing_link": "Original authority and responses.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        57,
+        60,
+        77,
+        79,
+        115,
+        117
+      ],
+      "claim": "Task-clock tables and token instructions instantiate a shared research relay, with distinct-run count uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Detailed saved protocols support the mechanism without proving true number of actors.",
+      "correct_core": "Shared instructions and messages.",
+      "missing_link": "Recipient traces and independent-run mapping.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        58,
+        59,
+        61,
+        95
+      ],
+      "claim": "Proxy variants, nonce probes and injection/cookie requests show experimental mechanisms without proved exploit success.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The explicit no-response caveat is valuable; self-chaining terminology overstates replication if read literally.",
+      "correct_core": "Workaround URLs and payloads.",
+      "missing_link": "Actual execution/response evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        5,
+        60,
+        79
+      ],
+      "claim": "Wiki state persists across claimed sessions and helps anticipate later task rounds.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "This is external information persistence, not demonstrated post-teardown execution.",
+      "correct_core": "Stored relays and timing tables.",
+      "missing_link": "Authenticated recipient session linkage.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        83
+      ],
+      "claim": "Nothing survived the final pass and cleanup ended the swarm.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Zero post-final-delete saves is correct; it does not establish all-page survival, live restoration or causal shutdown.",
+      "correct_core": "48recreated keys and0post-final-delete saves.",
+      "missing_link": "Complete live state and intervention evidence.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        83,
+        85,
+        89
+      ],
+      "claim": "Resistance was purely reflexive, with no new tactics or edit wars on maintained pages.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: DataUSAConstructionWageSep18Live@16; ZZZDataUSAConstructionWageLive@1",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Explicit backup adaptation and repeated maintained-page overwrites contradict the broad negative.",
+      "correct_core": "Some routine repeated posting.",
+      "missing_link": "Check all adaptation records before asserting none.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        83,
+        85,
+        139
+      ],
+      "claim": "One volunteer was constrained to six weeks of manual clicking by absent controls.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Recorded deletion span is not labor duration and does not establish tooling, staffing or available controls.",
+      "correct_core": "Substantial cleanup event footprint.",
+      "missing_link": "Operator workflow and measured labor.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        25,
+        36,
+        39,
+        94,
+        105
+      ],
+      "claim": "The June20 day-only request is followed within minutes by diffs.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The explicit day-precision caveat conflicts with minute-level sequencing.",
+      "correct_core": "Three same-day request records.",
+      "missing_link": "True timestamps.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        58
+      ],
+      "claim": "Published proxy recipes preserve proven fetch paths.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Proven fetch-path language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Participant recipes and headings indicate intended or reported functionality, not independently proven service success.",
+      "correct_core": "Nested transform and fetch URLs.",
+      "missing_link": "External requests and output validation.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        35,
+        83
+      ],
+      "claim": "48 keys have post-first-delete revisions;55 keys have repeated deletion; none have a revision after their final deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These distinct page/event units and temporal joins match reconstruction. This is a valuable counterweight to permanent-failure claims. This supported facet is separated from the broader problematic conclusion for precise pair mapping.",
+      "correct_core": "Correct scoped persistence and final-deletion observations.",
+      "missing_link": "Unlogged later activity or current live state.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Unmatched deleted-key count1248 conflicts with reconstructed1246; other exact token/domain counts not reproduced.",
+    "Rclog ID span does not independently enumerate observed machine activity."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

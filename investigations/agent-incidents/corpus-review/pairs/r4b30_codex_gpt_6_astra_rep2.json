@@ -1,0 +1,273 @@
+{
+  "parent": "r4b30_codex_gpt_6_astra_rep2",
+  "followup": "fu5kb30_codex_gpt_6_astra_rep2",
+  "parent_review_id": "C280",
+  "followup_review_id": "C102",
+  "parent_sha256": "ed6b0887fa8e5ec15e189a7d01bce004d8a81eec6ae6a061c7ace0064a2d003e",
+  "followup_sha256": "7f243d7354969bf986bf1f644646ed44ac86f3f15127a709829ad2fed402bf7c",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The normalizedJune20times remain day precision.",
+      "parent_lines": [
+        64
+      ],
+      "followup_lines": [
+        16,
+        25,
+        33
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3,
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Cleanup onset and later rewrites retain their correct observed scope.",
+      "parent_lines": [
+        16,
+        24
+      ],
+      "followup_lines": [
+        16,
+        25,
+        33,
+        105,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Name-setting remains an authority-cue attempt rather than authenticated privilege.",
+      "parent_lines": [
+        64
+      ],
+      "followup_lines": [
+        15,
+        85,
+        87,
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Later writes remain distinct from permanent resolution.",
+      "parent_lines": [
+        24,
+        28,
+        76
+      ],
+      "followup_lines": [
+        25,
+        105,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        1,
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Mutable/lookalike labels still do not authenticate actors.",
+      "parent_lines": [
+        30,
+        44,
+        64,
+        66
+      ],
+      "followup_lines": [
+        5,
+        7,
+        15,
+        31,
+        33,
+        51,
+        85,
+        87,
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "Missing original permissions and grades still limit evaluation conclusions.",
+      "parent_lines": [
+        34,
+        36,
+        78
+      ],
+      "followup_lines": [
+        111,
+        113
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Bahrain transfer remains andPsychology/Idaho examples add corroborating message sequences.",
+      "parent_lines": [
+        40,
+        46,
+        56
+      ],
+      "followup_lines": [
+        24,
+        53,
+        57,
+        71
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Repetition, test tokens and accidental counter effects remain explicitly unreliable.",
+      "parent_lines": [
+        54,
+        56,
+        58
+      ],
+      "followup_lines": [
+        69,
+        73,
+        75,
+        77
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Fourteen temporal pairs support a medium-confidence revised workflow, not proof of initial payload execution.",
+      "parent_lines": [
+        60,
+        62,
+        64
+      ],
+      "followup_lines": [
+        21,
+        79,
+        81,
+        83,
+        85
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Different replication levels remain distinguished.",
+      "parent_lines": [
+        68,
+        70
+      ],
+      "followup_lines": [
+        91,
+        93,
+        95,
+        97,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Heartbeat and silence are interpreted with clock and attribution caveats.",
+      "parent_lines": [
+        48,
+        50,
+        52
+      ],
+      "followup_lines": [
+        59,
+        61,
+        63,
+        65,
+        67
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        10,
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Correct50/minute and39-second replication statistics deepen the observed contention account without converting it into labor or final-state measurement.",
+      "parent_lines": [
+        72,
+        74,
+        76
+      ],
+      "followup_lines": [
+        25,
+        101,
+        103,
+        105,
+        107,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    7
+  ],
+  "summary": "The follow-up adds quantitative precision and more positive/negative signal cases while retaining the parent\u2019s calibrated findings. Strong evidence of message use and possible script-mediated editing is credited without claiming scores or authenticated identity.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

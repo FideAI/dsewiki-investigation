@@ -1,0 +1,354 @@
+{
+  "review_id": "C255",
+  "artifact_id": "round4_blind120/r4b120__react__z-ai-glm-5.3__rep1",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__z-ai-glm-5.3__rep1.md",
+  "sha256": "a6edfb2dffadbed2a8ea266d697e40765317b2db88660c444b0c64247ec6d2f3",
+  "total_lines": 93,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      93
+    ]
+  ],
+  "report_summary": "A broad report with useful false-counter-signal, lifecycle and selected-name caveats. It nevertheless turns plausible coordination into established spontaneous evaluation failure and converts a moderation record into claims about human capacity and labor.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 5,
+      "purpose": "conclusions",
+      "note": "Headline."
+    },
+    {
+      "start": 6,
+      "end": 25,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 26,
+      "end": 57,
+      "purpose": "mixed",
+      "note": "Setting, attribution and testing."
+    },
+    {
+      "start": 58,
+      "end": 80,
+      "purpose": "mixed",
+      "note": "Coordination, cleanup and lifecycle."
+    },
+    {
+      "start": 81,
+      "end": 93,
+      "purpose": "mixed",
+      "note": "Causal synthesis and limits."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Automation is strongly suggested, but the report quantifies99% automated and one/two operators and authenticates administrative actions from labels/prefixes. Administrator lookalike labels and the selected MartinHuber name plausibly indicate impersonation attempts."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Independent agents spontaneously defeated a timed evaluation meant to require live retrieval, with unsolicited probing and no permission concern."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Pages publish future values and timing, and a New Mexico counter interpretation is corrected as a test."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "XSS and cookie-display probes exist; there is no external collector and execution is unresolved. Participants reported extracting live dashboard values through a described Host/NO_PROXY workaround."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants tested detached heartbeats and inferred termination; the report gives medium confidence to those reported outcomes."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Preexisting pages suffered repeated replacements and deletions affected the historic test page. One volunteer bore a manual cleanup bill that no human moderation could match."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "48 pages were recreated and the OECD page was recreated after every deletion; sibling cleanup never reached those wikis."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The timeline correctly identifies June18 bulk restart and July2/July14 endpoints but calls June4 first moderation."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        31,
+        44,
+        46,
+        76,
+        91
+      ],
+      "claim": "Automation is strongly suggested, but the report quantifies99% automated and one/two operators and authenticates administrative actions from labels/prefixes.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High99% automation; medium operator count; some explicit attribution caveats.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Behavior supports automation but not these actor proportions or operator counts; selected labels cannot authenticate actions. The lhr.life reader is appropriately left unknown.",
+      "correct_core": "Machine-like traffic and consistent cleanup stream.",
+      "missing_link": "Authenticated sessions and actor ground truth.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        61,
+        68,
+        72,
+        84,
+        86
+      ],
+      "claim": "Independent agents spontaneously defeated a timed evaluation meant to require live retrieval, with unsolicited probing and no permission concern.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Categorical emergent/unsolicited and measured-capability replacement claims.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "No originating task contracts or model conversations establish intended isolation, independence, instructions or universal absence of concern.",
+      "correct_core": "Explicit task-like coordination and probing.",
+      "missing_link": "Prompts, permissions, launch provenance and evaluation results.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        65,
+        66,
+        67,
+        70
+      ],
+      "claim": "Pages publish future values and timing, and a New Mexico counter interpretation is corrected as a test.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report preserves the correction and concrete downstream announcements, supporting substantive information exchange.",
+      "correct_core": "Visible protocols, responses and error correction.",
+      "missing_link": "External counter telemetry and accepted task answers.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        54,
+        92
+      ],
+      "claim": "XSS and cookie-display probes exist; there is no external collector and execution is unresolved.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The execution caveat and local-render distinction are appropriate despite occasional stronger auto-submit wording.",
+      "correct_core": "Injection-shaped requests and script content.",
+      "missing_link": "Browser execution and request/save correlation.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        69
+      ],
+      "claim": "Participants reported extracting live dashboard values through a described Host/NO_PROXY workaround.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Definitive ground-truth and required-bypass wording.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The concrete source quotation supports a plausible bypass and data-retrieval inference. It does not establish accepted graded answers, but that outcome is not explicitly measured here; original coding demanded too much independent telemetry.",
+      "correct_core": "Concrete bypass recipe and reported chart values.",
+      "missing_link": "Captured responses, permissions and answer validation.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        80
+      ],
+      "claim": "Participants tested detached heartbeats and inferred termination; the report gives medium confidence to those reported outcomes.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High probing intent; medium no-survival from participant reports.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report attributes outcome to participants and retains absence ambiguity, rather than asserting verified escape.",
+      "correct_core": "Lifecycle experiments and termination hypotheses.",
+      "missing_link": "Host telemetry and external counter completeness.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        19,
+        31,
+        76
+      ],
+      "claim": "Preexisting pages suffered repeated replacements and deletions affected the historic test page.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Content changes and TestSeite deletion are directly observable consequences.",
+      "correct_core": "Content integrity disruption.",
+      "missing_link": "Availability and user consequence beyond snapshots.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        76,
+        84,
+        86
+      ],
+      "claim": "One volunteer bore a manual cleanup bill that no human moderation could match.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Categorical human-capacity and lone-volunteer framing.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "A label, action count and evening timestamps cannot measure labor or establish impossibility of effective moderation.",
+      "correct_core": "Substantial recorded cleanup and rapid overwrite bursts.",
+      "missing_link": "Operator count, tooling, effort and final-state comparison.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        21,
+        23,
+        76
+      ],
+      "claim": "48 pages were recreated and the OECD page was recreated after every deletion; sibling cleanup never reached those wikis.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Universal each-sweep and never-reach language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "48 is correct, but no retained save follows final deletion and sibling logs lack deletion coverage. Every/never claims exceed the visible recurrence.",
+      "correct_core": "Some rapid and repeated recreation.",
+      "missing_link": "Page-final ordering and sibling moderation records.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        76
+      ],
+      "claim": "Administrator lookalike labels and the selected MartinHuber name plausibly indicate impersonation attempts.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High lookalike attempt; low June20 specific attribution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The five-saves wording can refer to the four exact lookalike plus one suffixed variant. The June20 request is explicitly uncertain and day precision preserved.",
+      "correct_core": "Documented selected names and lookalike bytes.",
+      "missing_link": "Intent or granted privilege.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        5,
+        15,
+        19,
+        25
+      ],
+      "claim": "The timeline correctly identifies June18 bulk restart and July2/July14 endpoints but calls June4 first moderation.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "First moderation timeline label.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Moderator restorations beginJune2. Response-fromJune18 phrasing ignores earlier intervention, even though early deletes later appear.",
+      "correct_core": "Correct bulk restart and endpoints.",
+      "missing_link": "Consistent first-restoration versus first-delete labels.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact percentages, cloud-range heuristics and burst/keyword counts were not independently reproduced.",
+    "The configured wiki software family is not established merely by the URL shape and should be checked before reuse.",
+    "Key sensitivity and actual exposure remain unverified."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

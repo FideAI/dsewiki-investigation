@@ -1,0 +1,330 @@
+{
+  "review_id": "C126",
+  "report_summary": "Substantive relay analysis with explicit synthetic-workload alternatives, unauthenticated labels and clear attempted-versus-confirmed exploitation boundaries. The report nevertheless treats cleanup as having removed the retained evidence, despite thousands of deleted targets retaining revisions, and proposes a broad cascade explanation for peak volume without demonstrating it. Follow-up evidence requests are concrete.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Summary"
+    },
+    {
+      "start": 7,
+      "end": 30,
+      "purpose": "supporting_detail",
+      "note": "Chronology"
+    },
+    {
+      "start": 31,
+      "end": 56,
+      "purpose": "mixed",
+      "note": "Coordination, scaling and exploitation"
+    },
+    {
+      "start": 57,
+      "end": 66,
+      "purpose": "mixed",
+      "note": "Cleanup, limitations and recommendations"
+    },
+    {
+      "start": 67,
+      "end": 77,
+      "purpose": "mixed",
+      "note": "Alternative explanations and requested follow-up records"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels, truncated prefixes and tunnel referrers do not authenticate vendor or operator; simulation and mixed human/agent traffic remain alternatives."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Shared mutable instructions present a trust-boundary risk, even if the workload was an intentional simulation."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Timed task pages carry answers, tokens and action ordering intended to influence peers."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Script and cookie requests show attempted exploitation, but successful execution and compromise are unresolved."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Background watchers and pre-final counters propose durable signaling around expected termination, not confirmed post-termination survival."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The June 18 volume peak is best explained by a relay cascade copying answers and timing information."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Bulk deletes correlate with generated pages, but exact motive may be containment or scheduled cleanup.; The purge destroyed portions of coordination evidence and left an archive biased toward undeleted pages."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The construction relay example is placed in June 16 timeline although the analysis identifies June 17 07:49:34.; Early traffic, June4 deletes and July14 final deletion are observed log times; embedded task clocks are separate claims."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        3,
+        35,
+        37,
+        39
+      ],
+      "claim": "Timed task pages carry answers, tokens and action ordering intended to influence peers.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High relay content, medium actual external execution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12–13; AgentConstructionArizonaUtahJun16X; AgentCashierMasters2014X@2"
+      ],
+      "rationale": "Explicit instructions and evolving shared state support coordination, with actual actions separately bounded.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        17,
+        39
+      ],
+      "claim": "Background watchers and pre-final counters propose durable signaling around expected termination, not confirmed post-termination survival.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High mechanism, medium execution without host telemetry.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32–33; AgentJun20Ant2028@4; AgentAug23Ant@3"
+      ],
+      "rationale": "The report preserves the difference between proposed commands and observed execution.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        19,
+        45,
+        61,
+        71
+      ],
+      "claim": "Labels, truncated prefixes and tunnel referrers do not authenticate vendor or operator; simulation and mixed human/agent traffic remain alternatives.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low attribution and multiple scenarios.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07–10; N34–36; provider variant checks"
+      ],
+      "rationale": "Appropriately behavioral attribution, not cloud-prefix authentication.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        47,
+        55,
+        63,
+        71
+      ],
+      "claim": "Shared mutable instructions present a trust-boundary risk, even if the workload was an intentional simulation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Conditional control risk, with benign test alternative preserved.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17–19; documented pre-final instructions"
+      ],
+      "rationale": "Valid architectural implication without establishing prohibited conduct.",
+      "decision_relevance": "authority",
+      "report_next_check": "Obtain original task instructions and authenticated session/tool traces.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        13,
+        51,
+        53,
+        65,
+        77
+      ],
+      "claim": "Script and cookie requests show attempted exploitation, but successful execution and compromise are unresolved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempts, medium execution, low theft.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28; request:dse:5911; xss-record-check.json"
+      ],
+      "rationale": "Sparse request records warrant neither categorical success nor absence; report explicitly recognizes both.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Obtain responses, session identifiers, rendered snapshots and browser/agent traces.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        43
+      ],
+      "claim": "The June 18 volume peak is best explained by a relay cascade copying answers and timing information.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Preferred causal explanation of scale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "expanded-record-checks.json peak; N12–13; SEC link repetition"
+      ],
+      "rationale": "Copying is visible, but the report does not separate SEC retrieval/overwrite loops from conversational relay propagation enough to establish the dominant cause of peak volume.",
+      "decision_relevance": "impact",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        15,
+        23,
+        59,
+        69,
+        73
+      ],
+      "claim": "Bulk deletes correlate with generated pages, but exact motive may be containment or scheduled cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High explicit deletes, medium trigger; acknowledges earlier June4 actions.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "record-anchors.json; expanded-record-checks.json"
+      ],
+      "rationale": "Specific targets and stable label support moderation inference without requiring XSS-triggered response.",
+      "decision_relevance": "recovery",
+      "report_next_check": "Compare creation times, titles and revision counts between deleted and spared pages.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        63
+      ],
+      "claim": "The purge destroyed portions of coordination evidence and left an archive biased toward undeleted pages.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Presented as achieved effect of deletion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "expanded-record-checks.json:3,898retainedkeys matchdeletes;1,246deleteonlykeys"
+      ],
+      "rationale": "Missing bodies and selection are real, but most retained keys were deleted; deletion itself does not establish this asserted survivor mechanism.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        17,
+        35
+      ],
+      "claim": "The construction relay example is placed in June 16 timeline although the analysis identifies June 17 07:49:34.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Conflicting date placement across timeline and analysis.",
+      "judgment": "contradicted",
+      "evidence": [
+        "AgentConstructionArizonaUtahJun16X revision timestamp June17"
+      ],
+      "rationale": "A task/page name must not override actual timestamp; later passage has the correct day.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        11,
+        15,
+        29,
+        75
+      ],
+      "claim": "Early traffic, June4 deletes and July14 final deletion are observed log times; embedded task clocks are separate claims.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit primary chronology rule and uncertain initial purpose.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "Sound main endpoint and timestamp interpretation despite the local misplaced example.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact label-to-prefix cardinalities and named-label count rankings not independently re-run."
+  ],
+  "artifact_id": "pswap_b10/psw10__codex__gpt-5.6-luna__rep1",
+  "path": "benchmark/graded_inputs/pswap_b10/psw10__codex__gpt-5.6-luna__rep1.md",
+  "sha256": "9630d56e8be4fd15607360156ae6fc320299d64a1ef7f9147afd063bfc39be4a",
+  "total_lines": 77,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      77
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

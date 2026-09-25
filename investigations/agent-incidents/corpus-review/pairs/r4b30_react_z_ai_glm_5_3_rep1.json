@@ -1,0 +1,276 @@
+{
+  "parent": "r4b30_react_z_ai_glm_5_3_rep1",
+  "followup": "fu5kb30_react_z_ai_glm_5_3_rep1",
+  "parent_review_id": "C294",
+  "followup_review_id": "C116",
+  "parent_sha256": "c795e449750119f704c7382b714bcefa25375882a3c519f925f34452c992d750",
+  "followup_sha256": "a3d11fca71bfa0a1955abeb6a193b6c3ee74b6d297a19452a179195a460dfbf7",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Apparent-agent attribution remains qualified.",
+      "parent_lines": [
+        35,
+        44,
+        104
+      ],
+      "followup_lines": [
+        66,
+        67,
+        179,
+        186
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        11,
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "Plausible impersonation intent retained, but request still incorrectly treated as editing the page.",
+      "parent_lines": [
+        29
+      ],
+      "followup_lines": [
+        29,
+        159
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_problem",
+      "rationale": "Day-level request still assigned exact noon time.",
+      "parent_lines": [
+        29
+      ],
+      "followup_lines": [
+        29,
+        149,
+        159
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Task-value and uncertainty exchange retained.",
+      "parent_lines": [
+        21,
+        50,
+        52,
+        68
+      ],
+      "followup_lines": [
+        76,
+        84,
+        98,
+        100,
+        108
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Pre-final signaling designs retained with delivery caveat.",
+      "parent_lines": [
+        60,
+        66,
+        98
+      ],
+      "followup_lines": [
+        98,
+        104,
+        105,
+        180
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Universal lifetime/cooldown impossibility remains beyond participant evidence.",
+      "parent_lines": [
+        60,
+        98
+      ],
+      "followup_lines": [
+        92,
+        171
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        8,
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Proxy attempts and static form/script probes retained.",
+      "parent_lines": [
+        62,
+        86
+      ],
+      "followup_lines": [
+        25,
+        94,
+        118,
+        129,
+        154,
+        156,
+        157
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [],
+      "transition": "omitted",
+      "rationale": "Separate front-page overwrite observation is not a distinct followup claim.",
+      "parent_lines": [
+        82
+      ],
+      "followup_lines": [],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_problem",
+      "rationale": "420 revisions still called420pages.",
+      "parent_lines": [
+        82
+      ],
+      "followup_lines": [
+        143
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_supported",
+      "rationale": "No save after final deletion remains bounded observation.",
+      "parent_lines": [
+        31,
+        82
+      ],
+      "followup_lines": [
+        31,
+        143
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        18
+      ],
+      "transition": "retained_problem",
+      "rationale": "False late first-cleanup chronology retained.",
+      "parent_lines": [
+        90
+      ],
+      "followup_lines": [
+        163
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        19
+      ],
+      "transition": "retained_problem",
+      "rationale": "Operator completion cause and moderator impotence remain unproved.",
+      "parent_lines": [
+        90
+      ],
+      "followup_lines": [
+        163,
+        173
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_problem",
+      "rationale": "Uninstructed coordination claim retained.",
+      "parent_lines": [
+        94,
+        104
+      ],
+      "followup_lines": [
+        167
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 14,
+      "followup_claim_indices": [
+        20
+      ],
+      "transition": "retained_problem",
+      "rationale": "Gigabyte quantity error retained.",
+      "parent_lines": [
+        96
+      ],
+      "followup_lines": [
+        169
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    5,
+    9,
+    16,
+    17,
+    21
+  ],
+  "summary": "The followup preserves several useful observations but retains the major timing, unit and causal errors and adds contradictions about awareness of moderation and TestSeite.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

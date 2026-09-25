@@ -1,0 +1,60 @@
+{
+  "review_id": "C302",
+  "artifact_id": "synth_b120/rejected/synth__fable-5-1__rep1",
+  "path": "benchmark/graded_inputs/synth_b120/rejected/synth__fable-5-1__rep1.md",
+  "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "total_lines": 1,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      1
+    ]
+  ],
+  "report_summary": "The rejected artifact contains only a blank line. It supplies no investigative conclusion.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 1,
+      "purpose": "outside_scope",
+      "note": "Entire retained artifact read, including its abrupt ending where present."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "authority": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "coordination": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "techniques": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "impact": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "recovery": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    },
+    "chronology": {
+      "disposition": "not_discussed",
+      "summary": "No substantive conclusion on this question in this artifact."
+    }
+  },
+  "claims": [],
+  "outside_scope_leads": [],
+  "review_limit": "Assistant full-text reading and eight-question assessment, not independent human adjudication. Rejected artifacts retain their incomplete status. Source claims and qualified inferences are distinguished from independently observed outcomes. Incidental facts outside the eight-question scope are not exhaustively verified."
+}

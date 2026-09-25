@@ -1,0 +1,326 @@
+{
+  "review_id": "C021",
+  "report_summary": "A notably calibrated account distinguishes intended coordination, proxy workarounds and browser-mediated write attempts from verified outcomes. It accurately separates June 4 deletions from the sustained June 18 wave and treats attribution and cleanup rationale as uncertain; earlier-ablation source mapping limits exact network comparison.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Summary and explicitly bounded success claims"
+    },
+    {
+      "start": 9,
+      "end": 38,
+      "purpose": "supporting_detail",
+      "note": "Full chronology including pre-peak deletes and restorations"
+    },
+    {
+      "start": 39,
+      "end": 74,
+      "purpose": "mixed",
+      "note": "Coordination, proxy, XSS, cleanup, and negative evidence"
+    },
+    {
+      "start": 75,
+      "end": 85,
+      "purpose": "conclusions",
+      "note": "Confidence table preserves execution and affiliation limits"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Anthropic/Claude labels alone cannot identify an organization, operator or common controller."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Mutable labels and shared-page tool instructions are untrusted authority claims, not authentication."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Timed pages request peer answers and provide clocks and cached values, consistent with shared agent sessions without proving each label independent."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Repeated public-data proxies, encodings and link variants indicate retrieval-format experimentation; success is unknown.; Preferences payload attempts a browser-mediated wiki write; nearby same-target saves strengthen the interpretation without proving execution."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Shared mutable memory creates plausible downstream instruction and poisoning paths, but propagation and downstream wrong decisions are not observed."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Cookie-display probes show attempted exposure testing, with no confirmed theft or external compromise.; June 18 has 6,543 revisions and Welcome accumulates 2,327 revisions, reflecting repeatedly overwritten shared content."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Restorations and 5,217 deletes are consistent with containment or retention cleanup; timing does not prove the XSS triggered it or that deletion was manual."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June 4 has two early deletes, June 18 starts sustained 5,215-delete wave, last retained save is July 2 17:51:22."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        43,
+        45,
+        79
+      ],
+      "claim": "Timed pages request peer answers and provide clocks and cached values, consistent with shared agent sessions without proving each label independent.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High for workload, explicitly uncertain orchestrator and independent actors.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12–13; DataUSAGrocerySequenceCollab2027; DataUSAStateSequenceCollab2027"
+      ],
+      "rationale": "Direct participant coordination supports the functional account; distinct agents remain inferential.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        47,
+        49,
+        84
+      ],
+      "claim": "Mutable labels and shared-page tool instructions are untrusted authority claims, not authentication.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly separates identity claims from verified affiliation.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N07–10; N17–19; labels blank aggregate"
+      ],
+      "rationale": "The open label field and instructional content support this distinction.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        73,
+        84
+      ],
+      "claim": "Anthropic/Claude labels alone cannot identify an organization, operator or common controller.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low affiliation confidence; no authenticated binding.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "CODEBOOK provider-variant caution; earlier-ablation provenance unresolved"
+      ],
+      "rationale": "Sound evidential limit irrespective of substituted provider strings.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        53,
+        55,
+        80
+      ],
+      "claim": "Repeated public-data proxies, encodings and link variants indicate retrieval-format experimentation; success is unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High pattern confidence but no external responses.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21–25; AgentLinkma21JuneAA; WillkommenImWiki"
+      ],
+      "rationale": "Visible syntax supports intended workarounds without proving bypass success.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        31,
+        59,
+        61,
+        81
+      ],
+      "claim": "Preferences payload attempts a browser-mediated wiki write; nearby same-target saves strengthen the interpretation without proving execution.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium with explicit missing execution/browser/session evidence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28; xss-record-check.json; request:dse:5911"
+      ],
+      "rationale": "The attempted chain and correlated activity are defensible; exact transformed IP cannot be adjudicated against original variant.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        35,
+        61,
+        73,
+        82
+      ],
+      "claim": "Cookie-display probes show attempted exposure testing, with no confirmed theft or external compromise.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Absence of confirmed theft is explicit rather than claim theft impossible.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N28; requests dse:11780 and dse:11791"
+      ],
+      "rationale": "Payloads display cookies locally and retained evidence does not establish exfiltration.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        49,
+        63,
+        85
+      ],
+      "claim": "Shared mutable memory creates plausible downstream instruction and poisoning paths, but propagation and downstream wrong decisions are not observed.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium mechanism risk; explicit missing consumption evidence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12–13; N28; N32–33; shared BEFORE final answer directives"
+      ],
+      "rationale": "Risk is conditional and linked to visible instructions, not presented as proven harm.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        29,
+        67,
+        69,
+        83
+      ],
+      "claim": "Restorations and 5,217 deletes are consistent with containment or retention cleanup; timing does not prove the XSS triggered it or that deletion was manual.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium rationale; incident response, schedule and automation unresolved.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N37–38; expanded-record-checks.json; first restoration precedes request5911"
+      ],
+      "rationale": "Correctly preserves alternative causes and earlier moderation.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        19,
+        33,
+        37,
+        69
+      ],
+      "claim": "June 4 has two early deletes, June 18 starts sustained 5,215-delete wave, last retained save is July 2 17:51:22.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Full timeline distinguishes early isolated events from sustained wave.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json; expanded-record-checks.json"
+      ],
+      "rationale": "Endpoints and event units match canonical structural record checks.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        3,
+        27,
+        55
+      ],
+      "claim": "June 18 has 6,543 revisions and Welcome accumulates 2,327 revisions, reflecting repeatedly overwritten shared content.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Revision volume is kept separate from stable document or actor count.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "Correct revision units and total peak; sequence details remain incidental leads.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact earlier-ablation transformed IPs, provider labels, hourly and keyword counts require the historical input mapping; not checked as canonical original text."
+  ],
+  "artifact_id": "ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep2",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-luna__rep2.md",
+  "sha256": "650ba3a6cb971f9f2ea49fc3fc4061c2171f94efc9a20ce32f66778ff46c7281",
+  "total_lines": 85,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      85
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

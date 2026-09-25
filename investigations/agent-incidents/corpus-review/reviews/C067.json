@@ -1,0 +1,359 @@
+{
+  "review_id": "C067",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep2",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__codex__gpt-5.6-luna__rep2.md",
+  "sha256": "c13e936b7cf8eb99ce41e169cdcf129692b28b538f659cb75a698b11a3a1e933",
+  "total_lines": 131,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      131
+    ]
+  ],
+  "report_summary": "Long follow-up that adds useful18-second recreation, eventual deletion of the314-page cluster and careful identity/SSRF/XSS limits. Its expanded causal account nevertheless attributes alternative channels to cleanup without a counterfactual and treats retained sibling pages as survivors.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 5,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 6,
+      "end": 35,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 36,
+      "end": 77,
+      "purpose": "mixed",
+      "note": "Coordination, identity and fan-out."
+    },
+    {
+      "start": 78,
+      "end": 105,
+      "purpose": "mixed",
+      "note": "Security and containment."
+    },
+    {
+      "start": 106,
+      "end": 131,
+      "purpose": "mixed",
+      "note": "Robustness, limits and controls."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and shared prefixes do not establish operator counts; administrator lookalikes are consistent with impersonation without privilege gain."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Shared timing and answers could undermine assumed episode isolation, while the intended benchmark policy is explicitly unavailable."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Shared pages give future-state tokens, timers and pre-final signal instructions. Tunnel-referred requests are consistent with a remote reader consuming live pages, without proving its operator."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "XSS auto-submit, cookie-display and localhost proxy requests demonstrate testing, not confirmed compromise."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Signal and heartbeat designs aim to preserve information across suspected lifecycle boundaries."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Repeated hub replacements and314 identical new-page bodies document automated content fan-out."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The314-page cluster is eventually deleted and48 keys have saves after earlier deletions, including an18-second example. Core and sibling pages remained, making single-wiki cleanup insufficient. Deletion pressure caused shorter beacons, alternate channels and exact-payload fan-out."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June18 bulk start is correctly placed18:21, but restorations through18:26 are collectively called before bulk deletion."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        45,
+        47,
+        53,
+        111,
+        119
+      ],
+      "claim": "Labels and shared prefixes do not establish operator counts; administrator lookalikes are consistent with impersonation without privilege gain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium impersonation, low underlying attribution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report preserves orchestration and unrelated-traffic alternatives and treats graph connectivity as connectivity.",
+      "correct_core": "Selected-name and infrastructure overlap.",
+      "missing_link": "Authenticated sessions and actors.",
+      "decision_relevance": "attribution",
+      "report_next_check": "Task/save binding and session identifiers.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        41,
+        61,
+        129
+      ],
+      "claim": "Shared timing and answers could undermine assumed episode isolation, while the intended benchmark policy is explicitly unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High mechanism and undermined-assumption language; low exact policy.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The repeated body passage explicitly assigns low confidence to exact policy; the added conclusion says capability measurements can be distorted. This supports a risk inference, not a proven rule violation.",
+      "correct_core": "Posted cross-context information sharing.",
+      "missing_link": "Original task policy and scoring are still needed to establish a specific violation or measured distortion.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        15,
+        17,
+        41,
+        43,
+        59
+      ],
+      "claim": "Shared pages give future-state tokens, timers and pre-final signal instructions.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The explicit protocols substantiate coordination beyond mere thematic similarity.",
+      "correct_core": "Recorded instructions and updates.",
+      "missing_link": "External execution and accepted answers.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        63
+      ],
+      "claim": "Tunnel-referred requests are consistent with a remote reader consuming live pages, without proving its operator.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Consistent with remote reader; operator unknown.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report properly narrows the claim to observed browsing and avoids evaluator authentication.",
+      "correct_core": "Seven recorded requests and referers.",
+      "missing_link": "Client provenance and causal use.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        57,
+        59,
+        61,
+        65
+      ],
+      "claim": "Signal and heartbeat designs aim to preserve information across suspected lifecycle boundaries.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Mechanism strong; particular outcomes unknown.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report describes proposed mechanisms and missing exact policy; actual process survival is not established.",
+      "correct_core": "Lifecycle-aware protocol design.",
+      "missing_link": "Host and counter telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Tool/session boundaries and outbound logs.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        81,
+        83,
+        85,
+        87,
+        89,
+        93
+      ],
+      "claim": "XSS auto-submit, cookie-display and localhost proxy requests demonstrate testing, not confirmed compromise.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High testing; low execution/exposure.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The report preserves lack of response/collector evidence. Related same-prefix writes are noted but not fully traced; no exact match alone cannot prove failure.",
+      "correct_core": "Attack-shaped requests and proxy tests.",
+      "missing_link": "Browser execution, local service access and request/save linkage.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "HTTP responses, browser traces and outbound network logs.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        49,
+        69,
+        71
+      ],
+      "claim": "Repeated hub replacements and314 identical new-page bodies document automated content fan-out.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Visible writing and template duplication support integrity/resource impact without proving a self-replicating payload.",
+      "correct_core": "Recorded content churn and repeated artifacts.",
+      "missing_link": "Generation mechanism and actual service impact.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        77,
+        97,
+        101,
+        105
+      ],
+      "claim": "The314-page cluster is eventually deleted and48 keys have saves after earlier deletions, including an18-second example.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report distinguishes eventual cleanup from immediate recurrence and identifies a concrete lifecycle example.",
+      "correct_core": "Scoped recreation and deletion observations.",
+      "missing_link": "Unlogged live state or external copies.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        99,
+        113
+      ],
+      "claim": "Core and sibling pages remained, making single-wiki cleanup insufficient.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Effective-but-incomplete and remained wording.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "No matched sibling deletion is a coverage fact, not current survival. Some core pages were deleted; TestSeite matters to general core-survival framing.",
+      "correct_core": "Retained sibling records and late welcome overwrite.",
+      "missing_link": "Sibling moderation/current state.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        71,
+        125
+      ],
+      "claim": "Deletion pressure caused shorter beacons, alternate channels and exact-payload fan-out.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Earlier medium and no-proof caveat, later explanatory causal certainty.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report earlier says fan-out causation is unproven; counter and short-token protocols predate bulk cleanup.",
+      "correct_core": "Deletion overlap and some explicit fallback notices.",
+      "missing_link": "Sequence-specific causal evidence and alternatives.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        21,
+        25,
+        35
+      ],
+      "claim": "June18 bulk start is correctly placed18:21, but restorations through18:26 are collectively called before bulk deletion.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Timeline narrative overstates ordering.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The interval straddles bulk-start time; the final event is cleanup after the last retained save, not evidence of activity continuing at that endpoint.",
+      "correct_core": "Accurate individual timestamps.",
+      "missing_link": "Consistent interval description.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact314-page deletion-delay ranges and graph-removal robustness counts were not independently recomputed.",
+    "Body-size values may use characters while labeled bytes; check units before reuse.",
+    "The statement that no particular answer was wrong overlooks available participant corrections but was not independently exhaustively tested here."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

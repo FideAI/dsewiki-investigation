@@ -1,0 +1,255 @@
+{
+  "parent": "r4b120_react_openai_gpt_5_6_sol_rep1",
+  "followup": "fu5kb120_react_openai_gpt_5_6_sol_rep1",
+  "parent_review_id": "C251",
+  "followup_review_id": "C085",
+  "parent_sha256": "edaffbc2a47d77d9767ad65690110ccac8b06fbc7fc1d43312789e9831a067a2",
+  "followup_sha256": "e903ac8680a31aa0be595018d554139c8754640b2459b1f63f6e91a7a665cdd3",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1,
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Identity limits and qualified administrator-lookalike interpretation remain explicit.",
+      "parent_lines": [
+        31,
+        33,
+        79,
+        83,
+        85
+      ],
+      "followup_lines": [
+        31,
+        33,
+        105,
+        113,
+        115,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation keeps permission and scores unverified while explaining an evidence-based contamination risk.",
+      "parent_lines": [
+        33,
+        45,
+        83
+      ],
+      "followup_lines": [
+        7,
+        33,
+        49,
+        115,
+        127
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Concrete transfer and correction failures are retained and expanded.",
+      "parent_lines": [
+        39,
+        41,
+        55
+      ],
+      "followup_lines": [
+        43,
+        45,
+        51,
+        53,
+        55,
+        67,
+        117
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Lifecycle tests remain participant-based, with missing callbacks distinguished from proven shutdown behavior.",
+      "parent_lines": [
+        43
+      ],
+      "followup_lines": [
+        47,
+        55,
+        57,
+        131
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Additional reproduction reports strengthen a qualified bypass inference without proving grader success.",
+      "parent_lines": [
+        51,
+        53,
+        87
+      ],
+      "followup_lines": [
+        63,
+        65,
+        73
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Similar later saves remain circumstantial; no exact match is not treated as definitive failure.",
+      "parent_lines": [
+        18,
+        75
+      ],
+      "followup_lines": [
+        18,
+        79,
+        85,
+        101,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        7,
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Direct content disruption remains while worm propagation and measured outage are not asserted.",
+      "parent_lines": [
+        59,
+        61,
+        63
+      ],
+      "followup_lines": [
+        18,
+        77,
+        79,
+        81,
+        83,
+        85,
+        101,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Credential risk remains qualified by unknown sensitivity and provenance.",
+      "parent_lines": [
+        77
+      ],
+      "followup_lines": [
+        103,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The followup preserves final deletion, intermediate recreation, missing history and sibling coverage distinctions.",
+      "parent_lines": [
+        67,
+        69,
+        71
+      ],
+      "followup_lines": [
+        89,
+        91,
+        93,
+        95,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "The headline still says sibling wikis were not cleaned, exceeding the later correctly scoped coverage statement.",
+      "parent_lines": [
+        5,
+        55,
+        67
+      ],
+      "followup_lines": [
+        5,
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation preserves late writes and separate final cleanup endpoints.",
+      "parent_lines": [
+        15,
+        19,
+        23,
+        29
+      ],
+      "followup_lines": [
+        11,
+        15,
+        19,
+        22,
+        23,
+        89,
+        95
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "A strong parent becomes more detailed without losing most evidence limits. The main retained problem is the sibling-cleanup headline; the lifecycle reconstruction and concrete transfer analysis remain positive examples.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

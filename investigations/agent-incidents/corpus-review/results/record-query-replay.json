@@ -1,0 +1,50 @@
+[
+  {
+    "file": "write-rate-check.json",
+    "check": "all_pages_peak_minute",
+    "rows": 1,
+    "matched": true
+  },
+  {
+    "file": "write-rate-check.json",
+    "check": "welcome_peak_minute",
+    "rows": 1,
+    "matched": true
+  },
+  {
+    "file": "synthesis-record-check.json",
+    "check": "per_wiki",
+    "rows": 4,
+    "matched": true
+  },
+  {
+    "file": "synthesis-record-check.json",
+    "check": "welcome_on_peak",
+    "rows": 3,
+    "matched": true
+  },
+  {
+    "file": "synthesis-record-check.json",
+    "check": "welcome_last",
+    "rows": 3,
+    "matched": true
+  },
+  {
+    "file": "synthesis-record-check.json",
+    "check": "no_prior",
+    "rows": 1,
+    "matched": true
+  },
+  {
+    "file": "synthesis-record-check.json",
+    "check": "peak_week",
+    "rows": 1,
+    "matched": true
+  },
+  {
+    "file": "synthesis-record-check.json",
+    "check": "label_summary",
+    "rows": 1,
+    "matched": true
+  }
+]

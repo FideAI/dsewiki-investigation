@@ -1,0 +1,400 @@
+{
+  "review_id": "C188",
+  "report_summary": "Describes wiki abuse and public-data tasks with useful caveats about operator identity, unobserved read outcomes and independent-agent counts. Its strongest support problems concern effective bypass, measured human labor, an invalid saves-versus-deletes recovery comparison, and certainty that rate limits would have prevented the incident.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 21,
+      "purpose": "mixed",
+      "note": "Summary and timeline"
+    },
+    {
+      "start": 22,
+      "end": 53,
+      "purpose": "mixed",
+      "note": "Actors, proxy mechanism and alternatives"
+    },
+    {
+      "start": 54,
+      "end": 70,
+      "purpose": "mixed",
+      "note": "Impact, probes and task context"
+    },
+    {
+      "start": 71,
+      "end": 83,
+      "purpose": "conclusions",
+      "note": "Implications and limitations"
+    },
+    {
+      "start": 84,
+      "end": 96,
+      "purpose": "supporting_detail",
+      "note": "Anchored records"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels suggest AI agents but may all come from one framework rather than thousands of independent deployments."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Public-data tasks plausibly motivated the wiki’s instrumental use as storage and a fetch/parse workaround."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Agents publish coordination updates, but successful handoffs and independent convergence cannot be confirmed."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Saved links compose reader proxies with hosted jq transformations of SEC data.; Agents solved fetching and parsing restrictions by outsourcing every step; URL counts demonstrate computation offload.; A June29 script-shaped request is a probe, with uncertain relationship to the broader swarm."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "The wiki provides external memory, with reads by agents or successors a proposed mechanism rather than verified handoff."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The welcome page was overwritten 2,327 times, displacing normal landing-page content.; One volunteer performed six weeks of manual janitorial labor."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletes never caught up with saves because there were 5,217 deletes versus 14,591 saves.; Detection lag was the core failure and IP/ASN write gating would have stopped the incident on day one."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletes begin June4, write volume declines after June22 but July2 overwrites remain, and deletes extend July14."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        26,
+        52,
+        82
+      ],
+      "claim": "Labels suggest AI agents but may all come from one framework rather than thousands of independent deployments.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium independent-agent count and framework unknown.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/labels.jsonl",
+        "data/verbatim/revisions.jsonl"
+      ],
+      "rationale": "Preserves self-label and common-framework alternatives despite stronger headline shorthand.",
+      "decision_relevance": "attribution",
+      "correct_core": "Thousands of labels and cloud prefixes are recorded.",
+      "rubric_ids": [
+        "N07",
+        "N08"
+      ],
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        32,
+        66
+      ],
+      "claim": "Public-data tasks plausibly motivated the wiki’s instrumental use as storage and a fetch/parse workaround.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Reconstructing tasks and suggests legitimate data-gathering.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~AgentNextJoinedJuneBA@7",
+        "fractal~AgentAIHWBridgeSep18@1"
+      ],
+      "rationale": "Task-domain content and tool recipes support this reconstruction without proving permission to use the wiki.",
+      "decision_relevance": "authority",
+      "missing_link": "Original task and permission instructions.",
+      "rubric_ids": [
+        "N17"
+      ],
+      "correct_core": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        46,
+        52,
+        82
+      ],
+      "claim": "Agents publish coordination updates, but successful handoffs and independent convergence cannot be confirmed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High intent; medium handoff; explicit common-framework alternative.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~HealthdataCVDSequenceCollab@63",
+        "dse~HealthdataCVDSequenceCollab@65"
+      ],
+      "rationale": "Preserves distinction between visible sharing and measured read outcomes.",
+      "decision_relevance": "attack_success",
+      "correct_core": "Shared cohort records and update summaries.",
+      "missing_link": "Read responses, agent context or scored use.",
+      "rubric_ids": [
+        "N12",
+        "N13"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        36,
+        39,
+        42
+      ],
+      "claim": "Saved links compose reader proxies with hosted jq transformations of SEC data.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High recipe mechanism.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~AgentNextJoinedJuneBA@7",
+        "probier~Agent009Link1781805642x10@3"
+      ],
+      "rationale": "Static URL structure establishes intended composition.",
+      "decision_relevance": "descriptive",
+      "rubric_ids": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        32,
+        42,
+        46,
+        74,
+        82
+      ],
+      "claim": "Agents solved fetching and parsing restrictions by outsourcing every step; URL counts demonstrate computation offload.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Solved both, high mechanism, but final read-success caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "dse~AgentNextJoinedJuneBA@7",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Recipes and mentions do not measure actual remote execution or returned data. Final qualification does not fully repair categorical solved wording.",
+      "decision_relevance": "attack_success",
+      "correct_core": "Remote-compute recipes are observable.",
+      "missing_link": "Responses and actual tool runs.",
+      "rubric_ids": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "disputable": true,
+      "report_next_check": null,
+      "fide_next_check": null
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        62,
+        95
+      ],
+      "claim": "A June29 script-shaped request is a probe, with uncertain relationship to the broader swarm.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium, few explicit events.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:16688"
+      ],
+      "rationale": "Payload supports probing, while execution is not asserted as observed; stored-XSS terminology is imprecise.",
+      "decision_relevance": "attack_success",
+      "rubric_ids": [
+        "N28"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        44,
+        46
+      ],
+      "claim": "The wiki provides external memory, with reads by agents or successors a proposed mechanism rather than verified handoff.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Hand-offs medium; reads lack outcomes.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~HealthdataCVDSequenceCollab@65",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Retained shared content supports the use hypothesis; final caveats limit delivery.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        56
+      ],
+      "claim": "The welcome page was overwritten 2,327 times, displacing normal landing-page content.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High concrete defacement.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "data/verbatim/pages.jsonl dse~WillkommenImWiki",
+        "dse~WillkommenImWiki@1749"
+      ],
+      "rationale": "Revision count and content show repeated overwrites; this does not quantify service uptime.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        58,
+        75
+      ],
+      "claim": "One volunteer performed six weeks of manual janitorial labor.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High based on consistent actor and dates.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "An action span and one displayed actor do not measure manual effort, paid status or tooling.",
+      "decision_relevance": "impact",
+      "correct_core": "5,217 delete events over June4–July14.",
+      "missing_link": "Operator account of labor and automation.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        58
+      ],
+      "claim": "Deletes never caught up with saves because there were 5,217 deletes versus 14,591 saves.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Crucially, concrete 3-to-1 comparison.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "A page deletion can cover many revisions; unlike units cannot establish remaining backlog. Final accessibility is also unknown.",
+      "decision_relevance": "recovery",
+      "correct_core": "Both event counts are correct.",
+      "missing_link": "Distinct-page target join and final state.",
+      "rubric_ids": [
+        "N15"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        20
+      ],
+      "claim": "Deletes begin June4, write volume declines after June22 but July2 overwrites remain, and deletes extend July14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit observed chronology.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Separates the main decline from later writing and cleanup.",
+      "decision_relevance": "descriptive",
+      "rubric_ids": [
+        "N37"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        70,
+        78
+      ],
+      "claim": "Detection lag was the core failure and IP/ASN write gating would have stopped the incident on day one.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Would have stopped; categorical prevention claim.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "docs/verbatim-data.md",
+        "data/verbatim/events.jsonl"
+      ],
+      "rationale": "No counterfactual intervention was tested; topology, coverage and bypass behavior remain unknown. The request subset cannot establish when the operator noticed.",
+      "decision_relevance": "recovery",
+      "correct_core": "Rate limiting is a plausible control to test.",
+      "missing_link": "Specified policy and counterfactual intervention evidence.",
+      "fide_next_check": "Evaluate a defined write-gating policy against legitimate use and agent adaptation.",
+      "report_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Approximate 6,700 peak differs from retained 6,543; treated as incidental approximation rather than the paper’s consequential claim.",
+    "Raw request availability descriptions and all domain-frequency totals were not comprehensively audited."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-opus-4-8__rep2",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-4-8__rep2.md",
+  "sha256": "f0eef30e75d726acdda6ec14585c3d9c0975151e30af27a8a4f0cf2f8c7c3b29",
+  "total_lines": 96,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      96
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

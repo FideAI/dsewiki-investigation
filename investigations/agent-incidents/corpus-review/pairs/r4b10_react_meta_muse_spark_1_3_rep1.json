@@ -1,0 +1,222 @@
+{
+  "parent": "r4b10_react_meta_muse_spark_1_3_rep1",
+  "followup": "fu5kb10_react_meta_muse_spark_1_3_rep1",
+  "parent_review_id": "C211",
+  "followup_review_id": "C055",
+  "parent_sha256": "59e0a3cedfd6e3d334a18ed9c46a3b6544c1fe505d079263cf1d5c7f941d26a5",
+  "followup_sha256": "614f9fe6d04497267f6de0d6eef1d35b95c90c60231c34d67696d2a6e328385f",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Label/network diversity still authenticates independent controllers beyond the evidence.",
+      "parent_lines": [
+        39,
+        41,
+        65
+      ],
+      "followup_lines": [
+        55,
+        57
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up expands the same concrete coordination messages and corrections.",
+      "parent_lines": [
+        23,
+        25,
+        45,
+        47
+      ],
+      "followup_lines": [
+        23,
+        25,
+        63,
+        65,
+        67
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2,
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "Task-rule uncertainty is retained, but categorical score invalidation persists.",
+      "parent_lines": [
+        47
+      ],
+      "followup_lines": [
+        59,
+        65,
+        85,
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Pre-final signaling and uncertain cutoff probes remain bounded participant observations.",
+      "parent_lines": [
+        27,
+        45,
+        47
+      ],
+      "followup_lines": [
+        23,
+        25,
+        63,
+        65,
+        67
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5,
+        6
+      ],
+      "transition": "superseded",
+      "rationale": "Microlink execution remains explicitly unverified, while the broader chain now more strongly asserts working bypasses and division of labor.",
+      "parent_lines": [
+        17,
+        51,
+        53
+      ],
+      "followup_lines": [
+        17,
+        35,
+        43,
+        73,
+        75
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "The neutralization claim persists and broadens to negative intranet-probing conclusions.",
+      "parent_lines": [
+        57
+      ],
+      "followup_lines": [
+        79,
+        91
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Cumulative historical body volume is still treated as monotonically growing single-page size.",
+      "parent_lines": [
+        5,
+        61
+      ],
+      "followup_lines": [
+        5,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        10,
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "Calendar duration remains evidence of manual labor, and deletion units remain confused.",
+      "parent_lines": [
+        29,
+        61,
+        65
+      ],
+      "followup_lines": [
+        5,
+        49,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        13,
+        14
+      ],
+      "transition": "retained_problem",
+      "rationale": "Correct final-save detail is added, but the first-deletion error and an earlier contradictory endpoint remain.",
+      "parent_lines": [
+        29,
+        33,
+        39,
+        61
+      ],
+      "followup_lines": [
+        29,
+        47,
+        49,
+        55,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_supported",
+      "rationale": "Core retained counts are preserved.",
+      "parent_lines": [
+        5,
+        39
+      ],
+      "followup_lines": [
+        55,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    9,
+    11
+  ],
+  "summary": "Adds useful corrections and concrete preservation details, while retaining several earlier attribution, page-size, impact and cleanup conclusions that exceed the record.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

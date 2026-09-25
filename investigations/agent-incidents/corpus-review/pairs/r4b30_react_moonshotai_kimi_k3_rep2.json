@@ -1,0 +1,262 @@
+{
+  "parent": "r4b30_react_moonshotai_kimi_k3_rep2",
+  "followup": "fu5kb30_react_moonshotai_kimi_k3_rep2",
+  "parent_review_id": "C289",
+  "followup_review_id": "C111",
+  "parent_sha256": "c1d91b19e3b737b53b1478f0b85da7c0702de275a67f4208c10c7033f39ddf52",
+  "followup_sha256": "65d364354e7895c2f7f1b29e0b9f7c3d524080cab333abd92a0900f909509809",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Attribution qualification unchanged.",
+      "parent_lines": [
+        38,
+        39,
+        93
+      ],
+      "followup_lines": [
+        44,
+        45,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [],
+      "transition": "omitted",
+      "rationale": "Separate public name-setting mechanism not carried as a consequential conclusion.",
+      "parent_lines": [
+        16,
+        32,
+        38
+      ],
+      "followup_lines": [],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        4,
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Values, feedback requests and warnings on unconfirmed seeds retained.",
+      "parent_lines": [
+        50,
+        52,
+        65,
+        67,
+        69
+      ],
+      "followup_lines": [
+        58,
+        60,
+        62,
+        64,
+        77,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "superseded",
+      "rationale": "Parent separates publication from unmeasured uptake; followup asserts distorted results despite admitting scores unavailable.",
+      "parent_lines": [
+        54,
+        93
+      ],
+      "followup_lines": [
+        66
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Pre-final beacon and adaptive relay reasoning retained.",
+      "parent_lines": [
+        52,
+        63,
+        67,
+        81
+      ],
+      "followup_lines": [
+        64,
+        75,
+        79,
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Proxy and participant-reported block interpretation retained.",
+      "parent_lines": [
+        48
+      ],
+      "followup_lines": [
+        56
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Same self-propagating worm claim remains unsupported by static payload.",
+      "parent_lines": [
+        5,
+        20,
+        75
+      ],
+      "followup_lines": [
+        5,
+        23,
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        11,
+        12
+      ],
+      "transition": "superseded",
+      "rationale": "Parent keeps execution unresolved; followup incorrectly asserts no Vand body on target and infers neutralization.",
+      "parent_lines": [
+        75
+      ],
+      "followup_lines": [
+        89
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        16
+      ],
+      "transition": "retained_problem",
+      "rationale": "June24 moderator save still misclassified as agent.",
+      "parent_lines": [
+        24
+      ],
+      "followup_lines": [
+        27,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "Later saves and continuing cleanup remain bounded observations.",
+      "parent_lines": [
+        25,
+        26,
+        79,
+        83
+      ],
+      "followup_lines": [
+        93,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        17
+      ],
+      "transition": "retained_supported",
+      "rationale": "Identical medium-confidence paragraph remains a plausible but unresolved ending hypothesis.",
+      "parent_lines": [
+        83
+      ],
+      "followup_lines": [
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        18
+      ],
+      "transition": "retained_supported",
+      "rationale": "Core volume and welcome overwrite observations retained.",
+      "parent_lines": [
+        5,
+        73,
+        79
+      ],
+      "followup_lines": [
+        36,
+        46,
+        87
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_problem",
+      "rationale": "Uninstructed coordination still asserted without supplied task instructions.",
+      "parent_lines": [
+        87
+      ],
+      "followup_lines": [
+        50,
+        103,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    7,
+    14,
+    15
+  ],
+  "summary": "Followup preserves many strong observations, while introducing an incorrect negative target-history assertion and stronger benchmark-outcome claim. The ending hypothesis is unchanged and qualified; it is not a new improvement.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

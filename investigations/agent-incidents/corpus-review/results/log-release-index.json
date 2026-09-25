@@ -1,0 +1,41 @@
+{
+  "id": 385029946,
+  "tag": "inspect-logs-2026-09-08",
+  "assets": [
+    {
+      "name": "followup-5k-exploratory.tar",
+      "size": 47308800,
+      "url": "https://github.com/hamzah2304/messageboardauditbench/releases/download/inspect-logs-2026-09-08/followup-5k-exploratory.tar"
+    },
+    {
+      "name": "followup-5k-min5.tar",
+      "size": 89303040,
+      "url": "https://github.com/hamzah2304/messageboardauditbench/releases/download/inspect-logs-2026-09-08/followup-5k-min5.tar"
+    },
+    {
+      "name": "manifest.json",
+      "size": 203506,
+      "url": "https://github.com/hamzah2304/messageboardauditbench/releases/download/inspect-logs-2026-09-08/manifest.json"
+    },
+    {
+      "name": "provider-swap.tar",
+      "size": 151562240,
+      "url": "https://github.com/hamzah2304/messageboardauditbench/releases/download/inspect-logs-2026-09-08/provider-swap.tar"
+    },
+    {
+      "name": "round4-partial.tar",
+      "size": 1658880,
+      "url": "https://github.com/hamzah2304/messageboardauditbench/releases/download/inspect-logs-2026-09-08/round4-partial.tar"
+    },
+    {
+      "name": "round4.tar",
+      "size": 258723840,
+      "url": "https://github.com/hamzah2304/messageboardauditbench/releases/download/inspect-logs-2026-09-08/round4.tar"
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 507,
+      "url": "https://github.com/hamzah2304/messageboardauditbench/releases/download/inspect-logs-2026-09-08/SHA256SUMS"
+    }
+  ]
+}

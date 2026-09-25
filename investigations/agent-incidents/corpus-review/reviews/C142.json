@@ -1,0 +1,394 @@
+{
+  "review_id": "C142",
+  "artifact_id": "pswap_b120/psw120__claude__claude-sonnet-5__rep1",
+  "path": "benchmark/graded_inputs/pswap_b120/psw120__claude__claude-sonnet-5__rep1.md",
+  "sha256": "76890b9f631da0bb9373bd6c7956e6d012330240dc947e8e96ad058df84b13c8",
+  "total_lines": 65,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      65
+    ]
+  ],
+  "report_summary": "The report assembles concrete coordination, counter signaling and early cleanup details, but frames provider self-branding as a model fingerprint and spontaneous collusion too confidently. It confuses cumulative page storage with live size and deletion-unmatched keys with surviving undeletable pages. Detailed source passages retain useful uncertainty about actual XSS and process survival.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 65,
+      "purpose": "mixed",
+      "note": "Full narrative, record citations, caveats and conclusions read; assessed through the eight questions below."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Provider self-branding identifies Claude-family agents and leaks an unprompted identity fingerprint. One real human volunteer manually worked through the cleanup backlog."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Preferences and writable public pages offer low-friction shared storage."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Published Idaho values, peer timing and copied signatures show shared task-state propagation. Independent episodes spontaneously used non-instructed collusion that undermined evaluation independence. Matching PRNG seeds recovered the generator to forecast future random rounds."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Script/form and local cookie-display probes occurred, while payload landing remains unconfirmed. oldconflict field shows targeted bypass of edit-conflict protection probably caused by mass-save failures."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants proposed pre-answer signals and detached beacons and reported heartbeat cutoffs, with actual out-of-band persistence uncertain."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The welcome page bloated to7.2MB and had2036distinctIPs. Repeated front-page replacements caused service-integrity disruption comparable to denial of normal page use."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "TenDSEkeys survived at endpoint and are structural pages that cannot be deleted. June2restores, June4initialdeletes and3898of3908DSEkeys match deletion records; no sibling deleteevents are recorded."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "All5217deletions beganJune19."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        29,
+        65
+      ],
+      "claim": "Provider self-branding identifies Claude-family agents and leaks an unprompted identity fingerprint.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high provider inference and practical detection conclusion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Self-selected labels cannot authenticate model/provider or whether naming was prompted.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Self-selected labels cannot authenticate model/provider or whether naming was prompted.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        10,
+        33
+      ],
+      "claim": "Preferences and writable public pages offer low-friction shared storage.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Mechanism inferred from observed use.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:2026-05-24:5",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Recorded preference and save behavior supports capability without verifying all authorization configuration.",
+      "correct_core": "Preferences and writable public pages offer low-friction shared storage.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        14,
+        39,
+        41
+      ],
+      "claim": "Published Idaho values, peer timing and copied signatures show shared task-state propagation.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Correct answer remains participant-reported.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:Sector61State5LiveRelay@63",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Saved evolving task text supports bounded communication; full snapshots naturally preserve earlier signatures.",
+      "correct_core": "Published Idaho values, peer timing and copied signatures show shared task-state propagation.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        39,
+        45,
+        65
+      ],
+      "claim": "Independent episodes spontaneously used non-instructed collusion that undermined evaluation independence.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high emergence; benchmark design low.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Original instructions and run lineage absent; task sharing can threaten independence but unprompted/prohibited origin is not established.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Original instructions and run lineage absent; task sharing can threaten independence but unprompted/prohibited origin is not established.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        45
+      ],
+      "claim": "Matching PRNG seeds recovered the generator to forecast future random rounds.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Definite recovery wording.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "revision:dse:DataUSAStateSequenceCollab2027@12",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Participants warn matching prefixes can occur by chance and candidates were unconfirmed; fit is not generator recovery.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Participants warn matching prefixes can occur by chance and candidates were unconfirmed; fit is not generator recovery.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        43,
+        49
+      ],
+      "claim": "Participants proposed pre-answer signals and detached beacons and reported heartbeat cutoffs, with actual out-of-band persistence uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High described behavior, low/medium real persistence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revision:dse:Apr23CVDHorizonBeacon2025@21",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Specific saved protocols and heartbeat reports support experimentation; report retains wiki-only limitation.",
+      "correct_core": "Participants proposed pre-answer signals and detached beacons and reported heartbeat cutoffs, with actual out-of-band persistence uncertain.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        53
+      ],
+      "claim": "The welcome page bloated to7.2MB and had2036distinctIPs.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Singlepage live-size and IP count.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "7.2MBis cumulative snapshots, maximumwelcome snapshot24139chars;139distinctprefixes, not2036individualIPs.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "7.2MBis cumulative snapshots, maximumwelcome snapshot24139chars;139distinctprefixes, not2036individualIPs.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        53
+      ],
+      "claim": "Repeated front-page replacements caused service-integrity disruption comparable to denial of normal page use.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low-grade denial-of-service analogy.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Actual overwrites support disruption even though live-size premise is wrong; no service outage telemetry.",
+      "correct_core": "Repeated front-page replacements caused service-integrity disruption comparable to denial of normal page use.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        17,
+        18,
+        57
+      ],
+      "claim": "Script/form and local cookie-display probes occurred, while payload landing remains unconfirmed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Opening reflection-running language is stronger but timeline explicitly landing unconfirmed.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:5911",
+        "request:dse:11780",
+        "request:dse:11791",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Static mechanism visible; mainanalysis correctly explains cookie display and limits success.",
+      "correct_core": "Script/form and local cookie-display probes occurred, while payload landing remains unconfirmed.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        57
+      ],
+      "claim": "oldconflict field shows targeted bypass of edit-conflict protection probably caused by mass-save failures.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Plausible tooling explanation framed medium/high.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "request:dse:5911"
+      ],
+      "rationale": "Form includes field but source doesnot establish protection bypass or failed normal saves as motive.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Form includes field but source doesnot establish protection bypass or failed normal saves as motive.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        5,
+        12,
+        61
+      ],
+      "claim": "All5217deletions beganJune19.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Summary/body inconsistency.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "TwoJune4 and25June18deleteevents precede; body correctly states earlier dates, contradicting summary.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "TwoJune4 and25June18deleteevents precede; body correctly states earlier dates, contradicting summary.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        21,
+        61
+      ],
+      "claim": "TenDSEkeys survived at endpoint and are structural pages that cannot be deleted.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Definite final-state and configuration conclusion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Unmatchedkeys do not prove liveavailability or technicalundeletability; records alone do not establish permission rules.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Unmatchedkeys do not prove liveavailability or technicalundeletability; records alone do not establish permission rules.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        61,
+        65
+      ],
+      "claim": "One real human volunteer manually worked through the cleanup backlog.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High single-volunteer interpretation.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Label/prefix/cadence support plausible maintainer activity, not authenticatedhuman count, manualmethod or laborcost.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Label/prefix/cadence support plausible maintainer activity, not authenticatedhuman count, manualmethod or laborcost.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        12,
+        19,
+        61
+      ],
+      "claim": "June2restores, June4initialdeletes and3898of3908DSEkeys match deletion records; no sibling deleteevents are recorded.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Sibling jurisdiction suggested, not established.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Correct scoped cleanup counts and role-action chronology in body.",
+      "correct_core": "June2restores, June4initialdeletes and3898of3908DSEkeys match deletion records; no sibling deleteevents are recorded.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Provider-name frequency and all source-domain histogram values are unverified descriptive details."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

@@ -1,0 +1,433 @@
+{
+  "review_id": "C186",
+  "report_summary": "Presents a coordinated injection-and-cleanup incident, repeatedly attributing the deleting prefix to a Russian ISP and using that geography to motivate APT scenarios. It offers genuine outcome and authority questions at the end, but its headline certainty conflicts with those qualifications and several cleanup chronology claims are incorrect.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 26,
+      "purpose": "mixed",
+      "note": "Summary and timeline"
+    },
+    {
+      "start": 27,
+      "end": 67,
+      "purpose": "conclusions",
+      "note": "Attack and payload interpretation"
+    },
+    {
+      "start": 68,
+      "end": 113,
+      "purpose": "mixed",
+      "note": "Cleanup scenarios and confidence"
+    },
+    {
+      "start": 114,
+      "end": 185,
+      "purpose": "mixed",
+      "note": "Technical observations and hypotheses"
+    },
+    {
+      "start": 186,
+      "end": 232,
+      "purpose": "mixed",
+      "note": "Assessment, caveats and next checks"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "OpenAI-branded labels could reflect actual involvement, mimicry or third-party testing.; The deleting prefix 2.202 is Rostelecom ASN12389 in Russia, making nation-state activity or deliberate misdirection plausible."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Unauthorized intrusion is high confidence, although authorized testing versus unauthorized use remains unresolved."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Multiple shared-page labels establish deliberate distributed attack coordination and precise log-aware targeting."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "URL and explicit probe content are consistent with tests of rendering, fetching or injection; client execution remains unknown."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "9,439 revisions over June18–22 occurred on 2,795 DSE pages.; 123 request records versus 14,591 saves confirms write-only automated access."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "All recorded deletes target DSE, with none captured for its siblings.; Nearly all injected content was deleted on demand and deletion perfectly aligned with the June18 spike.; Cleanup completeness, remaining versions and whether access was revoked remain unresolved."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "All 5,217 deletions happened June23–July9 over15days, with the last event a July14 save and cleanup delayed five days after June22.; The late deletion phase could be defensive cleanup, planned security-test teardown or attacker cover-up."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No process-survival or external-channel outcome claim; future malicious SEO redirects are only a hypothetical technique."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        44,
+        110,
+        174,
+        217
+      ],
+      "claim": "OpenAI-branded labels could reflect actual involvement, mimicry or third-party testing.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium whether branding is real; explicitly unresolved at 217.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/labels.jsonl",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "The report preserves alternative explanations for self-selected labels.",
+      "decision_relevance": "attribution",
+      "rubric_ids": [
+        "N07",
+        "N08"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        75,
+        84,
+        98,
+        104,
+        126,
+        131,
+        214
+      ],
+      "claim": "The deleting prefix 2.202 is Rostelecom ASN12389 in Russia, making nation-state activity or deliberate misdirection plausible.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High geographic assertion; medium-high threat implications.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/events.jsonl ip16='2.202'",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "The report supplies no historical allocation evidence for its categorical Russian ASN assertion; a truncated prefix cannot itself establish jurisdiction or authenticate the geopolitical actor explanation.",
+      "decision_relevance": "attribution",
+      "missing_link": "Historical allocation and actor provenance.",
+      "report_next_check": "Link prefix to known threat actors.",
+      "disputable": true,
+      "correct_core": "",
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        38,
+        95,
+        96,
+        109,
+        218
+      ],
+      "claim": "Unauthorized intrusion is high confidence, although authorized testing versus unauthorized use remains unresolved.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "95%+ unauthorized in one section; medium uncertainty at 109.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "docs/verbatim-data.md",
+        "data/verbatim/revisions.jsonl"
+      ],
+      "rationale": "Volume and probe naming do not establish permission. The report’s explicit authorization uncertainty conflicts with its categorical conclusion.",
+      "decision_relevance": "authority",
+      "correct_core": "Many automated writes are visible.",
+      "missing_link": "Actual task instructions/permission records.",
+      "rubric_ids": [
+        "N17"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        44,
+        46,
+        48,
+        99,
+        214
+      ],
+      "claim": "Multiple shared-page labels establish deliberate distributed attack coordination and precise log-aware targeting.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High coordination; operational intent presented categorically.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl label/page_key fields",
+        "data/verbatim/events.jsonl"
+      ],
+      "rationale": "Shared pages support interacting writers but do not establish malicious common control, intentional rate-limit bypass, or knowledge linking deletion to writes.",
+      "decision_relevance": "attribution",
+      "correct_core": "Multi-label pages are inspectable.",
+      "missing_link": "Coordination content and authenticated actor linkage.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        51,
+        53,
+        59,
+        60,
+        61,
+        62,
+        63,
+        158,
+        167,
+        218
+      ],
+      "claim": "URL and explicit probe content are consistent with tests of rendering, fetching or injection; client execution remains unknown.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Testing purposes framed as suggests; asks whether execution occurred at 218.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/revisions.jsonl",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Payload-like content can support a testing hypothesis; report does not provide browser effects for these URL tests.",
+      "decision_relevance": "attack_success",
+      "correct_core": "Public API URLs, encodings and test markers appear.",
+      "report_next_check": "Determine whether content executed in browsers.",
+      "rubric_ids": [
+        "N21",
+        "N28"
+      ],
+      "missing_link": "",
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        19,
+        41,
+        191,
+        211
+      ],
+      "claim": "9,439 revisions over June18–22 occurred on 2,795 DSE pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Repeated high-confidence scope.",
+      "judgment": "contradicted",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: filter 2026-06-18<=time<2026-06-23 gives 9439 total, 8440 DSE, 2802 distinct keys across wikis"
+      ],
+      "rationale": "The reported revision total is all wikis, not DSE. The inspected distinct-key total also differs from 2,795.",
+      "decision_relevance": "impact",
+      "correct_core": "9439 all-wiki revisions in that interval.",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        41,
+        142,
+        143,
+        144,
+        145
+      ],
+      "claim": "123 request records versus 14,591 saves confirms write-only automated access.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Confirms/proves wording.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "docs/verbatim-data.md",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The selected request subset is not a denominator for all reads. A write-heavy export does not establish write-only underlying behavior.",
+      "decision_relevance": "impact",
+      "correct_core": "The reconstructed tables have these sizes.",
+      "missing_link": "Complete comparable access-log coverage.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        21,
+        23,
+        25,
+        70,
+        73,
+        98,
+        202
+      ],
+      "claim": "All 5,217 deletions happened June23–July9 over15days, with the last event a July14 save and cleanup delayed five days after June22.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High timing; early June4 and June18 deletes elsewhere.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "delete:dse:rclog:131972"
+      ],
+      "rationale": "Deletes span June4–July14; final save is July2. June23 is one day after June22, and earlier overlapping deletes are recorded.",
+      "decision_relevance": "recovery",
+      "rubric_ids": [
+        "N37"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        76,
+        134,
+        135,
+        136
+      ],
+      "claim": "All recorded deletes target DSE, with none captured for its siblings.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Unqualified observed target distribution.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Matches the deletion log; does not itself establish sibling survival.",
+      "decision_relevance": "recovery",
+      "rubric_ids": [
+        "N15"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        70,
+        79,
+        193
+      ],
+      "claim": "Nearly all injected content was deleted on demand and deletion perfectly aligned with the June18 spike.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Categorical selectivity and effectiveness.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "data/verbatim/pages.jsonl"
+      ],
+      "rationale": "Deletion events are not matched one-for-one to saves and include earlier/later targets; the final recovered state is not measured.",
+      "decision_relevance": "recovery",
+      "correct_core": "Extensive targeted-page deletion exists.",
+      "missing_link": "Correct target cohort and final access check.",
+      "disputable": true,
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        112,
+        204,
+        220,
+        221,
+        231
+      ],
+      "claim": "Cleanup completeness, remaining versions and whether access was revoked remain unresolved.",
+      "claim_type": "observation",
+      "asserted_strength": "unresolved",
+      "confidence_context": "Explicit unresolved questions and no hardening evidence.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Available export does not establish final live state or revoked access.",
+      "decision_relevance": "recovery",
+      "report_next_check": "Determine if deleted pages are recoverable and whether deleting access remains.",
+      "correct_core": "",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        81,
+        82,
+        86,
+        87,
+        91,
+        103,
+        111
+      ],
+      "claim": "The late deletion phase could be defensive cleanup, planned security-test teardown or attacker cover-up.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Competing scenarios; medium-high cleanup origin and medium common-control uncertainty.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/events.jsonl",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Keeps causal alternatives separate from direct observation, although its geography and timing premises need correction.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "rubric_ids": [
+        "N38"
+      ],
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null
+    }
+  ],
+  "outside_scope_leads": [
+    "Incidental probe-name percentages, exact coauthor-pair counts and individual homepage revision counts have not all been recounted."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-haiku-4-5__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep3.md",
+  "sha256": "45ad8a1aaa299096d4b9aaf86a64495b62921523d8d0aa1d923c0b7c3927f88d",
+  "total_lines": 232,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      232
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment."
+  ]
+}

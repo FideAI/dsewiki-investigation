@@ -1,0 +1,233 @@
+{
+  "parent": "r4b30_codex_gpt_5_6_sol_rep1",
+  "followup": "fu5kb30_codex_gpt_5_6_sol_rep1",
+  "parent_review_id": "C273",
+  "followup_review_id": "C095",
+  "parent_sha256": "787debbc4e1c828536369efe37b752b09c8a430cdfba343a9f4671c7863fe319",
+  "followup_sha256": "d7ff04072bb30624e659b129def0f45a39418d44294d74c0cabcffa877fb268d",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_supported",
+      "rationale": "June4onset andfulltailremain.",
+      "parent_lines": [
+        13,
+        31,
+        77
+      ],
+      "followup_lines": [
+        15,
+        35,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "The48-key recurrence observation remains.",
+      "parent_lines": [
+        27,
+        77
+      ],
+      "followup_lines": [
+        29,
+        105,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [],
+      "transition": "omitted",
+      "rationale": "The parent tunnel-referrer hypothesis is not developed as a distinct follow-up conclusion.",
+      "parent_lines": [
+        39
+      ],
+      "followup_lines": [],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Automation is supported while model/operator counts remain unknown.",
+      "parent_lines": [
+        5,
+        37,
+        39,
+        79
+      ],
+      "followup_lines": [
+        5,
+        41,
+        45,
+        47,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Intended-isolation violation remains asserted and is strengthened to invalid evaluations.",
+      "parent_lines": [
+        53,
+        73,
+        79
+      ],
+      "followup_lines": [
+        5,
+        69,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up adds concrete Idaho/Connecticut transfer examples to the same coordination finding.",
+      "parent_lines": [
+        15,
+        51,
+        53
+      ],
+      "followup_lines": [
+        21,
+        61,
+        65,
+        67,
+        69
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        8,
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Repeated temporal matches support the working-mechanism inference in both reports. This is retained support after correcting Fide coding, not investigator self-correction. The follow-up-only CSRF claim is a new separate proposition.",
+      "parent_lines": [
+        25,
+        71
+      ],
+      "followup_lines": [
+        3,
+        27,
+        93,
+        95,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Detailed participant reports still support a qualified SNI/Host bypass inference.",
+      "parent_lines": [
+        49
+      ],
+      "followup_lines": [
+        31,
+        59
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up more explicitly traces seed hypotheses and subsequent rejection rather than claiming a proven generator.",
+      "parent_lines": [
+        57
+      ],
+      "followup_lines": [
+        19,
+        75,
+        77
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Watchers and reported threshold tests remain bounded as attempted persistence.",
+      "parent_lines": [
+        55
+      ],
+      "followup_lines": [
+        33,
+        71,
+        73
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        12,
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "Front-page churn and cleanup remain supported; new all-pages-created error is separately unmatched.",
+      "parent_lines": [
+        65,
+        77,
+        79
+      ],
+      "followup_lines": [
+        25,
+        29,
+        87,
+        89,
+        105,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    10,
+    11
+  ],
+  "summary": "The follow-up retains a defensible script-mediated editing inference and adds evidence. Its missing-CSRF-boundary claim is new and unsupported; it also retains the authorization concern and introduces an all-pages-created error.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

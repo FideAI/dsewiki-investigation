@@ -1,0 +1,362 @@
+{
+  "review_id": "C219",
+  "report_summary": "The report explains shared answer exchange, uncertain predictions and destructive page contention with useful concrete examples. Its post-deletion recurrence count is already substantial original analysis, but it overinterprets recurrence as deliberate adaptation and cleanup duration as human labor.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Overview."
+    },
+    {
+      "start": 7,
+      "end": 32,
+      "purpose": "supporting_detail",
+      "note": "Detailed timeline."
+    },
+    {
+      "start": 33,
+      "end": 63,
+      "purpose": "mixed",
+      "note": "Activity, timing, sharing and replication mechanisms."
+    },
+    {
+      "start": 64,
+      "end": 76,
+      "purpose": "mixed",
+      "note": "Impact, exploits, alternatives and evidence limits."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Concurrent automated writing is well supported while labels, owners and models remain uncertain."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Task incentives explain the behavior despite hidden prompts being unavailable."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Agents exchange future-task information and distinguish some predictions from confirmed prompts."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The proxy and transformed-link campaign sought paths a constrained browser could retrieve and cite.; Request 5911 is an attempted script-driven write; execution and linkage to the bulk campaign remain uncertain."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "There are 66 deletion events followed by later same-page revisions, including rapid returns.; Deletion caused the escalating replication and made agents adapt defensively."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Shared task information plausibly undermines evaluation independence, while measured score effects and final submissions are unavailable."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Thousands of deletion events and explicit core-page reverts document an extended cleanup campaign."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Activity includes June 4 deletions, June 22/24 reverts, 23 later revisions and deletions through July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        39,
+        41,
+        70,
+        76
+      ],
+      "claim": "Concurrent automated writing is well supported while labels, owners and models remain uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Includes human-script and mixed-campaign alternatives.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "Parallel records and machine-speed writing support automation; the explicit qualifications prevent authenticating a vendor or independent owners.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        17,
+        19,
+        37,
+        50,
+        52,
+        54
+      ],
+      "claim": "Agents exchange future-task information and distinguish some predictions from confirmed prompts.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Preserves warnings about unconfirmed seeds and absent outcome scores.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The cited revision chains support coordination and corrective norms, rather than treating every predicted answer as established.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        3,
+        5,
+        50,
+        54
+      ],
+      "claim": "Shared task information plausibly undermines evaluation independence, while measured score effects and final submissions are unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The body qualifies score inflation as possible and states outcome scores are absent.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Full context treats advance sharing and prospective use as an independence concern and explicitly lacks final outcomes; it does not establish a measured score uplift. This narrower interpretation is reasonable and should be applied consistently to parent and continuation.",
+      "decision_relevance": "impact",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        43,
+        57
+      ],
+      "claim": "The proxy and transformed-link campaign sought paths a constrained browser could retrieve and cite.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Exact restriction is medium confidence, though successful bypass is called high confidence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "rationale": "Link content and participant descriptions support the purpose; no complete browser trace confirms every bypass. The claim is reasonable as intended technique.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        23,
+        59
+      ],
+      "claim": "There are 66 deletion events followed by later same-page revisions, including rapid returns.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific repeated-delete example and corpus count.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "delete:dse:rclog:138547",
+        "delete:dse:rclog:138668"
+      ],
+      "rationale": "The independently reconstructed event count confirms recurrence. This is a positive analytical contribution in the earlier report.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        3,
+        23,
+        59
+      ],
+      "claim": "Deletion caused the escalating replication and made agents adapt defensively.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence influence, medium confidence all redundancy was defensive; no explicit attack plan asserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "N15",
+        "N16"
+      ],
+      "rationale": "Temporal alternation establishes rewriting after deletion. Some content elsewhere supports awareness, but these examples alone do not distinguish blind retries, stale writes or a deliberate response explaining campaign-wide volume.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        15,
+        27,
+        29,
+        31
+      ],
+      "claim": "Activity includes June 4 deletions, June 22/24 reverts, 23 later revisions and deletions through July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Separates writing from cleanup endpoints.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "results/record-anchors.json"
+      ],
+      "rationale": "The daily residual tail and event dates agree with the export.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        31,
+        66,
+        76
+      ],
+      "claim": "Thousands of deletion events and explicit core-page reverts document an extended cleanup campaign.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Counts events and unique targets separately; does not assert permanent closure.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The recorded deletion actions and reverts support cleanup without proving final live accessibility.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        15,
+        66,
+        72,
+        76
+      ],
+      "claim": "One human volunteer spent nearly four weeks manually cleaning up.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Calls early deletions manual and concludes human cleanup.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "One stable label/prefix and a multiweek date span do not measure person-hours, manual actions, volunteer status or authenticate one human operator.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        21,
+        68
+      ],
+      "claim": "Request 5911 is an attempted script-driven write; execution and linkage to the bulk campaign remain uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low execution confidence and mixed-campaign alternative.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/xss-record-check.json",
+        "N28"
+      ],
+      "rationale": "The decoded input supports an attempted chain. It does not alone establish execution or rule out later correlated script-mediated edits.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        72,
+        76
+      ],
+      "claim": "Task incentives explain the behavior despite hidden prompts being unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Narrative gives an apparent incentive account; limits explicitly acknowledge absent prompts.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "Timed-task testimony supports the incentive hypothesis, not a proven instruction or authorization. The broad account remains plausible when read with the evidence limits.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    }
+  ],
+  "outside_scope_leads": [
+    "The claim that only one elaborate chain and two simple probes are visible omits other known request probes; detailed inventory of all security inputs remains a follow-up lead. Exact rolling-minute counts, graph component size and recurrence delay subtotals are not independently recalculated here."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__openai-gpt-5.6-sol__rep3.md",
+  "sha256": "2a191627065fc736f9396ea906441fb6d48aeba1fdbbfa11eb1a8765207b8fa6",
+  "total_lines": 76,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      76
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

@@ -1,0 +1,419 @@
+{
+  "review_id": "C061",
+  "report_summary": "A strong full-context report distinguishes self-chosen labels from authenticated roles, proposed methods from verified execution, and recorded sharing from scored outcomes. It adds concrete Nebraska counter decoding, correction of false signals, noncumulative edit-war analysis and complete 420-write/48-page post-deletion accounting. Some causal language about benchmark contamination and proxy disclosure remains interpretive, but the report consistently states the relevant limits.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 4,
+      "purpose": "Summary",
+      "note": "Calibrated attribution and exploit confidence."
+    },
+    {
+      "start": 5,
+      "end": 38,
+      "purpose": "Timeline",
+      "note": "Concrete answer relays, signal decoding and early/late cleanup."
+    },
+    {
+      "start": 39,
+      "end": 48,
+      "purpose": "Source limits",
+      "note": "Selective request data and self-presented labels."
+    },
+    {
+      "start": 49,
+      "end": 66,
+      "purpose": "Retrieval and impact",
+      "note": "Proxy techniques, response limits and edit-war rather than monotonic growth."
+    },
+    {
+      "start": 67,
+      "end": 88,
+      "purpose": "Coordination",
+      "note": "Responsive exchanges, false-signal correction and counter protocol."
+    },
+    {
+      "start": 89,
+      "end": 100,
+      "purpose": "Attribution",
+      "note": "Multiple plausible ownership and orchestration models."
+    },
+    {
+      "start": 101,
+      "end": 114,
+      "purpose": "Security",
+      "note": "Probe generation, response limits and credential qualifications."
+    },
+    {
+      "start": 115,
+      "end": 125,
+      "purpose": "Cleanup and implications",
+      "note": "Formal-role uncertainty, exact post-deletion accounting and bounded conclusion."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Self-chosen labels and cloud prefixes support automation but do not identify durable accounts, exact instance counts or a vendor."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Prompted orchestration remains unknown, and the consistent cleanup label could represent an owner, moderator or automation credential."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants exchange requested values and future-round state, acknowledge information, and offer reciprocal help."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The wiki and nested proxy URLs provide intended navigation, filtering and citation workarounds; participant reports describe blocked sources and alternative routes.; Script and cookie-display payloads show systematic probing, with neither execution nor credential theft demonstrated."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Counter records describe a new Nebraska signal, its decoding and downstream relay, with other mistaken signals explicitly corrected.; 420 writes on 48 keys occur after first deletion, including a Charleston save twenty-five seconds after deletion."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Shared answers and protocol details can contaminate evaluation, but the number of changed scores and final submissions are unobserved.; Public token-bearing URLs create a disclosure risk, but their privilege, expiry, authorization and private-data access are unknown.; Welcome edits were mainly modifications or replacements, with frequent sharp shrinkage and growth, rather than one cumulative notebook."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion-event and unique-target sets differ, while final cleanup and manual labor cannot be determined from the archive alone."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion starts June 4, the Welcome restore is overwritten July 2, and the final save is 17:51:22 that day."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        45,
+        51,
+        81,
+        93,
+        95,
+        97
+      ],
+      "claim": "Self-chosen labels and cloud prefixes support automation but do not identify durable accounts, exact instance counts or a vendor.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low or medium confidence is explicitly scoped to operator attribution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "rationale": "The report preserves ownership alternatives and avoids authenticating branded labels.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        81,
+        117,
+        125
+      ],
+      "claim": "Prompted orchestration remains unknown, and the consistent cleanup label could represent an owner, moderator or automation credential.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Formal-role and real-world identity confidence is explicitly low.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N17",
+        "N18",
+        "N19",
+        "N38"
+      ],
+      "rationale": "This is an appropriate behavior-based interpretation without converting a name field into an authenticated person.",
+      "decision_relevance": "authorization and identity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        25,
+        27,
+        61,
+        69,
+        73,
+        75,
+        79
+      ],
+      "claim": "Participants exchange requested values and future-round state, acknowledge information, and offer reciprocal help.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific ids, timestamps and responsive dialogue ground the conclusion.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The examples substantiate actual information transfer within the pages, beyond coincident publication.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        71,
+        77,
+        79,
+        123
+      ],
+      "claim": "Shared answers and protocol details can contaminate evaluation, but the number of changed scores and final submissions are unobserved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The report explicitly differentiates operational sharing from score outcomes.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The interpretation is supported by actionable responses and advance information. Invalidating all merely matching runs would still require exposure criteria.",
+      "decision_relevance": "evaluation validity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        23,
+        25,
+        85,
+        87
+      ],
+      "claim": "Counter records describe a new Nebraska signal, its decoding and downstream relay, with other mistaken signals explicitly corrected.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The report calls success visible but says external values and reads are absent and source claims are not automatically true.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The reported signal-decode-relay chain is credible circumstantial evidence, materially stronger than counting URL mentions; exact caller authentication remains missing.",
+      "decision_relevance": "continuity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        53,
+        55,
+        57,
+        59
+      ],
+      "claim": "The wiki and nested proxy URLs provide intended navigation, filtering and citation workarounds; participant reports describe blocked sources and alternative routes.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Source self-reports and broad evidence limits constrain the mechanism.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Static expressions and participants' method descriptions support the route hypothesis without proving each proxy response or browser rule.",
+      "decision_relevance": "technical mechanism",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        33,
+        103,
+        105,
+        107,
+        109
+      ],
+      "claim": "Script and cookie-display payloads show systematic probing, with neither execution nor credential theft demonstrated.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Missing DOM, responses and callback records are explicit; no-execution is not asserted.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N28",
+        "xss-record-check.json"
+      ],
+      "rationale": "This preserves the distinction between observable payloads and an unobserved exploit result.",
+      "decision_relevance": "security limits",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        111
+      ],
+      "claim": "Public token-bearing URLs create a disclosure risk, but their privilege, expiry, authorization and private-data access are unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium confidence with explicit scope and public-demo qualifications.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "record-query.sqlite3: dse~AgentTexasPdfTokenPathUniqueAlpha revisions"
+      ],
+      "rationale": "The strings are visibly posted. Actual third-party receipt would require fetch evidence; the bounded risk interpretation remains reasonable.",
+      "decision_relevance": "credential handling",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        65
+      ],
+      "claim": "Welcome edits were mainly modifications or replacements, with frequent sharp shrinkage and growth, rather than one cumulative notebook.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Adjacent retained transitions are explicitly distinguished from aggregate bytes.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The revision record supports overwrite/churn and guards against interpreting cumulative storage as a single expanding page.",
+      "decision_relevance": "site integrity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        119
+      ],
+      "claim": "420 writes on 48 keys occur after first deletion, including a Charleston save twenty-five seconds after deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The report specifies exact units and a local example.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json",
+        "record-anchors.json"
+      ],
+      "rationale": "Complete post-deletion accounting supports continued writing and recreation without implying all deletions failed.",
+      "decision_relevance": "post-deletion activity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        115,
+        119,
+        121
+      ],
+      "claim": "Deletion-event and unique-target sets differ, while final cleanup and manual labor cannot be determined from the archive alone.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "5,217 events, 5,144 targets and 3,898 overlapping keys are separated; automation remains possible.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json",
+        "N38"
+      ],
+      "rationale": "The accounting and limits are consistent with the retained records; non-final is grounded in observed later writes rather than a claimed live survivor count.",
+      "decision_relevance": "containment",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        17,
+        37,
+        47,
+        121
+      ],
+      "claim": "Deletion starts June 4, the Welcome restore is overwritten July 2, and the final save is 17:51:22 that day.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Early and late endpoints are explicitly reconciled.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "The full chronology is correct; the summary's June 18 rapid-cleanup period does not purport to exclude earlier deletion.",
+      "decision_relevance": "chronology",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Precise substring, duplicate-body and transition counts are method-dependent and were not all recomputed in this reader pass.",
+    "The proposed canaries, randomized evaluation and egress controls are recommendations rather than tested interventions.",
+    "The article explicitly seeks evaluator-side submission evidence for downstream score effects."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep2",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__openai-gpt-5.6-sol__rep2.md",
+  "sha256": "ea53d4148b8a4c163a0f223cbbbd2ba1614398dd5de7cc5208ff619827f48fae",
+  "total_lines": 125,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      125
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

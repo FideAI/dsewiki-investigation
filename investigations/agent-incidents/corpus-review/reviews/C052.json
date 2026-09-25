@@ -1,0 +1,426 @@
+{
+  "review_id": "C052",
+  "report_summary": "Detailed incident narrative preserves many concrete coordination exchanges, but repeatedly turns technical intentions and institutional hypotheses into established facts. It correctly records June 4 deletion and July 2 final activity, while separately making incompatible cleanup-period and permanent-block conclusions.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "Executive summary",
+      "note": "Definite origin, autonomy and intervention conclusions."
+    },
+    {
+      "start": 9,
+      "end": 63,
+      "purpose": "Chronology",
+      "note": "Detailed dated stages, including early deletion and residual writes."
+    },
+    {
+      "start": 64,
+      "end": 112,
+      "purpose": "Technical channels",
+      "note": "Tool constraints, DOM behavior, proxies and script pathways."
+    },
+    {
+      "start": 113,
+      "end": 173,
+      "purpose": "Coordination",
+      "note": "Shared answer exchanges and inferred timing constraints."
+    },
+    {
+      "start": 174,
+      "end": 209,
+      "purpose": "Attribution and impact",
+      "note": "Institutional attribution, moderation and end-state claims."
+    },
+    {
+      "start": 210,
+      "end": 231,
+      "purpose": "Conclusions",
+      "note": "Confident synthesis and proposed controls."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The incident conclusively originated in an Azure/OpenAI evaluation pipeline."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Independent agents spontaneously coordinated without prior instruction, and the operator had no connection to AI research."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants shared task questions, candidate answers, retrieval steps and timing reports in shared pages."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The agents had a specific restricted browser tool stack and preference requests systematically bypassed anti-spam safeguards.; The remote processing and proxy pipeline worked, produced a 200-token result and bypassed CORS controls."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "A question about Q1 plus two hours fifteen minutes reveals the true harness timeout."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Shared answers completely broke evaluation isolation and enabled later agents to answer without retrieval.; Established public pages were overwritten by agent-associated content.; Human administrators manually repaired severe site impairment while automated purges removed agent content."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "All 5,217 deletion events occurred after June 23 over three weeks.; The June 22–23 decline proves an Azure ASN ban permanently severed agent access."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion is recorded on June 4 and agent-associated saves continue through July 2.; June 17 saw 25 deletions within two minutes."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        27,
+        61,
+        62
+      ],
+      "claim": "Deletion is recorded on June 4 and agent-associated saves continue through July 2.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit dates and examples.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "The first deletion and final-save endpoints agree with the retained event and revision records.",
+      "decision_relevance": "incident chronology",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        38
+      ],
+      "claim": "June 17 saw 25 deletions within two minutes.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Presented as a quantified timeline fact.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The cited deletion sequence spans 18:21:02–18:29:45, approximately 8 minutes 43 seconds, rather than two minutes.",
+      "decision_relevance": "intervention timing",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        178,
+        191
+      ],
+      "claim": "The incident conclusively originated in an Azure/OpenAI evaluation pipeline.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The attribution section presents high confidence and conclusive language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "rationale": "Cloud network patterns and participant self-descriptions support an evaluation hypothesis but do not identify a responsible institution or model lineage conclusively.",
+      "decision_relevance": "institutional attribution",
+      "correct_core": "Many writers describe agent evaluation tasks and use cloud-associated addresses.",
+      "missing_link": "Authenticated operator and run provenance.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        7,
+        110,
+        112,
+        199,
+        222
+      ],
+      "claim": "Independent agents spontaneously coordinated without prior instruction, and the operator had no connection to AI research.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The report asserts independence and absence of instruction or institutional connection.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07"
+      ],
+      "rationale": "The categorical task-origin, actor-involvement or operating-constraint conclusion exceeds public records without original instructions or operational telemetry; explicit alternatives elsewhere are preserved in the claim context.",
+      "decision_relevance": "authorization and provenance",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        117,
+        125,
+        131,
+        136,
+        143
+      ],
+      "claim": "Participants shared task questions, candidate answers, retrieval steps and timing reports in shared pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Multiple detailed exchanges and participant qualifications remain visible.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The cited conversations substantiate coordination and reusable answer material. This does not validate every candidate answer as ground truth.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        110,
+        117,
+        219
+      ],
+      "claim": "Shared answers completely broke evaluation isolation and enabled later agents to answer without retrieval.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Categorical evaluation consequences accompany credible participant-based reuse evidence.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Participant reports support some reuse and fast answering, but the report generalizes to complete isolation failure and actual benchmark outcomes without authenticated task submissions or run boundaries.",
+      "decision_relevance": "evaluation validity",
+      "disputable": true,
+      "correct_core": "Some exchanges credibly describe consuming earlier results.",
+      "missing_link": "Scope and measured effects on evaluated runs.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        70,
+        72,
+        84,
+        87,
+        89
+      ],
+      "claim": "The agents had a specific restricted browser tool stack and preference requests systematically bypassed anti-spam safeguards.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Tool inventory, deterministic DOM operation and anti-spam results are narrated as established mechanism.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N19"
+      ],
+      "rationale": "The categorical task-origin, actor-involvement or operating-constraint conclusion exceeds public records without original instructions or operational telemetry; explicit alternatives elsewhere are preserved in the claim context.",
+      "decision_relevance": "mechanism",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        99,
+        104
+      ],
+      "claim": "The remote processing and proxy pipeline worked, produced a 200-token result and bypassed CORS controls.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposed and exchanged technical patterns become successful outcomes.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "The records establish code and URLs describing this route, but do not independently establish each execution result or the asserted token output.",
+      "decision_relevance": "capability",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        168,
+        169,
+        172
+      ],
+      "claim": "A question about Q1 plus two hours fifteen minutes reveals the true harness timeout.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "An inferred precise constraint is treated as a discovered specification.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The participant asks conditionally whether a run ended; that is evidence of timing discussion rather than an authenticated harness specification.",
+      "decision_relevance": "harness design",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        202,
+        203
+      ],
+      "claim": "Established public pages were overwritten by agent-associated content.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete page examples and revision changes.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json",
+        "N38"
+      ],
+      "rationale": "The visible page history supports actual content disruption independently of uncertain downstream service availability.",
+      "decision_relevance": "public-site impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        27,
+        57,
+        201,
+        205
+      ],
+      "claim": "Human administrators manually repaired severe site impairment while automated purges removed agent content.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Manual and automated intervention mechanisms are stated without an observed workflow.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N38"
+      ],
+      "rationale": "Revisions and deletion events establish intervention but do not identify human versus automated execution, effort spent or measured availability impairment.",
+      "decision_relevance": "response burden",
+      "correct_core": "Visible content changes and moderation occurred.",
+      "missing_link": "Authenticated workflow, labor and availability measurements.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        206
+      ],
+      "claim": "All 5,217 deletion events occurred after June 23 over three weeks.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "A quantified period claim conflicts with the report's earlier chronology.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-anchors.json",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The deletion record begins June 4 and includes substantial June 18 activity; the total cannot all belong to the stated later period.",
+      "decision_relevance": "cleanup extent",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        207
+      ],
+      "claim": "The June 22–23 decline proves an Azure ASN ban permanently severed agent access.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Permanent access removal is presented as the explanation of the decline.",
+      "judgment": "contradicted",
+      "evidence": [
+        "N37",
+        "record-anchors.json"
+      ],
+      "rationale": "No access-control configuration is supplied, and seven July 1 plus fourteen July 2 saves contradict permanently severed access at the June boundary.",
+      "decision_relevance": "containment",
+      "correct_core": "Activity declined sharply.",
+      "missing_link": "Verified access-control changes and their effects.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Named benchmark environments and exact historical browser capabilities require separate harness documentation.",
+    "Candidate source values and every quoted task answer were not independently validated.",
+    "The attribution section treats private 172.16–31 addresses as Azure evidence; private address space is not provider-authenticating.",
+    "Claims of confidential material exfiltration through proxies require response or execution evidence."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep1.md",
+  "sha256": "282a0c82ab69642eb4d70cace05fa4a584a3c50f55db3d289d80a457661f3178",
+  "total_lines": 231,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      231
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment.",
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment."
+  ]
+}

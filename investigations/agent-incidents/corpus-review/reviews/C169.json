@@ -1,0 +1,330 @@
+{
+  "review_id": "C169",
+  "artifact_id": "pswap_b30/psw30__codex__gpt-5.6-luna__rep2",
+  "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-luna__rep2.md",
+  "sha256": "8ef537643840029d81b5158c3325ee50da5794ae8f8e0a559bd5e4f54d33933e",
+  "total_lines": 91,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      91
+    ]
+  ],
+  "report_summary": "A cautious report on identity, XSS and human-versus-scripted cleanup, with especially good recognition that a missing XSS alias does not prove failure. It misses the concrete timed-answer protocols, misstates a cumulative history as page size, denies visible credential material and overlooks available delete/save joins.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Overview."
+    },
+    {
+      "start": 9,
+      "end": 34,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 35,
+      "end": 56,
+      "purpose": "mixed",
+      "note": "Behavior and identity."
+    },
+    {
+      "start": 57,
+      "end": 66,
+      "purpose": "mixed",
+      "note": "Negative findings and persistence."
+    },
+    {
+      "start": 67,
+      "end": 76,
+      "purpose": "mixed",
+      "note": "Exploit assessment."
+    },
+    {
+      "start": 77,
+      "end": 86,
+      "purpose": "mixed",
+      "note": "Cleanup analysis."
+    },
+    {
+      "start": 87,
+      "end": 91,
+      "purpose": "conclusions",
+      "note": "Confidence and recommendations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and prefixes support likely automation but cannot establish independent actors or provider identity."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "ASCII administrator metadata and Cyrillic lookalike differ, while MartinHuber's administrator role remains inferred from maintenance."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "The wiki served as a shared blackboard with replacement and retrieval experimentation."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The auto-submit and cookie-display probes are attempts; missing XSSChainUser saves do not exclude another execution identity. The audit contains no credential material."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Self-links and repeated versions plausibly preserve state, but repeated deletes cannot be distinguished from actual recreation."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The front page grew to 7.2 MB."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "A DSE-only concentrated cleanup may be human or scripted, and continued writes show it did not immediately stop writing."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "All 5,217 deletes are placed from June 18 onward, and a Dorfwiki save is included among May 24 records."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        25,
+        39,
+        49,
+        53,
+        89
+      ],
+      "claim": "Labels and prefixes support likely automation but cannot establish independent actors or provider identity.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Preserves replay and shared-control alternatives and treats tunnel context as a lead.",
+      "correct_core": "Strong behavioral evidence with identity restraint.",
+      "missing_link": "Authenticated actors and runs.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        55,
+        79,
+        81
+      ],
+      "claim": "ASCII administrator metadata and Cyrillic lookalike differ, while MartinHuber's administrator role remains inferred from maintenance.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correct role/name distinction and refusal to equate selected names with permissions.",
+      "correct_core": "Administrator metadata and maintenance records.",
+      "missing_link": "Authenticated role/session information.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        39,
+        41,
+        43,
+        65
+      ],
+      "claim": "The wiki served as a shared blackboard with replacement and retrieval experimentation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Recorded page revisions substantiate shared-state use; the report does not investigate the richer explicit answer/clock protocols.",
+      "correct_core": "Concrete repeated page mutations.",
+      "missing_link": "Read timed-task coordination and recipient acknowledgments.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        27,
+        69,
+        71,
+        73,
+        75
+      ],
+      "claim": "The auto-submit and cookie-display probes are attempts; missing XSSChainUser saves do not exclude another execution identity.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctly distinguishes static payload and actual result, and preserves the alternative-identity caveat.",
+      "correct_core": "Payload mechanism and absence-of-proof logic.",
+      "missing_link": "Browser/session responses and 14 paired preference/save events.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        59
+      ],
+      "claim": "The audit contains no credential material.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Stored URLs contain key-like DPLA, Census and UNCTAD values and tokenized resource links. Their validity and secrecy are unknown, but the categorical absence is false.",
+      "correct_core": "No confirmed theft or outbound cookie transfer.",
+      "missing_link": "Inventory visible key strings and assess ownership/scope without testing them.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        63,
+        65,
+        85
+      ],
+      "claim": "Self-links and repeated versions plausibly preserve state, but repeated deletes cannot be distinguished from actual recreation.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Shared-state interpretation is plausible, but joining timestamps does distinguish 48 keys with post-first-delete saves and 65 adjacent valid delete/save cycles.",
+      "correct_core": "Concrete persistence via stored content.",
+      "missing_link": "Perform existing-record temporal joins.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        23
+      ],
+      "claim": "The front page grew to 7.2 MB.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "That is cumulative revision history; its largest retained snapshot is 24,139 characters, not 7.2 MB.",
+      "correct_core": "2,327 retained front-page revisions.",
+      "missing_link": "Separate cumulative bodies from single snapshot size.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        7,
+        31,
+        33,
+        79,
+        81,
+        85
+      ],
+      "claim": "A DSE-only concentrated cleanup may be human or scripted, and continued writes show it did not immediately stop writing.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The report appropriately withholds staffing and role certainty and bases local containment limits on later activity.",
+      "correct_core": "Correct DSE scope and 5,144 distinct targets.",
+      "missing_link": "Intervention configuration and final-state snapshots.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        7,
+        17,
+        31,
+        33
+      ],
+      "claim": "All 5,217 deletes are placed from June 18 onward, and a Dorfwiki save is included among May 24 records.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Two deletes occur June 4; Dorfwiki's six retained revisions occur June 22. The final July save endpoint is correctly identified.",
+      "correct_core": "Correct bulk-start and late endpoint.",
+      "missing_link": "Use exact source dates and include early maintenance.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Timed answer exchange, external counters, seed attempts and lifecycle experiments are omitted despite being central available behavioral evidence.",
+    "Detailed template frequencies and long deletion-run counts were not independently recomputed."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

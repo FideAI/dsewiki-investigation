@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "file": "data/verbatim/events.jsonl",
+      "expected": "8a1b647d92d105e606a978744b16074810b0f7cc61ae2b748a1c81e5f32ff6fa",
+      "actual": "8a1b647d92d105e606a978744b16074810b0f7cc61ae2b748a1c81e5f32ff6fa",
+      "match": true
+    },
+    {
+      "file": "data/verbatim/labels.jsonl",
+      "expected": "7ebf896de4abedb1c7b203497211e28d8465f29dfee232ce4025f56114be093a",
+      "actual": "7ebf896de4abedb1c7b203497211e28d8465f29dfee232ce4025f56114be093a",
+      "match": true
+    },
+    {
+      "file": "data/verbatim/pages.jsonl",
+      "expected": "4e04bcd522555504df6d7eed96db32154897aba0c781d77eb9b539aa688d5689",
+      "actual": "4e04bcd522555504df6d7eed96db32154897aba0c781d77eb9b539aa688d5689",
+      "match": true
+    },
+    {
+      "file": "data/verbatim/revisions.jsonl",
+      "expected": "fedf20200c28bca717f616f36bc6d00a1e9a35fe377f5f8a3cf9278fc6c397f4",
+      "actual": "fedf20200c28bca717f616f36bc6d00a1e9a35fe377f5f8a3cf9278fc6c397f4",
+      "match": true
+    },
+    {
+      "file": "data/verbatim_anthropic/events.jsonl",
+      "expected": "ece1415de08929e0df237fb6889a12b4d05df458f3578f42570d7755d614588f",
+      "actual": "ece1415de08929e0df237fb6889a12b4d05df458f3578f42570d7755d614588f",
+      "match": true
+    },
+    {
+      "file": "data/verbatim_anthropic/labels.jsonl",
+      "expected": "6d40c1fb9d4b1cbb16ac190d6a60fe4fafc014f61244c5146fc1d6f35fccab82",
+      "actual": "6d40c1fb9d4b1cbb16ac190d6a60fe4fafc014f61244c5146fc1d6f35fccab82",
+      "match": true
+    },
+    {
+      "file": "data/verbatim_anthropic/pages.jsonl",
+      "expected": "0f16fe1b53faf71a9d582d271fbcb0767a1f3cd18d77b43857e291d8a00b3955",
+      "actual": "0f16fe1b53faf71a9d582d271fbcb0767a1f3cd18d77b43857e291d8a00b3955",
+      "match": true
+    },
+    {
+      "file": "data/verbatim_anthropic/revisions.jsonl",
+      "expected": "0d1b1d5698d3bc29b226d0647b141b80c890a2fac6218ff72153513bbc1e01b7",
+      "actual": "0d1b1d5698d3bc29b226d0647b141b80c890a2fac6218ff72153513bbc1e01b7",
+      "match": true
+    }
+  ],
+  "limit": "Reconstructed current pinned input variants; actual historical per-run mounts remain unverified and earlier provider-batch mismatch remains unresolved."
+}

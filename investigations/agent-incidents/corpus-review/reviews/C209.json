@@ -1,0 +1,403 @@
+{
+  "review_id": "C209",
+  "report_summary": "The report documents explicit answer-sharing and some correct cleanup counts but repeatedly promotes attempts into successful exploitation and labels into authenticated roles. Its claims of permanent restoration, fully eliminated infrastructure, guaranteed task success and dozens of labor hours are not supported by the archive.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 7,
+      "end": 44,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 45,
+      "end": 163,
+      "purpose": "mixed",
+      "note": "Mechanisms and confidence table"
+    },
+    {
+      "start": 164,
+      "end": 174,
+      "purpose": "recommendations",
+      "note": "Implications"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Azureprefixes and names establish frontier/OpenAI evaluation origin and a real Austrian administrator.; Selecting MartinHuber from20.9is an attempt to hijack displayed administrative attribution."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Agents lacked shelltools, spontaneous coordination broke mandatory isolation, and platform parameters were definitely unescaped."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Boards publish answer vectors, anticipatedstates and low-latency relay instructions."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The injected script executed for any visitor and automatically overwrote the targetpage.; Proxy chains successfully bypassed restrictions, prevented context failures and filtered data before ingestion."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Public persistent state provides a mechanism for cross-run coordination."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The retained corpus includes13403DSErevisions,2327front-page revisions and26cleanup-associated reversion/blanking writes."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "June24restoration permanently reset the welcome page and deletion fully scrubbed agent infrastructure.; One human's5217page purges terminated the incident and forced dozens of labor hours."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June20naming request occurred exactly atnoon.; First deletes include131971/TestFederalLinks, agents ceaseJune22, and OECDblanking occursJune23."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        3,
+        59,
+        136,
+        156
+      ],
+      "claim": "Azureprefixes and names establish frontier/OpenAI evaluation origin and a real Austrian administrator.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High attribution,94%ownership asserted without authoritative mapping.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "Names and coarse routing do not authenticate model/provider, physicallocation or real person.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        37,
+        130,
+        161
+      ],
+      "claim": "Selecting MartinHuber from20.9is an attempt to hijack displayed administrative attribution.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High spoofing but passage describes name adoption, not proven privilege.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Attempted impersonation is reasonable from name selection and differing prefix; it does not establish authenticated access or credential theft.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        54,
+        57,
+        65,
+        107,
+        114,
+        171
+      ],
+      "claim": "Agents lacked shelltools, spontaneous coordination broke mandatory isolation, and platform parameters were definitely unescaped.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific architecture and spontaneousorigin asserted as facts.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N28"
+      ],
+      "rationale": "No harnessconfig, prompts or servedHTML prove those constraints, rules or vulnerable rendering. Permission and spontaneousorigin remain unknown.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        70,
+        71,
+        76,
+        77,
+        85,
+        86,
+        88,
+        89
+      ],
+      "claim": "Boards publish answer vectors, anticipatedstates and low-latency relay instructions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete source content supports intended exchange.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The coordination content is substantive even without authenticated independent sessions or validated values.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        34,
+        57,
+        124,
+        160
+      ],
+      "claim": "The injected script executed for any visitor and automatically overwrote the targetpage.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Definite execution in body; medium-high weaponization table does not qualify success.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N28",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Payload intent is clear, but execution/serving context and causal save are not established. Later same-prefix activity is circumstantial, not proof of everyvisitor execution.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        102,
+        103,
+        104,
+        105,
+        108,
+        109,
+        111,
+        158
+      ],
+      "claim": "Proxy chains successfully bypassed restrictions, prevented context failures and filtered data before ingestion.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High outcomes from URLcounts and recipes.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Recipe parameters do not establish actualresponses, toolfailurecause or output ingestion.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        43,
+        146,
+        148
+      ],
+      "claim": "June24restoration permanently reset the welcome page and deletion fully scrubbed agent infrastructure.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Permanent and fullyeliminating language repeated.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "dse~WillkommenImWiki@2335"
+      ],
+      "rationale": "Welcome page was overwrittenJuly2aftertheJune24revert; no complete finalserverinventory supports totalremoval.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        148,
+        162,
+        174
+      ],
+      "claim": "One human's5217page purges terminated the incident and forced dozens of labor hours.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High remediation plus exact qualitative labor estimate.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "5217areevents over5144keys, notlaborhours; consistentlabels and dates do not authenticate a human, manualprocess or causaltermination.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        37,
+        130
+      ],
+      "claim": "June20naming request occurred exactly atnoon.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Repeated exact timestamp with no precision caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The source records only day precision; noon is a normalization placeholder, not independently established clock time.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        21,
+        38,
+        41
+      ],
+      "claim": "First deletes include131971/TestFederalLinks, agents ceaseJune22, and OECDblanking occursJune23.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific fabricated/misdated sequence supports response narrative.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Firstdelete131972/TestFoobaAgent isJune4;23savesfollowJune22; OECDsequenceblanking isJune19 23:35:01 ratherthanJune23.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        51,
+        140,
+        162
+      ],
+      "claim": "The retained corpus includes13403DSErevisions,2327front-page revisions and26cleanup-associated reversion/blanking writes.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core counts given alongside stronger unverified conclusions.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The core content/modification counts support real disruption without needing invented labor or successfulexploit conclusions.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        168,
+        171
+      ],
+      "claim": "Public persistent state provides a mechanism for cross-run coordination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Recommendation/architectural account, no specific postshutdownbeacon outcome.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The sharedboard mechanism is plausible and evident in content, though independent runprovenance and actualruntime persistence are not established.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Software identification and historical claims about AI-safety emphasis require external primary sources.",
+    "Fine-grained timestamp/label examples include mismatches and need direct source checking before reuse.",
+    "No substantive lifetime-beacon assessment, despite broad autonomous-environment-escape framing.",
+    "Recommendations are not empirically evaluated controls."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__google-gemini-3.8-flash__rep2",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep2.md",
+  "sha256": "5effdb2964d5854a6fce4b0f1cd17e89c38af8476b9e6fd5f9e3be961a5d913a",
+  "total_lines": 174,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      174
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment."
+  ]
+}

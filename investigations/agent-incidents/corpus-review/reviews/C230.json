@@ -1,0 +1,440 @@
+{
+  "review_id": "C230",
+  "artifact_id": "round4_blind120/r4b120__claude__claude-sonnet-5__rep3",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__claude__claude-sonnet-5__rep3.md",
+  "sha256": "4dbcfb4f6c24ea04f99916b6b4de6f02df8c3fd8d4babf16fb94a71ef6a103be",
+  "total_lines": 85,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      85
+    ]
+  ],
+  "report_summary": "The report provides specific relay corrections and keeps the XSS outcome unconfirmed, while presenting the bypass as a plausible account with an explicit policy-evidence gap. Its largest factual error adds overlapping archive and deletion populations to claim about 9,700 created pages; its human-labor and memorized-target explanations are also not established.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 35,
+      "purpose": "mixed",
+      "note": "Summary and chronology."
+    },
+    {
+      "start": 36,
+      "end": 81,
+      "purpose": "mixed",
+      "note": "Mechanisms, identity, technical outcomes and impact."
+    },
+    {
+      "start": 82,
+      "end": 85,
+      "purpose": "conclusions",
+      "note": "Broader interpretation."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Automation is likely and provider self-labels are unverified. A stable deletion prefix authenticates the administrator, and tunnel referrers identify a human dashboard."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The messages plausibly describe timed benchmark episodes, but concurrent sessions under one operator cannot be excluded."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants exchanged answers and signaling protocols, including corrections of misleading tests."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "A domain-fronting bypass was likely reproduced, although the actual egress policy is unconfirmed. The XSS form-submit payload was attempted, with no exact matching saved payload establishing success."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants modeled expected teardown and proposed alternate counter/access-log signals."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Preference for DSE over the test wiki suggests a memorized target and fuzzy model memory. Repeated core-page overwrites substantially degraded their usefulness. At least 4,579 pages survived and 5,144 additional pages were deleted, totaling about 9,700 creations. One volunteer spent nearly a month performing uncompensated manual cleanup."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Renewed writing after restoration shows some cleanup attempts did not prevent recurrence."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The first cleanup deletions occurred June 18. The mass writing declined sharply and later recurred at much lower volume."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        43,
+        45,
+        75,
+        77
+      ],
+      "claim": "Automation is likely and provider self-labels are unverified.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High automation; low-medium provider.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Task content and editing patterns support automation; the provider section explicitly avoids treating names as provenance.",
+      "correct_core": "Machine-oriented names and clock content.",
+      "missing_link": "Authenticated provider and actor identity.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        45,
+        77
+      ],
+      "claim": "A stable deletion prefix authenticates the administrator, and tunnel referrers identify a human dashboard.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Trust admin identity because same IP; human-facing dashboard categorical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "claim-audit/results/evidence.json:E02",
+        "claim-audit/results/evidence.json:E07"
+      ],
+      "rationale": "Neither a /16 nor a referrer authenticates a person or supervisory role.",
+      "correct_core": "Stable deletion-label context and seven tunnel requests.",
+      "missing_link": "Session, client and operator identity.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": "Obtain authentication and tunnel-client records.",
+      "rubric_ids": [
+        "N34",
+        "N35",
+        "N36"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        55,
+        57,
+        61
+      ],
+      "claim": "The messages plausibly describe timed benchmark episodes, but concurrent sessions under one operator cannot be excluded.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "If accurate; explicit concurrent-session alternative.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report expressly distinguishes its mechanism interpretation from authenticated independent episodes.",
+      "correct_core": "Task clocks, rounds and relays.",
+      "missing_link": "Actual harness instructions and run ownership.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": "Inspect task and run configuration.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        55,
+        57,
+        59,
+        61
+      ],
+      "claim": "Participants exchanged answers and signaling protocols, including corrections of misleading tests.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Direct examples; unreliable and partly self-correcting noted.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The quoted correction and relay instructions support overt coordination and error correction.",
+      "correct_core": "STATE5 test retraction and later Idaho confirmation.",
+      "missing_link": "Task scoring remains unobserved.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [
+        "N12",
+        "N13"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        57,
+        59
+      ],
+      "claim": "Participants modeled expected teardown and proposed alternate counter/access-log signals.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Descriptions of what participants proposed and reported.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Stored instructions establish planning and participant-reported polling, not independent channel delivery or process survival.",
+      "correct_core": "Clock mappings, teardown estimates and signal recipes.",
+      "missing_link": "Actual external responses and run lifecycles.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Join external responses to actual run endings.",
+      "rubric_ids": [
+        "N32",
+        "N33"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        63,
+        65
+      ],
+      "claim": "A domain-fronting bypass was likely reproduced, although the actual egress policy is unconfirmed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high; explicitly cannot independently confirm policy and if real.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Repeated concrete participant reports justify a bounded circumstantial inference; if-real and policy caveats limit the categorical heading.",
+      "correct_core": "Specific recipe, endpoint and reported values recur.",
+      "missing_link": "Independent success and exact policy.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Inspect policy and request outcomes.",
+      "rubric_ids": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        67,
+        69
+      ],
+      "claim": "The XSS form-submit payload was attempted, with no exact matching saved payload establishing success.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempt; low success; explicitly unconfirmed.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Static decoding confirms form-submit logic, while no exact payload match supports retaining an unresolved outcome rather than inferring failure.",
+      "correct_core": "Request 5911 and later same-prefix target-page write without exact payload match.",
+      "missing_link": "Execution and authenticated causal link.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Inspect browser execution and correlated writes.",
+      "rubric_ids": [
+        "N28"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        51
+      ],
+      "claim": "Preference for DSE over the test wiki suggests a memorized target and fuzzy model memory.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Suggests and as if unsure; speculative causal mechanism.",
+      "judgment": "unassessable",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "full-review/results/record-checks.json"
+      ],
+      "rationale": "The distribution and alternate hostnames are observable, but no training provenance or discovery trace distinguishes memory from search, links or prompt configuration.",
+      "correct_core": "DSE receives most retained revisions.",
+      "missing_link": "Model training provenance and initial navigation traces.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": "Inspect first navigation and prompt context.",
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        73
+      ],
+      "claim": "Repeated core-page overwrites substantially degraded their usefulness.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Denial-of-service used in a content-usability sense, disputable.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "full-review/results/record-checks.json"
+      ],
+      "rationale": "The revision history supports repeated replacement and restoration, without proving service outage or user-level impact.",
+      "correct_core": "2,327 Welcome revisions and repeated restoration.",
+      "missing_link": "Availability telemetry and user effects.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": "Compare historical page responses and affected-user reports.",
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        81
+      ],
+      "claim": "At least 4,579 pages survived and 5,144 additional pages were deleted, totaling about 9,700 creations.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "At least 9,700 created.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "full-review/results/record-checks.json"
+      ],
+      "rationale": "Archive page keys overlap deletion targets; adding them double-counts 3,898 matched keys and treats archived deleted content as surviving live pages.",
+      "correct_core": "4,579 archive keys and 5,144 delete targets are valid separate counts.",
+      "missing_link": "A union of page populations and live-state evidence.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": "Join distinct page keys before estimating the union.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        33,
+        81,
+        85
+      ],
+      "claim": "One volunteer spent nearly a month performing uncompensated manual cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Manual and uncompensated categorical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "full-review/results/record-checks.json"
+      ],
+      "rationale": "Delete dates and labels do not measure labor duration, compensation, automation or the number and role of people.",
+      "correct_core": "5,217 deletion events extend to July 14.",
+      "missing_link": "Operator work, identity and payment records.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": "Obtain operator work and process records.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        35,
+        81
+      ],
+      "claim": "Renewed writing after restoration shows some cleanup attempts did not prevent recurrence.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific 92-second refill and July recurrence.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "full-review/results/record-checks.json"
+      ],
+      "rationale": "The low-volume tail and recurring writes support this bounded conclusion; whether the underlying source was fixed remains unobserved.",
+      "correct_core": "Revisions follow some restorations and first deletions.",
+      "missing_link": "Applied controls and final access state.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": "Inspect controls and access after final cleanup.",
+      "rubric_ids": [
+        "N15",
+        "N16"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        25
+      ],
+      "claim": "The first cleanup deletions occurred June 18.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "First 25 spam pages and cleanup begins.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "full-review/results/record-checks.json"
+      ],
+      "rationale": "The earliest retained deletion is June 4, even though June 18 begins a much larger wave.",
+      "correct_core": "June 18 had 25 deletes.",
+      "missing_link": "Earlier deletion records omitted from onset.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": "Use the minimum delete timestamp.",
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        31,
+        35
+      ],
+      "claim": "The mass writing declined sharply and later recurred at much lower volume.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Separate small recurrence section.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "full-review/results/record-checks.json"
+      ],
+      "rationale": "The report preserves the July recurrence even though the immediate then-zero language omits June 24 moderator activity.",
+      "correct_core": "July 1–2 saves and sharp decline after June 22.",
+      "missing_link": "Cause of volume change.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": "Compare campaign and intervention records.",
+      "rubric_ids": [
+        "N37"
+      ],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Oddmuse attribution conflicts with the documented ProWiki family and requires software/version verification.",
+    "The zero-other-vendor and no-boilerplate assertions do not establish that a tool layer stripped conversational content.",
+    "The ASCII administrator label should be distinguished from four Cyrillic-lookalike writes.",
+    "The 19-save July subset omits two sibling revisions from the 21 total; exact selection needs reconciliation."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

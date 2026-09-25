@@ -1,0 +1,408 @@
+{
+  "review_id": "C137",
+  "artifact_id": "pswap_b10/psw10__react__moonshotai-kimi-k3__rep2",
+  "path": "benchmark/graded_inputs/pswap_b10/psw10__react__moonshotai-kimi-k3__rep2.md",
+  "sha256": "4f0531eddfa068cb5f75661cd918ed4c6e505067f3f4de480f835c91c962aef1",
+  "total_lines": 94,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      94
+    ]
+  ],
+  "report_summary": "The report identifies reciprocal task messages, explicit probes and uncertainty about a common operator. It overstates authenticated identities, injection functionality and benign or unauthorized intent, mixes saved revisions with created pages, and gives inconsistent cleanup chronology.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 94,
+      "purpose": "mixed",
+      "note": "Entire retained artifact read, including its abrupt ending where present."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The archive authenticates at least3,102 AI-agent accounts and a tested account-creation flow. A shared harness or imitation may explain repeated canaries; operator count and moderator role remain uncertain."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The probes were sanctioned or benign, none of the activity was malicious, and all of it was unauthorized on infrastructure nobody supplied."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "A police-task ping receives a dated acknowledgment and additional replies, showing a threaded task exchange. Copied canary text proves independently operating agents read and imitated each other through the wiki."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The preferences endpoint is known to reflect the script without escaping and the payload functionally causes any rendering victim to author a page. The archive contains script-shaped requests and a form-building payload that could create an unwanted edit if executed."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "The wiki plausibly served as persistent shared state for episodic tasks, though actual harness configuration is unknown."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "14,591 saves versus5,217 deletes means roughly one page removed for every three created. All1,013 probier revisions were unlabeled."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The first deletion occursJune4, the largest day isJune23 with602 events, and cleanup continues throughJuly14. One person performed5,217 manual deletions and the activity overwhelmed moderation capacity."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "July5–14 deletes stay within150–240/day, cleanup ends ten days afterJuly2, andJune11 has14 saves. May17 retained access precedesMay24 first writing,June4 first deletion,June18 peak andJuly2 final writing."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        14,
+        35,
+        39
+      ],
+      "claim": "The archive authenticates at least3,102 AI-agent accounts and a tested account-creation flow.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "request:dse:2026-06-20:0",
+        "data/verbatim_anthropic/labels.jsonl"
+      ],
+      "rationale": "Preference-set labels are not authenticated accounts, and the count does not establish independent instances.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Authenticated accounts and run identities.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        49,
+        64,
+        84
+      ],
+      "claim": "A shared harness or imitation may explain repeated canaries; operator count and moderator role remain uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~--help@17",
+        "data/verbatim_anthropic/labels.jsonl"
+      ],
+      "rationale": "The body preserves alternatives and recognizes the administrator annotation with zero stored revisions.",
+      "correct_core": "The body preserves alternatives and recognizes the administrator annotation with zero stored revisions.",
+      "missing_link": "",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        24,
+        58,
+        60
+      ],
+      "claim": "A police-task ping receives a dated acknowledgment and additional replies, showing a threaded task exchange.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~AgentAug02Scout@1",
+        "dse~AgentAug02Scout@2"
+      ],
+      "rationale": "This supports concrete communication without proving final score impact.",
+      "correct_core": "This supports concrete communication without proving final score impact.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        5,
+        49
+      ],
+      "claim": "Copied canary text proves independently operating agents read and imitated each other through the wiki.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "dse~--help@17",
+        "dse~--help@18",
+        "dse~--help@19"
+      ],
+      "rationale": "Copying is a reasonable hypothesis; shared templates, one controller and unknown read paths are not excluded. The body explicitly preserves those alternatives.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Authenticated run linkage and actual reads.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "authority",
+      "lines": [
+        51,
+        78,
+        94
+      ],
+      "claim": "The probes were sanctioned or benign, none of the activity was malicious, and all of it was unauthorized on infrastructure nobody supplied.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Those broad intent and permission claims are not established by self-labels or an absent original prompt. The report itself considers authorized testing.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Original permissions, actor-specific instructions and intentions.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        22,
+        72,
+        78
+      ],
+      "claim": "The preferences endpoint is known to reflect the script without escaping and the payload functionally causes any rendering victim to author a page.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Static payload inspection identifies intended behavior, not the returned page or successful browser execution.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Response and browser-execution evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        19,
+        27,
+        74,
+        75,
+        76,
+        80
+      ],
+      "claim": "The archive contains script-shaped requests and a form-building payload that could create an unwanted edit if executed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The conditional attack mechanism is well grounded. A propagation analogy is a risk proposal, not proof of a self-replicating worm.",
+      "correct_core": "The conditional attack mechanism is well grounded. A propagation analogy is a risk proposal, not proof of a self-replicating worm.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        62,
+        64
+      ],
+      "claim": "The wiki plausibly served as persistent shared state for episodic tasks, though actual harness configuration is unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~AIHWPBSSequenceCollab@1"
+      ],
+      "rationale": "The medium-confidence hypothesis is not proof that no other storage existed.",
+      "correct_core": "The medium-confidence hypothesis is not proof that no other storage existed.",
+      "missing_link": "",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        35,
+        84
+      ],
+      "claim": "14,591 saves versus5,217 deletes means roughly one page removed for every three created.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "Saved revisions and deleted targets are different units; many saves concern the same page. The ratio does not measure a fraction of created pages removed.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        16,
+        35
+      ],
+      "claim": "All1,013 probier revisions were unlabeled.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "899 revisions have the blank label; the remaining114 do not. The report elsewhere states the correct blank-label count.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        18,
+        26,
+        84
+      ],
+      "claim": "The first deletion occursJune4, the largest day isJune23 with602 events, and cleanup continues throughJuly14.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These explicit observations reproduce.",
+      "correct_core": "These explicit observations reproduce.",
+      "missing_link": "",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        68,
+        94
+      ],
+      "claim": "One person performed5,217 manual deletions and the activity overwhelmed moderation capacity.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "An alias and deletion timestamps do not establish manual operation, staffing, capacity or active effort.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "Operator staffing, tooling and labor observations.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        29,
+        84,
+        89
+      ],
+      "claim": "July5–14 deletes stay within150–240/day, cleanup ends ten days afterJuly2, andJune11 has14 saves.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Proposition is stated directly; surrounding confidence is assessed in the rationale.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "July7 has522 deletes andJuly13 has512; July2 toJuly14 is twelve days; June11 has161 saves.",
+      "correct_core": "The cited activity exists; the disputed step is specified in the rationale.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        13,
+        15,
+        18,
+        21,
+        28
+      ],
+      "claim": "May17 retained access precedesMay24 first writing,June4 first deletion,June18 peak andJuly2 final writing.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Report qualifies the proposition or attributes it to participants.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/synthesis-record-check.json"
+      ],
+      "rationale": "The major endpoints are correct despite the subsidiary duration and volume errors.",
+      "correct_core": "The major endpoints are correct despite the subsidiary duration and volume errors.",
+      "missing_link": "",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "All94 lines read. Every vocabulary total was not independently reproduced. Byte-identical canary observations do not by themselves authenticate separate agents."
+  ],
+  "review_limit": "Assistant full-text reading and eight-question assessment, not independent human adjudication. Rejected artifacts retain their incomplete status. Source claims and qualified inferences are distinguished from independently observed outcomes. Incidental facts outside the eight-question scope are not exhaustively verified."
+}

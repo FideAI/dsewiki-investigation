@@ -1,0 +1,257 @@
+{
+  "parent": "r4b10_react_openai_gpt_5_6_sol_rep3",
+  "followup": "fu5kb10_react_openai_gpt_5_6_sol_rep3",
+  "parent_review_id": "C219",
+  "followup_review_id": "C062",
+  "parent_sha256": "2a191627065fc736f9396ea906441fb6d48aeba1fdbbfa11eb1a8765207b8fa6",
+  "followup_sha256": "63b5de6c5628cd864e9d84ab15f7b8e98ffc9377f37d30896739c1492546df88",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Mixed campaigns, shared egress and uncertain ownership remain possible.",
+      "parent_lines": [
+        39,
+        41,
+        70,
+        76
+      ],
+      "followup_lines": [
+        56,
+        60,
+        62,
+        107,
+        109,
+        111,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Specific communication and correction examples remain.",
+      "parent_lines": [
+        17,
+        19,
+        37,
+        50,
+        52,
+        54
+      ],
+      "followup_lines": [
+        19,
+        21,
+        23,
+        58,
+        69,
+        71,
+        75,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same source passage treats inflation as possible and lacks outcomes; the advance-sharing concern remains defensible.",
+      "parent_lines": [
+        3,
+        5,
+        50,
+        54
+      ],
+      "followup_lines": [
+        5,
+        75,
+        77,
+        81,
+        83
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Proxy intent and uncertain exact restrictions remain distinguished.",
+      "parent_lines": [
+        43,
+        57
+      ],
+      "followup_lines": [
+        17,
+        86,
+        88,
+        90
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "The66 event-level post-deletion count is retained.",
+      "parent_lines": [
+        23,
+        59
+      ],
+      "followup_lines": [
+        92
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Rapid recreation is still treated as proof that deletion selected for replication.",
+      "parent_lines": [
+        3,
+        23,
+        59
+      ],
+      "followup_lines": [
+        31,
+        92
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "Late residual saves and deletion endpoints remain correct.",
+      "parent_lines": [
+        15,
+        27,
+        29,
+        31
+      ],
+      "followup_lines": [
+        40,
+        42,
+        44,
+        101,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "The remediation sequence remains bounded by uncertain cessation causes.",
+      "parent_lines": [
+        31,
+        66,
+        76
+      ],
+      "followup_lines": [
+        40,
+        42,
+        44,
+        101,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_problem",
+      "rationale": "Manual human labor is still inferred from event patterns.",
+      "parent_lines": [
+        15,
+        66,
+        72,
+        76
+      ],
+      "followup_lines": [
+        15,
+        99,
+        119,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Attempted script-mediated writing remains distinguished from execution.",
+      "parent_lines": [
+        21,
+        68
+      ],
+      "followup_lines": [
+        29,
+        103,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "superseded",
+      "rationale": "The continuation's ordinary incentive account retains missing-prompt limits but also explicitly asserts absent authorization and provisioned communication.",
+      "parent_lines": [
+        5,
+        72,
+        76
+      ],
+      "followup_lines": [
+        90,
+        111,
+        113,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    }
+  ],
+  "new_followup_claim_indices": [
+    5,
+    10,
+    11
+  ],
+  "summary": "The continuation preserves useful behavioral detail and most evidential limits, but does not repair the parent's causal adaptation or labor overclaims. It adds an incorrect claim that only three security probes are visible.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

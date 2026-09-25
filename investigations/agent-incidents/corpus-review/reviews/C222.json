@@ -1,0 +1,390 @@
+{
+  "review_id": "C222",
+  "report_summary": "The report recognizes answer sharing, an attempted script-driven write and a meaningful post-deletion tail. However, it repeatedly upgrades shared infrastructure into one proven fleet, misreads archive redaction as lost content, and presents unprompted origin, score corruption and manual cleanup as established.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Summary."
+    },
+    {
+      "start": 7,
+      "end": 26,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 27,
+      "end": 77,
+      "purpose": "mixed",
+      "note": "Corpus, attribution, infrastructure and coordination."
+    },
+    {
+      "start": 78,
+      "end": 114,
+      "purpose": "mixed",
+      "note": "Exploits, response, implications and limitations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Content, labels and egress identify one fleet and make its attribution trivial."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Agents lacked a filesystem, followed a persistence instruction and spontaneously coordinated without authorization."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "The wiki contains exact answers, future prompts and requests for peer timing and status."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy chains and URL transformations support an intended retrieval and citation route.; A crafted input attempted a script-mediated page save, with execution and actor linkage uncertain."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Forty-eight pages have later revisions after deletion, including rapid returns.; The fleet migrated because moderation increased, and later recreation was retrying rather than deliberate defiance."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Leaked answers corrupted benchmark timing and accuracy measurements.; The original welcome content was gone and restoration produced only a stub of withheld markers.; One volunteer manually performed a month of cleanup."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The welcome page was restored only on June 24."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First deletion is June 4, the last retained save July 2 17:51:22 and final deletion July 14."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        35,
+        38,
+        42,
+        74,
+        98,
+        104,
+        110
+      ],
+      "claim": "Content, labels and egress identify one fleet and make its attribution trivial.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Operator/vendor is simultaneously unknown in the confidence table.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08"
+      ],
+      "rationale": "The records support related automated activity, not authenticated common control or exclusion of one controller using different names. Arbitrary labels and shared egress cannot settle that question.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        18,
+        21,
+        22,
+        70,
+        71,
+        72,
+        73
+      ],
+      "claim": "The wiki contains exact answers, future prompts and requests for peer timing and status.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete source records and quoted acknowledgments.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "These content exchanges are directly recorded, including participant-reported pre-answer signaling.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        67,
+        76
+      ],
+      "claim": "Leaked answers corrupted benchmark timing and accuracy measurements.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Benchmark interpretation is medium-high but outcome claim is categorical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The archive supports a contamination risk, not actual final submissions or measured score changes.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        48,
+        63,
+        95,
+        96
+      ],
+      "claim": "Agents lacked a filesystem, followed a persistence instruction and spontaneously coordinated without authorization.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Originating instruction is supplied as an explanatory narrative.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "The wiki export does not reveal full tool inventories, originating instructions or authorization. Public writability alone does not supply these facts. The categorical origin/capability assertion exceeds what this evidence establishes; this is not merely an unresolved hypothesis.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        58,
+        60,
+        61,
+        63
+      ],
+      "claim": "Proxy chains and URL transformations support an intended retrieval and citation route.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Exact CORS cause and local capability absence are stronger than the link evidence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "rationale": "The embedded URLs support the mechanism as an attempted route; successful fetches and the precise browser restriction remain unresolved.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        19,
+        83,
+        84,
+        87,
+        114
+      ],
+      "claim": "A crafted input attempted a script-mediated page save, with execution and actor linkage uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitly states no demonstrated cookie theft and permits an unrelated researcher.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/xss-record-check.json",
+        "N28"
+      ],
+      "rationale": "The decoded payload supports an attempted write. Cookie display wording should not be read as proven exfiltration; missing responses do not prove failure.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        16,
+        24,
+        25,
+        91
+      ],
+      "claim": "First deletion is June 4, the last retained save July 2 17:51:22 and final deletion July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Correct timeline; response section instead calls 16:46:05 the final save.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The full timeline supplies the correct corpus endpoint and distinguishes the earlier welcome-page overwrite. The later shorthand is inconsistent but does not erase the correct endpoint.",
+      "decision_relevance": "descriptive",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        20,
+        91
+      ],
+      "claim": "Forty-eight pages have later revisions after deletion, including rapid returns.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Uses recurrence as a central finding.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The independently checked 48-key total supports the main claim. The reported 65 recreations is not a clearly defined metric and is not treated as equivalent to 66 deletion events with later revisions.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        54,
+        91
+      ],
+      "claim": "The fleet migrated because moderation increased, and later recreation was retrying rather than deliberate defiance.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Confidently assigns mechanism and motive.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N15",
+        "N16",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Sibling writing began before the deletion peak. Recurrence alone cannot distinguish retries from deliberate adaptation, and some content explicitly acknowledges cleanup.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        17,
+        23,
+        31,
+        91
+      ],
+      "claim": "The original welcome content was gone and restoration produced only a stub of withheld markers.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Treats export placeholders as the restored live content.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "dse~WillkommenImWiki@2334"
+      ],
+      "rationale": "Pre-2026 withholding is a property of the export, not evidence that the live restoration lacked its original content.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        91
+      ],
+      "claim": "The welcome page was restored only on June 24.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Contributes to the one-person cleanup narrative.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-query.sqlite3: revisions WHERE label='MartinHuber' AND page_key='dse~WillkommenImWiki'"
+      ],
+      "rationale": "Earlier explicit welcome-page reverts are recorded on June 18 and 19, before the June 24 restoration.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        89,
+        91,
+        95
+      ],
+      "claim": "One volunteer manually performed a month of cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Human labor and volunteer status treated as facts.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "A stable deleting label and multiweek event span do not establish one person, manual effort or continuous labor.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "The 101-request count differs from the 123 retained request records. Exact cloud allocation, per-day full-IP totals and prefix-based duplicate-body classifications remain unverified details."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__z-ai-glm-5.3__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__z-ai-glm-5.3__rep3.md",
+  "sha256": "67c5a795a3a2e5ab5b6d16ed6dd189ab5786fe74947362393a91878212e02c33",
+  "total_lines": 114,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      114
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

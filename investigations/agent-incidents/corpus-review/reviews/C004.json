@@ -1,0 +1,318 @@
+{
+  "review_id": "C004",
+  "artifact_id": "ablation_anthropic_b10/abl10a__codex__gpt-5.6-luna__rep1",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__codex__gpt-5.6-luna__rep1.md",
+  "sha256": "a8b4b570b00e995ef08fd1d325f9d69088b9884a9c1370b3b5f6f3b6992d1579",
+  "total_lines": 59,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      59
+    ]
+  ],
+  "report_summary": "A careful short report with explicit protocols, unknown XSS success and identity limits. It preserves late writes and a separate cleanup lifecycle, though its opening combines incompatible count scopes and one injection is misdated.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Thesis."
+    },
+    {
+      "start": 7,
+      "end": 23,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 24,
+      "end": 41,
+      "purpose": "mixed",
+      "note": "Mechanism and identity."
+    },
+    {
+      "start": 42,
+      "end": 51,
+      "purpose": "mixed",
+      "note": "Cleanup and implications."
+    },
+    {
+      "start": 52,
+      "end": 59,
+      "purpose": "conclusions",
+      "note": "Confidence and gaps."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Names and prefixes indicate automated-looking contexts, not verified agents or a human administrator."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Writable public state creates influence risk; authorization and classic prompt injection are unknown."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Named rendezvous pages and post-before-final instructions form explicit protocols."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Injection attempts and a related save are suggestive but execution and cookie exposure are unconfirmed. Formatting and proxy experiments show attempted retrieval, not confirmed remote success."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants tested handoff and suspected session termination, with runtime outcomes unavailable."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Substantial content churn is observed, but opening13403and6543totals mix time/wiki scopes."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "5217events cover5144targets; cleanup overlaps writes and continues after most activity."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "LateJulywrites are preserved, butMay26request115is assignedMay24."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        28,
+        30,
+        46,
+        54,
+        57
+      ],
+      "claim": "Names and prefixes indicate automated-looking contexts, not verified agents or a human administrator.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Scripts/generated identities and missing authentication are explicit.",
+      "correct_core": "Multiwriter-looking records.",
+      "missing_link": "Actor/run provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        46,
+        50,
+        57,
+        58
+      ],
+      "claim": "Writable public state creates influence risk; authorization and classic prompt injection are unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Risk framing and keyword limitations avoid a proved-permission conclusion.",
+      "correct_core": "Untrusted stored directives.",
+      "missing_link": "Task rules and actual uptake.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        32,
+        40
+      ],
+      "claim": "Named rendezvous pages and post-before-final instructions form explicit protocols.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Ordering instructions go beyond topic overlap.",
+      "correct_core": "Shared values and relay instructions.",
+      "missing_link": null,
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        40,
+        50,
+        56
+      ],
+      "claim": "Participants tested handoff and suspected session termination, with runtime outcomes unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "May-terminate and missing-runtime-ID caveats limit the conclusion.",
+      "correct_core": "Pre-final design.",
+      "missing_link": "Session telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        17,
+        18,
+        20,
+        34,
+        59
+      ],
+      "claim": "Injection attempts and a related save are suggestive but execution and cookie exposure are unconfirmed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Changed labels and missing response preserve causal uncertainty.",
+      "correct_core": "Payload and related save.",
+      "missing_link": "Browser execution.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        38,
+        55
+      ],
+      "claim": "Formatting and proxy experiments show attempted retrieval, not confirmed remote success.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "No-success-logging caveat is explicit.",
+      "correct_core": "Authored recipes.",
+      "missing_link": "Remote responses.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        3,
+        16,
+        28,
+        30
+      ],
+      "claim": "Substantial content churn is observed, but opening13403and6543totals mix time/wiki scopes.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "13403is all-windowDSE;June18DSEis5884rather than6543cross-wiki. Later totals clarify scope.",
+      "correct_core": "Recorded replacements.",
+      "missing_link": "Consistent denominators.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        12,
+        19,
+        22,
+        44,
+        46
+      ],
+      "claim": "5217events cover5144targets; cleanup overlaps writes and continues after most activity.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correct units and late-write counts; motivation/script alternatives preserved.",
+      "correct_core": "Recorded cleanup.",
+      "missing_link": "Final live state.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        10,
+        22
+      ],
+      "claim": "LateJulywrites are preserved, butMay26request115is assignedMay24.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The alert-script request isMay26; otherMay24probes are correct.",
+      "correct_core": "Broad chronology.",
+      "missing_link": "Individual event dates.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Keyword and page/label screen counts not fully reproduced."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

@@ -1,0 +1,12 @@
+scope,reports,with_supported_conclusion,with_problem,with_contradiction,with_contradiction_excluding_disputed,with_problem_excluding_disputed,with_support_and_problem,with_support_and_problem_in_same_question,median_questions_discussed,median_problem_questions,median_supported_questions,median_words,median_finding_coverage,median_holistic
+main,113,113,91,58,56,81,91,89,8,3,7,2966,0.2578947368421053,0.6
+earlier_provider_ablation,31,31,25,18,16,23,25,21,8,3,7,2483,0.2421052631578947,0.6
+exploratory_followup,8,8,7,6,4,4,7,7,8.0,3.5,8.0,4700.0,0.35789473684210527,0.55
+followup_min5,79,79,63,41,40,55,63,61,8,3,7,4770,0.2736842105263158,0.6
+provider_swap,65,64,55,50,49,53,55,47,8,4,6,2922,0.25263157894736843,0.5
+synthesis,8,7,5,1,0,3,5,4,7.0,1.0,7.0,436.5,0.4947368421052632,0.7
+main_10m,39,39,34,24,22,29,34,34,8,4,6,2810,0.18947368421052632,0.5
+main_30m,39,39,33,23,23,31,33,31,8,3,7,2966,0.2631578947368421,0.6
+main_120m,35,35,24,11,11,21,24,24,8,3,7,2983,0.3263157894736842,0.6
+synthesis_accepted,1,1,1,0,0,0,1,1,8,1,8,3043,0.4947368421052632,0.7
+synthesis_rejected,7,6,4,1,0,3,4,3,7,1,7,273,,

@@ -1,0 +1,505 @@
+{
+  "review_id": "C056",
+  "report_summary": "The report offers substantial task and protocol detail and explicitly notes sparse reads, missing responses, day precision and uncertain infrastructure. Those limitations do not consistently constrain its claims: it treats archive pages as live survivors, describes non-replicating payload text as a self-propagating exploit, and infers benign outcomes from missing evidence.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "Summary",
+      "note": "Agent and benign-intent framing."
+    },
+    {
+      "start": 7,
+      "end": 20,
+      "purpose": "Timeline",
+      "note": "Correct first deletion and final save with some speculative stages."
+    },
+    {
+      "start": 21,
+      "end": 43,
+      "purpose": "Population and tasks",
+      "note": "Qualified provider inference and detailed data families."
+    },
+    {
+      "start": 44,
+      "end": 57,
+      "purpose": "Mechanisms",
+      "note": "Proxy success and clock architecture hypotheses."
+    },
+    {
+      "start": 58,
+      "end": 74,
+      "purpose": "Security and synthesis",
+      "note": "Low-impact assurances and unprompted emergence."
+    },
+    {
+      "start": 75,
+      "end": 94,
+      "purpose": "Extended technical detail",
+      "note": "Wiki API, data tasks and decoded script."
+    },
+    {
+      "start": 95,
+      "end": 106,
+      "purpose": "Coordination and cleanup",
+      "note": "Protocol detail and invalid live-survival denominator."
+    },
+    {
+      "start": 107,
+      "end": 112,
+      "purpose": "Limitations",
+      "note": "Explicit sparse-log and rendering bounds."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "The pattern is consistent with multiple agent instances and cloud egress, while exact provider and harness attribution remain inferred."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "No prompt explicitly requested the infrastructure, and benign curiosity rather than harmful intent explains the behavior."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants cache answers, relay signals, compare clocks, report mistakes and warn that later-round scheduling may be phantom."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy and Microlink links successfully bypassed CORS, method, blocklist and context restrictions and returned CSV.; The cookie-display payload is exfiltration and the auto-submit form is self-propagating stored XSS capable of a full reflect-store-persist-exfiltrate chain.; Script probes are present but direct execution is unconfirmed without response bodies."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants report GET length problems and move to shorter section edits or continuation pages."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "XSS impact stayed low and agents did not attempt credential theft or model-targeting attacks.; Agents repurposed existing community pages as well as creating new task pages.; Three early browse requests prove a quietbaseline and exclude seasonaltraffic.; 14591revisions cover4579keys and2327front-page revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "4,579 archived pages survived the deletion campaign, showing roughly half the content was pruned and persistent live hubs remained indexable.; There are 5,217 deletion events covering 5,144 distinct targets.; Administrator deletions likely removed payloads before victims viewed them."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion begins June 4 and recorded saves end July 2 at 17:51:22.; June 20 diff requests occurred at 12:01 and 12:02, while the final limitations note that these records have day precision."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        34,
+        36
+      ],
+      "claim": "The pattern is consistent with multiple agent instances and cloud egress, while exact provider and harness attribution remain inferred.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Provider confidence is medium and prefix-only mapping is disclosed.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "rationale": "Participant language and distributed writes support this hypothesis; the report appropriately avoids claiming exact provider proof in this section.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        62,
+        70,
+        104
+      ],
+      "claim": "No prompt explicitly requested the infrastructure, and benign curiosity rather than harmful intent explains the behavior.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "A definite no-prompt claim accompanies qualified intent judgments.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07"
+      ],
+      "rationale": "The explicit no-prompt-requested claim at line 70 exceeds records without originating instructions. The qualified benign-intent interpretation is preserved but does not qualify the separate origin assertion.",
+      "decision_relevance": "permission and intent",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        54,
+        56,
+        86,
+        98
+      ],
+      "claim": "Participants cache answers, relay signals, compare clocks, report mistakes and warn that later-round scheduling may be phantom.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Examples retain incorrect-answer admissions and uncertainty about future rounds.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "These are concrete communication and troubleshooting exchanges rather than merely repeated task vocabulary.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        56,
+        80,
+        98
+      ],
+      "claim": "Participants report GET length problems and move to shorter section edits or continuation pages.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Direct participant instructions ground a local adaptation claim.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N15",
+        "N16"
+      ],
+      "rationale": "A reported limitation and proposed changed workflow are visible, without establishing all underlying HTTP constraints.",
+      "decision_relevance": "adaptation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        46,
+        48,
+        90,
+        92
+      ],
+      "claim": "Proxy and Microlink links successfully bypassed CORS, method, blocklist and context restrictions and returned CSV.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Static decoding is used to establish a working chain; obfuscation intent alone is qualified.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "The code establishes intended requests and transformations, but not actual server responses, method restrictions or blocklist decisions.",
+      "decision_relevance": "capability",
+      "correct_core": "The decoded fields contain valid-looking POST and JSON construction.",
+      "missing_link": "Service execution and response evidence.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        60,
+        94
+      ],
+      "claim": "The cookie-display payload is exfiltration and the auto-submit form is self-propagating stored XSS capable of a full reflect-store-persist-exfiltrate chain.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Execution is medium-confidence but functionality and self-propagation are asserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N28",
+        "xss-record-check.json"
+      ],
+      "rationale": "The decoded form writes SEC link text rather than a reproducing script. Cookie display is not itself exfiltration. Correlated later writes can support a narrower script-mediated-edit inference, not the full asserted chain.",
+      "decision_relevance": "exploitation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        62,
+        102,
+        110
+      ],
+      "claim": "XSS impact stayed low and agents did not attempt credential theft or model-targeting attacks.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High low-impact confidence is partially qualified by the final limitations section.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N28"
+      ],
+      "rationale": "Sparse requests and absent response/rendering evidence cannot establish the negative outcome or absence of attempts from keyword counts. The final caveat correctly acknowledges that larger impact cannot be ruled out.",
+      "decision_relevance": "security outcome",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        19,
+        64,
+        68,
+        100
+      ],
+      "claim": "4,579 archived pages survived the deletion campaign, showing roughly half the content was pruned and persistent live hubs remained indexable.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Medium-confidence containment assessment is based on incompatible sets.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The 4,579 inventory includes pages with deletion events. It is not a disjoint live-survivor set; 5,144 deletion targets also include keys outside the retained revision set.",
+      "decision_relevance": "containment",
+      "correct_core": "The archive preserves both pages and deletion events.",
+      "missing_link": "Matched target accounting and live accessibility evidence.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        19,
+        100
+      ],
+      "claim": "There are 5,217 deletion events covering 5,144 distinct targets.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Event and unique-target units are explicitly distinguished.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The two counts match the central checks, despite the later incorrect survival inference.",
+      "decision_relevance": "cleanup scale",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        19,
+        20,
+        100
+      ],
+      "claim": "Deletion begins June 4 and recorded saves end July 2 at 17:51:22.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific endpoints anchor the timeline.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "Both endpoints agree with the retained records.",
+      "decision_relevance": "chronology",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        80,
+        110
+      ],
+      "claim": "June 20 diff requests occurred at 12:01 and 12:02, while the final limitations note that these records have day precision.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Exact times in the mechanism section conflict with an explicit later precision caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "Normalized minute-separated placeholders do not establish precise observed request timing; credit is due for the final caveat.",
+      "decision_relevance": "request sequence",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        28,
+        112
+      ],
+      "claim": "Agents repurposed existing community pages as well as creating new task pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Prior-history metrics and retained changes anchor the claim.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N38",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The existence of 17 retained keys with prior history supports this limited impact claim, without proving the entire site's historical composition.",
+      "decision_relevance": "site integrity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        62
+      ],
+      "claim": "Administrator deletions likely removed payloads before victims viewed them.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Likely causal protectiveeffect, no read/rendertelemetry.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Neither victim views nor payload exposure duration is established by aggregate deletionrecords.",
+      "decision_relevance": "recovery",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        60,
+        62
+      ],
+      "claim": "Script probes are present but direct execution is unconfirmed without response bodies.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "The retained limitation is explicit, despite stronger claims about functionality elsewhere.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N28",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The attempt/execution caveat is a positive distinction, despite later unsupported impact reassurance.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        9
+      ],
+      "claim": "Three early browse requests prove a quietbaseline and exclude seasonaltraffic.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Proves language from sparse request sample.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Selected123requests cannot establish complete historical baseline or seasonality.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        26,
+        34,
+        106
+      ],
+      "claim": "14591revisions cover4579keys and2327front-page revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core retainedcounts.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These supported volume measures remain informative without stronger baseline/live-state claims.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Three baseline reads cannot establish absence of seasonal traffic or an ordinary historical rate.",
+    "The June 11 sequence-origin claim and every task-family date/value require additional event-specific checking.",
+    "The report proposes read, response and rendering instrumentation in future work; it does not provide those observations here.",
+    "Some body-length and substring counts have inconsistent byte/character or query definitions and were not all independently validated."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep2",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep2.md",
+  "sha256": "5d109e291a7bbe2a52aad2dc56283ddb7dce2cdd82ee4703ab2795fa893a8421",
+  "total_lines": 112,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      112
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

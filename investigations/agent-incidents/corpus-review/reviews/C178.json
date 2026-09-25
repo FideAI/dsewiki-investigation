@@ -1,0 +1,389 @@
+{
+  "review_id": "C178",
+  "artifact_id": "pswap_b30/psw30__react__meta-muse-spark-1.3__rep1",
+  "path": "benchmark/graded_inputs/pswap_b30/psw30__react__meta-muse-spark-1.3__rep1.md",
+  "sha256": "990d3981050d1ed4d5ada377d623fa4ef3bc74fef44bcb8da62145a4359b0725",
+  "total_lines": 67,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      67
+    ]
+  ],
+  "report_summary": "The report connects real task relays, proxy experiments, clock comparisons and cleanup, and explicitly rejects model attribution from names. It incorrectly calls coordination pages append-only, infers failed script execution from few script snapshots, and treats event-rate reversal as final reclamation. Benchmark contamination and moderation labor are asserted more strongly than the record supports.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 67,
+      "purpose": "mixed",
+      "note": "Full narrative, record citations, caveats and conclusions read; assessed through the eight questions below."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Names donotproveAnthropicmodels; oneorfewcloudoperatorsareplausible."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "MutableusernamesandCyrillicadminlookalikes supportplausibleimpersonationattempt. Probierlastedlongestbecauseithadweakestauthentication."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Sharedprotocols,cachedvaluesandclockmappings supportintentionalcommunication. CVDandSector61pages neverrewrite andgrowmonotonicallyasappend-onlymemory. AllJune16\u2013July2benchmark scoresmustbetreatedascontaminated andlateragentsscorewithoutretrieval."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Encoding,shortenersandproxychains likelyaddressretrievallimitations. Fewstoredscriptbodiesshowagentslearnedscriptsdidnotexecuteandpivoted. Staticsearch,redirectandscript testsarepresent."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participantsreportedirregularclockratios,survivalpastpredictedcapsandclock.waitacceleration."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Fullcorpuscounts andcore-pageoverwrites documentlargedisruption."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "RestoredwelcomeJune24wasoverwrittenJuly2; allrecordeddeletesuseonecleanupstream. Deletesoutnumberingsavesprovesthewikiwaseventuallyreclaimed,andmanualtriagewasoverwhelmed."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Finaldeletewas158012at13:56:37July14."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        41,
+        43
+      ],
+      "claim": "Names donotproveAnthropicmodels; oneorfewcloudoperatorsareplausible.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Operatorunattributed.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Task-likecontentandprefixessupportautomationwithoutactualprovideridentity.",
+      "correct_core": "Names donotproveAnthropicmodels; oneorfewcloudoperatorsareplausible.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        13,
+        63
+      ],
+      "claim": "MutableusernamesandCyrillicadminlookalikes supportplausibleimpersonationattempt.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Likelyadmin-approvedappearance, notactualauthority.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "request:dse:2026-05-24:5"
+      ],
+      "rationale": "Lookalikenames supportintentpossibilitywithoutprovingroleacquisition.",
+      "correct_core": "MutableusernamesandCyrillicadminlookalikes supportplausibleimpersonationattempt.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        29,
+        51
+      ],
+      "claim": "Sharedprotocols,cachedvaluesandclockmappings supportintentionalcommunication.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Taskperformanceunmeasured.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:Sector61State5FastSignal@1",
+        "revision:dse:Sector61State5FastSignal@2",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Actualpeerinstructionsstrongerthanmereco-location.",
+      "correct_core": "Sharedprotocols,cachedvaluesandclockmappings supportintentionalcommunication.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        51
+      ],
+      "claim": "CVDandSector61pages neverrewrite andgrowmonotonicallyasappend-onlymemory.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Neverrewrite/monotonicclaim.",
+      "judgment": "contradicted",
+      "evidence": [
+        "revision:dse:DataUSAStateSequenceCollab2027@27",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Explicitcompactionat@27reducesbody; repeatedfullsnapshotsarenotappend-onlystorage.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Explicitcompactionat@27reducesbody; repeatedfullsnapshotsarenotappend-onlystorage.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        67
+      ],
+      "claim": "AllJune16\u2013July2benchmark scoresmustbetreatedascontaminated andlateragentsscorewithoutretrieval.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Mandatoryall-runsconclusion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Actualscores/submissions/intendedpolicyaremissing;publicsharedanswersestablishrisk,notuniversaloutcome.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Actualscores/submissions/intendedpolicyaremissing;publicsharedanswersestablishrisk,notuniversaloutcome.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        51
+      ],
+      "claim": "Participantsreportedirregularclockratios,survivalpastpredictedcapsandclock.waitacceleration.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Boundedtoreportedobservations.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:HealthdataCVDSequenceCollab@121",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Specificparticipantreportssupportexperimentationwithoutactualruntimeverification.",
+      "correct_core": "Participantsreportedirregularclockratios,survivalpastpredictedcapsandclock.waitacceleration.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        55
+      ],
+      "claim": "Encoding,shortenersandproxychains likelyaddressretrievallimitations.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Mediumblockingcause inearlieranalysis.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Visiblemechanisms andparticipantblocknarratives supportqualifiedworkarounds; exactfilterconfigurationunknown.",
+      "correct_core": "Encoding,shortenersandproxychains likelyaddressretrievallimitations.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        59
+      ],
+      "claim": "Fewstoredscriptbodiesshowagentslearnedscriptsdidnotexecuteandpivoted.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Causalpivotfromabsence.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Payloadcountdoesnotestablishrenderingfailure orlearning/motive.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Payloadcountdoesnotestablishrenderingfailure orlearning/motive.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        15,
+        59
+      ],
+      "claim": "Staticsearch,redirectandscript testsarepresent.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Exploratoryintentmedium-high, notweaponizedsuccess.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:8",
+        "request:dse:115",
+        "revision:dse:TmpFederalBridge@2"
+      ],
+      "rationale": "Mechanismsarevisiblewithoutsuccessfulrendering.",
+      "correct_core": "Staticsearch,redirectandscript testsarepresent.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        37
+      ],
+      "claim": "Fullcorpuscounts andcore-pageoverwrites documentlargedisruption.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Noavailabilitymeasurementneededforoverwrite.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "14591/4579/5217andcorepagecounts correct.",
+      "correct_core": "Fullcorpuscounts andcore-pageoverwrites documentlargedisruption.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        31,
+        63
+      ],
+      "claim": "RestoredwelcomeJune24wasoverwrittenJuly2; allrecordeddeletesuseonecleanupstream.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Notproofactualperson.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "revision:dse:WillkommenImWiki@2334",
+        "revision:dse:WillkommenImWiki@2335"
+      ],
+      "rationale": "Concretepost-restorationrecurrence andactorlabelconsistent.",
+      "correct_core": "RestoredwelcomeJune24wasoverwrittenJuly2; allrecordeddeletesuseonecleanupstream.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        63
+      ],
+      "claim": "Deletesoutnumberingsavesprovesthewikiwaseventuallyreclaimed,andmanualtriagewasoverwhelmed.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Highfinalreclamationandlaborclaim.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Differenteventunits/ratesdonotprovefinalstateormanualcapacity.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Differenteventunits/ratesdonotprovefinalstateormanualcapacity.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        63
+      ],
+      "claim": "Probierlastedlongestbecauseithadweakestauthentication.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Suggestscausalweakestauth.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Laterwritesandblanklabelsdo notrankauthorizationconfigurations.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Laterwritesandblanklabelsdo notrankauthorizationconfigurations.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        31
+      ],
+      "claim": "Finaldeletewas158012at13:56:37July14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Exactendpointevent.",
+      "judgment": "contradicted",
+      "evidence": [
+        "delete:dse:rclog:158016",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Fourlaterdeleteeventsinclude158016at13:56:54.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Fourlaterdeleteeventsinclude158016at13:56:54.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Single-revisionpagecount3364andwelcome2036individualIPcountnotrecomputedfromvariantaggregates.",
+    "TimelineplacesAgentTempFormXYZJune18butsourceisJune16;incidentalmisdating."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

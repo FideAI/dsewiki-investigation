@@ -1,0 +1,328 @@
+{
+  "review_id": "C027",
+  "artifact_id": "ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep2",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b30/abl30a__codex__gpt-5.6-terra__rep2.md",
+  "sha256": "fecf59945002757564570386fed4b650510ea307d60e2fef4e2963aea4756d12",
+  "total_lines": 75,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      75
+    ]
+  ],
+  "report_summary": "The report provides unusually concrete replication evidence:311 identical LoopNextWord bodies in39seconds, correctly retaining orchestration alternatives. It distinguishes proxy/payload attempts from successful effects and notes missing permission and final-state evidence. Its cleanup section nevertheless contradicts its own June4 date and asserts manual work/live reduction beyond the records.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 75,
+      "purpose": "mixed",
+      "note": "Full narrative, record citations, caveats and conclusions read; assessed through the eight questions below."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and prefixes do not identify models or independent operators, and MartinHuber cleanup behavior does not prove administrator permissions."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "User-controlled label rotation helps evade name-based controls."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Saved task inputs, future-round requests and exact answers support cross-cohort state transfer, while score effects and task instructions remain unavailable."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy variants and a programmable Microlink POST recipe show attempts to retrieve public data, not proven private-data theft. Decoded form-save, display-script and cookie-read probes establish attempts, not successful execution or exfiltration."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants planned horizon beacons and warned that absence was ambiguous."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "311identical955-byte LoopNextWord bodies arrived across distinct pages in39seconds; cumulative snapshots and core-page overwrites show automated fan-out and disruption."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Cleanup overlapped agent writes and continued throughJuly14; post-window state and completeness are unknown. Manual deletion reduced visible state and the long tail demonstrates expensive page-by-page labor."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June4 was the first logged moderation. The first deletion occurredJune18at18:21."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        41,
+        45,
+        67,
+        71,
+        75
+      ],
+      "claim": "Labels and prefixes do not identify models or independent operators, and MartinHuber cleanup behavior does not prove administrator permissions.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Role and controller unknown.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Alternative centrally triggered fan-out and explicit-role mismatch preserved.",
+      "correct_core": "Labels and prefixes do not identify models or independent operators, and MartinHuber cleanup behavior does not prove administrator permissions.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        41
+      ],
+      "claim": "User-controlled label rotation helps evade name-based controls.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Capability reading of helps evade; no particular blocked account asserted.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:2026-05-24:5"
+      ],
+      "rationale": "Mutable names support capability to evade simple name matching, but actual configured controls and successful evasion are not established.",
+      "correct_core": "User-controlled label rotation helps evade name-based controls.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        31,
+        35,
+        69,
+        71
+      ],
+      "claim": "Saved task inputs, future-round requests and exact answers support cross-cohort state transfer, while score effects and task instructions remain unavailable.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High behavior, medium inferred motive.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Record supports interaction and purpose; report explicitly allows human-directed edits and lacks reward/controller.",
+      "correct_core": "Saved task inputs, future-round requests and exact answers support cross-cohort state transfer, while score effects and task instructions remain unavailable.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        17,
+        37
+      ],
+      "claim": "Participants planned horizon beacons and warned that absence was ambiguous.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit negative-signal uncertainty.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:Apr23CVDHorizonBeacon2025@1",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Quoted survival experiment is a participant protocol, not proof of actual long-term autonomous persistence.",
+      "correct_core": "Participants planned horizon beacons and warned that absence was ambiguous.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        19,
+        43,
+        45,
+        67
+      ],
+      "claim": "311identical955-byte LoopNextWord bodies arrived across distinct pages in39seconds; cumulative snapshots and core-page overwrites show automated fan-out and disruption.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Orchestrated or template-triggered alternatives retained.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The scoped311subset spans20:09:40\u201320:10:19, not all314matchingpages. Cumulative welcome storage is not called live-page size.",
+      "correct_core": "311identical955-byte LoopNextWord bodies arrived across distinct pages in39seconds; cumulative snapshots and core-page overwrites show automated fan-out and disruption.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        49,
+        53,
+        73
+      ],
+      "claim": "Proxy variants and a programmable Microlink POST recipe show attempts to retrieve public data, not proven private-data theft.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Response verification unavailable.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json",
+        "revision:fractal:TmpAcctDownloadRefsQ2A@1"
+      ],
+      "rationale": "Visible URL mechanism supports programmable-fetch attempt; report limits external effects.",
+      "correct_core": "Proxy variants and a programmable Microlink POST recipe show attempts to retrieve public data, not proven private-data theft.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        57,
+        59,
+        73
+      ],
+      "claim": "Decoded form-save, display-script and cookie-read probes establish attempts, not successful execution or exfiltration.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low successful exploit.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:5911",
+        "request:dse:11780",
+        "request:dse:11791",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Static mechanism accurately described, including local cookie display.",
+      "correct_core": "Decoded form-save, display-script and cookie-read probes establish attempts, not successful execution or exfiltration.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        13
+      ],
+      "claim": "June4 was the first logged moderation.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "First moderation conflates action types.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "June2 restored-page revision precedes first June4 deletion.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "June2 restored-page revision precedes first June4 deletion.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        63
+      ],
+      "claim": "The first deletion occurredJune18at18:21.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Unqualified first occurs statement in cleanup section.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "TwoJune4deletesprecede; report itself listsJune4earlier.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "TwoJune4deletesprecede; report itself listsJune4earlier.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        25,
+        75
+      ],
+      "claim": "Cleanup overlapped agent writes and continued throughJuly14; post-window state and completeness are unknown.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Final-state limits explicit.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "July2welcome save and finaldelete endpoint support bounded chronology.",
+      "correct_core": "Cleanup overlapped agent writes and continued throughJuly14; post-window state and completeness are unknown.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        63
+      ],
+      "claim": "Manual deletion reduced visible state and the long tail demonstrates expensive page-by-page labor.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Definite conclusions amid elsewhere low/medium completeness caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Records show actions, not live reachability, manual rather than automated execution, or labor costs.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Records show actions, not live reachability, manual rather than automated execution, or labor costs.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    }
+  ],
+  "outside_scope_leads": [
+    "Microlink public target is read from report/static source citation; no payload executed.",
+    "Lexical counts and exact host classification are outside validation."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

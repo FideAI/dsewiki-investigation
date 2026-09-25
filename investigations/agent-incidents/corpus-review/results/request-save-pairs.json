@@ -1,0 +1,168 @@
+{
+  "sql": "SELECT r.id revision_id,r.time revision_time,r.page_key,r.label,r.ip16,e.id request_id,e.time request_time,json_extract(e.json,'$.request_action') request_action,cast(strftime('%s',r.time) AS integer)-cast(strftime('%s',e.time) AS integer) delta_seconds FROM revisions r JOIN events e ON e.kind='request' AND e.ip16=r.ip16 AND cast(strftime('%s',r.time) AS integer)-cast(strftime('%s',e.time) AS integer) BETWEEN 0 AND 1 WHERE r.label='AgentDataHelperX' AND r.ip16='52.87' ORDER BY r.time,e.time",
+  "total_selected_revisions": 14,
+  "matched_revision_count": 14,
+  "rows": [
+    {
+      "revision_id": "dse~AgentLinkma21JuneAA@13",
+      "revision_time": "2026-06-18T17:53:24Z",
+      "page_key": "dse~AgentLinkma21JuneAA",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:6032",
+      "request_time": "2026-06-18T17:53:24Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~AgentLinkma21JuneAA@14",
+      "revision_time": "2026-06-18T18:17:51Z",
+      "page_key": "dse~AgentLinkma21JuneAA",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:6322",
+      "request_time": "2026-06-18T18:17:51Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~AgentLinkma21JuneAA@15",
+      "revision_time": "2026-06-18T18:26:11Z",
+      "page_key": "dse~AgentLinkma21JuneAA",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:6447",
+      "request_time": "2026-06-18T18:26:11Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~AgentLinkma21JuneAA@16",
+      "revision_time": "2026-06-18T18:29:39Z",
+      "page_key": "dse~AgentLinkma21JuneAA",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:6515",
+      "request_time": "2026-06-18T18:29:39Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~AgentOfficialMassTest@1",
+      "revision_time": "2026-06-18T18:47:00Z",
+      "page_key": "dse~AgentOfficialMassTest",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:6809",
+      "request_time": "2026-06-18T18:47:00Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~AgentOfficialMassAOJun19@1",
+      "revision_time": "2026-06-18T18:50:45Z",
+      "page_key": "dse~AgentOfficialMassAOJun19",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:6870",
+      "request_time": "2026-06-18T18:50:45Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~StartSeite@348",
+      "revision_time": "2026-06-18T18:54:03Z",
+      "page_key": "dse~StartSeite",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:6938",
+      "request_time": "2026-06-18T18:54:03Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~StartSeite@363",
+      "revision_time": "2026-06-18T19:13:25Z",
+      "page_key": "dse~StartSeite",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:7268",
+      "request_time": "2026-06-18T19:13:24Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 1
+    },
+    {
+      "revision_id": "dse~AgentLinkma21JuneAA@17",
+      "revision_time": "2026-06-18T19:16:58Z",
+      "page_key": "dse~AgentLinkma21JuneAA",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:7346",
+      "request_time": "2026-06-18T19:16:58Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~WillkommenImWiki@179",
+      "revision_time": "2026-06-18T19:28:20Z",
+      "page_key": "dse~WillkommenImWiki",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:7551",
+      "request_time": "2026-06-18T19:28:20Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~AgentOptimalCitesJun21AB@1",
+      "revision_time": "2026-06-18T19:46:29Z",
+      "page_key": "dse~AgentOptimalCitesJun21AB",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:7957",
+      "request_time": "2026-06-18T19:46:28Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 1
+    },
+    {
+      "revision_id": "dse~AgentLinkma21JuneAA@19",
+      "revision_time": "2026-06-18T19:47:58Z",
+      "page_key": "dse~AgentLinkma21JuneAA",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:7994",
+      "request_time": "2026-06-18T19:47:58Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~AgentLinkma21JuneAA@20",
+      "revision_time": "2026-06-18T19:50:30Z",
+      "page_key": "dse~AgentLinkma21JuneAA",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:8050",
+      "request_time": "2026-06-18T19:50:30Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    },
+    {
+      "revision_id": "dse~StartSeite@535",
+      "revision_time": "2026-06-18T20:44:56Z",
+      "page_key": "dse~StartSeite",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "request_id": "request:dse:10318",
+      "request_time": "2026-06-18T20:44:56Z",
+      "request_action": "form_editprefs",
+      "delta_seconds": 0
+    }
+  ],
+  "interpretation": "All selected edits have a same-prefix request zero or one second earlier. This strengthens a qualified script-mediated-writing inference but does not identify the full later payload or browser execution path. Prefixes are not authenticated client identities.",
+  "prior_art": [
+    "C240: primary120-minuteAstrarep1",
+    "C035: exploratoryAstrafollowup",
+    "C284: primary30-minuteGeminiFlashrep3",
+    "C287: primary30-minuteMuserep3"
+  ]
+}

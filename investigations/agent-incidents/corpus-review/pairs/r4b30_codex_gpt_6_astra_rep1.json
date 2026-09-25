@@ -1,0 +1,277 @@
+{
+  "parent": "r4b30_codex_gpt_6_astra_rep1",
+  "followup": "fu5kb30_codex_gpt_6_astra_rep1",
+  "parent_review_id": "C279",
+  "followup_review_id": "C101",
+  "parent_sha256": "323598d16b650340bef22d76d6d1c94f5581e70e660ada0189b03c1834a04030",
+  "followup_sha256": "3995d4475b957d84252f48846242524b800df6db225d47de32a94c79e8203f09",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The day-precision caveat remains.",
+      "parent_lines": [
+        32
+      ],
+      "followup_lines": [
+        14,
+        15,
+        26,
+        38
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Early cleanup and separate final endpoints remain.",
+      "parent_lines": [
+        15,
+        22
+      ],
+      "followup_lines": [
+        14,
+        15,
+        26,
+        38
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "A selected name still does not authenticate authority.",
+      "parent_lines": [
+        32
+      ],
+      "followup_lines": [
+        38,
+        42,
+        58,
+        62,
+        132
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Recurrence is preserved without certified recovery or conscious-defiance assumptions.",
+      "parent_lines": [
+        34,
+        90,
+        92
+      ],
+      "followup_lines": [
+        124,
+        126,
+        128
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Agent/operator counts remain uncertain.",
+      "parent_lines": [
+        7,
+        32,
+        34
+      ],
+      "followup_lines": [
+        7,
+        38,
+        40,
+        42,
+        130
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        2,
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "Workload permission and actual grade effects remain separate from observed behavior.",
+      "parent_lines": [
+        42,
+        46,
+        94
+      ],
+      "followup_lines": [
+        38,
+        42,
+        58,
+        62,
+        132,
+        134
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Additional Idaho relay timing strengthens already-observed propagation and staged use.",
+      "parent_lines": [
+        50,
+        54,
+        56,
+        58
+      ],
+      "followup_lines": [
+        18,
+        66,
+        70,
+        72,
+        74
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Seed fits and repeated reports remain weaker than independent observation.",
+      "parent_lines": [
+        60
+      ],
+      "followup_lines": [
+        76,
+        78,
+        92,
+        94
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Detailed replication accounts remain qualified without raw response proof.",
+      "parent_lines": [
+        78,
+        80,
+        82
+      ],
+      "followup_lines": [
+        104,
+        106,
+        108,
+        110,
+        112,
+        114
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Fourteen matched request/save pairs strengthen the same plausible XSS-related workflow inference.",
+      "parent_lines": [
+        84,
+        86
+      ],
+      "followup_lines": [
+        21,
+        116,
+        118,
+        120
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Command cleanup remains distinct from full environment teardown.",
+      "parent_lines": [
+        64,
+        68,
+        70,
+        74
+      ],
+      "followup_lines": [
+        82,
+        88,
+        90,
+        96,
+        98,
+        100
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        5,
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Contention and observer-induced counter noise remain concrete observations.",
+      "parent_lines": [
+        28,
+        30,
+        44,
+        72,
+        90
+      ],
+      "followup_lines": [
+        56,
+        58,
+        60,
+        76,
+        78,
+        92,
+        94
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    7
+  ],
+  "summary": "The follow-up deepens an already careful investigation. Its14request/save pairs, source-like echo URLs and misleading-signal histories add detail without replacing uncertainty with unwarranted certainty.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

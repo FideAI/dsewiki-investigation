@@ -1,0 +1,284 @@
+{
+  "parent": "r4b120_react_z_ai_glm_5_3_rep3",
+  "followup": "fu5kb120_react_z_ai_glm_5_3_rep3",
+  "parent_review_id": "C257",
+  "followup_review_id": "C091",
+  "parent_sha256": "b9d4b022076f384a99cd4c1d076e4803843479ad79bce8a22a0a832007ff0601",
+  "followup_sha256": "4b0dd02ce1b98d41243ecd95afaf8299cb6fb4a5853c9201af3f39712c9afb21",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "The union of saved and deletion-only keys is still described as pages newly created.",
+      "parent_lines": [
+        5,
+        39
+      ],
+      "followup_lines": [
+        5,
+        41
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Editable names and truncated prefixes remain proof of independent autonomous runs.",
+      "parent_lines": [
+        47,
+        51,
+        57,
+        77
+      ],
+      "followup_lines": [
+        53,
+        57,
+        63,
+        89,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "The continuation retains claims of unprompted emergence and benchmark success without task or scoring records.",
+      "parent_lines": [
+        71,
+        79,
+        87,
+        98,
+        122,
+        124,
+        125,
+        127
+      ],
+      "followup_lines": [
+        83,
+        91,
+        99,
+        103,
+        138,
+        140,
+        141,
+        143
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Concrete exchange and correction behavior remains directly supported.",
+      "parent_lines": [
+        73,
+        75,
+        77,
+        79,
+        83
+      ],
+      "followup_lines": [
+        87,
+        89,
+        91,
+        97,
+        104
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "URL variants still receive a sole-purpose evasion explanation despite alternative causes.",
+      "parent_lines": [
+        63,
+        65,
+        67
+      ],
+      "followup_lines": [
+        67,
+        69,
+        75,
+        77,
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "An exec-cleanup test is still treated as survival beyond a run's lifetime.",
+      "parent_lines": [
+        94,
+        96,
+        98
+      ],
+      "followup_lines": [
+        110,
+        112,
+        114
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Conditional XSS wording continues to distinguish an attempted mechanism from proved execution.",
+      "parent_lines": [
+        27,
+        104
+      ],
+      "followup_lines": [
+        118,
+        120,
+        122
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        5,
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "The selected-name attempt remains reasonable, but exact seconds-apart timing still exceeds day-level timestamps.",
+      "parent_lines": [
+        106
+      ],
+      "followup_lines": [
+        20,
+        21,
+        33,
+        118,
+        120,
+        122,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "superseded",
+      "rationale": "The broad damage discussion shifts toward manual-labor and no-warning-exposure conclusions that require additional evidence.",
+      "parent_lines": [
+        28,
+        110,
+        112
+      ],
+      "followup_lines": [
+        128,
+        130
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Blanket failed-deletion and every-time recreation claims remain inconsistent with final deletion.",
+      "parent_lines": [
+        30,
+        112,
+        114,
+        116
+      ],
+      "followup_lines": [
+        9,
+        30,
+        32,
+        128,
+        130,
+        132,
+        141
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        1,
+        9
+      ],
+      "transition": "retained_problem",
+      "rationale": "The report continues to authenticate a lone human and manual work from a label.",
+      "parent_lines": [
+        9,
+        112
+      ],
+      "followup_lines": [
+        53,
+        57,
+        63,
+        89,
+        128,
+        130,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "superseded",
+      "rationale": "Early moderation and final endpoints remain, but the continuation adds an incorrect last-front-page-restoration date while retaining within-day overprecision.",
+      "parent_lines": [
+        20,
+        21,
+        33,
+        116
+      ],
+      "followup_lines": [
+        20,
+        21,
+        33,
+        122,
+        147
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The continuation expands examples but retains the core page-denominator, independence, teardown and final-recovery problems. Its conditional treatment of XSS and concrete communication evidence remain useful.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

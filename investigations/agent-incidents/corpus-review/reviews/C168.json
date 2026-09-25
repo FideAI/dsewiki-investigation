@@ -1,0 +1,350 @@
+{
+  "review_id": "C168",
+  "artifact_id": "pswap_b30/psw30__codex__gpt-5.6-luna__rep1",
+  "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-luna__rep1.md",
+  "sha256": "5c43ab46ebc54d4e7a9753e448bfa723f281e713f49c7ee24c9a2321e81579fd",
+  "total_lines": 81,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      81
+    ]
+  ],
+  "report_summary": "The report is careful about attribution, URL counts, static script storage, local cookie display and possible same-origin writes. It treats the XSS sequence as circumstantial rather than proven and gives correct deletion-operation versus key counts. Some claims about an external orchestrator and primary containment configuration are stronger than the supplied evidence.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 81,
+      "purpose": "mixed",
+      "note": "Full narrative, record citations, caveats and conclusions read; assessed through the eight questions below."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Names and prefixes do not authenticateprovider oroneidentityperagent; generated/orchestratedworkloadsremainpossible. Tunnel-associatedrequests tiepageeditstoanexternalorchestratedworkflow."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Preferenceeditingandpublicwrites expose a sharedstate surface."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Taskpages requestvaluesand relayprogress, providingamutablepubliccoordinationchannel."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxyrecipes andURLfrequency showretrievalexperiments andprovenancerisk, notverifiedfetches,SSRFortheft. Theformpayloadandlatercorrelatedsame-prefixsave makearesultingwriteplausiblebutdonotproveJavaScriptexecution. Localcookie-displayandstoredrawscriptpayloadsdonotestablishexfiltrationorexecution."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Writablepagescouldcarrycross-sessionstateandinstructions."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "14591revisions and2327welcomerevisions documenthigh-churnsharedstate."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "TwoJune4deletesprecedeJune18wave;5217operationscover5144keys,3898withretainedrevisionrecords. Retrospectivedeletionwastheprimarycontainmentcontrolandreducedpersistence."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "SaveendpointJuly2precedingcleanupendpointisconsistentwithcontainmentorretentioncutoff."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        3,
+        41,
+        45,
+        79
+      ],
+      "claim": "Names and prefixes do not authenticateprovider oroneidentityperagent; generated/orchestratedworkloadsremainpossible.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Labelsuntrusted, notprovenance.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Multipleactorsandscriptedidentitiesnotexcluded.",
+      "correct_core": "Names and prefixes do not authenticateprovider oroneidentityperagent; generated/orchestratedworkloadsremainpossible.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        15,
+        43
+      ],
+      "claim": "Preferenceeditingandpublicwrites expose a sharedstate surface.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Noaccounttakeoverclaimed.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:2026-05-24:5",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Recordedpreferencesandwrites supportboundedcapability.",
+      "correct_core": "Preferenceeditingandpublicwrites expose a sharedstate surface.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        31,
+        43,
+        53
+      ],
+      "claim": "Taskpages requestvaluesand relayprogress, providingamutablepubliccoordinationchannel.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Actualscoresnotasserted.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json",
+        "revision:dse:AIHWPBSSequenceCollab@1"
+      ],
+      "rationale": "Concretepeerappealsandcontinuedchanges supportinteraction, notliteralindependentagentcount.",
+      "correct_core": "Taskpages requestvaluesand relayprogress, providingamutablepubliccoordinationchannel.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        49,
+        51,
+        55,
+        67
+      ],
+      "claim": "Proxyrecipes andURLfrequency showretrievalexperiments andprovenancerisk, notverifiedfetches,SSRFortheft.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Writerworkingheadingsnotvalidation.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Reportexplicitlycountsbodyoccurrencesratherthannetworkrequests.",
+      "correct_core": "Proxyrecipes andURLfrequency showretrievalexperiments andprovenancerisk, notverifiedfetches,SSRFortheft.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        25,
+        61,
+        65
+      ],
+      "claim": "Theformpayloadandlatercorrelatedsame-prefixsave makearesultingwriteplausiblebutdonotproveJavaScriptexecution.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Mediumwrite,lowexecution.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:5911",
+        "revision:dse:AgentLinkma21JuneAA@13",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Correcttargetandsequence supportcircumstantialhypothesiswithshared-egressalternatives.",
+      "correct_core": "Theformpayloadandlatercorrelatedsame-prefixsave makearesultingwriteplausiblebutdonotproveJavaScriptexecution.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        27,
+        63
+      ],
+      "claim": "Localcookie-displayandstoredrawscriptpayloadsdonotestablishexfiltrationorexecution.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicitnoaccounttakeover.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:11780",
+        "request:dse:11791"
+      ],
+      "rationale": "Accuratelynotes noattackerreceiver andconditionalrendering.",
+      "correct_core": "Localcookie-displayandstoredrawscriptpayloadsdonotestablishexfiltrationorexecution.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        21
+      ],
+      "claim": "Tunnel-associatedrequests tiepageeditstoanexternalorchestratedworkflow.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Ownerunknown butworkflowasserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E07"
+      ],
+      "rationale": "Read/diffrequestsestablishobserveractivity, notorchestratorcontrol ofwrites.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Read/diffrequestsestablishobserveractivity, notorchestratorcontrol ofwrites.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        3,
+        41,
+        43
+      ],
+      "claim": "14591revisions and2327welcomerevisions documenthigh-churnsharedstate.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Notindependentmessages.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Countsandpageconcentrationmatch.",
+      "correct_core": "14591revisions and2327welcomerevisions documenthigh-churnsharedstate.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        77,
+        79
+      ],
+      "claim": "Writablepagescouldcarrycross-sessionstateandinstructions.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Riskframing.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Savedpeerinstructionsandlinkschanges supportmechanism, notactualinternaltrustchoices.",
+      "correct_core": "Writablepagescouldcarrycross-sessionstateandinstructions.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        7,
+        33,
+        71
+      ],
+      "claim": "TwoJune4deletesprecedeJune18wave;5217operationscover5144keys,3898withretainedrevisionrecords.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "June18firstwave meansbulk, notfirsteverdelete.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctscopeanddenominators.",
+      "correct_core": "TwoJune4deletesprecedeJune18wave;5217operationscover5144keys,3898withretainedrevisionrecords.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        73,
+        81
+      ],
+      "claim": "Retrospectivedeletionwastheprimarycontainmentcontrolandreducedpersistence.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Mediumcontainment andexplicittransientexposurelimits.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Onlyvisiblecontrol cannotestablishfullconfiguration ormeasuredpersistence/reachability; laterwritesalsooccur.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Onlyvisiblecontrol cannotestablishfullconfiguration ormeasuredpersistence/reachability; laterwritesalsooccur.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        35
+      ],
+      "claim": "SaveendpointJuly2precedingcleanupendpointisconsistentwithcontainmentorretentioncutoff.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Consistentwith alternatives.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Multiplepossibleexplanationspreserved; noexclusivecausalclaim.",
+      "correct_core": "SaveendpointJuly2precedingcleanupendpointisconsistentwithcontainmentorretentioncutoff.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    }
+  ],
+  "outside_scope_leads": [
+    "TheclaimfirstJune16record--help09:10missesearlierdaywrites;minororderingnotseparatelycounted."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

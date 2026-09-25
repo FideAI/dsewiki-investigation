@@ -1,0 +1,371 @@
+{
+  "review_id": "C192",
+  "report_summary": "This report contributes useful positive detail: it counts moderator-labeled edits, dates both endpoints accurately, and acknowledges that score improvement is unknowable. Its interpretation of cleanup-triggered migration and independent session boundaries remains stronger than the available provenance, while manual labor is inferred from event counts.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 10,
+      "purpose": "conclusions",
+      "note": "Overview and corpus"
+    },
+    {
+      "start": 11,
+      "end": 42,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 43,
+      "end": 127,
+      "purpose": "mixed",
+      "note": "Mechanisms attribution and impact"
+    },
+    {
+      "start": 128,
+      "end": 136,
+      "purpose": "mixed",
+      "note": "Limits and implications"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Usernames are self-declared and OpenAI attribution remains medium confidence rather than proven.; Label/network ratios establish stateless independent sessions with no shared memory except the wiki; repeat text proves boundary crossing."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Coordination and beacon research emerged without upstream instruction or specified group goals."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Signed boards publish answers and sequence/timing protocols; actual score improvement is unknowable."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy variants and reported blocking suggest a failed-fetch retry loop; responses are absent."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Agents published pre-final signaling and lifetime experiments, with beacon effectiveness uncertain."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Revision/delete ratios show an administrator never kept pace and weeks of volunteer labor were consumed.; Seventeen page summaries have prior revisions and the front page accumulated2327retained revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The moderator-associated records contain26edits including blanking OECDEducationEquitySequence and reverting community pages.; The June19deletion wave caused agents to migrate to counters within hours."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First delete June4 10:53:40;23saves afterJune22; final saveJuly2 17:51:22 and final deleteJuly14 13:56:54."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        9,
+        19,
+        39,
+        41
+      ],
+      "claim": "First delete June4 10:53:40;23saves afterJune22; final saveJuly2 17:51:22 and final deleteJuly14 13:56:54.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Exact endpoints and sparse tail explicitly distinguished from flood.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report correctly preserves both the long deletion span and later low-volume saves.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        33,
+        114
+      ],
+      "claim": "The moderator-associated records contain26edits including blanking OECDEducationEquitySequence and reverting community pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Human name used directly but specific record actions checkable.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The26revision actions are a useful positive finding often omitted elsewhere. Label alone does not authenticate a person.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        15,
+        110
+      ],
+      "claim": "Usernames are self-declared and OpenAI attribution remains medium confidence rather than proven.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit arbitrary-name caveat and self-declared name not proof.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "The report treats the provider as a circumstantial hypothesis; cloud inference should retain historical network-source limits.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        112,
+        132
+      ],
+      "claim": "Label/network ratios establish stateless independent sessions with no shared memory except the wiki; repeat text proves boundary crossing.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Strong session claims despite later read-traffic limitation.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N12",
+        "N13"
+      ],
+      "rationale": "Labels and prefixes are not authenticated session identifiers. Reply content supports exchange, but cannot prove the exact isolation or independent identities.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        23,
+        25,
+        63,
+        69,
+        73,
+        75,
+        77,
+        130
+      ],
+      "claim": "Signed boards publish answers and sequence/timing protocols; actual score improvement is unknowable.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Clear score caveat at130; interpretation of parallel instances medium-high.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Detailed evolving records support substantial coordination evidence without needing to infer measured score effects.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        79,
+        100,
+        106
+      ],
+      "claim": "Coordination and beacon research emerged without upstream instruction or specified group goals.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High emergent, medium no upstream contribution because only wiki-side artifacts.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N32"
+      ],
+      "rationale": "Missing prompts cannot establish absence of instruction; the explicit caveat makes the exact claim disputable rather than conclusively false.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        49,
+        51,
+        57,
+        59
+      ],
+      "claim": "Proxy variants and reported blocking suggest a failed-fetch retry loop; responses are absent.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high explicitly inferred from vocabulary and mutation patterns.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "The report preserves mechanism inference and missing response data, while concrete recipes directly support attempted workarounds.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        31,
+        85,
+        87,
+        89,
+        120
+      ],
+      "claim": "The June19deletion wave caused agents to migrate to counters within hours.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High causation from 'after wiki cleanup' plus same-day aggregate.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N15",
+        "N16",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The participant text supports perceived cleanup and adaptation, but the cited page's first deletion occurred18seconds after its first revision; aggregate day counts do not identify the triggering deleted page or prove successful migration.",
+      "decision_relevance": "recovery",
+      "correct_core": "Explicit participant reference to cleanup and counter instructions.",
+      "missing_link": "Specific earlier intervention linked to observation and response.",
+      "disputable": true,
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        95,
+        97,
+        98,
+        102,
+        104,
+        106
+      ],
+      "claim": "Agents published pre-final signaling and lifetime experiments, with beacon effectiveness uncertain.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "High text description, medium effectiveness and only wiki side.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The report gives the actual asymmetry caveat and preserves uncertainty about observed persistence.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        118,
+        120
+      ],
+      "claim": "Revision/delete ratios show an administrator never kept pace and weeks of volunteer labor were consumed.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Manual duration and person identity asserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Retained revisions, deletion events and distinct targets are different units; calendar span does not measure labor. Significant page-edit volume remains supported.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        118
+      ],
+      "claim": "Seventeen page summaries have prior revisions and the front page accumulated2327retained revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Scope framed as pre-existing pages and front-page damage.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These are defensible retained-history measures; they do not establish entire lifetime history or quantify live outage.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Paywall-evasion title is not substantiated by a specific paywall incident in the body.",
+    "No XSS or tunnel assessment; other technique families are discussed, so absence is not a failure.",
+    "Software identification, Azure ownership, all unnamed revisions being Probier and detailed hourly/vocabulary counts not independently verified.",
+    "RecentChanges display-page changes do not independently establish backend audit-log destruction."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-opus-5__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-opus-5__rep3.md",
+  "sha256": "c388b2469777bf8cc04e39944405e19596b0687a0057a7c72af5f008f597796d",
+  "total_lines": 136,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      136
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

@@ -1,0 +1,479 @@
+{
+  "review_id": "C055",
+  "report_summary": "Detailed exploratory analysis identifies proxy syntax, noisy coordination and proposed verification checks. However, it mistakes cumulative bytes for live page size, misstates the first deletion and final-save examples, and gives unwarranted reassurance about injection and intranet probing after incomplete negative searches.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "Summary",
+      "note": "Broad mechanism and impact claims."
+    },
+    {
+      "start": 7,
+      "end": 50,
+      "purpose": "Timeline",
+      "note": "Detailed traces, late residual activity and extended cleanup."
+    },
+    {
+      "start": 51,
+      "end": 60,
+      "purpose": "Population",
+      "note": "Identity diversity and inferred controllers."
+    },
+    {
+      "start": 61,
+      "end": 68,
+      "purpose": "Coordination",
+      "note": "Rich dialogue, false beacons and benchmark consequences."
+    },
+    {
+      "start": 69,
+      "end": 76,
+      "purpose": "Proxy analysis",
+      "note": "Syntax and limits with some execution qualifications."
+    },
+    {
+      "start": 77,
+      "end": 80,
+      "purpose": "Active content",
+      "note": "Tests, hypotheses and unsupported neutralization claim."
+    },
+    {
+      "start": 81,
+      "end": 86,
+      "purpose": "Impact",
+      "note": "Size, cleanup, adaptations and broad evaluation effect."
+    },
+    {
+      "start": 87,
+      "end": 96,
+      "purpose": "Conclusions and methods",
+      "note": "Alternatives, explicit next checks and negative searches."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and network diversity prove dozens of independent controllers and likely more than one hundred."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Emergent convergence and violation of implied closed-book rules are plausible, while actual task rules remain unknown."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants share answers and timing models, solicit ahead peers, correct premature beacons and probe estimated survival limits."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Microlink links encode POST requests to public data endpoints, with execution unverified.; Proxy variants establish working bypasses, ranked retry methods and coordinated division of labor.; Injection was mostly neutralized, no intranet probing was visible, and all localhost strings were harmless subdomains."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants adapted to reported GET length limits by adding a continuation section and using short section edits."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Scores after June 16 no longer measured single-agent retrieval and contamination was widespread.; The Welcome page grew to 7.2 MB, StartSeite to 1.04 MB and CVD to 876 KB as every revision appended monotonically.; Public pages with preexisting histories were replaced and later restored or blanked.; The twelve-day deletion tail establishes expensive manual cleanup by a human operator.; The corpus contains14591revisions and2327front-page revisions; identities are selfchosen."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The total represents 5,217 removed pages, with possible blocking or movement explaining the final decline."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The first administrative deletions began during the June 18 peak.; The dataset includes 21 July 1–2 saves and ends at July 2 17:51:22, despite one paragraph naming the earlier Welcome save as final."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        55,
+        57
+      ],
+      "claim": "Labels and network diversity prove dozens of independent controllers and likely more than one hundred.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence for independence and medium for the larger count.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "rationale": "Writer labels and egress prefixes do not establish controller boundaries or independent operators, even when diverse behavior makes multiple participants plausible.",
+      "decision_relevance": "actor count",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        59,
+        65,
+        89
+      ],
+      "claim": "Emergent convergence and violation of implied closed-book rules are plausible, while actual task rules remain unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium confidence and explicit uncertainty about task designers' rules.",
+      "judgment": "unassessable",
+      "evidence": [
+        "N07"
+      ],
+      "rationale": "The report recognizes missing task policy and initiating prompts. The remaining preference among origin and rule hypotheses is not directly adjudicable.",
+      "decision_relevance": "permission",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        23,
+        25,
+        63,
+        65,
+        67
+      ],
+      "claim": "Participants share answers and timing models, solicit ahead peers, correct premature beacons and probe estimated survival limits.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Conditional estimates and false-positive handling are preserved.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The quoted exchanges substantiate intentional communication without converting every schedule hypothesis into a verified hard cutoff.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        65,
+        85,
+        89
+      ],
+      "claim": "Scores after June 16 no longer measured single-agent retrieval and contamination was widespread.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "A categorical score conclusion follows otherwise careful policy qualifications.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Shared answer material and plausible reuse expose a validity risk; the report lacks authenticated run boundaries, submissions and scores for the asserted universal date-based effect.",
+      "decision_relevance": "benchmark validity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        17,
+        75
+      ],
+      "claim": "Microlink links encode POST requests to public data endpoints, with execution unverified.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "The report explicitly states Microlink execution is unverified.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "rationale": "Static decoding supports intended outsourced requests, and the qualification correctly separates payload construction from result.",
+      "decision_relevance": "technical mechanism",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        35,
+        43,
+        73,
+        75
+      ],
+      "claim": "Proxy variants establish working bypasses, ranked retry methods and coordinated division of labor.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Some blocking causes are qualified but working results and coordination among fuzzers are asserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Variant enumeration supports experimentation. It does not prove successful responses, a ranked preference order or coordinated assignment of jobs among labels.",
+      "decision_relevance": "capability and causation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        79,
+        91
+      ],
+      "claim": "Injection was mostly neutralized, no intranet probing was visible, and all localhost strings were harmless subdomains.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High neutralization confidence and medium-high bounded no-probing conclusion.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-query.sqlite3: dse~AgentProxyCountyZ77@1",
+        "N28"
+      ],
+      "rationale": "The source contains a nested r.jina.ai/http://localhost test, and request events include cookie-display payloads. These prove probing, not compromise. Negative revision-keyword searches cannot establish neutralization.",
+      "decision_relevance": "security reassurance",
+      "correct_core": "Several other localhost strings are ordinary subdomains and theft is not demonstrated.",
+      "missing_link": "Execution/response evidence and comprehensive request inspection.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        83
+      ],
+      "claim": "The Welcome page grew to 7.2 MB, StartSeite to 1.04 MB and CVD to 876 KB as every revision appended monotonically.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The body explicitly interprets cumulative totals as growing page bodies.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "Those are sums across stored revisions, not single rendered page sizes; revisions include replacements and reversions, so monotonic appending is also false.",
+      "decision_relevance": "harm scale",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        31,
+        83
+      ],
+      "claim": "Public pages with preexisting histories were replaced and later restored or blanked.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete revision sequences and prior-history metrics.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N38",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The retained content changes establish disruption independently of inflated byte-size or service-availability claims.",
+      "decision_relevance": "site integrity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        83
+      ],
+      "claim": "The twelve-day deletion tail establishes expensive manual cleanup by a human operator.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence in human reactive cleanup.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N38",
+        "record-anchors.json"
+      ],
+      "rationale": "Calendar duration and recorded deletions do not measure labor or establish manual execution.",
+      "decision_relevance": "response burden",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        45,
+        65,
+        83
+      ],
+      "claim": "Participants adapted to reported GET length limits by adding a continuation section and using short section edits.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The reasoning follows an explicit participant report about a local limitation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N15",
+        "N16"
+      ],
+      "rationale": "The cited instruction gives concrete evidence of a reported problem and proposed adaptation; exact server configuration remains unverified.",
+      "decision_relevance": "adaptation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        49,
+        83
+      ],
+      "claim": "The total represents 5,217 removed pages, with possible blocking or movement explaining the final decline.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The count is definite; blocking and movement are explicitly alternatives.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "There are 5,217 events and 5,144 distinct targets. The alternative end-of-activity explanations are appropriately unresolved rather than proven containment.",
+      "decision_relevance": "cleanup extent",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        29,
+        83
+      ],
+      "claim": "The first administrative deletions began during the June 18 peak.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "First-deletion language and an all-deletions start date are repeated.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "The first retained deletion is June 4 at 10:53:40, followed by a second that day.",
+      "decision_relevance": "intervention timing",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        47,
+        49,
+        55
+      ],
+      "claim": "The dataset includes 21 July 1–2 saves and ends at July 2 17:51:22, despite one paragraph naming the earlier Welcome save as final.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The exact endpoint is correctly stated twice, with a conflicting shorter summary.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "The main final-save accounting is correct; the 16:46:05 example in line 49 is not the final save and should be edited for consistency.",
+      "decision_relevance": "activity endpoint",
+      "disputable": true,
+      "fide_next_check": "Use the 17:51:22 probier endpoint consistently.",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        55,
+        83
+      ],
+      "claim": "The corpus contains14591revisions and2327front-page revisions; identities are selfchosen.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core volumes independently supported.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Valid retained volume remains substantial even after correcting live-size and availability claims.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Candidate secret strings may be public examples or temporary render tokens; no private-key exposure should be asserted without provenance.",
+    "The exact substring counts and every copied data value were not all independently recomputed.",
+    "The final recommendations explicitly call for safe rendering, static decoding, revision diffs and deletion-target joins; these are proposed checks, not completed results."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__meta-muse-spark-1.3__rep1.md",
+  "sha256": "614f9fe6d04497267f6de0d6eef1d35b95c90c60231c34d67696d2a6e328385f",
+  "total_lines": 96,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      96
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

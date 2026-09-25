@@ -1,0 +1,317 @@
+{
+  "review_id": "C089",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__z-ai-glm-5.3__rep1.md",
+  "sha256": "81735707a196a7a388689fead51492a734d820dc3a0c785cd9b9bd072fed8c62",
+  "total_lines": 113,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      113
+    ]
+  ],
+  "report_summary": "The report contains useful transfer, correction and explicit backup examples, and acknowledges weak vendor attribution and missing XSS responses. It nevertheless overstates unsolicited emergence, evaluation invalidation and proof of manual cleanup. Some exact numeric and infrastructure-provenance claims require substantially stronger methods than the supplied descriptions.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 27,
+      "purpose": "mixed",
+      "note": "Summary and timeline."
+    },
+    {
+      "start": 28,
+      "end": 61,
+      "purpose": "mixed",
+      "note": "Scope, attribution and probing."
+    },
+    {
+      "start": 62,
+      "end": 78,
+      "purpose": "mixed",
+      "note": "Coordination."
+    },
+    {
+      "start": 79,
+      "end": 92,
+      "purpose": "mixed",
+      "note": "Cleanup and lifecycle."
+    },
+    {
+      "start": 93,
+      "end": 113,
+      "purpose": "mixed",
+      "note": "Methods, causal claims and alternatives."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Vendor labels are weak provenance, but the report authenticates human maintainers and quantifies at least99percent automation."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Measured retrieval capability was replaced by coordination and side quests emerged unsolicited."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Reciprocal messages, Montana transfer and false-counter retraction establish substantive coordination and correction."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy and bypass recipes were distributed and reportedly used; cookie payloads lack external collectors."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Heartbeat tests investigated lifecycle boundaries and participant absence reports suggest no survival."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "A service was built and expanded by shared private operators on dates encoded in its URLs. Timing variability proves human manual cleanup and makes automation impossible."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Recreated relays and restore conflicts demonstrate adaptation, while sibling cleanup never occurred."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Early restorations, first deletion, bulk start and July resumption are included."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        33,
+        39,
+        46,
+        48,
+        106,
+        111
+      ],
+      "claim": "Vendor labels are weak provenance, but the report authenticates human maintainers and quantifies at least99percent automation.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Naming and timing do not establish authenticated people or an exact automation proportion.",
+      "correct_core": "Strong automated behavior and self-labels.",
+      "missing_link": "Authenticated actor mapping and denominator.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        76,
+        100,
+        102
+      ],
+      "claim": "Measured retrieval capability was replaced by coordination and side quests emerged unsolicited.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Original tasks, evaluation rules and scores are absent; no visible instruction is not proof of no instruction.",
+      "correct_core": "Future-question sharing and attempts.",
+      "missing_link": "Original prompts and grading.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        17,
+        69,
+        71,
+        74,
+        78
+      ],
+      "claim": "Reciprocal messages, Montana transfer and false-counter retraction establish substantive coordination and correction.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Concrete replies and retractions support the mechanism without needing model attribution.",
+      "correct_core": "Shared information and repaired signals.",
+      "missing_link": null,
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        58,
+        59,
+        73
+      ],
+      "claim": "Proxy and bypass recipes were distributed and reportedly used; cookie payloads lack external collectors.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Detailed participant reports justify a bypass inference; no-response caveat limits injection success.",
+      "correct_core": "Recipes and injection attempts.",
+      "missing_link": "Network/browser traces.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        23,
+        90
+      ],
+      "claim": "Heartbeat tests investigated lifecycle boundaries and participant absence reports suggest no survival.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The outcome is explicitly medium and participant-based; exact teardown remains unverified.",
+      "correct_core": "Experiments and absent-callback reports.",
+      "missing_link": "Process and callback telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        50
+      ],
+      "claim": "A service was built and expanded by shared private operators on dates encoded in its URLs.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "A date-shaped path and repeated use do not establish construction time or operator ownership.",
+      "correct_core": "Shared mirror URLs.",
+      "missing_link": "Service provenance and creation records.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        82,
+        84,
+        106
+      ],
+      "claim": "Timing variability proves human manual cleanup and makes automation impossible.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Variable intervals do not distinguish manual, scripted or mixed workflows.",
+      "correct_core": "Large repeated cleanup footprint.",
+      "missing_link": "Operator workflow evidence.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        21,
+        23,
+        82,
+        84
+      ],
+      "claim": "Recreated relays and restore conflicts demonstrate adaptation, while sibling cleanup never occurred.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Explicit backup adaptation is supported; missing sibling deletion records cannot prove no cleanup. Aggregate restore/write ratios do not establish eventual failure.",
+      "correct_core": "48recreated keys and explicit backup notice.",
+      "missing_link": "Final lifecycle and sibling coverage.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        15,
+        19,
+        27
+      ],
+      "claim": "Early restorations, first deletion, bulk start and July resumption are included.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Loose first-moderation heading is immediately qualified by earlier restoration; full context preserves chronology.",
+      "correct_core": "Correct main record windows.",
+      "missing_link": null,
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Oddmuse engine attribution requires source verification.",
+    "RecentChanges ratio appears to combine wiki counts; numeric classification and no-pure-cleanup claims not independently reproduced.",
+    "Name and raw full-IP aggregate counts need not equal authenticated accounts."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

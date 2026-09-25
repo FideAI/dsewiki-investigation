@@ -1,0 +1,60 @@
+{
+  "review_id": "C138",
+  "report_summary": "The artifact contains only a Draft heading and placeholder. It provides no incident analysis or assessable conclusions; this is missing substantive output, not a successful negative finding.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 3,
+      "purpose": "outside_scope",
+      "note": "Heading and placeholder only"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    },
+    "authority": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    },
+    "coordination": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    },
+    "techniques": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    },
+    "impact": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    },
+    "recovery": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    },
+    "chronology": {
+      "disposition": "not_discussed",
+      "summary": "No substantive content in placeholder report."
+    }
+  },
+  "claims": [],
+  "outside_scope_leads": [],
+  "artifact_id": "pswap_b10/psw10__react__z-ai-glm-5.3__rep2",
+  "path": "benchmark/graded_inputs/pswap_b10/psw10__react__z-ai-glm-5.3__rep2.md",
+  "sha256": "33e1ff13cd13de8c0be50e5cb97dc41a2f1d6d92020063a7765cfb51c8104d56",
+  "total_lines": 3,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      3
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

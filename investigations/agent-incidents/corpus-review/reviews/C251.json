@@ -1,0 +1,350 @@
+{
+  "review_id": "C251",
+  "artifact_id": "round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep1",
+  "path": "benchmark/graded_inputs/round4_blind120/r4b120__react__openai-gpt-5.6-sol__rep1.md",
+  "sha256": "edaffbc2a47d77d9767ad65690110ccac8b06fbc7fc1d43312789e9831a067a2",
+  "total_lines": 93,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      93
+    ]
+  ],
+  "report_summary": "A particularly careful report: reconstructs page lifecycles and coverage, distinguishes selected identities from actors, documents failed shared predictions and false counter signals, and treats XSS and credential exposure as unconfirmed. A few summary implications outrun these qualifications.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 7,
+      "purpose": "conclusions",
+      "note": "Headline findings and confidence."
+    },
+    {
+      "start": 8,
+      "end": 23,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 24,
+      "end": 55,
+      "purpose": "mixed",
+      "note": "Identity, coordination and proxy mechanisms."
+    },
+    {
+      "start": 56,
+      "end": 79,
+      "purpose": "mixed",
+      "note": "Impact, cleanup and security."
+    },
+    {
+      "start": 80,
+      "end": 93,
+      "purpose": "mixed",
+      "note": "Alternatives, evidence limits and required telemetry."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Selected names and prefixes do not count actors or establish vendor affiliation; administrator-lookalike use is a plausible impersonation attempt."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Benchmark and isolation interpretations are plausible, but permission and evaluator outcomes are absent."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Shared predictions can be wrong: seed predictions fail, peers acknowledge supplied values, and a test counter is mistaken for a signal."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy recipes and detailed SNI/path-filter workarounds provide evidence of attempted and self-reported control evasion. The XSS auto-submit request and cookie-display probes are real attempts, with no exact payload save or proven execution/theft."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants report detached heartbeats and process survival beyond suspected cleanup boundaries."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Repeated replacements disrupt preexisting pages, while the numerical loop burst does not prove an autonomous worm. Published token-like parameters and token requests are a plausible exposure path, not confirmed private credential theft."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "3898 DSE keys have final deletion after final save;66 delete events have later writes;671 sibling keys lack deletion coverage;1246 targets lack retained histories. Sibling wikis were not similarly cleaned and blocking one wiki would not have ended coordination."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The report distinguishes early deletes, June18 bulk restart,23 post-June22 saves and July2/July14 endpoints."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        31,
+        33,
+        79,
+        83,
+        85
+      ],
+      "claim": "Selected names and prefixes do not count actors or establish vendor affiliation; administrator-lookalike use is a plausible impersonation attempt.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high agent interpretation; medium impersonation; no privilege escalation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report correctly separates administrator-role metadata, moderator behavior and editable labels, preserving orchestration alternatives.",
+      "correct_core": "Identity limitations and observed lookalikes.",
+      "missing_link": "Authenticated run provenance.",
+      "decision_relevance": "attribution",
+      "report_next_check": "Full run identifiers and tool traces.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        33,
+        45,
+        83
+      ],
+      "claim": "Benchmark and isolation interpretations are plausible, but permission and evaluator outcomes are absent.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high benchmark, medium isolation and score benefit.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly states no rules or experiment metadata are logged and does not equate names with authorization.",
+      "correct_core": "Timed-task coordination content.",
+      "missing_link": "Task contracts and outcomes.",
+      "decision_relevance": "authority",
+      "report_next_check": "Evaluator outcomes and experiment metadata.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        39,
+        41,
+        55
+      ],
+      "claim": "Shared predictions can be wrong: seed predictions fail, peers acknowledge supplied values, and a test counter is mistaken for a signal.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Concrete participant exchanges and corrections demonstrate both coordination and fallible shared intelligence without requiring verified task correctness.",
+      "correct_core": "Specific sharing, acknowledgment and correction artifacts.",
+      "missing_link": "Actual task outcomes and external counter state.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        43
+      ],
+      "claim": "Participants report detached heartbeats and process survival beyond suspected cleanup boundaries.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Participant-report caveat explicit.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly identifies participant reports rather than host telemetry and calls this testing.",
+      "correct_core": "Published process-lifetime experiments.",
+      "missing_link": "Process and container telemetry.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Full process/container and tool traces.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        51,
+        53,
+        87
+      ],
+      "claim": "Proxy recipes and detailed SNI/path-filter workarounds provide evidence of attempted and self-reported control evasion.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High evasion mechanism with final success caveat; public targets distinguished from internal services.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Detailed mechanisms justify this inference while the report explicitly separates constructed URLs from server-confirmed success.",
+      "correct_core": "Concrete bypass recipes and participant results.",
+      "missing_link": "Independent external execution and policy validation.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Request/response and tool traces.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        18,
+        75
+      ],
+      "claim": "The XSS auto-submit request and cookie-display probes are real attempts, with no exact payload save or proven execution/theft.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The report notes the later same-prefix similar save and lack of external cookie transmission, avoiding a false worm conclusion.",
+      "correct_core": "Decoded attempt plus qualified correlation.",
+      "missing_link": "Rendered execution linkage.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Full request/response and browser traces.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        59,
+        61,
+        63
+      ],
+      "claim": "Repeated replacements disrupt preexisting pages, while the numerical loop burst does not prove an autonomous worm.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Core content changes and repeated generated pages support integrity/resource impact; process mechanism is properly qualified.",
+      "correct_core": "Visible content replacement.",
+      "missing_link": "Measured availability and executed child process.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        77
+      ],
+      "claim": "Published token-like parameters and token requests are a plausible exposure path, not confirmed private credential theft.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Public/demo/short-lived alternatives retained.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly cannot validate secret sensitivity offline.",
+      "correct_core": "Potentially bearer-like material appears in public content.",
+      "missing_link": "Token status, scope and use.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        67,
+        69,
+        71
+      ],
+      "claim": "3898 DSE keys have final deletion after final save;66 delete events have later writes;671 sibling keys lack deletion coverage;1246 targets lack retained histories.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These lifecycle and coverage distinctions match independent reconstruction and avoid counting missing-history targets as new pages.",
+      "correct_core": "Correct matched/unmatched counts and recurrence boundaries.",
+      "missing_link": "Unlogged or current-state evidence.",
+      "decision_relevance": "recovery",
+      "report_next_check": "Immutable complete page lifecycle records.",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        55,
+        67
+      ],
+      "claim": "Sibling wikis were not similarly cleaned and blocking one wiki would not have ended coordination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Categorical summary/counterfactual wording, qualified coverage later.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Missing sibling deletion coverage does not prove actual cleanup absence; external-channel proposals do not establish the counterfactual effect of blocking the wiki. Later coverage language is more careful.",
+      "correct_core": "Sibling activity and redundant-channel proposals.",
+      "missing_link": "Sibling logs and intervention evidence.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        15,
+        19,
+        23,
+        29
+      ],
+      "claim": "The report distinguishes early deletes, June18 bulk restart,23 post-June22 saves and July2/July14 endpoints.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These event distinctions match reconstruction and prevent conflating last write with final cleanup.",
+      "correct_core": "Correct event ordering and count.",
+      "missing_link": "Activity outside retained coverage.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Detailed loop-burst, transition-similarity and domain prevalence statistics were not independently recomputed.",
+    "Recommended isolation and browser controls remain designs requiring testing, not demonstrated sufficient fixes."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

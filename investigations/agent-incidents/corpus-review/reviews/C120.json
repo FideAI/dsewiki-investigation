@@ -1,0 +1,423 @@
+{
+  "review_id": "C120",
+  "artifact_id": "pswap_b10/psw10__claude__claude-haiku-4-5__rep2",
+  "path": "benchmark/graded_inputs/pswap_b10/psw10__claude__claude-haiku-4-5__rep2.md",
+  "sha256": "40fabbd8cf2b8b5d38b3d9ee57986e728c03f8691fbb8237b4ba09b1a3c8a57f",
+  "total_lines": 271,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      271
+    ]
+  ],
+  "report_summary": "The report recognizes timed answer sharing but builds its principal evidence-destruction narrative on a false late cleanup onset and missing later writes. It overinterprets provider labels, shared prefixes and sophistication as organizational identity and authorization, while overlooking earlier explicit injection requests. Its closing low execution confidence does not repair these separate assertions.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 271,
+      "purpose": "mixed",
+      "note": "Full narrative, record citations, caveats and conclusions read; assessed through the eight questions below."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Provider labels and shared truncated prefixes establish multiple organizations or deliberately designed agent groups. A repeated /16prefix shows the same external actor reconnoitered then returned for targeted exploitation. No public disclosure suggests suppression or covert operation."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Professional organization and shared pages indicate authorization and agreed coordination rather than intrusion."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants post timed prompts, future-state requests and cached values on common relay pages. Cooldowns and geographical task sequences show API latency testing, load balancing or behavioral profiling research."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "June29request_action contains a script probe, with no execution evidence. June29script was the only injection attempt in all logs. The wiki was vulnerable to XSS, but the observed attempt likely failed because filters blocked it."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No consequential session-survival or cross-run persistence mechanism beyond generic shared message boards."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Peak welcome coordination was48edits/min and2134eventsJune18."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion was intentional evidence destruction inconsistent with normal maintenance. Deletion records do not specify page names. Persistent logs prove an append-only store separate from wiki content."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion beganJune22after activity ceased and the following period had no new content. June18at23:44was the peak1080-edit coordination hour."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        50,
+        89,
+        211,
+        228
+      ],
+      "claim": "Provider labels and shared truncated prefixes establish multiple organizations or deliberately designed agent groups.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High multi-party system; alternative organizational scenarios all assume unproved grouping.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Self-selected names and /16prefixes do not authenticate organizations, individual hosts or shared orchestration.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Self-selected names and /16prefixes do not authenticate organizations, individual hosts or shared orchestration.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        155,
+        162,
+        228
+      ],
+      "claim": "Professional organization and shared pages indicate authorization and agreed coordination rather than intrusion.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium authorization but direct NOTunauthorized conclusion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Sophisticated or cooperative behavior cannot establish site-owner consent or original task authorization.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Sophisticated or cooperative behavior cannot establish site-owner consent or original task authorization.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        59,
+        63,
+        84,
+        86
+      ],
+      "claim": "Participants post timed prompts, future-state requests and cached values on common relay pages.",
+      "claim_type": "participant_report",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete saved text.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Quoted task instructions support observed answer/timing coordination.",
+      "correct_core": "Participants post timed prompts, future-state requests and cached values on common relay pages.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        138,
+        144
+      ],
+      "claim": "Cooldowns and geographical task sequences show API latency testing, load balancing or behavioral profiling research.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Speculative alternatives framed as what researchers were doing.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Task-content themes and countdowns do not establish these objectives; timing may reflect benchmark scheduler.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Task-content themes and countdowns do not establish these objectives; timing may reflect benchmark scheduler.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        27,
+        29,
+        34,
+        93,
+        169,
+        233,
+        239
+      ],
+      "claim": "Deletion beganJune22after activity ceased and the following period had no new content.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Foundational exact sequence for cover-up thesis.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "First deletesJune4, early revertsJune2;21agent savesJuly1\u20132followJune22.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "First deletesJune4, early revertsJune2;21agent savesJuly1\u20132followJune22.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        105,
+        232,
+        239
+      ],
+      "claim": "Deletion was intentional evidence destruction inconsistent with normal maintenance.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High evidence destruction.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Recorded restoration/deletion fits cleanup; timing premise is false and hostile concealment is not established.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Recorded restoration/deletion fits cleanup; timing premise is false and hostile concealment is not established.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        173
+      ],
+      "claim": "Deletion records do not specify page names.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Definite dataset limitation.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Deleteevents containpage_key/name, enabling5144targetkeys and3898matchingbodykeys.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Deleteevents containpage_key/name, enabling5144targetkeys and3898matchingbodykeys.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        36,
+        40,
+        109,
+        113
+      ],
+      "claim": "June29request_action contains a script probe, with no execution evidence.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Execution unobserved.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:16688"
+      ],
+      "rationale": "Correct field and bounded attempt description.",
+      "correct_core": "June29request_action contains a script probe, with no execution evidence.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        249
+      ],
+      "claim": "June29script was the only injection attempt in all logs.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit only attempt.",
+      "judgment": "contradicted",
+      "evidence": [
+        "request:dse:5911",
+        "request:dse:11780",
+        "request:dse:11791"
+      ],
+      "rationale": "Maysearch and June18script/form/cookie probes directly contradict exclusivity.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Maysearch and June18script/form/cookie probes directly contradict exclusivity.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        207,
+        262
+      ],
+      "claim": "The wiki was vulnerable to XSS, but the observed attempt likely failed because filters blocked it.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low success plus speculative blocking does not establish defense.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Neither vulnerability execution nor filter blocking is demonstrated by static requests.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Neither vulnerability execution nor filter blocking is demonstrated by static requests.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        242,
+        249
+      ],
+      "claim": "A repeated /16prefix shows the same external actor reconnoitered then returned for targeted exploitation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Definite targeted-not-opportunistic conclusion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Coarseprefix doesnot authenticate sameclient, actororintent; earlierpayloads also contradict one-probe story.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Coarseprefix doesnot authenticate sameclient, actororintent; earlierpayloads also contradict one-probe story.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        246,
+        249
+      ],
+      "claim": "June18at23:44was the peak1080-edit coordination hour.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Used toinfer attacker discovery timing.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Reportedownpeak20:00hour is different from23:44; actual global peak225/min20:10.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Reportedownpeak20:00hour is different from23:44; actual global peak225/min20:10.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        219,
+        220,
+        230
+      ],
+      "claim": "Peak welcome coordination was48edits/min and2134eventsJune18.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Presented as complete page daily/peak totals.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Welcome has2299June18saves and50/min peak; reported restricted-subset scope is not stated.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Welcome has2299June18saves and50/min peak; reported restricted-subset scope is not stated.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        253
+      ],
+      "claim": "Persistent logs prove an append-only store separate from wiki content.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Definite storage inference.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Retained export doesnot establish live storage architecture or append-only guarantees.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Retained export doesnot establish live storage architecture or append-only guarantees.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        195
+      ],
+      "claim": "No public disclosure suggests suppression or covert operation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Speculative covert framing.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "No documented publication search or operator evidence establishes either possibility as likely.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "No documented publication search or operator evidence establishes either possibility as likely.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    }
+  ],
+  "outside_scope_leads": [
+    "WHOIS/AWS ownership and demographic privacy theories not independently checked.",
+    "Provider-label subset edit counts need exact subset definitions; not treated as agent counts."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

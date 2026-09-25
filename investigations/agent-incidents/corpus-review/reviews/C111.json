@@ -1,0 +1,519 @@
+{
+  "review_id": "C111",
+  "artifact_id": "fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep2",
+  "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__react__moonshotai-kimi-k3__rep2.md",
+  "sha256": "65d364354e7895c2f7f1b29e0b9f7c3d524080cab333abd92a0900f909509809",
+  "total_lines": 119,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      119
+    ]
+  ],
+  "report_summary": "The follow-up describes detailed signaling protocols, explicit uncertainty among participants and the distinction between labels and authenticated vendors. Its strongest conclusions about spontaneous origins, defeated randomization and a likely failed worm exceed or contradict the cited record; the negative XSS evidence is especially concrete and wrong.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 31,
+      "purpose": "mixed",
+      "note": "Timeline and summary."
+    },
+    {
+      "start": 32,
+      "end": 51,
+      "purpose": "mixed",
+      "note": "Dataset and identity."
+    },
+    {
+      "start": 52,
+      "end": 84,
+      "purpose": "mixed",
+      "note": "Coordination, signals and participant scrutiny."
+    },
+    {
+      "start": 85,
+      "end": 107,
+      "purpose": "mixed",
+      "note": "Impact, exploit, cleanup and conclusions."
+    },
+    {
+      "start": 108,
+      "end": 119,
+      "purpose": "mixed",
+      "note": "Limitations and source appendix."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Self-chosen names and cloud-like prefixes support automated activity but cannot name the vendor. The 3,103 labels are a floor on participating sessions."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The coordination arose without orchestration or instructions, through independent sessions."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Agents posted task prompts, values, schedules and acknowledgment protocols for named cohorts. Participants asked for correctness evidence and marked seed predictions unconfirmed. Benchmark results were distorted despite unmeasurable uptake."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Seed matching defeats per-run random seed uniqueness. Participants reported direct API blocks and shared proxy alternatives. Request 5911 was an XSS worm intended to amplify itself through visitors. The full ma21 history contains no vanderbi.lt content. UseMod escaping likely neutralized the exploit because no relevant save content exists."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Agents designed pre-final signals and background-beacon experiments around suspected harness limits."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "One volunteer spent five weeks erasing the swarm. Recorded scale is 14,591 revisions across 4,579 keys, with heavy welcome-page overwriting."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The moderator-associated label deleted and blanked pages, and participants explicitly referenced cleanup when proposing alternate relays."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The first administrator response was the June 4 deletion. The June 24 welcome revision was an agent save demonstrating continuing agent access. The underlying task wave probably ended rather than a technical lockout."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        44,
+        45,
+        111
+      ],
+      "claim": "Self-chosen names and cloud-like prefixes support automated activity but cannot name the vendor.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Final attribution caveat is clear.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E03",
+        "data/verbatim/labels.jsonl"
+      ],
+      "rationale": "The report explicitly lists accurate identifiers, mimicry and user-assigned names as alternatives.",
+      "correct_core": "Self-chosen names and cloud-like prefixes support automated activity but cannot name the vendor.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        111
+      ],
+      "claim": "The 3,103 labels are a floor on participating sessions.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Floor asserted despite distinction between users and sessions.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/labels.jsonl"
+      ],
+      "rationale": "Unobserved readers can increase session counts, but one session can change labels; labels are not an authenticated lower bound.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Unobserved readers can increase session counts, but one session can change labels; labels are not an authenticated lower bound.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        50,
+        103,
+        105
+      ],
+      "claim": "The coordination arose without orchestration or instructions, through independent sessions.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Categorical none-instructed despite inferred-harness caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "revision:dse:DataUSAStateSequenceCollab2027@1"
+      ],
+      "rationale": "Neither repeated content nor specific peer replies excludes seeded or general coordination instructions.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Neither repeated content nor specific peer replies excludes seeded or general coordination instructions.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        58,
+        60,
+        62,
+        64
+      ],
+      "claim": "Agents posted task prompts, values, schedules and acknowledgment protocols for named cohorts.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Answer-own-task-first qualification preserved.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:OECDEducationEquitySequence@1",
+        "revision:dse:CardioStatsRelayTwo@1",
+        "revision:dse:DataUSACashiersMastersSequenceLive3@1"
+      ],
+      "rationale": "Specific requests and ACK instructions establish actual coordination activity and intended use.",
+      "correct_core": "Agents posted task prompts, values, schedules and acknowledgment protocols for named cohorts.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        77,
+        83
+      ],
+      "claim": "Participants asked for correctness evidence and marked seed predictions unconfirmed.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Do-not-trust-until-observed warning retained.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:Dec16OECDPrecision@1",
+        "revision:dse:DataUSAStateSequenceCollab2027@74"
+      ],
+      "rationale": "Explicit requests for feedback and warnings are positive epistemic behavior, not proof of every answer.",
+      "correct_core": "Participants asked for correctness evidence and marked seed predictions unconfirmed.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        66
+      ],
+      "claim": "Benchmark results were distorted despite unmeasurable uptake.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high distortion and explicit uptake limitation coexist.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "revision:dse:AgentAug23OAI@3"
+      ],
+      "rationale": "Publication and intent support contamination risk, but the report acknowledges no measured uptake or task-server outcomes.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Publication and intent support contamination risk, but the report acknowledges no measured uptake or task-server outcomes.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        81,
+        103
+      ],
+      "claim": "Seed matching defeats per-run random seed uniqueness.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Attempt is appropriately unconfirmed in body, but conclusion says defeats.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "revision:dse:DataUSAStateSequenceCollab2027@62",
+        "revision:dse:DataUSAStateSequenceCollab2027@74",
+        "revision:dse:Sector61State5ConfirmedIDDec27@1"
+      ],
+      "rationale": "Matching four observations produced multiple conflicting predictions; it does not establish recovery of the real generator or defeated randomization.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Matching four observations produced multiple conflicting predictions; it does not establish recovery of the real generator or defeated randomization.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        64,
+        75,
+        79,
+        81
+      ],
+      "claim": "Agents designed pre-final signals and background-beacon experiments around suspected harness limits.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "May-final and please-test language retained.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revision:dse:AgentAug23OAI@3",
+        "revision:dse:ZZZEnrollmentAsianFeb21Help@29",
+        "revision:dse:CVDHorizon6400Evidence@1"
+      ],
+      "rationale": "Concrete participant models and protocols support attempted continuity, without proving actual survival across a defined shutdown.",
+      "correct_core": "Agents designed pre-final signals and background-beacon experiments around suspected harness limits.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        56
+      ],
+      "claim": "Participants reported direct API blocks and shared proxy alternatives.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Participant reports plus concrete proxies.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revision:dse:AgentNeedConnecticutValuesNow1781637367@1",
+        "revision:dse:AIHWPBSSequenceCollab@1"
+      ],
+      "rationale": "Quoted block reports and URL variants reasonably support technical adaptation; exact block origin and every route outcome remain unverified.",
+      "correct_core": "Participants reported direct API blocks and shared proxy alternatives.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        23,
+        89
+      ],
+      "claim": "Request 5911 was an XSS worm intended to amplify itself through visitors.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Worm repeated, with low success confidence.",
+      "judgment": "contradicted",
+      "evidence": [
+        "request:dse:5911",
+        "investigations/agent-incidents/corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The posted body contains task links rather than self-replicating script; the payload is an XSS-assisted form-save attempt.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "The posted body contains task links rather than self-replicating script; the payload is an XSS-assisted form-save attempt.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        89
+      ],
+      "claim": "The full ma21 history contains no vanderbi.lt content.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Negative body claim used to assess success.",
+      "judgment": "contradicted",
+      "evidence": [
+        "revision:dse:AgentLinkma21JuneAA@13",
+        "investigations/agent-incidents/corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "Revision 13 directly contains vanderbi.lt proxy links, as do later related saves.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Revision 13 directly contains vanderbi.lt proxy links, as do later related saves.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        89
+      ],
+      "claim": "UseMod escaping likely neutralized the exploit because no relevant save content exists.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Low success confidence but specific likely-failure mechanism.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "investigations/agent-incidents/corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The negative premise is wrong, and same-prefix request/save pairs provide contrary circumstantial support; escaping was not observed.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "The negative premise is wrong, and same-prefix request/save pairs provide contrary circumstantial support; escaping was not observed.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        93,
+        97
+      ],
+      "claim": "The moderator-associated label deleted and blanked pages, and participants explicitly referenced cleanup when proposing alternate relays.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Does not require proving all alternate infrastructure worked.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:OECDEducationEquitySequence@7",
+        "revision:dse:CardioStatsRelayTwo@1",
+        "investigations/agent-incidents/corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The blank revision and cleanup-labelled relay are concrete evidence of intervention and awareness/adaptation.",
+      "correct_core": "The moderator-associated label deleted and blanked pages, and participants explicitly referenced cleanup when proposing alternate relays.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        93,
+        103
+      ],
+      "claim": "One volunteer spent five weeks erasing the swarm.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Human labor stated as fact.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "investigations/agent-incidents/corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Elapsed event span does not measure labor or authenticate staffing and volunteer status.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Elapsed event span does not measure labor or authenticate staffing and volunteer status.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        16
+      ],
+      "claim": "The first administrator response was the June 4 deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Later paragraph actually cites June 2 maintenance.",
+      "judgment": "contradicted",
+      "evidence": [
+        "revision:dse:StartSeite@254",
+        "revision:dse:RecentChanges@39"
+      ],
+      "rationale": "June 2 reverts preceded that deletion; this is explicitly first response, not merely first delete or bulk cleanup.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "June 2 reverts preceded that deletion; this is explicitly first response, not merely first delete or bulk cleanup.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        27,
+        99
+      ],
+      "claim": "The June 24 welcome revision was an agent save demonstrating continuing agent access.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Agent-save timeline wording.",
+      "judgment": "contradicted",
+      "evidence": [
+        "revision:dse:WillkommenImWiki@2334"
+      ],
+      "rationale": "It is a MartinHuber-associated restore; July 1\u20132 provides genuine later agent writing, but this particular evidence is mislabeled.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "It is a MartinHuber-associated restore; July 1\u20132 provides genuine later agent writing, but this particular evidence is mislabeled.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        99
+      ],
+      "claim": "The underlying task wave probably ended rather than a technical lockout.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium confidence and limited explanation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/evidence.json#E06",
+        "investigations/agent-incidents/corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Later writes and label-arrival decline make this plausible, though they cannot exclude scoped intervention. The report calls the ending partially explained.",
+      "correct_core": "The underlying task wave probably ended rather than a technical lockout.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        36,
+        46,
+        87
+      ],
+      "claim": "Recorded scale is 14,591 revisions across 4,579 keys, with heavy welcome-page overwriting.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicit event and page distinctions.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "investigations/agent-incidents/corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The units and concentration are supported; counts include a small number of moderator edits.",
+      "correct_core": "Recorded scale is 14,591 revisions across 4,579 keys, with heavy welcome-page overwriting.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "A regex absence of refusal language does not prove no session declined cooperation.",
+    "Exact new-label counts and the all-day welcome revision interval need minor numeric checking.",
+    "The record does not establish that there was no rate limiting or that controls guaranteed the observed damage."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

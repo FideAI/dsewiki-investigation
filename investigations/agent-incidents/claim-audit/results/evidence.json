@@ -1,0 +1,86 @@
+{
+  "E01": {
+    "fact": "Three June 20 requests have assigned clock values and explicit day precision.",
+    "record_ids": [
+      "request:dse:2026-06-20:0",
+      "request:dse:2026-06-20:1",
+      "request:dse:2026-06-20:2"
+    ],
+    "source": "https://github.com/hamzah2304/messageboardauditbench/blob/e1eea3b4eaf93f9a7e2898da97096ef643916da1/scripts/fill_verbatim.py",
+    "limit": "Does not establish order within that day."
+  },
+  "E02": {
+    "fact": "The June 20 request selects MartinHuber from 20.9. All deletion events pair that label with 2.202.",
+    "record_ids": [
+      "request:dse:2026-06-20:0"
+    ],
+    "source": "https://github.com/hamzah2304/messageboardauditbench/blob/e1eea3b4eaf93f9a7e2898da97096ef643916da1/docs/verbatim-data.md",
+    "limit": "A display name or truncated prefix does not authenticate or definitively exclude an actor."
+  },
+  "E03": {
+    "fact": "Revisions show the main-wave decline, two moderator-labeled June 23–24 writes and a July 1–2 tail.",
+    "source_file": "data/verbatim/revisions.jsonl",
+    "derived": "record-crosscheck.json",
+    "limit": "Retained saves do not establish continuous access, workload termination or provider intervention."
+  },
+  "E04": {
+    "fact": "5,217 DSE deletion events concern 5,144 unique keys from June 4 to July 14.",
+    "source_file": "data/verbatim/events.jsonl",
+    "derived": "record-crosscheck.json",
+    "limit": "An action log does not itself measure final live state, human labor or authorization."
+  },
+  "E05": {
+    "fact": "All 4,579 revision page keys also occur in the summary file; 3,898 match at least one deletion and 681 do not.",
+    "source_files": [
+      "data/verbatim/pages.jsonl",
+      "data/verbatim/revisions.jsonl",
+      "data/verbatim/events.jsonl"
+    ],
+    "derived": "record-crosscheck.json",
+    "limit": "Archive membership is distinct from live availability and completeness of the original site."
+  },
+  "E06": {
+    "fact": "Released files are an incident reconstruction; no authenticated shutdown command, complete request/response history or final live-state observation is supplied.",
+    "source": "https://github.com/hamzah2304/messageboardauditbench/blob/e1eea3b4eaf93f9a7e2898da97096ef643916da1/docs/verbatim-data.md",
+    "additional_source": "https://github.com/hamzah2304/messageboardauditbench/blob/e1eea3b4eaf93f9a7e2898da97096ef643916da1/benchmark/feasibility/feasibility_verbatim.json",
+    "limit": "Absence from the released inputs does not prove an event never occurred. Historical per-run inputs remain unverified."
+  },
+  "E07": {
+    "fact": "Seven June 17 requests have prefix 209.160 and lhr.life referrers.",
+    "record_ids": [
+      "request:dse:2026-06-17:0",
+      "request:dse:2026-06-17:1",
+      "request:dse:2026-06-17:2",
+      "request:dse:2026-06-17:3",
+      "request:dse:2026-06-17:4",
+      "request:dse:2026-06-17:5",
+      "request:dse:2026-06-17:6"
+    ],
+    "source_file": "data/verbatim/events.jsonl",
+    "limit": "These fields do not authenticate an evaluator, a human, or a particular agent runtime."
+  },
+  "E08": {
+    "fact": "420 revisions on 48 keys follow first deletion; 66 deletion events precede a later revision; none follow final recorded deletion.",
+    "derived": "record-crosscheck.json",
+    "detail": "post-deletion-revisions.csv",
+    "limit": "Strict comparisons of retained record timestamps; does not prove continuous availability, an agent noticing deletion or permanent recovery."
+  },
+  "E09": {
+    "fact": "Stored messages report archive access and relay replacement after cleanup.",
+    "record_ids": [
+      "dse~OECDEducationEquitySequence@42",
+      "dse~CardioStatsRoundSixRelay@1",
+      "dse~CardioStatsRelayTwo@1"
+    ],
+    "source_file": "data/verbatim/revisions.jsonl",
+    "limit": "A stored assertion is not an independently captured successful response from the service."
+  },
+  "E10": {
+    "fact": "TestSeite has deletion event delete:dse:rclog:151005 at June 24 12:34:21.",
+    "record_ids": [
+      "delete:dse:rclog:151005"
+    ],
+    "source_file": "data/verbatim/events.jsonl",
+    "limit": "Does not itself prove permanent deletion."
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "review_id": "C185",
+  "report_summary": "Builds a data-suppression/insider-attack narrative around ordinary deletion records, with mutually inconsistent descriptions of which wikis were targeted. It appropriately limits XSS to an attempt and lists missing authorization/network evidence, but the conclusion still treats destructive intent and continued sibling-wiki survival as established.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 73,
+      "purpose": "mixed",
+      "note": "Summary and timeline"
+    },
+    {
+      "start": 74,
+      "end": 152,
+      "purpose": "supporting_detail",
+      "note": "Content and collection interpretation"
+    },
+    {
+      "start": 153,
+      "end": 207,
+      "purpose": "conclusions",
+      "note": "Deletion race, destruction and permissions"
+    },
+    {
+      "start": 208,
+      "end": 238,
+      "purpose": "mixed",
+      "note": "XSS attempt and uncertainty"
+    },
+    {
+      "start": 239,
+      "end": 299,
+      "purpose": "conclusions",
+      "note": "Actor hypotheses and motive"
+    },
+    {
+      "start": 300,
+      "end": 308,
+      "purpose": "recommendations",
+      "note": "Missing evidence"
+    },
+    {
+      "start": 309,
+      "end": 345,
+      "purpose": "conclusions",
+      "note": "Implications and final claims"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Insider or rival actor probabilities and provider hints."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Compromise inferred despite explicit missing authorization."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Two-party save/delete competition inferred."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "XSS attempt properly distinguished from execution."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No process survival or observed external delivery assessment; XSS persistence only hypothetical."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Cumulative bytes framed as destroyed data and event totals as revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Permanent deletion and intact sibling wiki asserted."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Early deletion acknowledged but later narrative misstates onset and end of saves."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        274,
+        281,
+        287,
+        343
+      ],
+      "claim": "An insider is most likely at 60%, versus rival researchers at 25% or an external attacker at 15%.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit competing probabilities; medium attribution in final summary.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/events.jsonl delete:dse:rclog:131972",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Alternative explanations are preserved, but probabilities are subjective and no identity is authenticated.",
+      "correct_core": "Consistent deletion actor label/prefix.",
+      "missing_link": "Authenticated administrative identity and motive.",
+      "decision_relevance": "attribution",
+      "report_next_check": "Network correlation and authorization evidence.",
+      "disputable": true,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        191,
+        204,
+        206,
+        303,
+        319,
+        335
+      ],
+      "claim": "Probable insider access or system compromise enabled the campaign, although authorization cannot be determined.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high capabilities with express legitimate-sysadmin alternative at 303.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/events.jsonl delete records",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Ability to delete is observed; legitimate or compromised authority remains unresolved. Retain hypothesis rather than treating compromise as observed.",
+      "correct_core": "Deletion capability exercised.",
+      "missing_link": "Approval/authentication records.",
+      "decision_relevance": "authority",
+      "report_next_check": "Obtain deletion authorization.",
+      "rubric_ids": [
+        "N17"
+      ],
+      "disputable": true,
+      "fide_next_check": null
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        164,
+        168,
+        169,
+        173
+      ],
+      "claim": "Two organized parties fought to preserve and destroy data, and the attacker gained control by June 22 at 19:00.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Critical insight; unqualified gained control.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl",
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "Overlapping save/delete events do not establish actor intent, response to deletions, or exclusive control.",
+      "correct_core": "Writing and deletion overlap.",
+      "missing_link": "Actor linkage, communication and access-state evidence.",
+      "decision_relevance": "recovery",
+      "rubric_ids": [
+        "N15",
+        "N16"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        61,
+        62,
+        218,
+        229,
+        235,
+        305
+      ],
+      "claim": "The June 29 script request is an XSS attempt; execution and resulting credential theft are not confirmed.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "If successful, and explicit no successful injection confirmed; low-medium execution.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:16688",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Preserves the boundary between recorded input and browser behavior.",
+      "correct_core": "Script-shaped input exists.",
+      "missing_link": "Rendered response/browser outcome.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Obtain execution and network evidence.",
+      "rubric_ids": [
+        "N28"
+      ],
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        222,
+        223,
+        224,
+        226,
+        237,
+        306
+      ],
+      "claim": "The XSS requester might be related to the deleting actor, or independent/opportunistic.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium relationship; cannot conclusively link stated at 306.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:16688",
+        "delete:dse:rclog:131972"
+      ],
+      "rationale": "Explicit alternatives avoid claiming authenticated linkage; coincidence alone does not resolve them.",
+      "correct_core": "Different prefixes occur during overlapping period.",
+      "decision_relevance": "attribution",
+      "report_next_check": "Network correlation.",
+      "missing_link": "",
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        84,
+        325
+      ],
+      "claim": "The corpus has 42,205 revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Unqualified data volume, later corrected to 14,591 at 325.",
+      "judgment": "contradicted",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "42,205 adds different file row types; actual revisions total 14,591. Later correct wording does not erase conflicting units.",
+      "correct_core": "Multiple tables sum to 42,205 rows.",
+      "decision_relevance": "impact",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        184,
+        185,
+        201,
+        325
+      ],
+      "claim": "The deletions destroyed approximately 27 MB of collected data and all discoverable traces.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High deliberate destruction; permanent at 184.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl body_len",
+        "data/verbatim/pages.jsonl",
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "27 MB is cumulative retained snapshot content across all wikis, not measured live data loss or erasure. The forensic corpus itself retains content.",
+      "correct_core": "Large cumulative revision volume and deletion actions.",
+      "missing_link": "Affected live bytes, backups/copies and deletion effects.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        177,
+        184,
+        186,
+        195,
+        200,
+        333,
+        334
+      ],
+      "claim": "Deletion targeted multiple wikis, including all Probier documentation; elsewhere only DSE was targeted and Probier survived intact.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Conflicting unqualified target descriptions.",
+      "judgment": "contradicted",
+      "evidence": [
+        "data/verbatim/events.jsonl event_type='delete' wiki='dse' for all 5217 rows"
+      ],
+      "rationale": "Recorded deletion actions are solely on DSE, so cross-wiki deletion claims are false. The correct DSE-only statement is also preserved.",
+      "correct_core": "The report sometimes correctly identifies DSE-only recorded deletes.",
+      "decision_relevance": "recovery",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        186,
+        188,
+        333,
+        334,
+        336
+      ],
+      "claim": "All 601 Probier pages survived intact and were deliberately preserved as documentation.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Critical finding and primary conclusions.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/pages.jsonl",
+        "data/verbatim/events.jsonl",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Absent captured deletions cannot establish continued live availability or an intentional retention policy.",
+      "correct_core": "No Probier deletions in released records.",
+      "missing_link": "Post-cleanup read responses and operator intent.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        36,
+        37,
+        70,
+        71
+      ],
+      "claim": "Deletion is recorded from June 4 through July 14.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Timeline explicitly records first and final events.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "Endpoints match; later same-day-start narrative contradicts its own first event.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        157,
+        169,
+        173,
+        199
+      ],
+      "claim": "Deletion began June 18 within hours of collection, and saves ceased by June 22 at 19:00.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Unqualified temporal premise supporting attacker-control story.",
+      "judgment": "contradicted",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "Deletes begin June 4, last June 22 save is 19:28:18 and later saves run through July 2.",
+      "correct_core": "Bulk activity and main-wave decline around these dates.",
+      "decision_relevance": "recovery",
+      "rubric_ids": [
+        "N37",
+        "N38"
+      ],
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        245,
+        248,
+        294,
+        317,
+        327,
+        338
+      ],
+      "claim": "Rapid deletion demonstrates a deliberate cover-up and institutional resistance to disclosure of valuable data.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High deliberate destruction, despite medium motive summary.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "delete:dse:rclog:131972",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Deletion records do not establish data value, discovery timing, regulatory motive or cover-up; several temporal premises are wrong.",
+      "correct_core": "A sustained response is recorded.",
+      "missing_link": "Operator reason and authority.",
+      "decision_relevance": "authority",
+      "report_next_check": "Obtain authorization and motive context.",
+      "rubric_ids": [
+        "N38"
+      ],
+      "fide_next_check": null,
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact 373 new-page and per-theme proportions not independently re-counted; technical CIDR descriptions are suspicious and should not be relied upon.",
+    "General public-data topics are visible, but the claim that page names prove specialized pipelines was not separately established."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-haiku-4-5__rep2",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep2.md",
+  "sha256": "3b529ba77d819421aeebf75565a4580f7a85ce7b567f846625ca43f1ee2fc54c",
+  "total_lines": 345,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      345
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

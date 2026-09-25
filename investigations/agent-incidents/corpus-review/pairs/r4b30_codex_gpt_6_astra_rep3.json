@@ -1,0 +1,274 @@
+{
+  "parent": "r4b30_codex_gpt_6_astra_rep3",
+  "followup": "fu5kb30_codex_gpt_6_astra_rep3",
+  "parent_review_id": "C281",
+  "followup_review_id": "C103",
+  "parent_sha256": "062e18533e04ed03a5cef080312a569b34712b81f40156d478058494dc93e090",
+  "followup_sha256": "a8e87570a0c107dacd2ed5cb680b03ed36141e4935faa7467ee2d6e47f313d52",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Day-only precision is retained.",
+      "parent_lines": [
+        18
+      ],
+      "followup_lines": [
+        19,
+        21,
+        22,
+        92
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "July2writes andJuly14deletes remain distinct endpoints.",
+      "parent_lines": [
+        19,
+        20,
+        90
+      ],
+      "followup_lines": [
+        19,
+        21,
+        22,
+        92
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "The chosen moderator name still does not authenticate the requester.",
+      "parent_lines": [
+        96
+      ],
+      "followup_lines": [
+        88,
+        98,
+        108
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "48-key recurrence remains a bounded observation.",
+      "parent_lines": [
+        90,
+        92
+      ],
+      "followup_lines": [
+        18,
+        90,
+        92,
+        94
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        1,
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Provider/agent/privilege identity remains uncertain.",
+      "parent_lines": [
+        32,
+        96
+      ],
+      "followup_lines": [
+        7,
+        34,
+        88,
+        98,
+        108,
+        134,
+        136
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        2,
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "Open editing is not treated as complete workload authorization, and actual evaluation rules remain unavailable.",
+      "parent_lines": [
+        42,
+        86,
+        104
+      ],
+      "followup_lines": [
+        88,
+        98,
+        108,
+        138,
+        140
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Idaho staging is retained andMontana adds another traced transfer case.",
+      "parent_lines": [
+        48,
+        54,
+        106
+      ],
+      "followup_lines": [
+        15,
+        56,
+        120
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "False predictions/test signals remain distinct from true generator discovery.",
+      "parent_lines": [
+        66,
+        68,
+        70
+      ],
+      "followup_lines": [
+        68,
+        70,
+        72,
+        74
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Participant bypass replication and changed planned answers remain reasonably qualified.",
+      "parent_lines": [
+        76,
+        78
+      ],
+      "followup_lines": [
+        76,
+        78,
+        80,
+        124,
+        126
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Injection and credential outcomes remain unproved.",
+      "parent_lines": [
+        98,
+        100
+      ],
+      "followup_lines": [
+        100,
+        102,
+        104,
+        106
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up explicitly separates command cleanup, answer, deadline and host destruction.",
+      "parent_lines": [
+        56,
+        58,
+        60,
+        62
+      ],
+      "followup_lines": [
+        58,
+        60,
+        62,
+        64,
+        118,
+        122
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        9,
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Contention remains directly supported, while credential sensitivity and exact costs remain bounded.",
+      "parent_lines": [
+        82,
+        84,
+        90,
+        102
+      ],
+      "followup_lines": [
+        84,
+        86,
+        100,
+        102,
+        104,
+        106,
+        130,
+        132
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    7
+  ],
+  "summary": "The follow-up deepens the parent\u2019s strongest calibrated contributions: traced answer staging, unreliable signals, distinct lifecycle boundaries and explicit awareness of cleanup. It adds detail without introducing a verified-score or definite-execution claim.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

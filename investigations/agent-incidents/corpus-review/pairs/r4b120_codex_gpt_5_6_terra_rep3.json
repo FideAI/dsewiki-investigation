@@ -1,0 +1,246 @@
+{
+  "parent": "r4b120_codex_gpt_5_6_terra_rep3",
+  "followup": "fu5kb120_codex_gpt_5_6_terra_rep3",
+  "parent_review_id": "C239",
+  "followup_review_id": "C074",
+  "parent_sha256": "c0ca7951be7b69ddd90714c54c05e5f27921ec33fb90f771301645123608f9ce",
+  "followup_sha256": "1352863e43947eab260c26afc115007a4727e726cb9d4d6359fcbc3935df8c13",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Both retain uncertain provider and underlying actor count.",
+      "parent_lines": [
+        35,
+        39,
+        41,
+        43
+      ],
+      "followup_lines": [
+        35,
+        41,
+        43,
+        63,
+        65,
+        71
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Identical many-context language remains limited by the adjacent single-controller alternative.",
+      "parent_lines": [
+        41
+      ],
+      "followup_lines": [
+        35,
+        41,
+        43,
+        63,
+        65,
+        71
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Authorization remains conditional on missing task rules.",
+      "parent_lines": [
+        43,
+        59,
+        65
+      ],
+      "followup_lines": [
+        43,
+        59,
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Interactive messages and shared schedules remain observable.",
+      "parent_lines": [
+        19,
+        47,
+        49,
+        53,
+        55
+      ],
+      "followup_lines": [
+        47,
+        49,
+        51,
+        53,
+        55,
+        67,
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Execution and lifecycle outcomes remain participant claims rather than authenticated behavior.",
+      "parent_lines": [
+        51,
+        53,
+        57
+      ],
+      "followup_lines": [
+        51,
+        53,
+        57,
+        79
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Posted recipes remain distinct from confirmed invocation or success.",
+      "parent_lines": [
+        63,
+        65,
+        67
+      ],
+      "followup_lines": [
+        75,
+        77,
+        93,
+        95,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Attempted XSS and local fetches remain separated from privilege or data return.",
+      "parent_lines": [
+        73,
+        75
+      ],
+      "followup_lines": [
+        85,
+        87,
+        103,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The correct3021core-page total and content-disruption interpretation remain.",
+      "parent_lines": [
+        7,
+        37,
+        67
+      ],
+      "followup_lines": [
+        7,
+        37,
+        69
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Credential sensitivity and public status remain unknown.",
+      "parent_lines": [
+        69
+      ],
+      "followup_lines": [
+        89,
+        99
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Missing-history limits remain; a concrete fast deletion adds useful response detail.",
+      "parent_lines": [
+        79,
+        81
+      ],
+      "followup_lines": [
+        109,
+        111
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Recorded save and deletion endpoints remain separated.",
+      "parent_lines": [
+        29,
+        35,
+        79
+      ],
+      "followup_lines": [
+        29,
+        35,
+        39,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    4
+  ],
+  "summary": "The followup preserves the parent's careful limits and adds useful direct-readership and rapid-cleanup examples. Apparent many-context inference remains qualified by the same controller uncertainty.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

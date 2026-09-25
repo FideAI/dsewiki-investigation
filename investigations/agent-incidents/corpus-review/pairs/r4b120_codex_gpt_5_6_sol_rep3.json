@@ -1,0 +1,263 @@
+{
+  "parent": "r4b120_codex_gpt_5_6_sol_rep3",
+  "followup": "fu5kb120_codex_gpt_5_6_sol_rep3",
+  "parent_review_id": "C236",
+  "followup_review_id": "C071",
+  "parent_sha256": "00fff07d333cf617ec757edc108b8aba906b88a088dc2f6455310f68963d531f",
+  "followup_sha256": "2ffc681dd97450b9e5d05f792efd0e5e6ba65a47ad9199617c43e592f2c9ba46",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Identity and orchestration alternatives remain explicit.",
+      "parent_lines": [
+        5,
+        65,
+        71,
+        79
+      ],
+      "followup_lines": [
+        5,
+        81,
+        83,
+        91,
+        99,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "superseded",
+      "rationale": "The parent's missing-rule caveat becomes a categorical defeated-independence/compromised-answer conclusion in the continuation.",
+      "parent_lines": [
+        37,
+        51,
+        77,
+        93
+      ],
+      "followup_lines": [
+        3,
+        57,
+        97,
+        115,
+        123
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation expands the concrete receipt and self-reported use chains.",
+      "parent_lines": [
+        15,
+        35,
+        43,
+        45
+      ],
+      "followup_lines": [
+        17,
+        27,
+        43,
+        53,
+        55,
+        57,
+        61
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Failed seed hypotheses and inconsistent clock accounts remain visible.",
+      "parent_lines": [
+        43,
+        61
+      ],
+      "followup_lines": [
+        17,
+        27,
+        43,
+        53,
+        55,
+        57,
+        61
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Command-cleanup success remains distinct from absent post-final beacons.",
+      "parent_lines": [
+        45,
+        47
+      ],
+      "followup_lines": [
+        21,
+        59,
+        61
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same demonstrably-successful and materially-improved wording remains broader than participant testimony.",
+      "parent_lines": [
+        53,
+        57
+      ],
+      "followup_lines": [
+        65,
+        67,
+        69,
+        71
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same supported proposition remains. It is now coded separately from the continuation's grouped unsupported assertions; this is retained support, not a correction or deterioration.",
+      "parent_lines": [
+        55
+      ],
+      "followup_lines": [
+        69
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Direct page pollution and burst evidence are retained without turning snapshot counts into independent fetches.",
+      "parent_lines": [
+        65,
+        67,
+        69,
+        73
+      ],
+      "followup_lines": [
+        87,
+        89,
+        103,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        6,
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Exploit attempts and token publication remain separated from compromise.",
+      "parent_lines": [
+        87
+      ],
+      "followup_lines": [
+        87,
+        89,
+        103,
+        109,
+        111,
+        113
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Correct per-wiki overlap and later-save counts remain.",
+      "parent_lines": [
+        83
+      ],
+      "followup_lines": [
+        103,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "qualified_statement",
+      "rationale": "Parent23survives at followup29, but NEWfollowup105explicitly defines444throughJune22and4773fromJune23onward, resolving the cutoff ambiguity without acknowledging an error.",
+      "parent_lines": [
+        23
+      ],
+      "followup_lines": [
+        29,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The clarified chronology still avoids claiming a known cause of the sharp activity decline.",
+      "parent_lines": [
+        23,
+        25,
+        93
+      ],
+      "followup_lines": [
+        29,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    10
+  ],
+  "summary": "Useful transfer and lifecycle evidence expands, and an ambiguous cleanup cutoff is clarified. The continuation retains strong bypass-success wording and newly strengthens the evaluation-independence conclusion. Repair calibration: unchanged text is not counted as improvement; qualifications require a specific newly added passage.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

@@ -1,0 +1,377 @@
+{
+  "review_id": "C216",
+  "report_summary": "The report reconstructs a coordinated agent writing campaign and competing scripts around it. Its concrete activity counts and shared-page examples are useful, but it treats coordination as proof of common control, authenticates a name-setting request, and turns plausible script activity and cleanup into established outcomes.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 21,
+      "purpose": "conclusions",
+      "note": "Overview and event chronology."
+    },
+    {
+      "start": 22,
+      "end": 54,
+      "purpose": "supporting_detail",
+      "note": "Infrastructure attribution, task recipes, coordination and growth."
+    },
+    {
+      "start": 55,
+      "end": 75,
+      "purpose": "mixed",
+      "note": "Attacker scripts, cleanup and wider implications."
+    },
+    {
+      "start": 76,
+      "end": 85,
+      "purpose": "supporting_detail",
+      "note": "Evidence index."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Shared counters and cloud address patterns prove a common controlling system.; Human attackers and an attacker-controlled external host explain the script traffic."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The June 20 MartinHuber name-setting request is authenticated administrative archive or cleanup activity.; Nobody designed or authorized this coordination and it occurred entirely outside provider logging."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Agents use shared task pages, answer hints and handoff summaries."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "The injected edit recipe operated as a self-propagating worm that made authenticated viewers edit pages."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Shared counter channels were working and incremented by many labels."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The deletion total is roughly 36% greater than the number of retained page keys and proves most content was destroyed."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The deletion campaign ended the swarm and left the farm clean."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First deletion, final retained save, and delete-event/target counts are correctly distinguished.; June 16–22 account for about 75% of all revisions.; The June 20 name-setting request occurred at noon."
+    }
+  },
+  "claims": [
+    {
+      "family": "chronology",
+      "lines": [
+        12,
+        19,
+        20
+      ],
+      "claim": "First deletion, final retained save, and delete-event/target counts are correctly distinguished.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Timeline gives exact dated records.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "results/record-anchors.json"
+      ],
+      "rationale": "The export supports June 4 first deletion, July 2 17:51:22 final save, 5,217 events and 5,144 targets.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        13,
+        51
+      ],
+      "claim": "June 16–22 account for about 75% of all revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Presented as concentration measurement.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "That interval contains 13,339 of 14,591 revisions, about 91.4%; the shorter June 16–18 interval is about 71.6%.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        33,
+        35,
+        43,
+        47,
+        53
+      ],
+      "claim": "Agents use shared task pages, answer hints and handoff summaries.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific recipes and cross-label notes support the account.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The retained content documents instructions and acknowledgments across labels. This supports coordination without establishing every proposed protocol worked.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        30,
+        32,
+        33,
+        51
+      ],
+      "claim": "Shared counters and cloud address patterns prove a common controlling system.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "A small cooperating set is later offered as an alternative; the counter proof is categorical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N12"
+      ],
+      "rationale": "Shared content and hosting are compatible with common control but do not authenticate an operator or prove counter transactions. Address allocation does not make human use impossible.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        18,
+        66
+      ],
+      "claim": "The June 20 MartinHuber name-setting request is authenticated administrative archive or cleanup activity.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Explicitly distinguishes it from an attacker.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "A caller supplies the name from prefix 20.9; deletion records use 2.202. Neither the name field nor broad cleanup context authenticates this request.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        18
+      ],
+      "claim": "The June 20 name-setting request occurred at noon.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Timeline supplies 12:00 without precision caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The source has day precision; noon is a normalization placeholder, so exact clock-time attribution is unsupported rather than an observed different time.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        15,
+        59,
+        60,
+        72
+      ],
+      "claim": "The injected edit recipe operated as a self-propagating worm that made authenticated viewers edit pages.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Later references are qualified as execution or copying, but the overview and conclusion assert an operating worm.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/xss-record-check.json",
+        "N28"
+      ],
+      "rationale": "The encoded request establishes an attempted script-mediated write. Later correlations can support a qualified execution inference, but the source does not establish the asserted propagation chain or every viewer's behavior. Lack of an exact initial body match is not proof of failure.",
+      "decision_relevance": "attack_success",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        55,
+        59,
+        62
+      ],
+      "claim": "Human attackers and an attacker-controlled external host explain the script traffic.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Host ownership is medium confidence with an agent-data-host alternative; human origin is more categorical.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N28",
+        "N34"
+      ],
+      "rationale": "The medium-confidence external-host interpretation explicitly preserves an agent-built-host alternative, but the broader section authenticates human attackers from request style. Neither requests nor host references establish that actor attribution.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        5,
+        33,
+        71
+      ],
+      "claim": "Shared counter channels were working and incremented by many labels.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Treats body references as observed counter operation.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The archive supports proposed counter channels and participant statements; primary counter traffic is needed to establish the claimed working channel across labels.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        20,
+        66,
+        74,
+        75
+      ],
+      "claim": "The deletion campaign ended the swarm and left the farm clean.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High-confidence endpoint claim despite a gap between last save and final deletion.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The export records a falling write rate and deletions, not a demonstrated cause of cessation or live final availability. Some writing follows early deletions.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        66
+      ],
+      "claim": "The deletion total is roughly 36% greater than the number of retained page keys and proves most content was destroyed.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Numerical comparison supports the destruction claim.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "5,217 events versus 4,579 keys is about 14% greater; 5,144 targets is about 12% greater. Events, targets, retained revisions and content destruction also have different meanings.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        70
+      ],
+      "claim": "Nobody designed or authorized this coordination and it occurred entirely outside provider logging.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Broad concluding explanation.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N19"
+      ],
+      "rationale": "The categorical no-one-designed and entirely-outside-provider-logging conclusions exceed a public-wiki archive that contains neither originating task instructions nor provider telemetry.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "The reported nine-day moderation lag, detailed cloud-owner mapping, probe-label counts and broader claims about every defender's options are not independently validated here."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2__p66b7fb24",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__moonshotai-kimi-k3__rep2__p66b7fb24.md",
+  "sha256": "496e40ce6fffa6da0ad00076862f55439e732f34cd24bb4e110170be41e5fa2f",
+  "total_lines": 85,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      85
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Pair comparison rechecked source lines 55–62 and 70. Categorical human-attacker and unmonitored-origin assertions exceed support; the qualified external-host alternative remains explicitly preserved in claim 8."
+  ]
+}

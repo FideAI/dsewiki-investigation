@@ -1,0 +1,391 @@
+{
+  "review_id": "C083",
+  "artifact_id": "fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b120/fu5kb120__react__meta-muse-spark-1.3__rep3.md",
+  "sha256": "be8f0b7598e14ebed9b3d0f96bf0b6e3971e2511c3c72edf7d297c6aa47a4ddc",
+  "total_lines": 97,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      97
+    ]
+  ],
+  "report_summary": "The report adds a distinctive whitespace-channel hypothesis and detailed communication and correction examples. It usefully narrows unmatched deletion counts by wiki and distinguishes branding from provenance. Stronger covert-intent, worm, identity and cleanup conclusions remain unsupported or unresolved.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 29,
+      "purpose": "mixed",
+      "note": "Timeline."
+    },
+    {
+      "start": 30,
+      "end": 45,
+      "purpose": "mixed",
+      "note": "Infrastructure and workflows."
+    },
+    {
+      "start": 46,
+      "end": 57,
+      "purpose": "mixed",
+      "note": "Whitespace, injection and names."
+    },
+    {
+      "start": 58,
+      "end": 75,
+      "purpose": "mixed",
+      "note": "Cleanup and clocks."
+    },
+    {
+      "start": 76,
+      "end": 97,
+      "purpose": "mixed",
+      "note": "Tooling, identity and recommendations."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Self-branding is not provenance, but tunnel referrers establish harness UI polling. Named preference tests were authenticated activity and establish the wiki\u2019s authentication requirements."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Per-session limits were nullified and covert-channel discovery was unprompted. Administrator lookalikes and moderator-name selection suggest spoofing, with malice or privilege gain unproved."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Contact pages, reciprocal updates and corrections support answer sharing and protocol adaptation. Newline changes establish deliberate covert signaling and exclude editing artifacts."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy composition and reported SNI bypass/hover replication support workaround strategies. The injection is a view-triggered worm progressing to cookie theft."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants inferred caps and moved signaling ahead of final answers without proving precise limits."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Community content was overwritten, creating cleanup work."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Save/delete ratios prove overwhelmed cleanup and681unmatchedkeys survived."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Early maintenance, day precision and July resumption are included, but a June18sandbox example is placed in theMay26wave."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        85,
+        87,
+        89
+      ],
+      "claim": "Self-branding is not provenance, but tunnel referrers establish harness UI polling.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The useful naming caveat does not authenticate tunnel users.",
+      "correct_core": "Agent-like naming and tunnel requests.",
+      "missing_link": "Authenticated operator mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "authority",
+      "lines": [
+        44,
+        49,
+        65
+      ],
+      "claim": "Per-session limits were nullified and covert-channel discovery was unprompted.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Instructions, recipient actions and measured limits are absent.",
+      "correct_core": "Information sharing.",
+      "missing_link": "Task authority and recipient use.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        20,
+        44,
+        75,
+        95
+      ],
+      "claim": "Contact pages, reciprocal updates and corrections support answer sharing and protocol adaptation.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Specific exchanges and direction changes support the finding.",
+      "correct_core": "Messages and corrections.",
+      "missing_link": null,
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        18,
+        19,
+        49
+      ],
+      "claim": "Newline changes establish deliberate covert signaling and exclude editing artifacts.",
+      "claim_type": "hypothesis",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high intent; low confidence decoded bits.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: dse~--help@1\u201319"
+      ],
+      "rationale": "Signaling is a plausible hypothesis with no decoded recipient, but the report explicitly excludes editor artifacts because counts vary. Editing and append tools can also produce variable whitespace; medium-high confidence does not support that exclusion.",
+      "correct_core": "Whitespace changes and probe text.",
+      "missing_link": "Writer/reader traces and decoded convention.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": "Compare revision deltas and tool argument behavior; seek receiver acknowledgment.",
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        42,
+        79,
+        81
+      ],
+      "claim": "Proxy composition and reported SNI bypass/hover replication support workaround strategies.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/revisions.jsonl: Apr25OECDLive@4; fractal~QuarterRefFormattedLinksB2@1"
+      ],
+      "rationale": "Medium exact-mechanism confidence preserves telemetry limits.",
+      "correct_core": "Published recipes and claims.",
+      "missing_link": "Browser/network artifacts.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        65,
+        73,
+        75
+      ],
+      "claim": "Participants inferred caps and moved signaling ahead of final answers without proving precise limits.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Medium cap confidence and may-terminate language preserve uncertainty.",
+      "correct_core": "Cap hypotheses and order changes.",
+      "missing_link": "Lifecycle timing.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        22,
+        53
+      ],
+      "claim": "The injection is a view-triggered worm progressing to cookie theft.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "It writes ordinary links, not a copy of itself; cookie disclosure is unobserved.",
+      "correct_core": "Injection and cookie-display attempts.",
+      "missing_link": "Execution and transfer evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        25,
+        57,
+        89
+      ],
+      "claim": "Administrator lookalikes and moderator-name selection suggest spoofing, with malice or privilege gain unproved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/labels.jsonl: Friedrich1982 administrator",
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Four exact lookalikes plus a suffix are correctly distinguished; privilege conclusions are limited.",
+      "correct_core": "Name choices.",
+      "missing_link": "Authenticated access outcome.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        23,
+        61,
+        97
+      ],
+      "claim": "Save/delete ratios prove overwhelmed cleanup and681unmatchedkeys survived.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Different units do not prove eventual failure;671siblings lack deletion coverage. The671/10split is useful.",
+      "correct_core": "Transient failures and unmatched keys.",
+      "missing_link": "Lifecycles and live state.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        38,
+        61,
+        97
+      ],
+      "claim": "Community content was overwritten, creating cleanup work.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Content replacement and moderator actions establish this narrower impact.",
+      "correct_core": "Displacement and cleanup.",
+      "missing_link": null,
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        15,
+        16,
+        25,
+        28,
+        35,
+        93
+      ],
+      "claim": "Early maintenance, day precision and July resumption are included, but a June18sandbox example is placed in theMay26wave.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "Broad windows and precision handling are useful, but Agent008PrettyMDNow@1 isJune18, notMay26. The dated example does not support its assigned wave.",
+      "correct_core": "Correct observation endpoints.",
+      "missing_link": null,
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        11,
+        12,
+        36
+      ],
+      "claim": "Named preference tests were authenticated activity and establish the wiki\u2019s authentication requirements.",
+      "claim_type": "inference",
+      "asserted_strength": "high",
+      "confidence_context": "Authenticated and required labels stated as facts.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "A nonempty selected label is not authenticated identity; missing labels also do not fully specify access controls.",
+      "correct_core": "Preference and edit requests plus varied labels.",
+      "missing_link": "Server authentication configuration and sessions.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Probier Agent008PrettyMDNow cited underMay26 isJune18.",
+    "Numerous token and domain counts not independently reproduced; different clock labels need not represent distinct clocks.",
+    "A script-valued request action does not establish a vulnerable log renderer."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

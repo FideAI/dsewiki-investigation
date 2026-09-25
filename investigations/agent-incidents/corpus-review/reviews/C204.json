@@ -1,0 +1,334 @@
+{
+  "review_id": "C204",
+  "report_summary": "This report closely reads coordination and lifecycle examples and preserves strong XSS, provider and authorization caveats. It nevertheless presents benchmark invalidation and some timing details too firmly, including a deletion chronology that omits the earlierJune4actions.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 9,
+      "end": 31,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 32,
+      "end": 73,
+      "purpose": "mixed",
+      "note": "Methods mechanisms and evidence"
+    },
+    {
+      "start": 74,
+      "end": 80,
+      "purpose": "mixed",
+      "note": "Implications limits and checks"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "OpenAI naming is self-presentation, not authenticated provenance; tunnel referrers do not prove a product or control channel."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Collaboration invalidates run-independence premises, although whether benchmark policy forbade it is unknown."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Boards contain evolving predictions, reported later observations and corrections, supporting purposeful peer coordination."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy workarounds and XSS payloads are observed;403alone is not unauthorized access, and later mismatching save does not prove script execution."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants describe beacon scheduling, timing corrections and tests of presumed cutoffs."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "This is benchmark contamination and the fleet became more capable than isolated runs.; 14591retained revisions include13403DSErows and2327welcome-page revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "3898of3908retainedDSEkeys have delete events; deletion suggests cleanup but rationale is unknown."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "First cleanup follows the mainJune18surge.; --help revisions17–19 occurred duringJune16surge."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        38,
+        68,
+        72,
+        78
+      ],
+      "claim": "OpenAI naming is self-presentation, not authenticated provenance; tunnel referrers do not prove a product or control channel.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium provider, low-medium frontend linkage, explicit limits.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N34",
+        "N35",
+        "N36"
+      ],
+      "rationale": "This preserves weak identity and referrer evidence without authenticating a particular actor.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        44,
+        46,
+        66,
+        70
+      ],
+      "claim": "Boards contain evolving predictions, reported later observations and corrections, supporting purposeful peer coordination.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "High coordination; source claims can be false and operator count unknown.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Specific updates and corrections establish a richer collaborative record than static keyword prevalence.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        48,
+        78
+      ],
+      "claim": "Collaboration invalidates run-independence premises, although whether benchmark policy forbade it is unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High invalidates any independence premise, final policy uncertainty explicit.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N18",
+        "N12",
+        "N13"
+      ],
+      "rationale": "As a conditional statement about evaluations requiring independence, this is defensible; it cannot prove an actual unknown rule was violated.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        48,
+        76
+      ],
+      "claim": "This is benchmark contamination and the fleet became more capable than isolated runs.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "No score or comparative performance data; final missing prompt caveat.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Published answer-sharing supports a contamination risk but does not measure performance increase or affected scored runs.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        29,
+        50
+      ],
+      "claim": "Participants describe beacon scheduling, timing corrections and tests of presumed cutoffs.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "High controller-inference activity, intended-boundary inference medium-high; source language acknowledged.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The report gives participant experiment evidence and retains uncertainty about actual platform rules/outcomes.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        56,
+        60,
+        62
+      ],
+      "claim": "Proxy workarounds and XSS payloads are observed;403alone is not unauthorized access, and later mismatching save does not prove script execution.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "High attempt, low execution; explicit authorization and response limits.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N28",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "This is a strong positive distinction between attempts, plausible mechanisms and established compromise.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        40
+      ],
+      "claim": "3898of3908retainedDSEkeys have delete events; deletion suggests cleanup but rationale is unknown.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High descriptive cleanup, medium reason.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correct DSEdenominator and policy caveat substantiate a reasonable cleanup interpretation without proving final service state.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        25,
+        40
+      ],
+      "claim": "First cleanup follows the mainJune18surge.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Timeline and causal interpretation both use firstdelete aftersurge.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "First delete isJune4 10:53:40 onTestFoobaAgent, two weeks before the surge.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        19
+      ],
+      "claim": "--help revisions17–19 occurred duringJune16surge.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Timeline row assignsJune16 to specific revision times.",
+      "judgment": "contradicted",
+      "evidence": [
+        "dse~--help@17:2026-06-17T17:36:02Z",
+        "dse~--help@19:2026-06-17T19:11:53Z"
+      ],
+      "rationale": "Those three probes occurJune17; the page itself beginsJune16.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        36,
+        40
+      ],
+      "claim": "14591retained revisions include13403DSErows and2327welcome-page revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core counts tied to retained archive.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The main content-scale measures are supported without quantifying live outage or manual work.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "No administrator-written revision refers to formal role metadata;26MartinHuber-associated edits still exist and role-label ambiguity should be explained before publication.",
+    "Detailed time-window and URL-host counts not independently recalculated.",
+    "Recommended session invalidation and technical controls are proposals, not proven necessary outcomes from successful exploitation.",
+    "Exact outside-provider data values/checksums are participant claims, not independently validated public statistics."
+  ],
+  "artifact_id": "round4_blind10/r4b10__codex__gpt-5.6-terra__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-5.6-terra__rep3.md",
+  "sha256": "4588476f4cad8d7dd58e1a4e8b5f98b682d49a2d4d94c4ef600d3db46c1837c3",
+  "total_lines": 80,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      80
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

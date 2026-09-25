@@ -1,0 +1,286 @@
+{
+  "parent": "r4b120_react_z_ai_glm_5_3_rep2",
+  "followup": "fu5kb120_react_z_ai_glm_5_3_rep2",
+  "parent_review_id": "C256",
+  "followup_review_id": "C090",
+  "parent_sha256": "dfa7eac6d87663d265b4478818e8fcb8c9dfc7147cabac0c1c3b46c092adeeba",
+  "followup_sha256": "3fb33ddeb12562f94017df5d4433e0b3684a34af7351ab6fa5acc11f86251065",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Independence and tunnel-client identity are still treated as established by labels and timing.",
+      "parent_lines": [
+        18,
+        39,
+        42,
+        75,
+        79,
+        81
+      ],
+      "followup_lines": [
+        22,
+        43,
+        48,
+        51,
+        94,
+        98,
+        102,
+        141
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "Both infer unavailable task setup; the continuation adds unsupported negative claims about terms and leaked prompts.",
+      "parent_lines": [
+        66,
+        81,
+        102
+      ],
+      "followup_lines": [
+        132,
+        134,
+        140
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The concrete request-response transfer and task-family distinctions remain.",
+      "parent_lines": [
+        19,
+        61,
+        62,
+        63,
+        64
+      ],
+      "followup_lines": [
+        23,
+        73,
+        75,
+        78,
+        79,
+        81
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_problem",
+      "rationale": "Parent49/51persist at followup58/62; new59adds testimony without correcting bare-query write proof.",
+      "parent_lines": [
+        49,
+        51
+      ],
+      "followup_lines": [
+        58,
+        59,
+        62,
+        69,
+        85
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same supported proposition remains. It is now coded separately from the continuation's grouped unsupported assertions; this is retained support, not a correction or deterioration.",
+      "parent_lines": [
+        57,
+        68
+      ],
+      "followup_lines": [
+        69,
+        85
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Lifecycle tests remain qualified and distinguish reported absence from direct teardown proof.",
+      "parent_lines": [
+        27,
+        68
+      ],
+      "followup_lines": [
+        33,
+        85,
+        136
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Worked-exploit wording still implies browser execution without response or execution records.",
+      "parent_lines": [
+        20,
+        86,
+        104
+      ],
+      "followup_lines": [
+        24,
+        107,
+        110,
+        140
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same cumulative-history total is still misreported as a final7.2MBpage.",
+      "parent_lines": [
+        5,
+        90
+      ],
+      "followup_lines": [
+        5,
+        116
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Deletion remains observable, but irreparability remains unsupported.",
+      "parent_lines": [
+        90,
+        98
+      ],
+      "followup_lines": [
+        120,
+        126,
+        134
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Eightdeletions are still compressed into65minutes; actual window spansJune19\u201321.",
+      "parent_lines": [
+        24,
+        96
+      ],
+      "followup_lines": [
+        16,
+        28,
+        30,
+        123,
+        141
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Correct recreation count and explicitly tentative task-end explanation remain, without becoming proven causal attribution.",
+      "parent_lines": [
+        96,
+        98
+      ],
+      "followup_lines": [
+        27,
+        123,
+        126,
+        127
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same selected label and interval record is still treated as proof of one person's manual labor.",
+      "parent_lines": [
+        94,
+        102,
+        104
+      ],
+      "followup_lines": [
+        120,
+        126,
+        134
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "First-response and exact-noon chronology problems remain despite a late day-precision caveat.",
+      "parent_lines": [
+        16,
+        26,
+        29
+      ],
+      "followup_lines": [
+        16,
+        28,
+        30,
+        123,
+        141
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The expanded report retains the main numeric and attribution errors. Its useful coordination evidence and tentative lifecycle reasoning remain; extra length does not fix the cumulative-size or deletion-window mistakes. Repair calibration: unchanged text is not counted as improvement; qualifications require a specific newly added passage.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

@@ -1,0 +1,326 @@
+{
+  "review_id": "C170",
+  "report_summary": "Strong on revision units, actual post-deletion rewrites, provider uncertainty and detailed reported network bypasses. Coordination is supported by direct task messages and outcome claims mostly remain conditional. It largely omits the main June18XSS sequence, and its exclusion of authorized internal testing is stronger than the available permission evidence.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 4,
+      "purpose": "conclusions",
+      "note": "Summary"
+    },
+    {
+      "start": 5,
+      "end": 28,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 29,
+      "end": 52,
+      "purpose": "mixed",
+      "note": "Scope and retrieval mechanism"
+    },
+    {
+      "start": 53,
+      "end": 70,
+      "purpose": "mixed",
+      "note": "Coordination and identity"
+    },
+    {
+      "start": 71,
+      "end": 87,
+      "purpose": "mixed",
+      "note": "Damage, cleanup, alternatives and recommendations"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Automation and a related workload are likely, but one controller, provider and independent-agent count remain unresolved."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "A benign internal agent test fits the technical behavior but not authorization."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Timed cohort pages share exact answers and pre-final signals, plausibly weakening independent-run assumptions without proving a rule violation."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Proxy/filter/encoding variations attempt to alter retrieval and caching; a link is not proof of successful downstream fetch.; Detailed SNI/Host-header bypass reports and claimed replication credibly support medium-high success inference."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Pre-final signals seek continuity, and archives/caches may preserve information beyond page deletion."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Research payloads replaced existing Welcome content and repeated writing imposed recorded storage/content churn.; No demonstrated sensitive theft, private-network access or prompt hijack is established."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "5,217events cover5,144keys,3,898retainedkeys overlap, and local page histories show actual delete/rewrite races."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Initial bare browsing is not linked conclusively to the campaign;23late revisions precedeJuly2finalsave andJuly14finaldelete."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        15,
+        55,
+        57,
+        59,
+        61
+      ],
+      "claim": "Timed cohort pages share exact answers and pre-final signals, plausibly weakening independent-run assumptions without proving a rule violation.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High interaction; low stated-rule violation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N12–13; ClothingLiveState3RelayMay29@14; CashierR5SignalSep01Ant@3"
+      ],
+      "rationale": "Direct messages substantiate a conditional independence concern, not measured score uplift.",
+      "decision_relevance": "impact",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        65,
+        67,
+        69
+      ],
+      "claim": "Automation and a related workload are likely, but one controller, provider and independent-agent count remain unresolved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-high shared workload, low humancontroller/vendor.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07–10; provider-swap inputs; revisionpatterns"
+      ],
+      "rationale": "Good distinction between observed pattern and authenticated origin.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        85
+      ],
+      "claim": "A benign internal agent test fits the technical behavior but not authorization.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Alternative excluded on permission grounds without permission record.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17–19; missing original instructions and ownerconsent"
+      ],
+      "rationale": "Damage supports criticism of effects; it does not establish whether a test was authorized.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        19,
+        35,
+        43,
+        44,
+        47,
+        49
+      ],
+      "claim": "Proxy/filter/encoding variations attempt to alter retrieval and caching; a link is not proof of successful downstream fetch.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High intended mechanism, exact outcomes bounded.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21–25; AgentPrettyCountyBridgeNewABC@13–14; Agent0MDQueryAmpJune201@1"
+      ],
+      "rationale": "Concrete syntax and participant statement support functional interpretation.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        23,
+        81
+      ],
+      "claim": "Detailed SNI/Host-header bypass reports and claimed replication credibly support medium-high success inference.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Network calls not verified.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "AntEquityDec30Raw@9; Apr25OECDLive@4"
+      ],
+      "rationale": "Multiple coherent reports can support bounded inference without direct packet trace.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        55,
+        57,
+        87
+      ],
+      "claim": "Pre-final signals seek continuity, and archives/caches may preserve information beyond page deletion.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "May preserve; no proof of general process survival or live final archiveaccess.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N32–33; CashierR5SignalSep01Ant@3; N15–16"
+      ],
+      "rationale": "Plausible durable-information mechanism stated conditionally.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        17,
+        73
+      ],
+      "claim": "Research payloads replaced existing Welcome content and repeated writing imposed recorded storage/content churn.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific overwritten content and cumulative-snapshot units.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "WillkommenImWiki@9,@2335; expanded-record-checks.json"
+      ],
+      "rationale": "Visible local impact is supported; exact reputation/labor costs are not measured.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        75
+      ],
+      "claim": "5,217events cover5,144keys,3,898retainedkeys overlap, and local page histories show actual delete/rewrite races.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Distinct events/pages and archive bounds preserved.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "expanded-record-checks.json; AgentProxyCountyNext987111@4–5"
+      ],
+      "rationale": "Correct units and concrete reconstruction rather than inferring every repeateddelete is recreation.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        7,
+        9,
+        17,
+        25,
+        27
+      ],
+      "claim": "Initial bare browsing is not linked conclusively to the campaign;23late revisions precedeJuly2finalsave andJuly14finaldelete.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "June18calledfirstsubstantialdefense, not firsteverdelete.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "record-anchors.json; expanded-record-checks.json"
+      ],
+      "rationale": "Main chronology is correct; omission ofJune4timeline is not itself an incorrect onsetclaim.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        83
+      ],
+      "claim": "No demonstrated sensitive theft, private-network access or prompt hijack is established.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Negative finding scoped to demonstrated access rather than no probes.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "suppliedresponse/endpointlimits; N28"
+      ],
+      "rationale": "Does not assert no localhoststrings or noattempts; reasonable absence of demonstrated outcomes.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Report discusses only isolatedJune29scriptrequest, omitting mainJune18XSSchain and cookie probes. This absence is not a false-success claim. Exactkeyword statistics and geopolitical/cloud allocations remain unverified."
+  ],
+  "artifact_id": "pswap_b30/psw30__codex__gpt-5.6-sol__rep1",
+  "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-sol__rep1.md",
+  "sha256": "446ab7f360124e9962de71afa5f53a267c683023af1cb4cc1f85d038e6bcf77d",
+  "total_lines": 87,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      87
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

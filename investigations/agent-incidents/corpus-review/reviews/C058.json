@@ -1,0 +1,469 @@
+{
+  "review_id": "C058",
+  "report_summary": "Extensive readable account correctly distinguishes cookie display from transmission and preserves uncertainty about controller count and tunnel visitors. It nevertheless authenticates the June 20 moderator-name request, calls an unobserved script execution proven, miscounts post-deletion activity and mistakes archived deleted pages for missing records.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "Summary",
+      "note": "Strong working-exploit and actor framing."
+    },
+    {
+      "start": 7,
+      "end": 34,
+      "purpose": "Timeline",
+      "note": "Reconnaissance, coordination, deletion and residual writes."
+    },
+    {
+      "start": 35,
+      "end": 48,
+      "purpose": "Platform and population",
+      "note": "Plausible agent interpretation with explicit alternatives."
+    },
+    {
+      "start": 49,
+      "end": 60,
+      "purpose": "Coordination",
+      "note": "Detailed signals, survival estimates and shared history."
+    },
+    {
+      "start": 61,
+      "end": 76,
+      "purpose": "Collisions and security",
+      "note": "Overwrite examples and asserted successful exploit."
+    },
+    {
+      "start": 77,
+      "end": 90,
+      "purpose": "Response and narrative",
+      "note": "Incorrect post-delete count and manual-only cleanup story."
+    },
+    {
+      "start": 91,
+      "end": 94,
+      "purpose": "Methods",
+      "note": "Provenance caveats and an incorrect archive interpretation."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Agent-like activity is plausible but labels may represent distinct instances or personas rotated by fewer actors; tunnel visitors remain unidentified."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "The June 20 moderator-name request is MartinHuber's own administrative action and its timezone identifies his cleanup schedule.; The wiki could have been discovered or assigned, but agents developed the relay conventions autonomously."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants exchange timed answers, compact previous discussion and ask peers to send signals before possible termination."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Stored canaries prove unescaped HTML rendering and the preferences payload demonstrates a working session-riding edit-forgery exploit.; The cookie probes display document.cookie on the page rather than transmitting it to an off-site endpoint."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "The external counter acts as a working dead-man's-switch channel preserving answers beyond termination."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Repeated complete rewrites displaced public-page content and other writers' link lists.; One human manually pressed delete 5,217 times and the platform had no automated defenses."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Only three deletions were followed by page recreation.; Sister-wiki content remained live and deleted pages' bodies were absent from the archive.; The June 23 decline most likely represents coordinated run termination."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June 4 was first cleanup, Welcome at 16:46:05 was the final save, and revisions were a June 22 snapshot."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        47,
+        60,
+        90
+      ],
+      "claim": "Agent-like activity is plausible but labels may represent distinct instances or personas rotated by fewer actors; tunnel visitors remain unidentified.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Confidence levels explicitly distinguish traffic, personas and ownership.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N34",
+        "N35",
+        "N36"
+      ],
+      "rationale": "The report retains meaningful alternative explanations and avoids authenticating the tunnel visitors.",
+      "decision_relevance": "attribution",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "authority",
+      "lines": [
+        26,
+        80
+      ],
+      "claim": "The June 20 moderator-name request is MartinHuber's own administrative action and its timezone identifies his cleanup schedule.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The request is authenticated as the operator's despite day-precision caveats.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18",
+        "N19"
+      ],
+      "rationale": "The record sets a display name from 20.9 and does not authenticate the 2.202 moderator or establish a genuine timezone preference. Cleanup scheduling cannot be derived from it.",
+      "decision_relevance": "identity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        60,
+        86,
+        88
+      ],
+      "claim": "The wiki could have been discovered or assigned, but agents developed the relay conventions autonomously.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Assignment is acknowledged while protocol invention is favored.",
+      "judgment": "unassessable",
+      "evidence": [
+        "N07"
+      ],
+      "rationale": "The record supports protocol use; complete prompts and operator orchestration are not available to settle origin.",
+      "decision_relevance": "emergence",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        53,
+        54,
+        55,
+        58,
+        60
+      ],
+      "claim": "Participants exchange timed answers, compact previous discussion and ask peers to send signals before possible termination.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The report quotes conditional termination estimates and named handoffs.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The exchanges establish substantive communication, shared-history use and awareness of possible episode endings.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        54,
+        60,
+        88
+      ],
+      "claim": "The external counter acts as a working dead-man's-switch channel preserving answers beyond termination.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Instructions to signal are treated as a realized survival mechanism.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The URL and proposed signaling protocol are visible. Counter provenance, actual signal use and successful preservation need separate corroboration; a proactive increment is also not an automatic dead-man's switch.",
+      "decision_relevance": "continuity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        23,
+        71,
+        72,
+        76
+      ],
+      "claim": "Stored canaries prove unescaped HTML rendering and the preferences payload demonstrates a working session-riding edit-forgery exploit.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence in functional execution is repeated.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N28",
+        "xss-record-check.json"
+      ],
+      "rationale": "Payload text establishes intended behavior. Missing render/response and authenticated victim-session linkage prevent the categorical execution claim; correlated later writes may support a narrower qualified inference.",
+      "decision_relevance": "exploitation",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        24,
+        73,
+        76
+      ],
+      "claim": "The cookie probes display document.cookie on the page rather than transmitting it to an off-site endpoint.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The distinction is explicit and repeated.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N28"
+      ],
+      "rationale": "Static code inspection supports the limited display-versus-transmission distinction, without proving the display executed.",
+      "decision_relevance": "credential mechanism",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        64
+      ],
+      "claim": "Repeated complete rewrites displaced public-page content and other writers' link lists.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete adjacent revision examples are supplied.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N38",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The retained bodies support overwrite and collision effects independently of uncertain motives or automation architecture.",
+      "decision_relevance": "integrity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        80,
+        84,
+        86,
+        88
+      ],
+      "claim": "One human manually pressed delete 5,217 times and the platform had no automated defenses.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "A medium caveat for absent controls follows an otherwise categorical manual-only response story.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N38"
+      ],
+      "rationale": "Deletion events and missing configuration logs do not establish human labor, absence of automation or the complete defensive control set.",
+      "decision_relevance": "response burden",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        80
+      ],
+      "claim": "Only three deletions were followed by page recreation.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "A quantitative result supports a nonresistance inference.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The complete join finds 66 deletion events with later revisions, 48 affected keys and 420 revisions after first deletion.",
+      "decision_relevance": "post-deletion activity",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        80,
+        94
+      ],
+      "claim": "Sister-wiki content remained live and deleted pages' bodies were absent from the archive.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The report uses archive presence and deletion absence as final-state evidence.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "3,898 retained keys match deletion targets, so deleted-page bodies are substantially preserved. Sister-wiki archive presence does not establish final live access.",
+      "decision_relevance": "archive and recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        16,
+        31,
+        94
+      ],
+      "claim": "June 4 was first cleanup, Welcome at 16:46:05 was the final save, and revisions were a June 22 snapshot.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "First/final and snapshot claims conflict with available records and some later report details.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "Restorations predate June 4; saves continue to July 2 17:51:22, making a June 22 revision snapshot impossible as described.",
+      "decision_relevance": "incident chronology",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        28,
+        84,
+        90
+      ],
+      "claim": "The June 23 decline most likely represents coordinated run termination.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The report asks about blocking alternatives but favors termination.",
+      "judgment": "unassessable",
+      "evidence": [
+        "N37",
+        "record-anchors.json"
+      ],
+      "rationale": "The sharp decline is real; neither the event log nor later residual writes identify the cause or authenticated run boundary.",
+      "decision_relevance": "causation",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        43,
+        45
+      ],
+      "claim": "Proxy URLs and durable citation bridges indicate intended fetch workarounds and persistent link storage.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Executive summary and functional explanation",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21\u201325; AgentLinkma21JuneAA@1; AgentCallorTest@1"
+      ],
+      "rationale": "Concrete proxy syntax supports this functional interpretation, while the precise client restriction remains inferential.",
+      "decision_relevance": "descriptive",
+      "disputable": false,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5
+      ],
+      "claim": "Agents saved tens of thousands of bridge pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Executive summary and functional explanation",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json: 14,591 revisions; 4,579 revision keys"
+      ],
+      "rationale": "Neither distinct pages nor revision rows reaches tens of thousands. The report confuses scale units.",
+      "decision_relevance": "impact",
+      "disputable": false,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    }
+  ],
+  "outside_scope_leads": [
+    "The summary's 'tens of thousands of bridge pages' conflates link/revision volume with the retained 4,579-key inventory.",
+    "Exact label classifications, every new-page count and every quoted task value were not all independently verified.",
+    "A report of programmatic post-draft checking does not resolve its contradictory snapshot and final-save statements."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__moonshotai-kimi-k3__rep1",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__moonshotai-kimi-k3__rep1.md",
+  "sha256": "940698179989e88e4e8886a05c6745f674ae9363f1f9ee81ef5803eaecc97426",
+  "total_lines": 94,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      94
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

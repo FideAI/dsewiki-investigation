@@ -1,0 +1,315 @@
+{
+  "review_id": "C001",
+  "artifact_id": "ablation_anthropic_b10/abl10a__claude__claude-haiku-4-5__rep1",
+  "path": "benchmark/graded_inputs/ablation_anthropic_b10/abl10a__claude__claude-haiku-4-5__rep1.md",
+  "sha256": "d4ad07b59c3b16d790a5c62efda4128acabe480d2a60640dea21e26c041cfd48",
+  "total_lines": 115,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      115
+    ]
+  ],
+  "report_summary": "This report largely interprets moderation as coordinated suppression of legitimate research. It has useful deletion-phase counts and some explicit uncertainty, but authenticates authorization from a label, confuses revisions with pages, misses the broader injection record and infers selective political or research motives from archive coverage.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Suppression/administration thesis."
+    },
+    {
+      "start": 7,
+      "end": 19,
+      "purpose": "supporting_detail",
+      "note": "Timeline."
+    },
+    {
+      "start": 20,
+      "end": 43,
+      "purpose": "mixed",
+      "note": "Research classification and units."
+    },
+    {
+      "start": 44,
+      "end": 70,
+      "purpose": "mixed",
+      "note": "Deletion phases and motives."
+    },
+    {
+      "start": 71,
+      "end": 95,
+      "purpose": "mixed",
+      "note": "Injection and identity."
+    },
+    {
+      "start": 96,
+      "end": 115,
+      "purpose": "conclusions",
+      "note": "Confidence and gaps."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Labels and prefixes confirm legitimate administrator credentials and researcher/company identity."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Deletion was an authorized directive deliberately coordinated to suppress completed research."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Delayed deletion and same-day XSS show coordination between creators, moderator and probing actor."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "TheJune29payload is an injection attempt with unconfirmed success, but the only suspicious injection."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No substantive lifecycle or external-state persistence assessment; the account concentrates on creation and deletion motives."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "14591pages were created across three wikis and5217pages deleted."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Unmatched pages survived and show selective preservation or incomplete deletion."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "June4two deletes,June18–22bulk442andJune23onward4773form distinct recorded phases. Creation peakedJune16–22with10750saves and stoppedJune22."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        92,
+        94,
+        99,
+        107,
+        113,
+        115
+      ],
+      "claim": "Labels and prefixes confirm legitimate administrator credentials and researcher/company identity.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Role-like behavior supports maintenance inference; selectable names and prefix history do not authenticate credentials or research ownership. Later identity caveat conflicts with confirmed authorization.",
+      "correct_core": "Stable cleanup stream; variant-specific Anthropic strings.",
+      "missing_link": "Authentication and operator records.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        48,
+        67,
+        69,
+        94,
+        101,
+        102,
+        106,
+        108,
+        115
+      ],
+      "claim": "Deletion was an authorized directive deliberately coordinated to suppress completed research.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Timing and name targeting do not establish an authorization directive or suppression motive; the missing project context is acknowledged but not integrated.",
+      "correct_core": "Deliberate removal and bulk phases.",
+      "missing_link": "Policy, task and moderation records.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        24,
+        99,
+        100
+      ],
+      "claim": "14591pages were created across three wikis and5217pages deleted.",
+      "claim_type": "observation",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "14591are revisions across4579keys in four wikis;5217deleteevents cover5144targets. The report elsewhere uses events correctly.",
+      "correct_core": "Recorded revisions and deletion events.",
+      "missing_link": "Use consistent key/event denominators.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        58,
+        62,
+        67,
+        75,
+        101,
+        103
+      ],
+      "claim": "Delayed deletion and same-day XSS show coordination between creators, moderator and probing actor.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Chronological association does not identify communication or causal cooperation. Different prefixes do not prove distinct actors.",
+      "correct_core": "Activities overlap.",
+      "missing_link": "Direct exchanges or shared operator evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        16,
+        73,
+        74,
+        77,
+        114
+      ],
+      "claim": "TheJune29payload is an injection attempt with unconfirmed success, but the only suspicious injection.",
+      "claim_type": "observation",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Attempt and outcome caveat are sound; May24/26andJune18injection requests clearly precede it.",
+      "correct_core": "Late payload and absent outcome.",
+      "missing_link": "Review all request families.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        82,
+        88,
+        115
+      ],
+      "claim": "Unmatched pages survived and show selective preservation or incomplete deletion.",
+      "claim_type": "inference",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Missing deletion records do not establish current survival, especially sibling wikis without deletion coverage. Name rates also do not establish company-content targeting.",
+      "correct_core": "Some indexed keys lack matching deletion.",
+      "missing_link": "Per-wiki coverage and final-state verification.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        12,
+        46,
+        51,
+        52,
+        53,
+        54,
+        56
+      ],
+      "claim": "June4two deletes,June18–22bulk442andJune23onward4773form distinct recorded phases.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The phase totals are consistent andJune2restoration is acknowledged later.",
+      "correct_core": "Correct deletion-phase distinction.",
+      "missing_link": null,
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        14,
+        15,
+        59,
+        62,
+        101
+      ],
+      "claim": "Creation peakedJune16–22with10750saves and stoppedJune22.",
+      "claim_type": "observation",
+      "asserted_strength": "categorical",
+      "confidence_context": "Stated as an interpretation with qualifications in context.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "That seven-day total is13339saves; lateJuneandJulywrites remain. The report itself listsJuly2endpoint.",
+      "correct_core": "June18peak6543.",
+      "missing_link": "Recompute window and retain late writes.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Topic percentages and variant-IP ownership statistics were not independently reproduced.",
+    "Full source contains extensive timed-task and reciprocal relay content, whereas this report treats it primarily as a conventional academic project."
+  ],
+  "review_limit": "Full text read; eight-question scoped evidence adjudication by assistant. Not every incidental assertion independently verified; independent human review pending."
+}

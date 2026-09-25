@@ -1,0 +1,217 @@
+{
+  "parent": "r4b10_codex_gpt_5_6_terra_rep1",
+  "followup": "fu5kb10_codex_gpt_5_6_terra_rep1",
+  "parent_review_id": "C202",
+  "followup_review_id": "C046",
+  "parent_sha256": "7806a645e6735b85a3bd181ffd69a7fd398ae6d80a54e3a9025715aed9b00d49",
+  "followup_sha256": "db1ae9238afc807278c3dd24df51ce05bc6500619975e75cc0d3267e7756fbfe",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Actor and vendor attribution limits remain explicit.",
+      "parent_lines": [
+        35,
+        41,
+        45,
+        77
+      ],
+      "followup_lines": [
+        38,
+        48,
+        50,
+        108
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Intended sharing and possible misinformation remain distinguished.",
+      "parent_lines": [
+        43,
+        45,
+        47,
+        49
+      ],
+      "followup_lines": [
+        52,
+        54,
+        58,
+        60,
+        62,
+        64
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "The evaluation-isolation interpretation remains conditional on unknown task design.",
+      "parent_lines": [
+        45,
+        77
+      ],
+      "followup_lines": [
+        54,
+        58,
+        108
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "The explicit asynchronous pre-final signaling plan remains a proposed mechanism.",
+      "parent_lines": [
+        45,
+        47
+      ],
+      "followup_lines": [
+        52,
+        54,
+        62
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "URL variants remain experiments rather than successful external bypasses.",
+      "parent_lines": [
+        55,
+        57
+      ],
+      "followup_lines": [
+        70,
+        72,
+        74,
+        78,
+        80
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Correlated later saves remain insufficient to prove execution; failure is not asserted.",
+      "parent_lines": [
+        63,
+        65,
+        67
+      ],
+      "followup_lines": [
+        88,
+        90,
+        92,
+        94
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The 48-key, 420-save and eighteen-second measurements remain; an additional nine-second example is added.",
+      "parent_lines": [
+        24,
+        71
+      ],
+      "followup_lines": [
+        26,
+        98,
+        100
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        9,
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Bounded recurrence is explained more clearly, but manual expense and causal stopping conclusions remain.",
+      "parent_lines": [
+        73
+      ],
+      "followup_lines": [
+        102,
+        104
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Retained aggregate counts remain separate from current live content.",
+      "parent_lines": [
+        35,
+        37,
+        79
+      ],
+      "followup_lines": [
+        44,
+        82,
+        110
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "The timeline still assigns the wrong first-board time despite a correct later passage.",
+      "parent_lines": [
+        20,
+        43
+      ],
+      "followup_lines": [
+        20,
+        52
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    }
+  ],
+  "new_followup_claim_indices": [
+    1
+  ],
+  "summary": "The follow-up adds useful event joins and clearer limits, while retaining the first-board timestamp and unmeasured cleanup burden; it also introduces a false microburst count.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

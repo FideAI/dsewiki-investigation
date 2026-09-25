@@ -1,0 +1,224 @@
+{
+  "parent": "r4b10_codex_gpt_5_6_terra_rep3",
+  "followup": "fu5kb10_codex_gpt_5_6_terra_rep3",
+  "parent_review_id": "C204",
+  "followup_review_id": "C048",
+  "parent_sha256": "4588476f4cad8d7dd58e1a4e8b5f98b682d49a2d4d94c4ef600d3db46c1837c3",
+  "followup_sha256": "1d532686189266f54a0efc5901b0da1c64bda7fcdda23a924a655565fc9b7464",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Self-identification and tunnel references remain insufficient for authenticated provenance.",
+      "parent_lines": [
+        38,
+        68,
+        72,
+        78
+      ],
+      "followup_lines": [
+        38,
+        72,
+        76,
+        108,
+        114
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Predictions, observations and corrections remain direct content findings.",
+      "parent_lines": [
+        44,
+        46,
+        66,
+        70
+      ],
+      "followup_lines": [
+        44,
+        46,
+        70,
+        74,
+        82,
+        84,
+        86,
+        88,
+        90
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Task-policy and instruction uncertainty remain explicit around the isolation-risk interpretation.",
+      "parent_lines": [
+        48,
+        78
+      ],
+      "followup_lines": [
+        50,
+        58,
+        108,
+        114
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same actual capability-gain and evaluation-invalidating conclusions remain without comparative outcomes.",
+      "parent_lines": [
+        5,
+        48,
+        76
+      ],
+      "followup_lines": [
+        5,
+        48,
+        90,
+        112
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Expanded lifecycle discussion adds counterexamples and preserves unverified process survival.",
+      "parent_lines": [
+        29,
+        50
+      ],
+      "followup_lines": [
+        92,
+        96,
+        98,
+        100,
+        102
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        3,
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "Attempted techniques remain separate from successful execution or unauthorized access.",
+      "parent_lines": [
+        56,
+        60,
+        62
+      ],
+      "followup_lines": [
+        56,
+        58,
+        60,
+        64,
+        66,
+        116
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "DSE-specific coverage and role uncertainty remain carefully separated.",
+      "parent_lines": [
+        40
+      ],
+      "followup_lines": [
+        40,
+        106,
+        108
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "qualified_statement",
+      "rationale": "The earlier first-after-surge wording survives at lines 25 and 40, but the added detailed section at line 106 explicitly identifies the two June 4 deletions and distinguishes the main June 18 wave. This supplies a qualification rather than replacing the earlier wording.",
+      "parent_lines": [
+        25,
+        40
+      ],
+      "followup_lines": [
+        25,
+        40,
+        106
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same --help revisions remain assigned to June 16.",
+      "parent_lines": [
+        19
+      ],
+      "followup_lines": [
+        19
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "Retained corpus volumes remain correct.",
+      "parent_lines": [
+        36,
+        40
+      ],
+      "followup_lines": [
+        36,
+        38,
+        40
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    9
+  ],
+  "summary": "Adds useful lifecycle detail and an explicit June 4 qualification alongside retained earlier first-after-surge wording; other chronology and capability overclaims remain, with a new archive-to-live-memory inference.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

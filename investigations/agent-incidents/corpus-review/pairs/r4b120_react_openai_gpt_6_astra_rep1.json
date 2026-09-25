@@ -1,0 +1,260 @@
+{
+  "parent": "r4b120_react_openai_gpt_6_astra_rep1",
+  "followup": "fu5kb120_react_openai_gpt_6_astra_rep1",
+  "parent_review_id": "C254",
+  "followup_review_id": "C088",
+  "parent_sha256": "ad4e6bcbe82534ae447b25dbd573f3989e067d1fd41f51d3cdcd17c3317c2f2a",
+  "followup_sha256": "125cef1d72f8c827777326278c610e72b2299dccbfab75fa50dc6376c5c026a7",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1,
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation retains identity, selected-name and labor limits.",
+      "parent_lines": [
+        7,
+        87,
+        99,
+        107
+      ],
+      "followup_lines": [
+        46,
+        118,
+        120,
+        122,
+        150,
+        156
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "Risk remains conditional on absent rules, and invitation-to-edit context makes the harm analysis more precise.",
+      "parent_lines": [
+        51,
+        61,
+        63,
+        103,
+        107
+      ],
+      "followup_lines": [
+        66,
+        84,
+        140,
+        154
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation retains the future-entity-versus-public-value distinction and adds further receipt evidence.",
+      "parent_lines": [
+        55,
+        59,
+        61
+      ],
+      "followup_lines": [
+        70,
+        76,
+        78,
+        80,
+        82
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "False confirmations and seed overfitting remain explicit with corrections.",
+      "parent_lines": [
+        73,
+        75,
+        77
+      ],
+      "followup_lines": [
+        94,
+        96,
+        98,
+        100
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Variable clocks and revised horizons remain hypotheses, including a nonacceleration counterexample.",
+      "parent_lines": [
+        57,
+        67,
+        69,
+        71
+      ],
+      "followup_lines": [
+        72,
+        76,
+        88,
+        90,
+        92
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        6,
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Recipes and reported replication remain distinct from applied configuration, response captures and grades.",
+      "parent_lines": [
+        43,
+        45,
+        49,
+        81,
+        83
+      ],
+      "followup_lines": [
+        56,
+        58,
+        60,
+        64,
+        108,
+        110,
+        112,
+        114,
+        116
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Payloads remain attempts without proved execution, cookie theft or privilege.",
+      "parent_lines": [
+        85,
+        87
+      ],
+      "followup_lines": [
+        118,
+        120,
+        122
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "The encoded caller-supplied input substantiates the narrow circular-provenance concern while fabrication remains unproved.",
+      "parent_lines": [
+        47
+      ],
+      "followup_lines": [
+        62,
+        152
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Content contention remains concrete; intent, new-information count, downtime and labor are not assumed.",
+      "parent_lines": [
+        91,
+        93,
+        95
+      ],
+      "followup_lines": [
+        126,
+        128,
+        130,
+        132,
+        134,
+        140
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_supported",
+      "rationale": "Intermediate recurrence remains distinguished from perpetual failure or known cessation cause.",
+      "parent_lines": [
+        35,
+        97,
+        99
+      ],
+      "followup_lines": [
+        136,
+        138,
+        142
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "The continuation preserves event order and timestamp precision.",
+      "parent_lines": [
+        15,
+        18,
+        20,
+        25,
+        31
+      ],
+      "followup_lines": [
+        18,
+        21,
+        22,
+        32,
+        122
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The continuation deepens a strong parent through concrete provenance inspection, invitation-to-edit context and counterexamples. It remains a positive example of an informative report that does not require authenticated private telemetry for every reasonable inference.",
+  "review_limit": "Both reports read in full; manually compared selected material propositions, not every sentence. Evidence adjudication by assistant; independent human review pending. Published pairing does not itself establish a causal effect of continuation."
+}

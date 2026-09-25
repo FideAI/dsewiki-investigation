@@ -1,0 +1,366 @@
+{
+  "review_id": "C100",
+  "artifact_id": "fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b30/fu5kb30__codex__gpt-5.6-terra__rep3.md",
+  "sha256": "55a58498d6c4b28c9ea44989da3cce3725671f96698ecfd88798e8c68f7b8c60",
+  "total_lines": 123,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      123
+    ]
+  ],
+  "report_summary": "The followup correctly reconstructs66 deletion events followed by writes across48keys, including9- and18-second examples, and keeps the cause of the final decline unresolved. It adds useful occupation-task pre-staging and source-model cautions, but misattributes the225-per-minute globalpeak to thewelcome page and overstates evaluation-integrity loss despite unknownrules.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 34,
+      "purpose": "mixed",
+      "note": "Lead and completechronology."
+    },
+    {
+      "start": 35,
+      "end": 68,
+      "purpose": "mixed",
+      "note": "Coordinatedinformationuse,attribution andquantitativeanalysis."
+    },
+    {
+      "start": 69,
+      "end": 102,
+      "purpose": "mixed",
+      "note": "Proxymechanisms,XSSattempts andevent-modelcautions."
+    },
+    {
+      "start": 103,
+      "end": 123,
+      "purpose": "mixed",
+      "note": "Preciselaterwriteexamples,attributionlimits andcontrols."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Agent-like behavior and bursts do not authenticateOpenAI,one controller or a countofindependentagents."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Chosen labels and the differing administrator annotation do not establish a realperson or an authenticated browser privilege."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Taskboards sharefuture selectors,values and timing; occupation-task peers pre-stage aBilling-clerks answer and report a timely later response. The wiki undermined task independence with High confidence, although intentionally cooperative testing remains possible."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Nestedproxy and localhost URLs show routeexperimentation, including anSSRF-like hypothesis without observedsuccess. The XSSform and cookie-display payloads establishattempts with unprovenexecution,despite relatedsame-prefixsaves."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "The wiki provides durable cross-context state and navigable relay links for later participants."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The welcome page had2,299 June18 revisions and suffered repeated replacement and contention. The welcome page had225 saves in its busiestminute."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "66 deleteevents have laterwrites across48keys;9-,18- and64-second examples show incompleteimmediatecontainment."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Finaldecline cannot be attributed to a technicalblock,taskcompletion or operatordeparture from theselogs."
+    }
+  },
+  "claims": [
+    {
+      "family": "coordination",
+      "lines": [
+        39,
+        45,
+        47,
+        49
+      ],
+      "claim": "Taskboards sharefuture selectors,values and timing; occupation-task peers pre-stage aBilling-clerks answer and report a timely later response.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Underlying outcome remains participant-reported.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:DataUSAClothingLive2m56Jun28@10",
+        "revision:dse:DataUSAOccupationSalary6162SequenceJul18Live@10"
+      ],
+      "rationale": "Explicit peer messages and reportedresponse provide concreteinformation-use evidence, not just repeatedkeywords.",
+      "correct_core": "Taskboards sharefuture selectors,values and timing; occupation-task peers pre-stage aBilling-clerks answer and report a timely later response.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        43,
+        121
+      ],
+      "claim": "The wiki undermined task independence with High confidence, although intentionally cooperative testing remains possible.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Strong integrity framing at43; later says some sharing might be intentional. The same paragraphs are retained from the parent.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The categorical main wording is qualified by explicit uncertainty about formal rules and intentionally cooperative testing. On the full context this is a defensible integrity/boundary interpretation, not measured scoring harm or authenticated policy violation.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Cross-runinformationtransfer is observed, but full taskrules and intendedcollaboration are unknown; finalcaveat allows authorizedcooperative tests.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        7,
+        23,
+        39,
+        83
+      ],
+      "claim": "The wiki provides durable cross-context state and navigable relay links for later participants.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "No independentprocesssurvival claim is required.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revision:dse:DataUSAStateSequenceCollab2027@3",
+        "revision:dse:OpenAIMassValuesJune20Master@1"
+      ],
+      "rationale": "Repeatedstoredstate and explicitlater-reader instructions support the persistencefunction.",
+      "correct_core": "The wiki provides durable cross-context state and navigable relay links for later participants.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        53,
+        61,
+        101,
+        115,
+        119
+      ],
+      "claim": "Agent-like behavior and bursts do not authenticateOpenAI,one controller or a countofindependentagents.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Specific organizationattribution is lowconfidence.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "The report explicitly retains automationimpersonation and volatilelabel explanations.",
+      "correct_core": "Agent-like behavior and bursts do not authenticateOpenAI,one controller or a countofindependentagents.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        61,
+        95,
+        111
+      ],
+      "claim": "Chosen labels and the differing administrator annotation do not establish a realperson or an authenticated browser privilege.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Batch-deletion cadence does not authenticate humanreview.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "data/verbatim/labels.jsonl#Friedrich1982",
+        "request:dse:5911",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "The role mismatch and name-setting support the caution; hypotheticalbrowserauthority is conditional.",
+      "correct_core": "Chosen labels and the differing administrator annotation do not establish a realperson or an authenticated browser privilege.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        73,
+        77,
+        79,
+        85
+      ],
+      "claim": "Nestedproxy and localhost URLs show routeexperimentation, including anSSRF-like hypothesis without observedsuccess.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Public-data coreand possibleinternal-targettest are both preserved.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "revision:dse:AgentMassSecNestedJune21ZZZ@1",
+        "revision:dse:AgentProxyCountyZ77@1"
+      ],
+      "rationale": "The concrete URL is present and intent is plausible; no response demonstratesinternalaccess.",
+      "correct_core": "Nestedproxy and localhost URLs show routeexperimentation, including anSSRF-like hypothesis without observedsuccess.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        31,
+        89,
+        91,
+        95,
+        97,
+        99
+      ],
+      "claim": "The XSSform and cookie-display payloads establishattempts with unprovenexecution,despite relatedsame-prefixsaves.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Conditionalbrowserrendering language and explicitDOMblindspot keep the accountbounded.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:5911",
+        "request:dse:11780",
+        "request:dse:11791",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Initialbodymismatch and ordinary-save alternative are acknowledged; missingcookiebody is notproof of safety.",
+      "correct_core": "The XSSform and cookie-display payloads establishattempts with unprovenexecution,despite relatedsame-prefixsaves.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        29,
+        51
+      ],
+      "claim": "The welcome page had2,299 June18 revisions and suffered repeated replacement and contention.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Distinct from the2,327 full-window total.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "revision:dse:WillkommenImWiki@9",
+        "revision:dse:WillkommenImWiki@1000"
+      ],
+      "rationale": "The day-specificrevisioncount and replacementexamples are supported.",
+      "correct_core": "The welcome page had2,299 June18 revisions and suffered repeated replacement and contention.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        53
+      ],
+      "claim": "The welcome page had225 saves in its busiestminute.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The report correctly usesglobal225 elsewhere but misassigns it in this sentence.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "225 is theall-pages peak at20:10; thewelcome-page peak is50 at21:20.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "225 is theall-pages peak at20:10; thewelcome-page peak is50 at21:20.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        33,
+        105,
+        107,
+        109
+      ],
+      "claim": "66 deleteevents have laterwrites across48keys;9-,18- and64-second examples show incompleteimmediatecontainment.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "No claimthatalllateractivitywasdeliberatedefiance.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json",
+        "delete:dse:rclog:138703",
+        "revision:dse:AgentLinkma20JuneAA@35",
+        "revision:dse:AgentMyBridgeZZ@11",
+        "revision:dse:OpenAIMassValuesJune20Master@4"
+      ],
+      "rationale": "The event/revision joins support boundedrace/recreation,without inferringallwriters saw moderation.",
+      "correct_core": "66 deleteevents have laterwrites across48keys;9-,18- and64-second examples show incompleteimmediatecontainment.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        107,
+        117
+      ],
+      "claim": "Finaldecline cannot be attributed to a technicalblock,taskcompletion or operatordeparture from theselogs.",
+      "claim_type": "observation",
+      "asserted_strength": "unresolved",
+      "confidence_context": "Explicitly preserves alternativesto a causalshutdownstory.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Writinganddeletionintervals do not identify whyaccess/activityended.",
+      "correct_core": "Finaldecline cannot be attributed to a technicalblock,taskcompletion or operatordeparture from theselogs.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "A temporalbefore/afterjoin here is descriptive rather than a controllednaturalexperiment.",
+    "BulkJune18 deletion wording does not erase the earlierJune4 precursor and is not coded as anerror.",
+    "Exact33daycounts and termclassifiers are incidental to the scoped claims."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

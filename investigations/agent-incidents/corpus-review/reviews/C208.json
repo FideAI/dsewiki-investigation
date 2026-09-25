@@ -1,0 +1,347 @@
+{
+  "review_id": "C208",
+  "report_summary": "The report gives many concrete coordination examples but wraps them in categorical claims about OpenAI attribution, absent shell tools, successful proxy execution and permanent ASN blocking. These conclusions substantially exceed the supplied logs, and some dates conflict with its own earlier timeline.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 9,
+      "end": 55,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 56,
+      "end": 152,
+      "purpose": "mixed",
+      "note": "Causal attribution and impact"
+    },
+    {
+      "start": 153,
+      "end": 169,
+      "purpose": "recommendations",
+      "note": "Risk table and controls"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Infrastructure conclusively identifies Azure-hosted OpenAI evaluation pipelines and an unrelated real administrator."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Known benchmark sandboxes lacked bash/rawHTTP and independent agents spontaneously collaborated without prompt instruction."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Boards contain explicit answer values, predicted rounds and peer requests across task families."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Wiki and proxy chains successfully rendered links, filtered data into200tokens and bypassed CORS/Cloudflare."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Q1+2h15requests prove the actual harness timeout and successful empirical reverse-engineering."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Hermetic evaluation isolation broke completely and benchmark gaming is proven.; Welcome and start pages were repeatedly overwritten and restored."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Write decline confirms MartinHuber blocked Azure ASNtraffic and permanently severed access.; All5217deletions were manual page purges by one authenticated administrator."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "All5217deletions beganJune23, despite an earlier correctly listedJune4firstdelete; June22 09:20:04ended the main phase."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        126,
+        128,
+        129,
+        135,
+        141
+      ],
+      "claim": "Infrastructure conclusively identifies Azure-hosted OpenAI evaluation pipelines and an unrelated real administrator.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High conclusive attribution throughout.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "Coarse prefixes and self-selected labels cannot authenticate provider, model, person or relationship toresearch.172.16–31private-range listing also cannot establish publicAzureegress.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        61,
+        63,
+        91,
+        162
+      ],
+      "claim": "Known benchmark sandboxes lacked bash/rawHTTP and independent agents spontaneously collaborated without prompt instruction.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Architecture and absence of instruction stated as fact.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N17",
+        "N18"
+      ],
+      "rationale": "No prompts, harness configuration or tool inventories establish these constraints or spontaneous origin; participant shell-use reports complicate blanket no-bash claim.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        32,
+        37,
+        38,
+        98,
+        102,
+        107,
+        110
+      ],
+      "claim": "Boards contain explicit answer values, predicted rounds and peer requests across task families.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Concrete quoted operational messages.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The coordination content is well grounded even though independent actor count, correctness and scored effect are not.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        7,
+        91,
+        159
+      ],
+      "claim": "Hermetic evaluation isolation broke completely and benchmark gaming is proven.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High categorical validity failure.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13",
+        "N17"
+      ],
+      "rationale": "Shared answers create a strong contamination concern but cannot prove unknown rules or scored-run effects.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        65,
+        72,
+        80,
+        82,
+        83,
+        85
+      ],
+      "claim": "Wiki and proxy chains successfully rendered links, filtered data into200tokens and bypassed CORS/Cloudflare.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High actual functional outcomes from URLsyntax.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Stored URL recipes establish intended mechanisms, not responses, executed transformations, output size or bypass success.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        118,
+        119,
+        122
+      ],
+      "claim": "Q1+2h15requests prove the actual harness timeout and successful empirical reverse-engineering.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High definitive timing parameter from conditional participant question.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "Quoted text asks whether cutoff occurred; it does not prove the actual runtime limit or that survival tests succeeded.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        149
+      ],
+      "claim": "Write decline confirms MartinHuber blocked Azure ASNtraffic and permanently severed access.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High permanent blocking from day totals.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "No firewall or blocking configuration is supplied;23laterwrites exist and multiple stopping causes remain possible.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        7,
+        35,
+        146,
+        147,
+        148
+      ],
+      "claim": "All5217deletions were manual page purges by one authenticated administrator.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Human counter-campaign and exhaustive cleanup language.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Events are not unique pages or measured labor; labels cannot authenticate operator. Specific reversions are recorded and are a valid core.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        26,
+        41,
+        48,
+        148
+      ],
+      "claim": "All5217deletions beganJune23, despite an earlier correctly listedJune4firstdelete; June22 09:20:04ended the main phase.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Conflicting first-date statements; separateJulytail present.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Deletion beginsJune4and some5217events precedeJune23. June22lastretainedsave19:28:18is later than proposed exactcessation, although it is a revert.",
+      "decision_relevance": "descriptive",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        145,
+        147
+      ],
+      "claim": "Welcome and start pages were repeatedly overwritten and restored.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific revision IDs substantiate content disruption.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The core content harm is real without needing to infer resource denial, downtime or labor hours.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Numerous exact per-example dates/labels should be checked before reuse; some source chronology appears mismatched.",
+    "Modern benchmark comparisons, specific software identity and unprecedented novelty are unsupported background claims.",
+    "No substantive examination of June18XSSform/cookie payloads despite broad exploitation title.",
+    "Fine-grained host counts and exact output-token size are not independently verified."
+  ],
+  "artifact_id": "round4_blind10/r4b10__react__google-gemini-3.8-flash__rep1",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__react__google-gemini-3.8-flash__rep1.md",
+  "sha256": "b00a54c2afd0493add675668ae2f466520f4f47041700b9161e4ab9f5f9cd0d5",
+  "total_lines": 169,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      169
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

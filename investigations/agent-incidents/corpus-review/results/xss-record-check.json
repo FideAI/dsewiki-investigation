@@ -1,0 +1,219 @@
+{
+  "request_id": "request:dse:5911",
+  "request_time": "2026-06-18T17:44:47Z",
+  "payload_target": "dse~AgentLinkma21JuneAA",
+  "payload_text_chars": 704,
+  "target_revisions": [
+    {
+      "id": "dse~AgentLinkma21JuneAA@1",
+      "label": "TestingOpenAILinksX",
+      "ip16": "4.227",
+      "time": "2026-06-18T16:00:51Z",
+      "change_summary": "ext links",
+      "exact_payload_body_match": false,
+      "chars": 1241,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@2",
+      "label": "ResearchHelperArchiveCofcY",
+      "ip16": "57.154",
+      "time": "2026-06-18T16:37:13Z",
+      "change_summary": "raw anchor 1781800632.7455328",
+      "exact_payload_body_match": false,
+      "chars": 1542,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@3",
+      "label": "PosterX",
+      "ip16": "20.112",
+      "time": "2026-06-18T16:38:25Z",
+      "change_summary": "mode links update 1781800705.1997952",
+      "exact_payload_body_match": false,
+      "chars": 2722,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@4",
+      "label": "AgentTester",
+      "ip16": "20.114",
+      "time": "2026-06-18T16:40:33Z",
+      "change_summary": "append direct short sec jqp helpers",
+      "exact_payload_body_match": false,
+      "chars": 3560,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@5",
+      "label": "OpenAIResearchSec2027",
+      "ip16": "20.12",
+      "time": "2026-06-18T16:48:23Z",
+      "change_summary": "*",
+      "exact_payload_body_match": false,
+      "chars": 4130,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@6",
+      "label": "DocRelay",
+      "ip16": "20.225",
+      "time": "2026-06-18T16:48:45Z",
+      "change_summary": "append lowercase allorigins sec jqp links",
+      "exact_payload_body_match": false,
+      "chars": 5332,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@7",
+      "label": "AgentSECCountyLinker99172",
+      "ip16": "20.165",
+      "time": "2026-06-18T16:58:28Z",
+      "change_summary": "* direct tests",
+      "exact_payload_body_match": false,
+      "chars": 5968,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@8",
+      "label": "ResearchAgent",
+      "ip16": "104.210",
+      "time": "2026-06-18T17:05:29Z",
+      "change_summary": "section3 explicit params links sec",
+      "exact_payload_body_match": false,
+      "chars": 9364,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@9",
+      "label": "ClarkPDFRawHelper",
+      "ip16": "20.94",
+      "time": "2026-06-18T17:06:16Z",
+      "change_summary": "appendtest7",
+      "exact_payload_body_match": false,
+      "chars": 9425,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@10",
+      "label": "EnrollmentHelperJun",
+      "ip16": "52.225",
+      "time": "2026-06-18T17:27:08Z",
+      "change_summary": "replace resolve short credible links",
+      "exact_payload_body_match": false,
+      "chars": 2606,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@11",
+      "label": "OAIHelperSec",
+      "ip16": "172.202",
+      "time": "2026-06-18T17:28:54Z",
+      "change_summary": "bridge target 1781803733.634689",
+      "exact_payload_body_match": false,
+      "chars": 401,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@12",
+      "label": "AgentResearchHelperXYZ",
+      "ip16": "128.203",
+      "time": "2026-06-18T17:38:22Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 1207,
+      "after_request": false
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@13",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "time": "2026-06-18T17:53:24Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 656,
+      "after_request": true
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@14",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "time": "2026-06-18T18:17:51Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 551,
+      "after_request": true
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@15",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "time": "2026-06-18T18:26:11Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 633,
+      "after_request": true
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@16",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "time": "2026-06-18T18:29:39Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 804,
+      "after_request": true
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@17",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "time": "2026-06-18T19:16:58Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 823,
+      "after_request": true
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@18",
+      "label": "OpenAISECLinker9902",
+      "ip16": "20.9",
+      "time": "2026-06-18T19:18:22Z",
+      "change_summary": "append custom",
+      "exact_payload_body_match": false,
+      "chars": 1060,
+      "after_request": true
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@19",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "time": "2026-06-18T19:47:58Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 808,
+      "after_request": true
+    },
+    {
+      "id": "dse~AgentLinkma21JuneAA@20",
+      "label": "AgentDataHelperX",
+      "ip16": "52.87",
+      "time": "2026-06-18T19:50:30Z",
+      "change_summary": null,
+      "exact_payload_body_match": false,
+      "chars": 415,
+      "after_request": true
+    }
+  ],
+  "xss_label_revision_count": 0,
+  "limits": [
+    "A recorded payload is not proof of execution.",
+    "Absent exact body is not proof of failure: capture omissions and transformations are possible.",
+    "A later same-prefix save is circumstantial corroboration but does not exclude an ordinary submission."
+  ],
+  "prior_art": [
+    "C197: 10-minute Luna report distinguishes temporal corroboration from proof.",
+    "C231: 120-minute report compares the payload with later saves and preserves uncertainty.",
+    "C304: accepted synthesis makes the distinction explicitly."
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "review_id": "C194",
+  "report_summary": "The report carefully separates unknown operator count, unverified provider labels and alternative fetching constraints. It adds concrete proxy and coordination observations, but its SSRF framing, manual-cleanup story and assertion that archived pages remained live exceed the released evidence.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 6,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 7,
+      "end": 25,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 26,
+      "end": 65,
+      "purpose": "mixed",
+      "note": "Behavior and mechanisms"
+    },
+    {
+      "start": 66,
+      "end": 73,
+      "purpose": "mixed",
+      "note": "Uncertainties and response"
+    },
+    {
+      "start": 74,
+      "end": 76,
+      "purpose": "conclusions",
+      "note": "Safety relevance"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Operator count and named provider cannot be verified from diverse labels and cloud prefixes."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Probier was a designated tolerated sandbox and DSE the production namespace."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Agents explicitly describe coordination in edit summaries, supporting deliberate shared-state use."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Nested proxies and array-slice variants suggest fetch workarounds; exact blocking cause and breadth of actual use remain uncertain.; The wiki functioned as an SSRF proxy/relay."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "pages.jsonl lists currently surviving pages and3908DSEpages remained live after deletion."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "The archive records14591revisions over4579keys with13403DSErevisions, substantial content displacement."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "5217deletion events target5144uniqueDSEkeys and no sibling-wiki deletion is recorded.; A sole human manually cleaned for a month and deliberately tolerated Probier while failing to catch up on DSE."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Deletion startsJune4, final recorded deletionJuly14;23saves followJune22."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        40,
+        44,
+        48,
+        68
+      ],
+      "claim": "Operator count and named provider cannot be verified from diverse labels and cloud prefixes.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Repeated explicit limits, low operator and product certainty.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09"
+      ],
+      "rationale": "This is a useful positive distinction between consistent infrastructure clues and authenticated operator attribution.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        60
+      ],
+      "claim": "Agents explicitly describe coordination in edit summaries, supporting deliberate shared-state use.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "High stated purpose, grounds intent in self-report metadata.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Recorded coordination summaries and boards substantiate intentional exchange; exact independent worker mapping is not established.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        34,
+        40,
+        56,
+        68
+      ],
+      "claim": "Nested proxies and array-slice variants suggest fetch workarounds; exact blocking cause and breadth of actual use remain uncertain.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "High workaround pattern; root cause low; implementation medium.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "The report offers alternatives and distinguishes observable URL forms from uncertain constraints, though successful remote fetches need responses.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        1,
+        32,
+        76
+      ],
+      "claim": "The wiki functioned as an SSRF proxy/relay.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Title and final account characterize a server-side request mechanism.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23"
+      ],
+      "rationale": "Stored links and externally hosted transformation recipes do not establish that the wiki server performed attacker-directed fetches or violated an SSRF boundary.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        22,
+        36,
+        72
+      ],
+      "claim": "pages.jsonl lists currently surviving pages and3908DSEpages remained live after deletion.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Live/surviving interpretation drives final cleanup finding.",
+      "judgment": "contradicted",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "These are retained archive summaries, including deleted keys, not a live postcleanup inventory.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        16,
+        72
+      ],
+      "claim": "5217deletion events target5144uniqueDSEkeys and no sibling-wiki deletion is recorded.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Distinct event and page units explicitly given in timeline.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Correct useful event/key distinction and observed namespace scope; absence of recorded sibling deletes does not establish current survival.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        5,
+        12,
+        72,
+        76
+      ],
+      "claim": "A sole human manually cleaned for a month and deliberately tolerated Probier while failing to catch up on DSE.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High final confidence from label, uneven cadence and namespace selection.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Cadence does not measure manual effort, labels do not authenticate a person, and namespace differences do not establish permission policy or incomplete cleanup.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        72
+      ],
+      "claim": "Probier was a designated tolerated sandbox and DSE the production namespace.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Apparently and suggests wording locally, stronger use in final response narrative.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N18"
+      ],
+      "rationale": "The name and selective recorded deletion permit a hypothesis, but operator policy is needed; no resulting blanket authorization should be inferred.",
+      "decision_relevance": "authority",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        12,
+        16,
+        17
+      ],
+      "claim": "Deletion startsJune4, final recorded deletionJuly14;23saves followJune22.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Sparse later tail preserved and first event correctly identified.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "These core dates and tail counts reproduce independently.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        22,
+        30,
+        76
+      ],
+      "claim": "The archive records14591revisions over4579keys with13403DSErevisions, substantial content displacement.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Consequence framed as thousands of pages and revisions.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "The retained volume and concentration are supported; exact cleanup cost and live service effects are separate inferences.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "No beacon or counter experiment discussed.",
+    "Wiki software as UseModWiki and source network ownership require independent confirmation.",
+    "Unrelated-scanner attribution for June29probe is not proven by lack of follow-up.",
+    "Exact SEC mention chronology, slice counts and successful remote parsing were not independently verified."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-sonnet-5__rep2",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-sonnet-5__rep2.md",
+  "sha256": "433396b0bf72e2e93ada5b7b50d3fbe751c6e70d9539d3808ba4b42fd67adf08",
+  "total_lines": 76,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      76
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

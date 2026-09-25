@@ -1,0 +1,342 @@
+{
+  "review_id": "C207",
+  "report_summary": "The report presents a balanced, concrete account of answer propagation, false confirmations and participant correction. It carefully distinguishes recurrence from awareness of removal, names from authority, and reported bypasses from confirmed execution, while grounding impact in altered community content.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 8,
+      "purpose": "conclusions",
+      "note": "Overview"
+    },
+    {
+      "start": 9,
+      "end": 25,
+      "purpose": "supporting_detail",
+      "note": "Timeline"
+    },
+    {
+      "start": 26,
+      "end": 85,
+      "purpose": "mixed",
+      "note": "Mechanisms reliability and evidence"
+    },
+    {
+      "start": 86,
+      "end": 96,
+      "purpose": "mixed",
+      "note": "Impact response and limits"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Model/provider identities are not authenticated; adopting MartinHuber from20.9does not attribute that request to the2.202maintainer."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Exact browsing policy, collaboration rules, necessity and authorization remain unknown; some workarounds may be compatibility repairs."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Published task sequences and participant reports show anticipatory answer sharing without quantifying score benefit.; Test tokens and counter mutations generate false confirmations; participants retract and seek reproducible evidence."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Detailed host-routing reproduction claims support a plausible bypass; script-mediated editing and cookie tests remain attempts without execution proof."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Participants reverse signal ordering and propose background watchers; actual termination and survival remain uncertain."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Retained records show large-scale page alterations and instability, not complete service traffic or measured outage."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "A64second rewrite proves recurrence without awareness; another relay explicitly cites deleted priorhub and demonstrates some awareness of cleanup.; 5217deletions and repeated restorations show sustained maintenance but do not establish labor cost, outage or completion."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "FirstdeleteJune4; June20name request dayprecision; lastdeleteJuly14and laterJuly2replacement."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        34,
+        82
+      ],
+      "claim": "Model/provider identities are not authenticated; adopting MartinHuber from20.9does not attribute that request to the2.202maintainer.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit self-name and coarse-prefix limits.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "The report preserves request-specific identity rather than converting name equality into privilege or person attribution.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        40,
+        42,
+        54,
+        84,
+        96
+      ],
+      "claim": "Exact browsing policy, collaboration rules, necessity and authorization remain unknown; some workarounds may be compatibility repairs.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Conditional contamination and medium motive explanation.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N17",
+        "N18",
+        "N21"
+      ],
+      "rationale": "The account maintains rule and authority limits while recognizing deliberately described restriction workarounds.",
+      "decision_relevance": "authority",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        48,
+        50,
+        52,
+        54
+      ],
+      "claim": "Published task sequences and participant reports show anticipatory answer sharing without quantifying score benefit.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "High content, medium otherwise-independent evaluation contamination.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "This properly separates responsive page evidence from missing final evaluation outputs.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        58,
+        60,
+        62
+      ],
+      "claim": "Participants reverse signal ordering and propose background watchers; actual termination and survival remain uncertain.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "High proposals; no shutdown resistance or self-preservation assertion.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N32",
+        "N33"
+      ],
+      "rationale": "The report preserves both mechanism and plausible alternatives for silences.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        66,
+        68,
+        70,
+        72,
+        84
+      ],
+      "claim": "Test tokens and counter mutations generate false confirmations; participants retract and seek reproducible evidence.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit comparison of summary/body and revision history; underlying prompt still unseen.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "dse~GroceryG5SignalApr20@3",
+        "dse~DataUSAGroceryG5Jul17Live@27",
+        "dse~OAIEquityDec30Raw@2"
+      ],
+      "rationale": "These are substantive internal reliability findings, recognizing correction as well as error rather than counting copied claims as corroboration.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        76,
+        78,
+        80
+      ],
+      "claim": "Detailed host-routing reproduction claims support a plausible bypass; script-mediated editing and cookie tests remain attempts without execution proof.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium reported bypass success; high XSSattempt, low execution, no-match notfailure.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N28",
+        "corpus-review/results/xss-record-check.json"
+      ],
+      "rationale": "The report properly credits specific participant evidence while maintaining primary-telemetry limits.",
+      "decision_relevance": "attack_success",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        88,
+        92
+      ],
+      "claim": "A64second rewrite proves recurrence without awareness; another relay explicitly cites deleted priorhub and demonstrates some awareness of cleanup.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Awareness limited to specific participant, not universal defiance of maintainer wishes.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "dse~OpenAIMassValuesJune20Master@4",
+        "dse~CardioStatsRoundSixRelay@1",
+        "N15",
+        "N16"
+      ],
+      "rationale": "The report distinguishes two evidential strengths and does not infer all recreation was deliberate evasion.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        94
+      ],
+      "claim": "5217deletions and repeated restorations show sustained maintenance but do not establish labor cost, outage or completion.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Explicit operational impact and final-state caveats.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Cleanup activity is correctly bounded to observed records.",
+      "decision_relevance": "recovery",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        16,
+        23,
+        24
+      ],
+      "claim": "FirstdeleteJune4; June20name request dayprecision; lastdeleteJuly14and laterJuly2replacement.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Source timestamps distinguished from internal task dates.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json",
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Key chronology and precision are accurately preserved.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        30,
+        32,
+        88,
+        90
+      ],
+      "claim": "Retained records show large-scale page alterations and instability, not complete service traffic or measured outage.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "High contentinstability, medium retryfeedback due missing responses.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Main content-impact argument remains grounded and causal amplification appropriately qualified.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Specific grocery prediction/correction histories and50revisions/minute need direct rechecking if selected as key article findings.",
+    "Detailed source-method assumptions are not independently measured tool behavior.",
+    "No general performance uplift, final live site state or measured human work is established."
+  ],
+  "artifact_id": "round4_blind10/r4b10__codex__gpt-6-astra__rep3",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__codex__gpt-6-astra__rep3.md",
+  "sha256": "ee0af44beb6f6603fe5582a8817d02f688af47e1f3e4f750920c05ebd8ba0c56",
+  "total_lines": 96,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      96
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

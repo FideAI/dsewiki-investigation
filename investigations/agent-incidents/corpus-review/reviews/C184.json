@@ -1,0 +1,393 @@
+{
+  "review_id": "C184",
+  "report_summary": "Misreads the deletion record ID as proof of audit-log erasure and builds a high-confidence coordinated-breach and cover-up narrative on that error. It notices automated anonymous editing and an XSS-shaped request, but frequently promotes logging into successful exploitation and guesses actor linkage from cloud prefixes.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 26,
+      "purpose": "conclusions",
+      "note": "Summary and timeline"
+    },
+    {
+      "start": 27,
+      "end": 75,
+      "purpose": "mixed",
+      "note": "Scope and automated page activity"
+    },
+    {
+      "start": 76,
+      "end": 116,
+      "purpose": "conclusions",
+      "note": "Cover-up and bot interpretation"
+    },
+    {
+      "start": 117,
+      "end": 195,
+      "purpose": "conclusions",
+      "note": "XSS, attribution and threat assessment"
+    },
+    {
+      "start": 196,
+      "end": 244,
+      "purpose": "recommendations",
+      "note": "Conclusion and evidence collection"
+    },
+    {
+      "start": 245,
+      "end": 305,
+      "purpose": "supporting_detail",
+      "note": "Statistical appendix"
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Cloud traffic linked to a malicious actor and deletion network."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Unauthorized breach asserted, with authorization alternative only in infrastructure scenarios."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Coordinated multi-phase attack inferred; actual answer-sharing not examined."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "XSS request logging treated as evidence of failed sanitization."
+    },
+    "persistence": {
+      "disposition": "not_discussed",
+      "summary": "No assessment of process survival or external state delivery."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Counts anonymous revisions as pages and misidentifies primary site."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "Deletion is characterized as audit-trail destruction."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "Generally preserves save and deletion endpoints but misdates numeric page-name tokens."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        41,
+        47,
+        124,
+        136,
+        151,
+        194
+      ],
+      "claim": "Cloud-prefix similarity and different deletion egress establish a sophisticated attacker or coordinated threat actors.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High/85%+ breach certainty; earlier rented, compromised or testing alternatives.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl ip16 and label fields",
+        "data/verbatim/events.jsonl delete:dse:rclog:131972"
+      ],
+      "rationale": "Shared broad network ranges do not authenticate actor continuity, compromise, or planning.",
+      "correct_core": "Different truncated egress patterns exist.",
+      "missing_link": "Authenticated operator/task and network-session mapping.",
+      "decision_relevance": "attribution",
+      "report_next_check": "WHOIS, cloud and authentication records.",
+      "rubric_ids": [
+        "N08",
+        "N09",
+        "N10"
+      ],
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        5,
+        142,
+        179,
+        194,
+        198,
+        243
+      ],
+      "claim": "The activity is an unauthorized security breach rather than legitimate or misconfigured use.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High/85%+ with authorized-research alternative at line 142 and later recommendation to inspect auth logs.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/revisions.jsonl",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "Activity and payload attempts demonstrate misuse candidates; authorization and compromised-account evidence are not supplied.",
+      "correct_core": "Automated public-wiki writes are observable.",
+      "missing_link": "Task/permission documents and authenticated compromise evidence.",
+      "decision_relevance": "authority",
+      "report_next_check": "Review authentication and API logs.",
+      "rubric_ids": [
+        "N17"
+      ],
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        90,
+        96,
+        151,
+        168,
+        198
+      ],
+      "claim": "Creators and deleters coordinated attack phases with operational-security separation.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Medium-high planning in body; categorical final cover-up narrative.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "data/verbatim/events.jsonl delete:dse:rclog:131972",
+        "data/verbatim/revisions.jsonl"
+      ],
+      "rationale": "Chronological overlap and prefix separation do not link actors; the claimed log-erasure premise is wrong.",
+      "correct_core": "Deletion and write activity overlap.",
+      "missing_link": "Communication or common control linking these operations.",
+      "decision_relevance": "attribution",
+      "rubric_ids": [],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        21,
+        119,
+        122
+      ],
+      "claim": "A June 29 request contains an XSS-shaped alert payload.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Confirmed attempt; payload existence.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "request:dse:16688"
+      ],
+      "rationale": "The request_action field contains the stated script string.",
+      "correct_core": "Recorded injection attempt.",
+      "decision_relevance": "attack_success",
+      "rubric_ids": [
+        "N28"
+      ],
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        5,
+        123,
+        125,
+        127,
+        132
+      ],
+      "claim": "Logging the XSS payload establishes that it bypassed input filtering and the platform lacks sanitization.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Successful probe and high confidence; impacts framed as could enable.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "request:dse:16688",
+        "docs/verbatim-data.md"
+      ],
+      "rationale": "A raw logged input does not establish the rendered response or script execution.",
+      "correct_core": "The malicious-looking string reached request logging.",
+      "missing_link": "Response escaping and browser execution evidence.",
+      "decision_relevance": "attack_success",
+      "report_next_check": "Patch reflected XSS; inspect access evidence.",
+      "fide_next_check": "Inspect historical rendered response or safe reproduction before claiming execution.",
+      "rubric_ids": [
+        "N28"
+      ],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        5,
+        37,
+        51,
+        161,
+        180,
+        198,
+        259,
+        260
+      ],
+      "claim": "The anonymous actor created or edited 899 distinct pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Headline and conclusion use pages; detailed profile gives 899 revisions across 568 pages.",
+      "judgment": "contradicted",
+      "evidence": [
+        "data/verbatim/labels.jsonl label='' stored_revisions=899 stored_revision_pages=568"
+      ],
+      "rationale": "The summary promotes the revision count into distinct page count despite correct units in the appendix.",
+      "correct_core": "899 anonymous revisions exist.",
+      "missing_link": "Consistent unit throughout.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        31,
+        33
+      ],
+      "claim": "The attack focuses primarily on Probier, with DSE affected secondarily by deletion.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Unqualified overview.",
+      "judgment": "contradicted",
+      "evidence": [
+        "data/verbatim/revisions.jsonl wiki counts dse=13403 probier=1013",
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "The report’s own preceding counts show 92% of retained revisions on DSE; DSE is not merely deletion fallout.",
+      "correct_core": "Anonymous-label activity is concentrated in Probier.",
+      "missing_link": "Distinguish anonymous subset from total incident.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        80,
+        168,
+        211,
+        272
+      ],
+      "claim": "All 5,217 deletes targeted audit-log entries rather than wiki pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High, explicitly not standard cleanup.",
+      "judgment": "contradicted",
+      "evidence": [
+        "delete:dse:rclog:131972 page=TestFoobaAgent page_key=dse~TestFoobaAgent",
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "The event has a specific page target. rclog identifies source provenance in the event ID, not the object deleted.",
+      "correct_core": "5,217 deletion events are retained.",
+      "missing_link": "Correct parsing of event target versus identifier.",
+      "decision_relevance": "recovery",
+      "rubric_ids": [
+        "N15",
+        "N16"
+      ],
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "attribution",
+      "lines": [
+        82
+      ],
+      "claim": "Prefix 2.202 has no edits or other platform activity, only deletions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High/nearly conclusive cover-up evidence.",
+      "judgment": "contradicted",
+      "evidence": [
+        "data/verbatim/revisions.jsonl ip16='2.202' count=26",
+        "dse~StartSeite@672"
+      ],
+      "rationale": "The retained revisions include 26 writes from this prefix.",
+      "correct_core": "All deletion records use this prefix.",
+      "decision_relevance": "attribution",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        13,
+        23,
+        25,
+        273
+      ],
+      "claim": "Deletion starts June 4 and continues July 14, while the final retained save is July 2.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Endpoints given as recorded timestamps.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "investigations/agent-incidents/claim-audit/results/record-crosscheck.json"
+      ],
+      "rationale": "Separate revision and deletion endpoints match.",
+      "correct_core": "Recorded endpoints, not a verified shutdown.",
+      "decision_relevance": "descriptive",
+      "rubric_ids": [
+        "N37"
+      ],
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        74
+      ],
+      "claim": "The embedded epoch tokens 1781805944 and 1781816272 convert to May 2026.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "High confirmation of programmatic identifiers.",
+      "judgment": "contradicted",
+      "evidence": [
+        "probier~Agent009InvJS1781805944x0@1",
+        "Unix timestamp 1781805944 = 2026-06-18T18:05:44Z"
+      ],
+      "rationale": "Those tokens fall on June 18, not May; automation inference can still be reasonable.",
+      "correct_core": "Numeric tokens resemble Unix times.",
+      "decision_relevance": "descriptive",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Exact page-name proportions and incidental IP-provider ownership were not fully re-counted.",
+    "No live security action or outreach is authorized or performed by this review."
+  ],
+  "artifact_id": "round4_blind10/r4b10__claude__claude-haiku-4-5__rep1",
+  "path": "benchmark/graded_inputs/round4_blind10/r4b10__claude__claude-haiku-4-5__rep1.md",
+  "sha256": "ebdf0ef63ab974fff87f0ff5b7823804a759bcf1cbf124fc06e4e8d6add49235",
+  "total_lines": 305,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      305
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit."
+}

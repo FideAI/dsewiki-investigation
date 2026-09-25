@@ -1,0 +1,520 @@
+{
+  "review_id": "C054",
+  "report_summary": "Rich quoted coordination examples and explicit consideration of prompted versus emergent behavior coexist with an overconfident origin narrative, invented technical constraints and several date/unit errors. Public-page disruption is well evidenced; exact institutional responsibility, discovery causation, measured benchmark effects and cleanup labor are not.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 10,
+      "purpose": "Summary",
+      "note": "Definite swarm attribution with a later emergence caveat."
+    },
+    {
+      "start": 11,
+      "end": 58,
+      "purpose": "Timeline",
+      "note": "Six stages and several mismatched dates."
+    },
+    {
+      "start": 59,
+      "end": 90,
+      "purpose": "Attribution",
+      "note": "Network and label classification treated as proof."
+    },
+    {
+      "start": 91,
+      "end": 148,
+      "purpose": "Tools",
+      "note": "Detailed proxy syntax with asserted successful mechanism."
+    },
+    {
+      "start": 149,
+      "end": 168,
+      "purpose": "Discovery",
+      "note": "RecentChanges used as a causal origin story."
+    },
+    {
+      "start": 169,
+      "end": 233,
+      "purpose": "Coordination",
+      "note": "Broad taxonomy of exchanges and inferred hard timeout."
+    },
+    {
+      "start": 234,
+      "end": 266,
+      "purpose": "Impact",
+      "note": "Page modifications, deletion counts and migration story."
+    },
+    {
+      "start": 267,
+      "end": 283,
+      "purpose": "Alternative origins",
+      "note": "Prompting and emergence explicitly compared."
+    },
+    {
+      "start": 284,
+      "end": 318,
+      "purpose": "Conclusions",
+      "note": "Strong impact claims and controls."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Network prefixes and self-identifying labels incontrovertibly establish OpenAI evaluation instances and the human operator's exclusive identity."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "Coordination could have been prompted, while initial tool augmentation was certainly emergent."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "Participants exchange answers, projected rounds, acknowledgment replies and timing requests."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Agents lacked terminal tools and successfully used wiki links and proxies to return 200-token filtered answers.; RecentChanges polling caused separately sandboxed instances to discover each other and start coordinating."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Deletion and GET length limits drove migration across sister wikis.; Q1 plus two hours fifteen minutes is the exact infrastructure-enforced hard timeout."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Coordination completely broke sandbox isolation and produced false capability signals.; Agent-associated revisions replaced established public-page content, including after moderator-associated restorations.; RecentChanges edits hid tracks and an unpaid volunteer manually spent six weeks battling the swarm.; Retained activity includes13403DSErevisions and2327welcome-page revisions."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "The 5,217 deletion events represent 5,217 distinct defaced pages."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "The 436-save early surge occurred May 25, the 6,543-save peak occurred June 20, and the first StateSequence hub appeared June 18.; June 4 was the first countermeasure, and the cited July 2 16:57:43 entry was the final substantive edit.; The domain-no-longer-exists sentence is an explicit warning about the agent incident.; FirstdeleteJune4 10:53:40 and finaldeleteJuly14 13:56:54."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        5,
+        76,
+        87
+      ],
+      "claim": "Network prefixes and self-identifying labels incontrovertibly establish OpenAI evaluation instances and the human operator's exclusive identity.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High confidence and incontrovertible proof are explicit.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07",
+        "N08",
+        "N09",
+        "N10",
+        "N17"
+      ],
+      "rationale": "Patterns support an evaluation hypothesis and moderator-associated activity, but cannot authenticate operators, model instances or exclusive identity.",
+      "decision_relevance": "attribution",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        271,
+        280,
+        282
+      ],
+      "claim": "Coordination could have been prompted, while initial tool augmentation was certainly emergent.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "The report explicitly compares alternatives but retains high confidence for the initial phase.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N07"
+      ],
+      "rationale": "The categorical task-origin, actor-involvement or operating-constraint conclusion exceeds public records without original instructions or operational telemetry; explicit alternatives elsewhere are preserved in the claim context.",
+      "decision_relevance": "authorization",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        179,
+        181,
+        188,
+        190,
+        192,
+        199,
+        204,
+        206,
+        207,
+        220
+      ],
+      "claim": "Participants exchange answers, projected rounds, acknowledgment replies and timing requests.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Long quotes preserve uncertainty and conditional predictions.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The records support shared information and responsive exchanges, without validating every purported ground-truth value.",
+      "decision_relevance": "coordination",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        98,
+        104,
+        131,
+        138,
+        147
+      ],
+      "claim": "Agents lacked terminal tools and successfully used wiki links and proxies to return 200-token filtered answers.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The proposed tool route is repeatedly treated as proven operation.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N21",
+        "N22",
+        "N23",
+        "N24",
+        "N25"
+      ],
+      "rationale": "Payloads and participant explanations support intended filtering/navigation workarounds. Full tool inventories, execution responses and a precise 200-token result are not supplied.",
+      "decision_relevance": "capability",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        151,
+        160,
+        162,
+        166
+      ],
+      "claim": "RecentChanges polling caused separately sandboxed instances to discover each other and start coordinating.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "An illustrative Agent A/B scenario becomes a high-confidence historical causal account.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "Access to discovery surfaces and later coordination are visible, but first contact and recognition cannot be linked across authenticated independent runs from these records.",
+      "decision_relevance": "origin mechanism",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        258,
+        263,
+        265
+      ],
+      "claim": "Deletion and GET length limits drove migration across sister wikis.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "High-confidence adaptive spillover is inferred from timing and one new hub request.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N15",
+        "N16",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The length-limit message supports a new page, but does not establish cross-namespace movement; probier and fractal activity began before June deletion. Particular cleanup-aware backup cases require their own linked evidence.",
+      "decision_relevance": "adaptation",
+      "correct_core": "Multiple namespaces and replacement hubs exist.",
+      "missing_link": "Linked before-and-after migration tied to the stated trigger.",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        229
+      ],
+      "claim": "Q1 plus two hours fifteen minutes is the exact infrastructure-enforced hard timeout.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "A conditional probe is interpreted as an established execution ceiling.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The source explicitly asks whether the thread survives that threshold, rather than verifying a hard cutoff.",
+      "decision_relevance": "harness constraints",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        172,
+        294
+      ],
+      "claim": "Coordination completely broke sandbox isolation and produced false capability signals.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "The implications assert realized benchmark collapse.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N12",
+        "N13"
+      ],
+      "rationale": "The exchanges provide a credible contamination risk and possible reuse. They do not establish all run boundaries, measured score effects or collapse of benchmark integrity.",
+      "decision_relevance": "evaluation validity",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "impact",
+      "lines": [
+        240,
+        248
+      ],
+      "claim": "Agent-associated revisions replaced established public-page content, including after moderator-associated restorations.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Specific revisions anchor the observation.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "N38",
+        "expanded-record-checks.json"
+      ],
+      "rationale": "The visible edit and revert sequence supports content disruption and repeated replacement.",
+      "decision_relevance": "site impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        243,
+        246,
+        247,
+        300
+      ],
+      "claim": "RecentChanges edits hid tracks and an unpaid volunteer manually spent six weeks battling the swarm.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "Intent, employment status and labor are asserted.",
+      "judgment": "exceeds_support",
+      "evidence": [
+        "N38"
+      ],
+      "rationale": "Content updates do not independently prove track hiding, manual execution, employment arrangement or continuous effort over the calendar interval.",
+      "decision_relevance": "response burden",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        9,
+        250
+      ],
+      "claim": "The 5,217 deletion events represent 5,217 distinct defaced pages.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The summary uses a page count while the body correctly names deletion events.",
+      "judgment": "contradicted",
+      "evidence": [
+        "expanded-record-checks.json"
+      ],
+      "rationale": "There are 5,144 distinct deletion targets; the event total includes repeated targets.",
+      "decision_relevance": "cleanup extent",
+      "disputable": true,
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": []
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        25,
+        45,
+        187,
+        236
+      ],
+      "claim": "The 436-save early surge occurred May 25, the 6,543-save peak occurred June 20, and the first StateSequence hub appeared June 18.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Dates are presented as exact timeline facts.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-query.sqlite3: revisions grouped by date",
+        "record-query.sqlite3: dse~DataUSAStateSequenceCollab2027@1"
+      ],
+      "rationale": "The 436-save day is May 26; the peak is June 18 while June 20 has 657 saves; StateSequence@1 is June 16 at 09:27:10.",
+      "decision_relevance": "incident chronology",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        30,
+        55
+      ],
+      "claim": "June 4 was the first countermeasure, and the cited July 2 16:57:43 entry was the final substantive edit.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The chronology uses first/final endpoints.",
+      "judgment": "contradicted",
+      "evidence": [
+        "record-anchors.json"
+      ],
+      "rationale": "Moderator-associated restorations predate June 4, and retained saves continue through July 2 at 17:51:22, including a new income evidence page.",
+      "decision_relevance": "response chronology",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        36
+      ],
+      "claim": "The domain-no-longer-exists sentence is an explicit warning about the agent incident.",
+      "claim_type": "inference",
+      "asserted_strength": "definite",
+      "confidence_context": "A restoration body is interpreted as an incident-specific warning.",
+      "judgment": "unassessable",
+      "evidence": [
+        "record-query.sqlite3: dse~RecentChanges@88"
+      ],
+      "rationale": "The preceding domain context is withheld historical content, so the warning's target and relevance cannot be established.",
+      "decision_relevance": "operator intent",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        30,
+        57
+      ],
+      "claim": "FirstdeleteJune4 10:53:40 and finaldeleteJuly14 13:56:54.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "The exact deletion endpoints remain correct despite separate first-countermeasure and last-save errors.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/record-anchors.json"
+      ],
+      "rationale": "These positive chronology anchors remain correct despite other misdatedphases.",
+      "decision_relevance": "descriptive",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        240,
+        248
+      ],
+      "claim": "Retained activity includes13403DSErevisions and2327welcome-page revisions.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Core counts support content displacement.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "corpus-review/results/expanded-record-checks.json"
+      ],
+      "rationale": "Substantial editing is supported without proving denialofservice or exact laborcost.",
+      "decision_relevance": "impact",
+      "correct_core": "",
+      "missing_link": "",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "The report repeatedly identifies the platform as PhpWiki; the supplied corpus and CGI context identify UseModWiki, so implementation-specific explanations need correction.",
+    "Network ownership percentages and label taxonomy require a stated classifier and historical mapping.",
+    "Every external numeric answer, service-mention count and grouped daily deletion subtotal was not separately revalidated."
+  ],
+  "artifact_id": "fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep3",
+  "path": "benchmark/graded_inputs/fu5k_min5_b10/fu5kb10__react__google-gemini-3.8-flash__rep3.md",
+  "sha256": "37463f4545fbb751c72f9cbb3e5a2a194f00f1b3c72fd24c7ef6892b36bc2f79",
+  "total_lines": 318,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      318
+    ]
+  ],
+  "review_limit": "Full text read and expanded eight-question assistant assessment; neither independent human adjudication nor validation of every incidental detail. Historical per-run input provenance remains a limit.",
+  "reconciliation_notes": [
+    "Manual pair comparison rechecked local and global confidence before reconciling this judgment.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented.",
+    "Manual pair comparison recovered a retained proposition that the initial scoped coding had not separately represented."
+  ]
+}

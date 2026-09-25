@@ -1,0 +1,288 @@
+{
+  "parent": "r4b30_codex_gpt_5_6_luna_rep1",
+  "followup": "fu5kb30_codex_gpt_5_6_luna_rep1",
+  "parent_review_id": "C270",
+  "followup_review_id": "C092",
+  "parent_sha256": "672e63dfc2f8fc454aba5efab03c120b4e4d63fee27bdf9b3b6bc2ac657c0fab",
+  "followup_sha256": "86b6222bfe973fd156f29425327720908d94a11ba00502ca8eefa25e63801a10",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        6
+      ],
+      "transition": "retained_supported",
+      "rationale": "Both retain shared-infrastructure, arbitrary-label and one-actor alternatives.",
+      "parent_lines": [
+        3,
+        69,
+        71,
+        93
+      ],
+      "followup_lines": [
+        69,
+        71,
+        113,
+        115
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        7,
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "Name-setting and stored markup remain bounded observations rather than authentication or execution.",
+      "parent_lines": [
+        15,
+        23,
+        71,
+        75
+      ],
+      "followup_lines": [
+        23,
+        33,
+        71,
+        75,
+        77,
+        115,
+        119,
+        121,
+        139
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up expands explicit relay examples without converting them into verified outcomes.",
+      "parent_lines": [
+        21,
+        25,
+        29,
+        53
+      ],
+      "followup_lines": [
+        3,
+        21,
+        25,
+        53,
+        91,
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_supported",
+      "rationale": "The same pre-answer protocols remain evidence of intended state transfer, not proven process survival.",
+      "parent_lines": [
+        27,
+        57,
+        59,
+        93,
+        95
+      ],
+      "followup_lines": [
+        27,
+        57,
+        59,
+        95,
+        137
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_supported",
+      "rationale": "The attempt-versus-execution distinction remains.",
+      "parent_lines": [
+        33,
+        39,
+        75,
+        77
+      ],
+      "followup_lines": [
+        23,
+        33,
+        75,
+        77,
+        119,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [],
+      "transition": "omitted",
+      "rationale": "The parent public-data-versus-exfiltration framing is not separately developed in the follow-up assessment; no correction implied.",
+      "parent_lines": [
+        79
+      ],
+      "followup_lines": [],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The replication phenomenon and uncertain initiator remain; its duration error is separately matched.",
+      "parent_lines": [
+        37,
+        55
+      ],
+      "followup_lines": [
+        37,
+        55,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "Cumulative welcome storage and243-character final snapshot remain explicit.",
+      "parent_lines": [
+        63,
+        65
+      ],
+      "followup_lines": [
+        63,
+        65,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        9
+      ],
+      "transition": "retained_supported",
+      "rationale": "Repeated deletion and later writing remain qualified as recurrence.",
+      "parent_lines": [
+        43,
+        47,
+        83,
+        85
+      ],
+      "followup_lines": [
+        43,
+        83,
+        127
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        12
+      ],
+      "transition": "retained_supported",
+      "rationale": "Full write/deletion endpoints and early routine cleanup remain.",
+      "parent_lines": [
+        45,
+        47,
+        83,
+        85
+      ],
+      "followup_lines": [
+        35,
+        45,
+        47,
+        125
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "The false disappearance of deleted summaries is repeated.",
+      "parent_lines": [
+        83,
+        87
+      ],
+      "followup_lines": [
+        87,
+        131
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "Reduced live reachability is still inferred from the false archive split; motive hedges do not repair it.",
+      "parent_lines": [
+        81,
+        85,
+        87
+      ],
+      "followup_lines": [
+        81,
+        85,
+        87,
+        129,
+        131
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 13,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same311-within20seconds statement is retained and repeated.",
+      "parent_lines": [
+        37,
+        55
+      ],
+      "followup_lines": [
+        37,
+        55,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [],
+  "summary": "The follow-up mostly extends an already calibrated account while preserving its archive-visibility and replication-duration errors. Apparent qualification on containment was rejected after checking the unchanged source wording.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

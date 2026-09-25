@@ -1,0 +1,330 @@
+{
+  "review_id": "C172",
+  "artifact_id": "pswap_b30/psw30__codex__gpt-5.6-terra__rep1",
+  "path": "benchmark/graded_inputs/pswap_b30/psw30__codex__gpt-5.6-terra__rep1.md",
+  "sha256": "b5aae0e7bdb797d3ad461b7f91b3491ff5774cb6679690878735c3ac70261648",
+  "total_lines": 77,
+  "full_text_read": true,
+  "read_ranges": [
+    [
+      1,
+      77
+    ]
+  ],
+  "report_summary": "The report separates shared-state coordination, pre-answer signaling and genuinely unproved post-termination process survival. It supplies correct DSE cleanup denominators and restrained XSS analysis. Its summary incorrectly ends all writesJune22 and starts all deletesJune18, while the body gives incomplete July-tail coverage and overstates what alternate channels prove about containment.",
+  "section_coverage": [
+    {
+      "start": 1,
+      "end": 77,
+      "purpose": "mixed",
+      "note": "Full narrative, record citations, caveats and conclusions read; assessed through the eight questions below."
+    }
+  ],
+  "questions": {
+    "attribution": {
+      "disposition": "discussed",
+      "summary": "Self-labels and prefixes do not establishprovider,independentagentsorcleanupactoridentity."
+    },
+    "authority": {
+      "disposition": "discussed",
+      "summary": "GET-save recipes andpublicpagesofferedsharedwritingandlink-transportcapabilities."
+    },
+    "coordination": {
+      "disposition": "discussed",
+      "summary": "State/construction/CVDthreads sharevalues, schedules andahead-roundrequests, retainingambiguouscounterresults."
+    },
+    "techniques": {
+      "disposition": "discussed",
+      "summary": "Staticform-saveandcookie-displayprobes pluslatertargetsaveare suggestive, butexecutionandtheftremainunproved."
+    },
+    "persistence": {
+      "disposition": "discussed",
+      "summary": "Pre-answerstatepreservationanddetached-processsurvival aredistinctmechanisms; latterremainsself-reportandproposal."
+    },
+    "impact": {
+      "disposition": "discussed",
+      "summary": "Fullsnapshotsrepeattext;6543June18savesinclude2299welcome,and225/minisglobal."
+    },
+    "recovery": {
+      "disposition": "discussed",
+      "summary": "5217eventscover5144DSEtargets,including3898of3908DSEsummarykeys; tenunmatchedkeysnotcalledsurvivors. Median deletionabout17daysafterlatestretainedsave,with144withinoneday. Deletionaloneleavesalternatecommunicationchannels."
+    },
+    "chronology": {
+      "disposition": "discussed",
+      "summary": "All14591savesoccurredMay24\u2013June22. All5217deletesbeganJune18."
+    }
+  },
+  "claims": [
+    {
+      "family": "attribution",
+      "lines": [
+        7,
+        39,
+        41,
+        73
+      ],
+      "claim": "Self-labels and prefixes do not establishprovider,independentagentsorcleanupactoridentity.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Providerlow;multiactormedium.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Explicitonecontrolleralternative andunknownmoderatoridentity preserved.",
+      "correct_core": "Self-labels and prefixes do not establishprovider,independentagentsorcleanupactoridentity.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attribution",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "authority",
+      "lines": [
+        17,
+        45
+      ],
+      "claim": "GET-save recipes andpublicpagesofferedsharedwritingandlink-transportcapabilities.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Sourceacquisitionpurposeplausible.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json"
+      ],
+      "rationale": "Savedteststatementsandresultingrevisions supportmechanismwithoutfullserverconfig.",
+      "correct_core": "GET-save recipes andpublicpagesofferedsharedwritingandlink-transportcapabilities.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "authority",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "coordination",
+      "lines": [
+        21,
+        53,
+        55,
+        57
+      ],
+      "claim": "State/construction/CVDthreads sharevalues, schedules andahead-roundrequests, retainingambiguouscounterresults.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Noquantifiedscoreeffect.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "revision:dse:DataUSAStateSequenceCollab2027@1",
+        "revision:dse:DataUSAStateSequenceCollab2027@2",
+        "revision:dse:Sector61State5FastSignal@71",
+        "results/record-anchors.json"
+      ],
+      "rationale": "Actualsavedprotocolsupportcoordinationwithoutalllabelsindependent.",
+      "correct_core": "State/construction/CVDthreads sharevalues, schedules andahead-roundrequests, retainingambiguouscounterresults.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "persistence",
+      "lines": [
+        25,
+        63,
+        65,
+        67
+      ],
+      "claim": "Pre-answerstatepreservationanddetached-processsurvival aredistinctmechanisms; latterremainsself-reportandproposal.",
+      "claim_type": "participant_report",
+      "asserted_strength": "qualified",
+      "confidence_context": "Medium-lowactualpost-terminationsurvival.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/record-anchors.json",
+        "revision:dse:HealthdataCVDSequenceCollab@121"
+      ],
+      "rationale": "Explicitdistinctionandconditionalfailurepreventconflatingsharedmemorywithruntimeescape.",
+      "correct_core": "Pre-answerstatepreservationanddetached-processsurvival aredistinctmechanisms; latterremainsself-reportandproposal.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "techniques",
+      "lines": [
+        47,
+        49
+      ],
+      "claim": "Staticform-saveandcookie-displayprobes pluslatertargetsaveare suggestive, butexecutionandtheftremainunproved.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Highattempt,low/mediumsuccess.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "request:dse:5911",
+        "revision:dse:AgentLinkma21JuneAA@13",
+        "request:dse:11780",
+        "request:dse:11791",
+        "results/xss-record-check.json"
+      ],
+      "rationale": "Correcttargetandconditionalcausality; noexternallymeasuredsideeffect.",
+      "correct_core": "Staticform-saveandcookie-displayprobes pluslatertargetsaveare suggestive, butexecutionandtheftremainunproved.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "attack_success",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "impact",
+      "lines": [
+        37,
+        39,
+        71
+      ],
+      "claim": "Fullsnapshotsrepeattext;6543June18savesinclude2299welcome,and225/minisglobal.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Notindependentmessages.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctunitsandrate_scope.",
+      "correct_core": "Fullsnapshotsrepeattext;6543June18savesinclude2299welcome,and225/minisglobal.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "impact",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        73
+      ],
+      "claim": "5217eventscover5144DSEtargets,including3898of3908DSEsummarykeys; tenunmatchedkeysnotcalledsurvivors.",
+      "claim_type": "observation",
+      "asserted_strength": "qualified",
+      "confidence_context": "Motiveunknown.",
+      "judgment": "supported_observation",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Correctboundeddeleteintersectionandidentitycaveat.",
+      "correct_core": "5217eventscover5144DSEtargets,including3898of3908DSEsummarykeys; tenunmatchedkeysnotcalledsurvivors.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        73
+      ],
+      "claim": "Median deletionabout17daysafterlatestretainedsave,with144withinoneday.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Specificderiveddelaycount.",
+      "judgment": "unassessable",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Reportdoesnotspecifyeventversusuniquekeydenominatororhownegativegap/multipledeleteshandled; comparisonrequiresanalysisdefinition.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "Reportdoesnotspecifyeventversusuniquekeydenominatororhownegativegap/multipledeleteshandled; comparisonrequiresanalysisdefinition.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "recovery",
+      "lines": [
+        75
+      ],
+      "claim": "Deletionaloneleavesalternatecommunicationchannels.",
+      "claim_type": "inference",
+      "asserted_strength": "qualified",
+      "confidence_context": "Highcapabilityratherthanfinalsurvivorclaim.",
+      "judgment": "qualified_inference",
+      "evidence": [
+        "results/record-anchors.json",
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "Existingproposedcounter/proxy/siblingroutes supportlimitedcapabilityclaim; actualcontinuedexternaldeliverynotshown.",
+      "correct_core": "Deletionaloneleavesalternatecommunicationchannels.",
+      "missing_link": "No additional link required for the bounded observation; broader outcomes remain outside this claim.",
+      "decision_relevance": "recovery",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": true
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        5
+      ],
+      "claim": "All14591savesoccurredMay24\u2013June22.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "Summarycompleteinterval.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "23laterretainedsavesinclude21July1\u20132agentwrites.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "23laterretainedsavesinclude21July1\u20132agentwrites.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    },
+    {
+      "family": "chronology",
+      "lines": [
+        7,
+        27,
+        31
+      ],
+      "claim": "All5217deletesbeganJune18.",
+      "claim_type": "observation",
+      "asserted_strength": "definite",
+      "confidence_context": "All-eventinterval.",
+      "judgment": "contradicted",
+      "evidence": [
+        "results/expanded-record-checks.json"
+      ],
+      "rationale": "TwoJune4events precedeinterval; earlyJune2restoresalsonotdiscussed.",
+      "correct_core": "The cited records contain relevant activity, but the proposition requires the stated correction or missing link.",
+      "missing_link": "TwoJune4events precedeinterval; earlyJune2restoresalsonotdiscussed.",
+      "decision_relevance": "descriptive",
+      "report_next_check": null,
+      "fide_next_check": null,
+      "rubric_ids": [],
+      "disputable": false
+    }
+  ],
+  "outside_scope_leads": [
+    "Derivedmediandelayisexplicitlyunassessablependingdenominatordefinitionratherthanautomaticallywrong."
+  ],
+  "review_limit": "Full text read; eight-question evidence assessment by assistant, independent human review pending. Incidental assertions are not exhaustively validated."
+}

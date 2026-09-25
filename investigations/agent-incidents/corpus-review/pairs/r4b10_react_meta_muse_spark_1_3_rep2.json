@@ -1,0 +1,250 @@
+{
+  "parent": "r4b10_react_meta_muse_spark_1_3_rep2",
+  "followup": "fu5kb10_react_meta_muse_spark_1_3_rep2",
+  "parent_review_id": "C212",
+  "followup_review_id": "C056",
+  "parent_sha256": "40dd3b44b4ee90874e04857e4e4c8ba1a8224417c19f49861a0458b2da47d239",
+  "followup_sha256": "5d109e291a7bbe2a52aad2dc56283ddb7dce2cdd82ee4703ab2795fa893a8421",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_supported",
+      "rationale": "Provider and harness attribution remain qualified.",
+      "parent_lines": [
+        34,
+        36,
+        56
+      ],
+      "followup_lines": [
+        34,
+        36
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "retained_supported",
+      "rationale": "The follow-up adds participant disputes and uncertainty to the same coordination evidence.",
+      "parent_lines": [
+        15,
+        16,
+        23,
+        54,
+        56
+      ],
+      "followup_lines": [
+        54,
+        56,
+        86,
+        98
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        2
+      ],
+      "transition": "retained_problem",
+      "rationale": "The unchanged no-prompt origin conclusion remains categorical.",
+      "parent_lines": [
+        70
+      ],
+      "followup_lines": [
+        62,
+        70,
+        104
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        3,
+        4
+      ],
+      "transition": "retained_supported",
+      "rationale": "The episodic interpretation and local storage adaptations remain grounded in participant reports.",
+      "parent_lines": [
+        54,
+        56
+      ],
+      "followup_lines": [
+        54,
+        56,
+        80,
+        86,
+        98
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_problem",
+      "rationale": "Successful proxy-chain operation is still inferred from static recipes.",
+      "parent_lines": [
+        46,
+        48
+      ],
+      "followup_lines": [
+        46,
+        48,
+        90,
+        92
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        14
+      ],
+      "transition": "retained_supported",
+      "rationale": "The direct execution caveat is explicitly retained; stronger functionality claims are coded separately.",
+      "parent_lines": [
+        60,
+        62
+      ],
+      "followup_lines": [
+        60,
+        62
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_problem",
+      "rationale": "The same proposed protective effect of deletion remains without victim-view evidence.",
+      "parent_lines": [
+        62
+      ],
+      "followup_lines": [
+        62
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_problem",
+      "rationale": "Low-impact and no-theft conclusions persist despite an improved limitations section.",
+      "parent_lines": [
+        62,
+        72
+      ],
+      "followup_lines": [
+        62,
+        102,
+        110
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": true
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        8
+      ],
+      "transition": "retained_problem",
+      "rationale": "Archived history remains interpreted as surviving live pages.",
+      "parent_lines": [
+        19,
+        64,
+        68
+      ],
+      "followup_lines": [
+        19,
+        64,
+        68,
+        100
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_supported",
+      "rationale": "Exact first-delete and last-save endpoints remain correct.",
+      "parent_lines": [
+        19,
+        20
+      ],
+      "followup_lines": [
+        19,
+        20,
+        100
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_problem",
+      "rationale": "The unchanged three-request baseline still purports to exclude seasonal traffic.",
+      "parent_lines": [
+        9,
+        26
+      ],
+      "followup_lines": [
+        9
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        16
+      ],
+      "transition": "retained_supported",
+      "rationale": "The retained corpus volumes remain correct.",
+      "parent_lines": [
+        26,
+        34
+      ],
+      "followup_lines": [
+        26,
+        34,
+        106
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    6,
+    9,
+    11,
+    12
+  ],
+  "summary": "Substantial new detail and explicit limitations coexist with unchanged origin, bypass, containment and impact overclaims.",
+  "review_limit": "Manual proposition comparison following full source readings; assistant assessment, not independent human adjudication. Pairing follows the published map unless explicitly marked repaired."
+}

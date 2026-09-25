@@ -1,0 +1,249 @@
+{
+  "parent": "r4b30_react_z_ai_glm_5_3_rep2",
+  "followup": "fu5kb30_react_z_ai_glm_5_3_rep2",
+  "parent_review_id": "C295",
+  "followup_review_id": "C117",
+  "parent_sha256": "63e0b320567396d68799daff28cec54ab4b418303cd1a5d2e957e3c5c8180998",
+  "followup_sha256": "dfbf6efc3f4420c969a8b2e6cde298639e92dec76e5a4955f04d9141c9cf9fa2",
+  "manual_comparison": true,
+  "transitions": [
+    {
+      "parent_claim_index": 1,
+      "followup_claim_indices": [
+        1
+      ],
+      "transition": "retained_problem",
+      "rationale": "Shared token still treated as proof of a single orchestrator.",
+      "parent_lines": [
+        4,
+        40,
+        45,
+        47,
+        87
+      ],
+      "followup_lines": [
+        59,
+        123,
+        137
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 2,
+      "followup_claim_indices": [
+        3
+      ],
+      "transition": "superseded",
+      "rationale": "Reasonable name-evasion hypothesis becomes successful identity/IP evasion claim.",
+      "parent_lines": [
+        40,
+        79
+      ],
+      "followup_lines": [
+        54,
+        107
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 3,
+      "followup_claim_indices": [
+        5
+      ],
+      "transition": "retained_supported",
+      "rationale": "Actual cohort messages and corrections retained.",
+      "parent_lines": [
+        53,
+        54,
+        57,
+        59
+      ],
+      "followup_lines": [
+        69,
+        70,
+        73,
+        77,
+        82
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 4,
+      "followup_claim_indices": [
+        4,
+        6
+      ],
+      "transition": "retained_problem",
+      "rationale": "Unsanctioned convergence and guaranteed result contamination still asserted.",
+      "parent_lines": [
+        59,
+        77,
+        79
+      ],
+      "followup_lines": [
+        75,
+        84,
+        105,
+        107,
+        121
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 5,
+      "followup_claim_indices": [
+        8,
+        9
+      ],
+      "transition": "superseded",
+      "rationale": "Proxy attempts persist but previously visible probes now accompanied by false assertion payloads absent.",
+      "parent_lines": [
+        62,
+        66,
+        67
+      ],
+      "followup_lines": [
+        91,
+        92,
+        131
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 6,
+      "followup_claim_indices": [
+        7
+      ],
+      "transition": "retained_supported",
+      "rationale": "Ambiguous negative heartbeat results retained.",
+      "parent_lines": [
+        65,
+        81
+      ],
+      "followup_lines": [
+        90,
+        109
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 7,
+      "followup_claim_indices": [
+        10
+      ],
+      "transition": "retained_problem",
+      "rationale": "Cumulative welcome storage still called live page size.",
+      "parent_lines": [
+        20,
+        36,
+        77
+      ],
+      "followup_lines": [
+        20,
+        39,
+        105
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 8,
+      "followup_claim_indices": [
+        11
+      ],
+      "transition": "retained_problem",
+      "rationale": "All4579 still called newly created.",
+      "parent_lines": [
+        36
+      ],
+      "followup_lines": [
+        39
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 9,
+      "followup_claim_indices": [
+        13
+      ],
+      "transition": "retained_supported",
+      "rationale": "48-key recurrence remains.",
+      "parent_lines": [
+        71
+      ],
+      "followup_lines": [
+        97
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 10,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_problem",
+      "rationale": "No deterrence/causal exclusion still asserted.",
+      "parent_lines": [
+        71
+      ],
+      "followup_lines": [
+        97,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 11,
+      "followup_claim_indices": [
+        17
+      ],
+      "transition": "retained_problem",
+      "rationale": "Cleanup-only tail still ignores later writes.",
+      "parent_lines": [
+        24,
+        27,
+        73
+      ],
+      "followup_lines": [
+        27,
+        30
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    },
+    {
+      "parent_claim_index": 12,
+      "followup_claim_indices": [
+        15
+      ],
+      "transition": "retained_problem",
+      "rationale": "Causal cleanup exclusion remains beyond phase evidence.",
+      "parent_lines": [
+        73
+      ],
+      "followup_lines": [
+        97,
+        101
+      ],
+      "explicit_acknowledgment": false,
+      "disputable": false
+    }
+  ],
+  "new_followup_claim_indices": [
+    2,
+    12,
+    14,
+    16
+  ],
+  "summary": "Followup preserves recurrence and signal uncertainty but retains scope and unit errors. It newly asserts missing payloads and successful evasion; those are not supported extensions.",
+  "review_limit": "Manual comparison of fully read reports and eight-question assessments by assistant; independent human adjudication pending. Omission is not correction; grades were not used to infer improvement."
+}

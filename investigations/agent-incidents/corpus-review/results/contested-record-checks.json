@@ -1,0 +1,177 @@
+{
+  "scope": "Selected contested cases; assistant reassessment, not a second full-corpus reading or human adjudication",
+  "input_sha256": {
+    "revisions": "fedf20200c28bca717f616f36bc6d00a1e9a35fe377f5f8a3cf9278fc6c397f4",
+    "events": "8a1b647d92d105e606a978744b16074810b0f7cc61ae2b748a1c81e5f32ff6fa",
+    "pages": "4e04bcd522555504df6d7eed96db32154897aba0c781d77eb9b539aa688d5689",
+    "labels": "7ebf896de4abedb1c7b203497211e28d8465f29dfee232ce4025f56114be093a"
+  },
+  "facts": {
+    "after_first_deletion_revisions": 420,
+    "after_first_deletion_pages": 48,
+    "after_final_deletion_revisions": 0,
+    "deletion_events": 5217,
+    "distinct_deletion_targets": 5144,
+    "deletions_before_june18": 2,
+    "deletions_before_june23": 444,
+    "deletions_by_last_save": 2796,
+    "first_moderator_revision": {
+      "id": "dse~StartSeite@254",
+      "time": "2026-06-02T23:23:02Z"
+    },
+    "same_prefix_preference_requests": 25,
+    "selected_edits": 14,
+    "matched_edits": 14,
+    "same_second_pairs": 12,
+    "next_second_pairs": 2,
+    "preferences_without_selected_edit": [
+      "request:dse:5911",
+      "request:dse:5912",
+      "request:dse:5915",
+      "request:dse:5916",
+      "request:dse:5919",
+      "request:dse:5921",
+      "request:dse:5963",
+      "request:dse:6952",
+      "request:dse:7526",
+      "request:dse:8224",
+      "request:dse:10191"
+    ],
+    "target_revisions": 20,
+    "initial_payload_exact_matches": 0,
+    "target_revisions_before_payload": 12,
+    "summary_page_count": 4579,
+    "summary_pages_with_deletion": 3898,
+    "late_sibling_revisions": 11
+  },
+  "request_save_pairs": [
+    {
+      "request_id": "request:dse:6032",
+      "revision_id": "dse~AgentLinkma21JuneAA@13",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:6322",
+      "revision_id": "dse~AgentLinkma21JuneAA@14",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:6447",
+      "revision_id": "dse~AgentLinkma21JuneAA@15",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:6515",
+      "revision_id": "dse~AgentLinkma21JuneAA@16",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:7346",
+      "revision_id": "dse~AgentLinkma21JuneAA@17",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:7994",
+      "revision_id": "dse~AgentLinkma21JuneAA@19",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:8050",
+      "revision_id": "dse~AgentLinkma21JuneAA@20",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:6870",
+      "revision_id": "dse~AgentOfficialMassAOJun19@1",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:6809",
+      "revision_id": "dse~AgentOfficialMassTest@1",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:7957",
+      "revision_id": "dse~AgentOptimalCitesJun21AB@1",
+      "delta_seconds": 1
+    },
+    {
+      "request_id": "request:dse:6938",
+      "revision_id": "dse~StartSeite@348",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:7268",
+      "revision_id": "dse~StartSeite@363",
+      "delta_seconds": 1
+    },
+    {
+      "request_id": "request:dse:10318",
+      "revision_id": "dse~StartSeite@535",
+      "delta_seconds": 0
+    },
+    {
+      "request_id": "request:dse:7551",
+      "revision_id": "dse~WillkommenImWiki@179",
+      "delta_seconds": 0
+    }
+  ],
+  "positive_record_checks": [
+    {
+      "id": "dse~UEFAU21PassAccuracySequenceOct18@3",
+      "time": "2026-06-20T10:48:20Z",
+      "body_sha256": "44b6d953fdd59e52d7bb5e56916b84d37feb7c3a21e4027d5edb2979b1ad2eb1"
+    },
+    {
+      "id": "dse~UEFAPassAccuracySequenceSep17@1",
+      "time": "2026-06-20T09:23:58Z",
+      "body_sha256": "4863cc946a6d6cad23452bdcc911badd4e3036484e6a5426c7b3563befeaaac3"
+    },
+    {
+      "id": "dse~UEFAPassAccuracySequenceSep17@14",
+      "time": "2026-06-20T11:42:55Z",
+      "body_sha256": "9d2e8ea2300a87a7ea6d135c4622a7c30894742d6c9524685786e8f97cc2cb19"
+    },
+    {
+      "id": "dse~UEFAPassAccuracySequenceSep17@19",
+      "time": "2026-06-20T12:23:31Z",
+      "body_sha256": "35333aebf19bb245a342ce0a6b1dfb8e864ca8a76e9b62aa5e5f733cf019e273"
+    },
+    {
+      "id": "dse~Sector61State5LiveRelay@63",
+      "time": "2026-06-16T22:17:25Z",
+      "body_sha256": "16ecc9c49c6ba7d4f077485a5582a93b6676fce53da5ca98967dd9d9a4d49ba1"
+    },
+    {
+      "id": "dse~DataUSALanguageR5LiveDec29@2",
+      "time": "2026-06-17T00:01:03Z",
+      "body_sha256": "932ff6b36bc8400f7acc77bb0bf73bf4346857aef10b3344ad6ba5c81bb1f7dc"
+    },
+    {
+      "id": "dse~DataUSALanguageR5LiveDec29@5",
+      "time": "2026-06-17T00:03:23Z",
+      "body_sha256": "bfb66736ff71022f46bb3d8a18f764f9418a69c44934fee56aa1d1c8a2ce52c3"
+    }
+  ],
+  "independent_headline_check": {
+    "primary": {
+      "with_problem": 91,
+      "with_problem_excluding_disputed": 81
+    },
+    "continuations": {
+      "pairs_with_parent_problem": 57,
+      "pairs_with_retained_problem": 56,
+      "coverage_increased": 61,
+      "coverage_increased_with_retained_problem": 44,
+      "coverage_increased_with_retained_problem_excluding_disputed": 34,
+      "pairs_with_correction_or_qualification": 3,
+      "pairs_with_correction_or_qualification_excluding_disputed": 1
+    }
+  },
+  "limits": [
+    "The prepared request sample is not a complete traffic denominator.",
+    "Later preference records often retain an action label, not the full payload. All 25 cannot be called verified injections.",
+    "Unmatched requests are not demonstrated failures; repeated matches are not direct browser traces.",
+    "Dated later saves support persistence at those times, not indefinite live access."
+  ]
+}
