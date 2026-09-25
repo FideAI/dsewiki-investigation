@@ -8,7 +8,7 @@ From this repository:
 python3 tools/claim-review/server.py
 ```
 
-Open http://127.0.0.1:3002. The server binds to loopback only. It is separate from the Fide website on port 3001 and must remain local. The hosted companion is a separate read-only explorer.
+Open http://127.0.0.1:3002. The server binds to loopback only. It is separate from the Fide website on port 3001 and must remain local. The [claims explorer](../../explorer/README.md) is also available to run locally, with screenshots and setup instructions.
 
 ## Review flow
 
