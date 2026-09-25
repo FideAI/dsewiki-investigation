@@ -5,7 +5,7 @@ type: dataset
 authors:
   - name: Fide AI
     website: https://fideai.org
-version: 0.1.0
+version: 0.1.1
 date-released: 2026-09-25
 url: https://github.com/FideAI/dsewiki-investigation
 repository-code: https://github.com/FideAI/dsewiki-investigation
